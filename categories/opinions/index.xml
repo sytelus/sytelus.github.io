@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opinions | Shital Shah</title>
+    <link>https://shitalshah.github.io/categories/opinions/</link>
+      <atom:link href="https://shitalshah.github.io/categories/opinions/index.xml" rel="self" type="application/rss+xml" />
+    <description>Opinions</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Sat, 12 Apr 2008 06:17:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shitalshah.github.io/img/shitalshah.jepg</url>
+      <title>Opinions</title>
+      <link>https://shitalshah.github.io/categories/opinions/</link>
+    </image>
+    
+    <item>
+      <title>Kiwi Berries</title>
+      <link>https://shitalshah.github.io/p/kiwi-berries/</link>
+      <pubDate>Sat, 12 Apr 2008 06:17:00 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/kiwi-berries/</guid>
+      <description>&lt;p&gt;Oh&amp;hellip; these Kiwi Berries from Te Puke, NZ&amp;hellip; some of the best fruits in the world!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2008/04/img_kiwiberry-packaging.jpg&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2008/04/img_kiwiberry-packaging.jpg&#34; alt=&#34;img_kiwiberry-packaging&#34; width=&#34;374&#34; height=&#34;236&#34; class=&#34;alignnone size-full wp-image-763&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2008/04/img_kiwiberry-packaging.jpg 374w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2008/04/img_kiwiberry-packaging-300x189.jpg 300w&#34; sizes=&#34;(max-width: 374px) 100vw, 374px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dev OS Choice: Windows 2003 Server Or XP</title>
+      <link>https://shitalshah.github.io/p/dev-os-choice-windows-2003-server-or-xp/</link>
+      <pubDate>Sat, 06 Nov 2004 00:25:42 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/dev-os-choice-windows-2003-server-or-xp/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.peterprovost.org/&#34; target=&#34;_blank&#34;&gt;Peter Provost&lt;/a&gt; is &lt;a href=&#34;http://www.peterprovost.org/archive/2004/11/04/2067.aspx&#34; target=&#34;_blank&#34;&gt;switching to Server 2003&lt;/a&gt;. I want to say: don&amp;rsquo;t do it! I&amp;rsquo;d been using server version of operating system on my dev machines, even on laptops, since I can remember. But now I&amp;rsquo;m about to change my mind for the first time. Windows Server 2003 is not a cutting edge OS any longer. Infect it sucks!&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;You really have to spend lot of time to set it up right to &lt;a href=&#34;http://www.msfn.org/win2k3/&#34; target=&#34;_blank&#34;&gt;reclaim memory and performance&lt;/a&gt;. For example, disabling several services, disabling option for higher performance for services, enabling DirectX manually and so on - it&amp;rsquo;s always been on going job. Even than, I still find my dev box spinning way too much disk then equivalent XP box.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Even both OS shares lot many drivers, its sometime amazingly difficult to install some devices for Sever 2003. Infect just couple of years old hardware from Creative and ATI, the XP version of drivers just won&amp;rsquo;t work.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Many new software from Microsoft itself just don&amp;rsquo;t work on 2003. For example, Windows Media Player 10, Microsoft TimeZone etc.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enhancements from XP SP2 like IE security and Wireless config etc aren&amp;rsquo;t still available for 2003. It looks like users of 2003 are always one step behind in the line to get the new beef and its taking just too long.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Windows Peer-To-Peer SDK and Advanced Networking Pack does not work on 2003.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;DVD playback and built-in CD burning is hard to get working (requires registry tricks and more).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;There is &lt;a href=&#34;http://www.msfn.org/win2k3/sysrestore.htm&#34; target=&#34;_blank&#34;&gt;no System Restore&lt;/a&gt;!! It might surprise you, but this is true. For this is so-called solid server OS, if file system corrupts, you lost the whole thing. This actually happened with my laptop which I just switched off while hard drives were still spinning and on next boot I was greeted with blue screen with a message that registry was corrupted. This could have been a legitimate power loss also. It was after-midnight and I really needed few things to get done. After an hour of reading docs all around Internet truth revealed: there was no way to bring 2003 back to life because there is no System Restore feature in this OS!&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Overall, it just appears that Microsoft simply doesn&amp;rsquo;t care if the new software/drivers they released on XP doesn&amp;rsquo;t work on 2003. They just don&amp;rsquo;t care. I really hate this line between server and home OS versions. Everybody knows that this lines have been drawn just to milk more money from fat corporates for so-called server versions. Few might know, XP and 2003 shares almost identical kernels (even OS version numbers are 5.01 and 5.02 respectively). Right now, you choose any flavor of OS, you not gonna get satisfied because something is missing. Its not because of technicality but pure politics of pricing. And thats a shame to Microsoft.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Anders Hejlsberg</title>
+      <link>https://shitalshah.github.io/p/anders-hejlsberg/</link>
+      <pubDate>Tue, 26 Aug 2003 06:09:42 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/anders-hejlsberg/</guid>
+      <description>&lt;p&gt;Just watched &lt;a href=&#34;http://msdn.microsoft.com/theshow/Episode035/default.asp&#34; target=&#34;_blank&#34;&gt;MSDN TV&amp;rsquo;s new episode on Managed Code&lt;/a&gt;. The topic is pretty trivial for me but what&amp;rsquo;s exciting is to see one person talking and seating there. I remember my years as a rebellious programmer when followers were few and swimming opposite the popular currents wasn&amp;rsquo;t easy. In all-Unix all-C++ organization I&amp;rsquo;d heavily pushed for tools and style I believed in - even if it meant taking over entire responsibility and work load on me. All those tools that I chose, used and appreciated for the vision it embedded, looked separate pieces of great ideas which just seem to happen to came on my way&amp;hellip; until there was one day when I read a magazine article and came to know there was really only one person behind all of those and all these years: Anders Hejlsberg. Those separate pieces of vision now seems to make a complete picture and so you can imagine how I would have stand in awe of him. As far as world of programming is concerned, Anders is my hero.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

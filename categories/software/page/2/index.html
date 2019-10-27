@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Shital Shah">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Shital Shah Blog">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://shitalshah.github.io/categories/software/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.04a87a1cb9027e3c50f566322527c56f.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-3244158-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="/categories/software/index.xml" type="application/rss+xml" title="Shital Shah">
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://shitalshah.github.io/categories/software/">
+
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@sytelus">
+  <meta property="twitter:creator" content="@sytelus">
+  
+  <meta property="og:site_name" content="Shital Shah">
+  <meta property="og:url" content="https://shitalshah.github.io/categories/software/">
+  <meta property="og:title" content="Software | Shital Shah">
+  <meta property="og:description" content="Shital Shah Blog"><meta property="og:image" content="https://shitalshah.github.io/img/shitalshah.jepg">
+  <meta property="twitter:image" content="https://shitalshah.github.io/img/shitalshah.jepg"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2014-05-31T02:54:03&#43;00:00">
+  
+
+  
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Software | Shital Shah</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Shital Shah</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>About</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/sytelus" target="_blank" rel="noopener"><span><i title="Twitter" class="fab fa-twitter" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/shitals" target="_blank" rel="noopener"><span><i title="LinkedIn" class="fab fa-linkedin" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/sytelus" target="_blank" rel="noopener"><span><i title="Facebook" class="fab fa-facebook" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.github.com/sytelus" target="_blank" rel="noopener"><span><i title="GitHub" class="fab fa-github" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://scholar.google.com/citations?user=1PEHzesAAAAJ" target="_blank" rel="noopener"><span><i title="Google Scholar" class="ai ai-google-scholar" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://stackoverflow.com/users/207661/shital-shah" target="_blank" rel="noopener"><span><i title="Stack Overflow" class="fab fa-stack-overflow" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+<div class="universal-wrapper pt-3">
+  <h1>Software</h1>
+
+  
+
+  
+</div>
+
+
+
+<div class="universal-wrapper">
+  
+
+  
+  
+  <div>
+    <h2><a href="/p/notepadx-manage-your-notes-with-power/">NotepadX - Manage Your Notes With Power!</a></h2>
+    <div class="article-style">
+      
+      NotepadX is a powerful program to let you to keep your notes in hierarchically organized categories. Also it not just allows you to create rich text/ plain text notes but also the notes which are like Worksheet or a treeview! It also supports encrypted secured notes so you can save your passwords and sensitive information safely. You can also create read-only notes and pass it around. The Edit-In-Word allows you to use Word for rich text formatting in case my basic editor didn&rsquo;t fit your needs.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/anders-hejlsberg/">Anders Hejlsberg</a></h2>
+    <div class="article-style">
+      
+      Just watched MSDN TV&rsquo;s new episode on Managed Code. The topic is pretty trivial for me but what&rsquo;s exciting is to see one person talking and seating there. I remember my years as a rebellious programmer when followers were few and swimming opposite the popular currents wasn&rsquo;t easy. In all-Unix all-C++ organization I&rsquo;d heavily pushed for tools and style I believed in - even if it meant taking over entire responsibility and work load on me.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/blogger-com-to-dasblog-converter-tool/">Blogger.com To dasBlog Converter Tool</a></h2>
+    <div class="article-style">
+      
+      My blog was previously hosted on Blogger.com and boy, that thing sucked. So my mission was to host my blog on my own site with an ASP.Net engine that I can customize and extend as I like. So DasBlog came along but there weren&rsquo;t any tools around to fetch my blog entries from Blogger.com and put in to dasBlog. Sure I didn&rsquo;t want to loose my previous entries, so I made my own conversion tool that does this export from blogger.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/misc-dev-files-project/">Misc Dev Files</a></h2>
+    <div class="article-style">
+      
+      This is the place I put any scripts, configurations worth saving. Some of the may be here from pure historical reasons so be careful in using them.
+copynewfiles.bat This little batch file is just ROBOCOPY command line that I end up using too often. I&rsquo;ve went through every command option to figure
+out if it should get in to this file. My main use of it is incremental copy of large folders for quick and dirty backups.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/syfastpage-churn-out-those-web-sites-faster/">SyFastPage - Churn Out Those Web Sites Faster!</a></h2>
+    <div class="article-style">
+      
+      This is my private library to build ASP.Net websites with one goal in mind: build it fast! I&rsquo;ve already exploited it in building 3 of the websites (including this one) and one of them was literally built overnight! So well, it proves the point. This is still evolving code and there is not much documentation right now but you can contact me for assistance. Here&rsquo;s what this library contains:
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/wizaddin-test-program-dev-manual-beta-version/">WizAddIn &#43; Test program &#43; dev manual (beta version)</a></h2>
+    <div class="article-style">
+      
+      
+This is complete rewrite of WizAddIn and much more organized code but less tested. However you get nice document on how to use it and a test demo program too.
+Warning: This program was written circa Jul 2002. It is currently considered obsolete. There are no plans to update it and no support is provided. WizAddIn is now archived at Github
+ 
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/wiz-addin-add-line-numbers-error-handlers-fix-mru/">Wiz AddIn - Add Line Numbers, Error Handlers, Fix MRU</a></h2>
+    <div class="article-style">
+      
+      This is an add-in for Microsoft Visual Basic 6.0. It does following of things: \ 1. Adds/removes line numbers from projects in a group. Unlike other add-ins, this one has been thoroughly tested on live complex projects for more then a year and has lots of code to workaround VB IDE object model bugs. It also does smart numbering (for example it won&rsquo;t number trivial assignment statements in Property Get).
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/source-code-for-shitalshah-com-v3/">Source Code For ShitalShah.com V3</a></h2>
+    <div class="article-style">
+      
+      I believe websites should give away their source code if you&rsquo;d created it just for fun and it wasn&rsquo;t for money. So yes, here&rsquo;s the source code of this whole website itself! Points of interests: SiteData.mdb contains most of the data in relational format which you can query, lots of examples of user controls that I use as templates in DataGrid rows and it is a good example of how my SyFastPage framework actually gets used.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/outlook-quote/">Outlook Quote</a></h2>
+    <div class="article-style">
+      
+      Unix users have taken for granted automatic insertion of a random quote-of-the-day in their emails since ages and that&rsquo;s something Windows users still can&rsquo;t do with their brilliant Ver. 10 of Microsoft Outlook. The situation usually gets unnoticed until you start getting those emails with quotes from a Linux guy and you find yourself incapable of &ldquo;responding&rdquo; with the similar cream-at-the-bottom. That was yesterday, however. The Outlook Quote is the cool answer to the quest and it does it all and more.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/diffanalyzer-see-the-differences-between-branched-sourcesafe-projects/">DiffAnalyzer - See The Differences Between Branched SourceSafe Projects</a></h2>
+    <div class="article-style">
+      
+      If you need to maintain several source branches in SourceSafe and constantly retrofitting your code around, this application can be tremendously helpful. It looks in to two specified SourceSafe folders, goes through all the files in them and finds out which files are different and performs various analysis in smarter way so you don&rsquo;t have to actually check diffs manually. This application is in state of easy clicks.
+Warning: This program was written circa Sep 1999 and last updated around Mar 2005.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/fix-mscom-ocx-class-ids-in-vb-projects/">Fix MSCOM OCX Class IDs In VB Projects</a></h2>
+    <div class="article-style">
+      
+      Call it yet another Microsoft&rsquo;s blunder but you still can&rsquo;t forget when you try to load a VB project and it says something &ldquo;Can&rsquo;t load MSCOMCTL.OCX&rdquo; and replaces all your fancy controls with mere picture boxes! Here&rsquo;s small utility that might do the trick. It goes through all your vbp, frm, ctl and replaces GUIDs of crazy OCXes with ones that you have. This application is right now not in state of easy clicks.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/sorten-your-file-names-before-cd-writing/">Sorten Your File Names Before CD Writing!</a></h2>
+    <div class="article-style">
+      
+      If you are like me you would be maintaining backups of things ranging from your favorite links to ICQ logs on writable CDs. But there is a snag. There would be lots of files on your disk that has names more then 60 characters - like the .lnk file in your Favorite folder! And that crashes the CD writing process regularly because normal CD file system doesn&rsquo;t allow longer names.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/refcontroller-vb-add-in-to-automatically-correct-references/">RefController - VB Add-In To Automatically Correct References</a></h2>
+    <div class="article-style">
+      
+      It&rsquo;s not unusual to see &ldquo;Missing References&rdquo; when you open the VB project and then take the pain of correcting them by hand. If it has became your daily routine and you are really tired of that, here&rsquo;s the magic VB Add-In that will save you from that! This add-in monitors the state of references when you open the VB project. If it&rsquo;s Missing or not proper, it will look in to VBP file and try to locate the DLL and correct that bad reference for you!
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/scriptgen-generate-insert-scripts-for-ms-sql-server-data/">ScriptGen - Generate INSERT Scripts For MS SQL Server Data</a></h2>
+    <div class="article-style">
+      
+      One of the most wanted feature from users point of view in MS SQL Server is capability to generate INSERT scripts for MS SQL Server data. But call it Microsoft&rsquo;s ignorance, this feature not supplied since quite long. And even worse, there is no public domain application to do that. This feature is usually desperately required in situation like sending test data to somebody or supply sample data. So I decided to write my own.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/messanger-send-windows-nt-messages-to-users/">Messanger - Send Windows NT Messages To Users</a></h2>
+    <div class="article-style">
+      
+      If you have Windows network with NT Server in your organization, you have now ability to send messages to users that will popup on their screens all of the sudden. This is similar to how you get the message box on the screen when printer completes the printing. Administrators can use this app to send message to users asking them to log out. Or may be you just want to ask a colleague to come for a coffee!
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/relations-between-your-vb-components/">Relations Between Your VB Components</a></h2>
+    <div class="article-style">
+      
+      This application scans the given folder and sub folders for VBP files, analyses which VBP file references which ones and generates a Tree view showing this relationships. What&rsquo;s more, it stores this analysis results in Access database so that you can run your own query or open it at later time. This utility is typically useful if your project consists of tons of VB components calling each other and if you wish to see what will be the impact of changing interface of one on other components.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/text-in-file-search-all-terms/">Text In File Search</a></h2>
+    <div class="article-style">
+      
+      This is a little program to search for particular words in files in particular folder. Windows Find feature does search for a particular string in files but you can&rsquo;t search for Word1 AND Word2 AND Word3. This program does just that. I made this program mainly to search for specific piece of code from 1000s of VB source code samples stored on my hard drive. This application is right now in state of easy installation and no on-line help is available.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/visual-music-play-128-musical-instruments/">Visual Music- Play 128 Musical Instruments</a></h2>
+    <div class="article-style">
+      
+      Visual Music lets you play 128 musical instruments on your PC including Flute, Bagpiper and even whistle! You can even record what you are playing, edit it and save it in a file. If you not expert at playing synthesiser keyboard, it provides you a easy to use scripting language to create music just by telling what key in which instrument you want to play for how much time!
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/planet-source-code-downloader/">Planet Source Code Downloader</a></h2>
+    <div class="article-style">
+      
+      Planet Source Code is one of the huge resources of VB code. Say you want to download all of it&rsquo;s listing and make a CD that might serve as 1000s of VB code snippets. This program exactly does that. It&rsquo;s actually general purpose program that downloads all the pages having address like
+http://www.somesite.com/some-junk/wanted_pageXXXX.htm - where XXXX is number ranging from 0000 to 9999.
+I used same program to download all the postings in particular email list at www.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/rea2-take-the-control/">REA2 - Take The Control</a></h2>
+    <div class="article-style">
+      
+      Concept of trojan horses is not new. Programs like Back Orifice 2000 silently stays in background in your PC, acts as TCP/IP server and allows somebody to connect it through Internet and execute commands sent by them. The REA2 (Remote Execution Agent) is my own trojan horse specifically designed for silent, full proof, reliable and powerfull intrusion and control. I crafted this gem in about 5 hours and comparing with BO2K, it lacks few features like real time screen display and mouse control and plug-ins but it&rsquo;s designed to be much more &ldquo;reliable and silent intrusion&rdquo; and has some more capabilities then BO2K.
+      
+    </div>
+  </div>
+  
+
+  
+<nav>
+  <ul class="pagination justify-content-center">
+    
+    <li class="page-item"><a class="page-link" href="/categories/software/">&laquo;</a></li>
+    
+    
+    <li class="page-item"><a class="page-link" href="/categories/software/page/3/">&raquo;</a></li>
+    
+  </ul>
+</nav>
+
+
+</div>
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/cpp.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/cs.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://sytelus.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.130521ecfc6f534c52c158217bbff718.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; Shital Shah. All rights reserved. &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

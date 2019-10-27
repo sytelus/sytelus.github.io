@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Junk | Shital Shah</title>
+    <link>https://shitalshah.github.io/categories/junk/</link>
+      <atom:link href="https://shitalshah.github.io/categories/junk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Junk</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Fri, 07 Oct 2005 05:37:08 +0000</lastBuildDate>
+    <image>
+      <url>https://shitalshah.github.io/img/shitalshah.jepg</url>
+      <title>Junk</title>
+      <link>https://shitalshah.github.io/categories/junk/</link>
+    </image>
+    
+    <item>
+      <title>On The Run</title>
+      <link>https://shitalshah.github.io/p/on-the-run/</link>
+      <pubDate>Fri, 07 Oct 2005 05:37:08 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/on-the-run/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://astrila.blogspot.com&#34; target=&#34;_blank&#34;&gt;It&amp;rsquo;s easier to run&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Finally Runs Even If Method Returns</title>
+      <link>https://shitalshah.github.io/p/finally-runs-even-if-method-returns/</link>
+      <pubDate>Sat, 16 Jul 2005 03:41:00 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/finally-runs-even-if-method-returns/</guid>
+      <description>&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;using (DisTest o = new DisTest())
+{
+        return;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;OR&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;Dim o As DisTest = New DisTest
+Try            
+        Return        
+Finally
+         o.Dispose()
+End Try
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>15 Questions On Leadership</title>
+      <link>https://shitalshah.github.io/p/15-questions-on-leadership/</link>
+      <pubDate>Tue, 24 May 2005 21:26:55 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/15-questions-on-leadership/</guid>
+      <description>&lt;p&gt;These are interesting questions if you were pursuing an acadamy degree on management/leadership. I do have the answers but don&amp;rsquo;t have enough room here to write it down (&lt;a href=&#34;http://mathforum.org/dr.math/faq/faq.fermat.html&#34; target=&#34;_blank&#34;&gt;Fermat&lt;/a&gt; R.I.P.).&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;What a good leader should do when a majority vote is different then his/her strongly held belief?&lt;/li&gt;
+&lt;li&gt;If you must make a choice between hurting your team&amp;rsquo;s goal or ethics, what a good leader should choose?&lt;/li&gt;
+&lt;li&gt;Say your boss wants you and your team to do something that isn&amp;rsquo;t good for your team&amp;rsquo;s goals. After lots of arguments, your boss does not change his/her mind. How would you handle this situation?&lt;/li&gt;
+&lt;li&gt;How a good leader should treat his/her equals in the team? What can you do to harness his/her abilities without producing conflicts in leadership or ego-clash?&lt;/li&gt;
+&lt;li&gt;How a good leader would pass the unpleasant news to the team without hurting the morals and motivation?&lt;/li&gt;
+&lt;li&gt;In certain phase of a project you need your team to heavily overwork for a some period. What are the good things to do to keep the team alive and motivated in such times?&lt;/li&gt;
+&lt;li&gt;Some members of a large team may end up doing boring, repetitive and otherwise uninteresting work. How a good leader would recruit them? How to keep them motivated?&lt;/li&gt;
+&lt;li&gt;Statistically 90% of the projects goes over-budget and over-deadlines. Say if you did fell in to these 90%, how would you keep your boss and your team keep going?&lt;/li&gt;
+&lt;li&gt;Communication is of atmost important to the team. But is it good or bad to have lots of discussions?&lt;/li&gt;
+&lt;li&gt;What are the good rules of thumb for good signal-to-noise ratio for team brainstorming sessions?&lt;/li&gt;
+&lt;li&gt;A very capable and essential team member of yours asks you for a raise but you do not have funds. How would you keep him/her?&lt;/li&gt;
+&lt;li&gt;Say you lead a large team and you can&amp;rsquo;t recruit every single team member personally any longer. What are the general good recruiting policies a leader can set up avoid the weak nodes in your team?&lt;/li&gt;
+&lt;li&gt;If you had to choose between following two candidates, what job attributes you would consider for the best match? enthusiastic but inexperienced college grads and less passionate but highly experienced professionals.&lt;/li&gt;
+&lt;li&gt;How a good leader should respond when he/she finds certain team members does not respect or have a belief in him/her?&lt;/li&gt;
+&lt;li&gt;Lets say you came to knew that you might soon become the target for certain mishaps, which weren&amp;rsquo;t really your fault. What would be your exit strategy?&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>StarWars Weekend Marathon</title>
+      <link>https://shitalshah.github.io/p/starwars-weekend-marathon-2005/</link>
+      <pubDate>Tue, 10 May 2005 13:49:10 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/starwars-weekend-marathon-2005/</guid>
+      <description>&lt;p&gt;We planned back-to-back original StarWars trilogy marathon over the weekend. I got to watch them in sequence for the first time and it made lot of sense and gave me a new perspective about this whole “religion”. Some observations…&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;First StarWars wasn’t really advertised as Episode IV. That tag came later.&lt;/li&gt;
+&lt;li&gt;After watching first StarWars anyone could see that Princes Liea and Luke were going to be a couple. All indications are that, Lucas changed his intentions for V and VI for God knows why.&lt;/li&gt;
+&lt;li&gt;From the story point of view, IV remains the coolest. The V is a head twisting story and VI looks like a patch work to justify what V did. This is, of course, not to mean that these movies aren’t still some of the coolest.&lt;/li&gt;
+&lt;li&gt;Lucas didn’t asked for more compensation for making first StarWars but instead rights to make sequel. He took the loan from the bank and made the sequels from his &lt;em&gt;own&lt;/em&gt; money. This is strikingly unusual and highlight of the confidence on what he believed in (especially when sequels are such a huge gamble that no one in the industry invests their own money to make them). Before I watched the marathon, my impression for Lucas was a person who knew how to maximize cash from popularity. While this hasn’t changed much, I’ve gained new appreciation for him.&lt;/li&gt;
+&lt;li&gt;“&lt;em&gt;I&lt;/em&gt;&amp;rsquo;m your father” was a last minute story edit. Even the director who was hired by Lucas to make V wasn’t aware of it. It seems that Lucas who had been buried under big lone from the bank, severe over budgeting and schedule slippage decided to use typical tactics of putting a huge “surprise” that would make people wanna come for the sequel.&lt;/li&gt;
+&lt;li&gt;The biggest asset of StarWars is probably the background musical score. Initial edits of first StarWars without this musical score looks like a B grade sci-fi.&lt;/li&gt;
+&lt;li&gt;Times has published a long &lt;a href=&#34;http://www.time.com/time/covers/1101050509/&#34; target=&#34;_blank&#34;&gt;article about StarWars&lt;/a&gt; apparently with tons of praise for Lucas and without a single critic for Episode I and II which universally believed to be “sucked”. &lt;a href=&#34;http://www.paulgraham.com/submarine.html&#34; target=&#34;_blank&#34;&gt;You can tell&lt;/a&gt; Lucas has hired some really deep reach PR firm :).&lt;/li&gt;
+&lt;li&gt;The Gold pack is the re-released (digitally retouched) version of the movies which means it looks really cool and young. My wife pointed out that at the end of the Episode VI when Luke sees his father along with Yoda and Obi-Van, the original actor has been digitally replaced with the one who appears in I &amp;amp; II! Obviously, Lucas hadn’t planned it all along 🙂&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Places I Found On Google Maps</title>
+      <link>https://shitalshah.github.io/p/places-i-found-on-google-maps-2005/</link>
+      <pubDate>Sat, 30 Apr 2005 14:39:05 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/places-i-found-on-google-maps-2005/</guid>
+      <description>&lt;p&gt;After Google Maps included a link for satellite views, I ended up spending a night in finding all kind of places. Yeah, this is &lt;a href=&#34;http://terraserver.microsoft.com/&#34; target=&#34;_blank&#34;&gt;not new&lt;/a&gt; but not it is so much more cleaner, convenient and faster.&lt;/p&gt;
+
+&lt;p&gt;[Partial List]&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a style=&#34;font-family: sans-serif; font-size: medium; font-style: normal; font-variant: normal;&#34; href=&#34;http://maps.google.com/maps?q=86023&amp;ll=36.110687,-112.303276&amp;spn=0.165138,0.341263&amp;t=k&amp;hl=en&#34;&gt;Grand Canyon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a style=&#34;font-family: sans-serif; font-size: medium; font-style: normal; font-variant: normal;&#34; href=&#34;http://maps.google.com/maps?q=82714&amp;ll=44.590577,-104.715307&amp;spn=0.010321,0.021329&amp;t=k&amp;hl=en&#34;&gt;Devil&amp;rsquo;s Tower&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a style=&#34;font-family: sans-serif; font-size: medium; font-style: normal; font-variant: normal;&#34; href=&#34;http://maps.google.com/maps?q=84532&amp;ll=38.482447,-109.680644&amp;spn=0.041285,0.085316&amp;t=k&amp;hl=en&#34;&gt;Near Arches National Park&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a style=&#34;font-family: sans-serif; font-size: medium; font-style: normal; font-variant: normal;&#34; href=&#34;http://maps.google.com/maps?q=84532&amp;ll=38.189871,-109.886316&amp;spn=0.005161,0.010664&amp;t=k&amp;hl=en&#34;&gt;Green and Red rivers meeting in Canyon lands National Park&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a style=&#34;font-family: sans-serif; font-size: medium; font-style: normal; font-variant: normal;&#34; href=&#34;http://maps.google.com/maps?q=98304&amp;ll=46.863213,-121.770401&amp;spn=0.330276,0.682526&amp;t=k&amp;hl=en&#34;&gt;Mount Rainier&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a style=&#34;font-family: sans-serif; font-size: medium; font-style: normal; font-variant: normal;&#34; href=&#34;http://maps.google.com/maps?ll=20.209351,-157.093506&amp;spn=5.581055,10.920410&amp;t=k&amp;hl=en&#34;&gt;Hawaii&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a style=&#34;font-family: sans-serif; font-size: medium; font-style: normal; font-variant: normal;&#34; href=&#34;http://maps.google.com/maps?ll=19.828606,-155.464783&amp;spn=0.174408,0.341263&amp;t=k&amp;hl=en&#34;&gt;Active Volcano in Hawaii&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a style=&#34;font-family: sans-serif; font-size: medium; font-style: normal; font-variant: normal;&#34; href=&#34;http://maps.google.com/maps?q=1+light+house+ave,cape+may,nj&amp;spn=0.005161,0.010664&amp;t=k&amp;hl=en&#34;&gt;Cape may Lighthouse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a style=&#34;font-family: sans-serif; font-size: medium; font-style: normal; font-variant: normal;&#34; href=&#34;http://maps.google.com/maps?q=yankee+stadium,ny&amp;ll=40.826944,-73.928032&amp;spn=0.005450,0.010664&amp;t=k&amp;hl=en&#34;&gt;Yankee Stadium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a style=&#34;font-family: sans-serif; font-size: medium; font-style: normal; font-variant: normal;&#34; href=&#34;http://maps.google.com/maps?q=white+sands,nm&amp;ll=32.341690,-106.411343&amp;spn=0.174408,0.341263&amp;t=k&amp;hl=en&#34;&gt;White Sands, NM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most of these &amp;ldquo;sightings&amp;rdquo; has been reported to &lt;a href=&#34;http://www.googlesightseeing.com/&#34; target=&#34;_blank&#34;&gt;Google Siteseeing&lt;/a&gt;. More are at &lt;a href=&#34;http://gmaps.nicj.net/&#34; target=&#34;_blank&#34;&gt;Google GlobeThrotting&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Buying And Selling Broadway Show Tickets</title>
+      <link>https://shitalshah.github.io/p/buying-and-selling-broadway-show-tickets-2005/</link>
+      <pubDate>Mon, 28 Mar 2005 16:34:02 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/buying-and-selling-broadway-show-tickets-2005/</guid>
+      <description>&lt;p&gt;When it comes to buy Broadway show tickets these days, scene is really the worse. Few years ago, you only had to deal with idiotic Ticketmaster and now the pain is extended to &lt;a href=&#34;http://tech2.nytimes.com/mem/technology/techreview.html?res=9803E3DB133CF934A25750C0A9639C8B63&#34; target=&#34;_blank&#34;&gt;100s of brokers&lt;/a&gt; that have mushroomed to somehow &amp;ldquo;lawfully&amp;rdquo; buying off all the nicest seats and later sells it with the price tag of 2X or more. No wonder shows like Wicked and Lion King are now suddenly sold out for next 8 months or so. These guys even have their &lt;a href=&#34;http://www.natb.org/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;national association&amp;rdquo;&lt;/a&gt; and just makes me wonder what they did to the system so as to make their whole thing a perfectly &amp;ldquo;legal business&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;This entire anomaly could be blamed on &lt;a href=&#34;http://www.ticketmaster.com&#34; target=&#34;_blank&#34;&gt;this worst ticketing website&lt;/a&gt; of the World. Not only they charge &amp;ldquo;convenience fee&amp;rdquo; of $5 per ticket for using their annoying website but unlike anything else on the Net, they have absolutely no returns policy! I think they are the good subjects to study how to force customer to knowingly pay more then they should, how to have no returns policy, worst possible customer service and still maintain almost a monopoly.&lt;/p&gt;
+
+&lt;p&gt;Anyway, if you get in to buying/selling Broadway show tickets, here are some tips:&lt;/p&gt;
+
+&lt;p&gt;If you are buying at last minute, try &lt;a href=&#34;http://www.eBay.com&#34; target=&#34;_blank&#34;&gt;eBay&lt;/a&gt;. However if you are after those popular shows, don’t rely on &amp;ldquo;manual&amp;rdquo; bidding. It doesn’t work. You may quickly realize that most bids on such auctions occur in the last 60 seconds of auction (known as &amp;ldquo;bidding war&amp;rdquo;). The bid prices literally go twice for these tickets during the last few seconds. This is courtesy of the automated programs (robots) called snipers which bids on your behalf in last few seconds before the auction closes. The one web-based sniper that I used and which reliably worked was &lt;a href=&#34;http://www.eSnipe.com&#34; target=&#34;_blank&#34;&gt;eSnipe&lt;/a&gt;. But there are &lt;a href=&#34;http://www.google.com/search?sourceid=mozclient&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;q=auction+sniper&#34; target=&#34;_blank&#34;&gt;tons of others&lt;/a&gt; out there. Other place to look out is &lt;a href=&#34;http://www.craigslist.org/&#34; target=&#34;_blank&#34;&gt;Craig’s list&lt;/a&gt; and &lt;a href=&#34;http://www.stubhub.com/&#34; target=&#34;_blank&#34;&gt;stub hub&lt;/a&gt;, especially if you wanted to sell your tickets at the last moment.&lt;/p&gt;
+
+&lt;p&gt;Overall, let’s all continue to hate and investigate how Ticketmaster manages to stay alive (and use that knowledge to kill it one day).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Condomania Wizard Interface</title>
+      <link>https://shitalshah.github.io/p/condomania-wizard-interface/</link>
+      <pubDate>Wed, 14 Jul 2004 06:07:33 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/condomania-wizard-interface/</guid>
+      <description>&lt;p&gt;&lt;a href=http://www.condomania.com/shopping/wizards/wizardmain.jsp?itemType=CATEGORY&amp;itemID=105 target=&#34;new&#34;&gt;This&lt;/a&gt; is probably the best Wizard User Interface I&amp;rsquo;ve seen so far ;).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Voyager Is Missing</title>
+      <link>https://shitalshah.github.io/p/voyager-is-missing/</link>
+      <pubDate>Fri, 12 Sep 2003 04:23:18 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/voyager-is-missing/</guid>
+      <description>&lt;p&gt;Star Trek Voyager is off-air since past few months. So I went to Netflix, my DVD subscription, just to find that Paramount hasn&amp;rsquo;t produced DVDs yet. So I went to Amazon to buy VHS version, just to find that the video cassets are one episod per casset (consider having 150+ episodes). So all these have almost ruined my hopes to get back to Voyager, just when I needed the most. As my last resort, I looked up in Kazza and found some of the cool episodes floating around but it gonna take days to get them. Moral of the story: If it is still on-air in your area, watch it while you still can. Don&amp;rsquo;t mess with your luck.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>When I Fall</title>
+      <link>https://shitalshah.github.io/p/when-i-fall/</link>
+      <pubDate>Fri, 15 Aug 2003 03:56:38 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/when-i-fall/</guid>
+      <description>&lt;p&gt;In this world of the Greater Being, I feel like I&amp;rsquo;m at play&amp;hellip; like a little kid. With all my sense of wonder and curiosity&amp;hellip; walking on my knees to get close, see and feel everything that has been put around me&amp;hellip; and smile for all those good things that I find. And when I&amp;rsquo;m just moving around, there are moments when things are not the way I would have wanted&amp;hellip; sometime when I would have really wanted. Some of the worst moments of my life constitutes of those when the people I&amp;rsquo;d admired I see falling apart and I can&amp;rsquo;t do anything about it&amp;hellip; when someone you cared is dieing and you can do nothing about it&amp;hellip; Those moments&amp;hellip; when I just want to look up in the sky and pretend that I don&amp;rsquo;t exist&amp;hellip; trying to convince myself that it&amp;rsquo;s ok&amp;hellip; I feel like I&amp;rsquo;m betrayed with anger bursting out every inch of my body&amp;hellip; But then when I&amp;rsquo;m all low and down, there&amp;rsquo;s always something that happens&amp;hellip; like someone struck the new string on the guitar that I&amp;rsquo;d never heard before&amp;hellip; wiping out all my doubts with just that one stroke of note. So I look around to find the one but I can&amp;rsquo;t see. But I know she was there smiling at me&amp;hellip; like I&amp;rsquo;m a little kid&amp;hellip; someone is sure playing with me.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Things With The Rain Drops...</title>
+      <link>https://shitalshah.github.io/p/things-with-the-rain-drops/</link>
+      <pubDate>Wed, 23 Jul 2003 05:16:44 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/things-with-the-rain-drops/</guid>
+      <description>&lt;p&gt;Listening to &lt;a href=&#34;http://launch.yahoo.com/song/default.asp?songID=966065&#34; target=&#34;_blank&#34;&gt;When I Fall&lt;/a&gt; with sound of rain drops from my window&amp;hellip; These days are going good. Haven&amp;rsquo;t missed chance to get myself wet in rain most of the time&amp;hellip; and walking on wet grass with bare feet&amp;hellip; and watching rain drops making curves in cones of street lights&amp;hellip; and taking a long drive in rain with my windows open&amp;hellip; and taking snaps of Sun hiding behind dark clouds&amp;hellip; and taking a deep breath in drizzly air&amp;hellip; and wondering at water dance on my wind-shield&amp;hellip; and following a droplet cloud around wheels of other vehicles&amp;hellip; and making a splash on my way&amp;hellip; These days are going good.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lost and unfound</title>
+      <link>https://shitalshah.github.io/p/lost-and-unfound/</link>
+      <pubDate>Sun, 06 Jul 2003 05:42:56 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/lost-and-unfound/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s frustrating how much difference a little stupidity can make to your life. Yours and others. These days and nights are dedicated to &lt;a href=&#34;https://shitalshah.github.io/images/posts/2003/07/leave_portrait.jpg&#34;&gt;some meanest of them&lt;/a&gt;. [Listening: &lt;a href=&#34;http://launch.yahoo.com/musicvideos/player/default.asp?videoID=173820&#34; target=&#34;_blank&#34;&gt;Matchbox Twenty - If you&amp;rsquo;re gone&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hallowin Signout</title>
+      <link>https://shitalshah.github.io/p/hallowin-signout-2002/</link>
+      <pubDate>Fri, 01 Nov 2002 04:52:21 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/hallowin-signout-2002/</guid>
+      <description>&lt;p&gt;Okay&amp;hellip; guess this will be the end of the day - it&amp;rsquo;s hallowing! And Aishwarya Rai&amp;rsquo;s birthday&amp;hellip; 10 mins to midnight&amp;hellip; Since last two years this is the day and time (1st nov between 1 AM to 3 AM) when I always got in to a car accident - a nearly fatal ones. oh&amp;hellip; need to eat something&amp;hellip; should be going to Nanuet for that cool diner I&amp;rsquo;d found&amp;hellip; will keep blogging if am alive tomorrow 🙂&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Favorite Links In Zip File</title>
+      <link>https://shitalshah.github.io/p/favorite-links-in-zip-file-2002/</link>
+      <pubDate>Tue, 25 Jun 2002 11:35:28 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/favorite-links-in-zip-file-2002/</guid>
+      <description>&lt;p&gt;&lt;TABLE WIDTH=&#34;93%&#34; ALIGN=&#34;CENTER&#34; VALIGN=&#34;MIDDLE&#34;&gt;
+  &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;TR VALIGN=&#34;middle&#34;&gt;
+    &lt;br /&gt; &lt;TD HEIGHT=&#34;0%&#34; VALIGN=&#34;middle&#34; BGCOLOR1=&#34;#CEFFCE&#34;&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div align=&amp;quot;left&amp;quot; style=&amp;quot;padding-right: 10px; padding-bottom: 10px; float:left;&amp;quot;&amp;gt;
+  &amp;lt;A CLASS=&amp;quot;NoLine&amp;quot; HREF=&amp;quot;links_download.asp&amp;quot; TARGET=&amp;quot;new&amp;quot; TITLE=&amp;quot;&amp;quot;&amp;gt;&amp;lt;IMG SRC=&amp;quot;links_thumb.jpg&amp;quot; border=&amp;quot;0&amp;quot; ALIGN=&amp;quot;LEFT&amp;quot; ALT=&amp;quot;&amp;quot; /&amp;gt;&amp;lt;/A&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;p&amp;gt;
+  The list of one&#39;s favorite sites is a mirror of his/her&amp;lt;br /&amp;gt; personality and interests. I always try to keep record of all the sites I ever visit (my bowser&#39;s History option is always set to maximum!) and keep the&amp;lt;br /&amp;gt; interesting links in organized way. For an avid power surfer like me it&#39;s nothing less then secret box of treasure. And for the first time, over 1400 links to sites I&#39;ve collected over last 3+ years&amp;lt;br /&amp;gt; is now public and downloadable! You can extract the zip file in to your browser&#39;s bookmark/favorite folder and check them out. I consider this&amp;lt;br /&amp;gt; collection as one of the most important thing available on this site. So go ahead and try it out!
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;
+  &amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;A HREF=&amp;quot;links_download.asp&amp;quot; TARGET=&amp;quot;new&amp;quot; TITLE=&amp;quot;links_download.asp&amp;quot; CLASS=&amp;quot;ActiveLink&amp;quot;&amp;gt;Click here to download&amp;lt;/A&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;br /&amp;gt; 
+
+  &amp;lt;DIV class=&amp;quot;SmallText&amp;quot;&amp;gt;
+    &amp;lt;br /&amp;gt; &amp;lt;br /&amp;gt; (Written ~ (Various) &amp;amp;nbsp;&amp;amp;nbsp;|&amp;amp;nbsp;&amp;amp;nbsp; Last Updated ~ N/A) &amp;lt;BR /&amp;gt;&amp;lt;/p&amp;gt; 
+
+    &amp;lt;p&amp;gt;
+      &amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;&amp;lt;br /&amp;gt; Size: (Various) &amp;lt;BR /&amp;gt;&amp;lt;br /&amp;gt; Includes Source: False&amp;lt;BR /&amp;gt;&amp;lt;br /&amp;gt; Programming Language: - &amp;lt;BR /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;/DIV&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;/TD&amp;gt;&amp;lt;/TR&amp;gt;&amp;lt;/TABLE&amp;gt;
+    &amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>15&#43; Programmer&#39;s Tools And Utilities</title>
+      <link>https://shitalshah.github.io/p/15-programmers-tools-and-utilities/</link>
+      <pubDate>Mon, 01 Jan 1990 00:00:15 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/15-programmers-tools-and-utilities/</guid>
+      <description>&lt;p&gt;&lt;TABLE WIDTH=&#34;93%&#34; ALIGN=&#34;CENTER&#34; VALIGN=&#34;MIDDLE&#34;&gt;
+  &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;TR VALIGN=&#34;middle&#34;&gt;
+    &lt;br /&gt; &lt;TD HEIGHT=&#34;0%&#34; VALIGN=&#34;middle&#34; BGCOLOR1=&#34;#CEFFCE&#34;&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div align=&amp;quot;left&amp;quot; style=&amp;quot;padding-right: 10px; padding-bottom: 10px; float:left;&amp;quot;&amp;gt;
+  &amp;lt;A CLASS=&amp;quot;NoLine&amp;quot; HREF=&amp;quot;utilities.aspx&amp;quot; TARGET=&amp;quot;new&amp;quot; TITLE=&amp;quot;Programmers tools and utilities&amp;quot;&amp;gt;&amp;lt;IMG SRC=&amp;quot;dev/small_screen/scriptgen.jpg&amp;quot; border=&amp;quot;0&amp;quot; ALIGN=&amp;quot;LEFT&amp;quot; ALT=&amp;quot;Programmers tools and utilities&amp;quot; /&amp;gt;&amp;lt;/A&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;p&amp;gt;
+  Over the time there were several programs penned out of my PC for use in development activities, to do some &amp;quot;hacking&amp;quot; or just have plain fun. Most of them were either known to my collegues or just by me until I realized that some of those tools were really &amp;quot;most wanted&amp;quot; by other software developers too. So it&#39;s now all here. Because of time constraint I wasn&#39;t able to document all of them or even make bit more user friendly but I guess person passing through same situation as mine would find it quite useful.
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;
+  &amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;A HREF=&amp;quot;utilities.aspx&amp;quot; TARGET=&amp;quot;new&amp;quot; TITLE=&amp;quot;Programmers tools and utilities&amp;quot; CLASS=&amp;quot;ActiveLink&amp;quot;&amp;gt;Click here to download&amp;lt;/A&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;br /&amp;gt; 
+
+  &amp;lt;DIV class=&amp;quot;SmallText&amp;quot;&amp;gt;
+    &amp;lt;br /&amp;gt; &amp;lt;br /&amp;gt; (Written ~ (Various) &amp;amp;nbsp;&amp;amp;nbsp;|&amp;amp;nbsp;&amp;amp;nbsp; Last Updated ~ N/A) &amp;lt;BR /&amp;gt;&amp;lt;/p&amp;gt; 
+
+    &amp;lt;p&amp;gt;
+      &amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;&amp;lt;br /&amp;gt; Size: (Various) &amp;lt;BR /&amp;gt;&amp;lt;br /&amp;gt; Includes Source: True&amp;lt;BR /&amp;gt;&amp;lt;br /&amp;gt; Programming Language: (Various) &amp;lt;BR /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;/DIV&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;/TD&amp;gt;&amp;lt;/TR&amp;gt;&amp;lt;/TABLE&amp;gt;
+    &amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

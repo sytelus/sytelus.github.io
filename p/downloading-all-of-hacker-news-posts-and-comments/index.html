@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Shital Shah">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Introduction There are two files that contains all stories and comments posted at Hacker News from its start in 2006 to May 29, 2014 (exact dates are below). This was downloaded using simple program available I wrote Hacker News Downloader by making REST API calls to HN&rsquo;s official APIs. The program used API parameters to paginate through created date of items to retrieve all posts and comments. The file contains entire sequence of JSON responses exactly as returned by API call in JSON array.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://shitalshah.github.io/p/downloading-all-of-hacker-news-posts-and-comments/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.04a87a1cb9027e3c50f566322527c56f.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-3244158-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://shitalshah.github.io/p/downloading-all-of-hacker-news-posts-and-comments/">
+
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@sytelus">
+  <meta property="twitter:creator" content="@sytelus">
+  
+  <meta property="og:site_name" content="Shital Shah">
+  <meta property="og:url" content="https://shitalshah.github.io/p/downloading-all-of-hacker-news-posts-and-comments/">
+  <meta property="og:title" content="Downloading All of Hacker News Posts and Comments | Shital Shah">
+  <meta property="og:description" content="Introduction There are two files that contains all stories and comments posted at Hacker News from its start in 2006 to May 29, 2014 (exact dates are below). This was downloaded using simple program available I wrote Hacker News Downloader by making REST API calls to HN&rsquo;s official APIs. The program used API parameters to paginate through created date of items to retrieve all posts and comments. The file contains entire sequence of JSON responses exactly as returned by API call in JSON array."><meta property="og:image" content="https://shitalshah.github.io/img/shitalshah.jepg">
+  <meta property="twitter:image" content="https://shitalshah.github.io/img/shitalshah.jepg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2014-05-31T02:54:03&#43;00:00">
+    
+    <meta property="article:modified_time" content="2014-05-31T02:54:03&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://shitalshah.github.io/p/downloading-all-of-hacker-news-posts-and-comments/"
+  },
+  "headline": "Downloading All of Hacker News Posts and Comments",
+  
+  "datePublished": "2014-05-31T02:54:03Z",
+  "dateModified": "2014-05-31T02:54:03Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Shital Shah"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Shital Shah",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://shitalshah.github.io/img/icon-512.png"
+    }
+  },
+  "description": "Introduction There are two files that contains all stories and comments posted at Hacker News from its start in 2006 to May 29, 2014 (exact dates are below). This was downloaded using simple program available I wrote Hacker News Downloader by making REST API calls to HN\u0026rsquo;s official APIs. The program used API parameters to paginate through created date of items to retrieve all posts and comments. The file contains entire sequence of JSON responses exactly as returned by API call in JSON array."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Downloading All of Hacker News Posts and Comments | Shital Shah</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Shital Shah</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>About</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/sytelus" target="_blank" rel="noopener"><span><i title="Twitter" class="fab fa-twitter" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/shitals" target="_blank" rel="noopener"><span><i title="LinkedIn" class="fab fa-linkedin" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/sytelus" target="_blank" rel="noopener"><span><i title="Facebook" class="fab fa-facebook" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.github.com/sytelus" target="_blank" rel="noopener"><span><i title="GitHub" class="fab fa-github" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://scholar.google.com/citations?user=1PEHzesAAAAJ" target="_blank" rel="noopener"><span><i title="Google Scholar" class="ai ai-google-scholar" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://stackoverflow.com/users/207661/shital-shah" target="_blank" rel="noopener"><span><i title="Stack Overflow" class="fab fa-stack-overflow" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Downloading All of Hacker News Posts and Comments</h1>
+
+  
+
+  
+    
+
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 31, 2014
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/p/downloading-all-of-hacker-news-posts-and-comments/#disqus_thread"></a>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/developers/">Developers</a>, <a href="/categories/software/">Software</a></span>
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://shitalshah.github.io/p/downloading-all-of-hacker-news-posts-and-comments/&amp;text=Downloading%20All%20of%20Hacker%20News%20Posts%20and%20Comments" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://shitalshah.github.io/p/downloading-all-of-hacker-news-posts-and-comments/&amp;t=Downloading%20All%20of%20Hacker%20News%20Posts%20and%20Comments" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Downloading%20All%20of%20Hacker%20News%20Posts%20and%20Comments&amp;body=https://shitalshah.github.io/p/downloading-all-of-hacker-news-posts-and-comments/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://shitalshah.github.io/p/downloading-all-of-hacker-news-posts-and-comments/&amp;title=Downloading%20All%20of%20Hacker%20News%20Posts%20and%20Comments" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Downloading%20All%20of%20Hacker%20News%20Posts%20and%20Comments%20https://shitalshah.github.io/p/downloading-all-of-hacker-news-posts-and-comments/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://shitalshah.github.io/p/downloading-all-of-hacker-news-posts-and-comments/&amp;title=Downloading%20All%20of%20Hacker%20News%20Posts%20and%20Comments" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+<h3 id="introduction">Introduction</h3>
+
+<p>There are two files that contains all stories and comments posted at <a href="https://news.ycombinator.com/" target="_blank">Hacker News</a> from its start in 2006 to May 29, 2014 (exact dates are below). This was downloaded using simple program available I wrote  <a href="https://github.com/sytelus/HackerNewsDownloader" target="_blank">Hacker News Downloader</a> by making REST API calls to <a href="https://hn.algolia.com/api" target="_blank">HN&rsquo;s official APIs</a>. The program used API parameters to paginate through created date of items to retrieve all posts and comments. The file contains entire sequence of JSON responses exactly as returned by API call in JSON array.</p>
+
+<h3 id="hnstoriesall-json">HNStoriesAll.json</h3>
+
+<p>Contains all the stories posted on HN from <code>Mon, 09 Oct 2006 18:21:51 GMT</code> to <code>Thu, 29 May 2014 08:25:40 GMT</code>.</p>
+
+<h3 id="total-count">Total count</h3>
+
+<p>1,333,789</p>
+
+<h3 id="file-size">File size</h3>
+
+<p>1.2GB uncompressed, 115MB compressed</p>
+
+<h3 id="how-was-this-created">How was this created</h3>
+
+<p>I wrote a small program <a href="https://github.com/sytelus/HackerNewsDownloader" target="_blank">Hacker News Downloader</a> to create these files, available at Github.</p>
+
+<h3 id="format">Format</h3>
+
+<p>Entire file is JSON compliant array. Each element in array is json object that is exactly the response that returned by HN Algolia REST API. The property named `hits` contains the actual list of stories. As this file is very large we recommend json parsers that can work on file streams instead of reading entire data in memory.</p>
+
+<pre class="code-block"><code>{
+    "hits": [{
+        "created_at": "2014-05-31T00:05:54.000Z",
+        "title": "Publishers withdraw more than 120 gibberish papers",
+        "url": "http://www.nature.com/news/publishers-withdraw-more-than-120-gibberish-papers-1.14763?WT.mc_id=TWT_NatureNews",
+        "author": "danso",
+        "points": 1,
+        "story_text": "",
+        "comment_text": null,
+        "num_comments": 0,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1401494754,
+        "_tags": ["story",
+        "author_danso",
+        "story_7824727"],
+        "objectID": "7824727",
+        "_highlightResult": {
+            "title": {
+                "value": "Publishers withdraw more than 120 gibberish papers",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "url": {
+                "value": "http://www.nature.com/news/publishers-withdraw-more-than-120-gibberish-papers-1.14763?WT.mc_id=TWT_NatureNews",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "author": {
+                "value": "danso",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_text": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        }
+    }],
+    "nbHits": 636094,
+    "page": 0,
+    "nbPages": 1000,
+    "hitsPerPage": 1,
+    "processingTimeMS": 5,
+    "query": "",
+    "params": "advancedSyntax=true\u0026analytics=false\u0026hitsPerPage=1\u0026tags=story"
+}
+</code></pre>
+
+<h3 id="hncommentsall-json">HNCommentsAll.json</h3>
+
+<p>Contains all the comments posted on HN from <code>Mon, 09 Oct 2006 19:51:01 GMT</code> to <code>Fri, 30 May 2014 08:19:34 GMT</code>.</p>
+
+<h3 id="total-count-1">Total count</h3>
+
+<p>5,845,908</p>
+
+<h3 id="file-size-1">File size</h3>
+
+<p>9.5GB uncompressed, 862MB compressed</p>
+
+<h3 id="how-was-this-created-1">How was this created</h3>
+
+<p>I wrote a small program <a href="https://github.com/sytelus/HackerNewsDownloader" target="_blank">Hacker News Downloader</a> to create these files, available at Github.</p>
+
+<h3 id="format-1">Format</h3>
+
+<p>Entire file is JSON compliant array. Each element in array is json object that is exactly the response that returned by HN Algolia REST API. The property named `hits` contains the actual list of stories. As this file is very large we recommend json parsers that can work on file streams instead of reading entire data in memory.</p>
+
+<pre class="code-block"><code>
+{
+    "hits": [{
+        "created_at": "2014-05-31T00:22:01.000Z",
+        "title": null,
+        "url": null,
+        "author": "rikacomet",
+        "points": 1,
+        "story_text": null,
+        "comment_text": "Isn\u0026#x27;t the word dyes the right one to use here? Instead of dies?",
+        "num_comments": null,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": 7821954,
+        "created_at_i": 1401495721,
+        "_tags": ["comment",
+        "author_rikacomet",
+        "story_7824763"],
+        "objectID": "7824763",
+        "_highlightResult": {
+            "author": {
+                "value": "rikacomet",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "Isn\u0026#x27;t the word dyes the right one to use here? Instead of dies?",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        }
+    }],
+    "nbHits": 1371364,
+    "page": 0,
+    "nbPages": 1000,
+    "hitsPerPage": 1,
+    "processingTimeMS": 8,
+    "query": "",
+    "params": "advancedSyntax=true\u0026analytics=false\u0026hitsPerPage=1\u0026tags=comment"
+}
+</code></pre>
+
+<h3 id="where-to-download">Where to download</h3>
+
+<p>As GitHub restricts each file to be only 100MB and also has policies against data ware housing, these files are currently hosted at FileDropper.com. Unfortunately FileDropper currently shows ads with misleading download link so be careful on what link you click. Below is the screenshot FileDropper shows and currently the button marked in red would download the actual file.</p>
+
+<p><a href="http://shitalshah.com/ShitalShahWP/wp-content/uploads/2014/05/FileDropperDownloadScreen.png" target="_blank"><img src="http://shitalshah.com/ShitalShahWP/wp-content/uploads/2014/05/FileDropperDownloadScreen.png" alt="FileDropperDownloadScreen" width="500" class="alignnone size-full wp-image-1434" srcset="http://shitalshah.com/ShitalShahWP/wp-content/uploads/2014/05/FileDropperDownloadScreen.png 905w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2014/05/FileDropperDownloadScreen-300x293.png 300w" sizes="(max-width: 905px) 100vw, 905px" /></a></p>
+
+<h4 id="hn-stories-download-url">HN Stories Download URL</h4>
+
+<p>Using Browser: <a href="http://www.filedropper.com/hnstoriesall" target="_blank">http://www.filedropper.com/hnstoriesall</a></p>
+
+<p><small>Using Torrent Client: <a href="magnet:?xt=urn:btih:00bfc9143ecdc8d3c27a170c2d1474e05ccdbc59&dn=HNStoriesAll.7z&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce">magnet link</a> (thanks to <a href="https://github.com/saturation">@saturation</a>)</small></p>
+
+<p><small>Archived at: <a href="https://archive.org/details/HackerNewsStoriesAndCommentsDump">Internet Archive</a> (thanks to <a href="https://news.ycombinator.com/user?id=bertrandom">Bertrand Fan</a>)</small></p>
+
+<h4 id="hn-comments-download-url">HN Comments Download URL</h4>
+
+<p>Using Browser: <a href="http://www.filedropper.com/hncommentsall" target="_blank">http://www.filedropper.com/hncommentsall</a></p>
+
+<p><small>Using Torrent Client: <a href="magnet:?xt=urn:btih:21abd27bfe4c01264eb0548543606140ee48d19b&dn=HNCommentsAll.7z&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce">magnet link</a> (thanks to <a href="https://github.com/saturation">@saturation</a>)</small></p>
+
+<p><small>Archived at: <a href="https://archive.org/details/HackerNewsStoriesAndCommentsDump">Internet Archive</a> (thanks to <a href="https://news.ycombinator.com/user?id=bertrandom">Bertrand Fan</a>)</small></p>
+
+<h3 id="few-points-of-interests">Few points of interests</h3>
+
+<ul>
+<li>API rate limit is 10,000 requests per hour or you get blacklisted. I tried to be even more conservative by putting 4 sec of sleep between calls.</li>
+<li>I like to keep entire response from the call as-is. So return value of this function is used to stream a serialized array of JSON response objects to a file.</li>
+<li>As the output files are giant JSON files, you will need a JSON parser that can use streams. I used <a href="http://james.newtonking.com/json" target="_blank">JSON.NET</a> which worked out pretty well. You can find the sample code in <a href="https://github.com/sytelus/HackerNewsDownloader" target="_blank">my Github repo</a>.</li>
+<li>In total 1.3M stories and 5.8M comments were downloaded and each took about ~10 hours.</li>
+<li>It&rsquo;s amazing to see all of HN stories and comments so far fits in to under just 1GB compressed!</li>
+</ul>
+
+<h3 id="issues-and-suggestions">Issues and Suggestions</h3>
+
+<p>Please let me know any issues and suggestions in comments. You can also file issue at <a href="https://github.com/sytelus/HackerNewsData" target="_blank">&ldquo;shell&rdquo; Github repo</a> I&rsquo;d created for this data.</p>
+
+    </div>
+
+    
+
+
+    
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hu5d68012a3dc200b6a99700b1a7c5f9c0_44154_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://shitalshah.github.io">Shital Shah</a></h5>
+      
+      <p class="card-text">A program trying to understand what it&rsquo;s computing.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a href="https://twitter.com/sytelus" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a href="https://www.linkedin.com/in/shitals" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a href="https://www.facebook.com/sytelus" target="_blank" rel="noopener">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a href="https://github.com/sytelus" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a href="https://scholar.google.co.uk/citations?user=1PEHzesAAAAJ" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a href="https://stackoverflow.com/users/207661/shital-shah" target="_blank" rel="noopener">
+              <i class="fab fa-stack-overflow"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+
+    
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "sytelus" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/cpp.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/cs.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://sytelus.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.130521ecfc6f534c52c158217bbff718.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; Shital Shah. All rights reserved. &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

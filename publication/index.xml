@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Shital Shah</title>
+    <link>https://shitalshah.github.io/publication/</link>
+      <atom:link href="https://shitalshah.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright>
+    <image>
+      <url>https://shitalshah.github.io/img/shitalshah.jepg</url>
+      <title>Publications</title>
+      <link>https://shitalshah.github.io/publication/</link>
+    </image>
+    
+  </channel>
+</rss>

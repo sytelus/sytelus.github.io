@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Shital Shah">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Shital Shah Blog">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://shitalshah.github.io/categories/developers/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.04a87a1cb9027e3c50f566322527c56f.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-3244158-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="/categories/developers/index.xml" type="application/rss+xml" title="Shital Shah">
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://shitalshah.github.io/categories/developers/">
+
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@sytelus">
+  <meta property="twitter:creator" content="@sytelus">
+  
+  <meta property="og:site_name" content="Shital Shah">
+  <meta property="og:url" content="https://shitalshah.github.io/categories/developers/">
+  <meta property="og:title" content="Developers | Shital Shah">
+  <meta property="og:description" content="Shital Shah Blog"><meta property="og:image" content="https://shitalshah.github.io/img/shitalshah.jepg">
+  <meta property="twitter:image" content="https://shitalshah.github.io/img/shitalshah.jepg"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2017-02-26T09:16:43&#43;00:00">
+  
+
+  
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Developers | Shital Shah</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Shital Shah</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>About</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/sytelus" target="_blank" rel="noopener"><span><i title="Twitter" class="fab fa-twitter" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/shitals" target="_blank" rel="noopener"><span><i title="LinkedIn" class="fab fa-linkedin" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/sytelus" target="_blank" rel="noopener"><span><i title="Facebook" class="fab fa-facebook" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.github.com/sytelus" target="_blank" rel="noopener"><span><i title="GitHub" class="fab fa-github" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://scholar.google.com/citations?user=1PEHzesAAAAJ" target="_blank" rel="noopener"><span><i title="Google Scholar" class="ai ai-google-scholar" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://stackoverflow.com/users/207661/shital-shah" target="_blank" rel="noopener"><span><i title="Stack Overflow" class="fab fa-stack-overflow" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+<div class="universal-wrapper pt-3">
+  <h1>Developers</h1>
+
+  
+
+  
+</div>
+
+
+
+<div class="universal-wrapper">
+  
+
+  
+  
+  <div>
+    <h2><a href="/p/git-workflow-branch-rebase-squash-merge/">Git Workflow: Branch - Rebase - Squash - Merge</a></h2>
+    <div class="article-style">
+      
+      So you want to make a change to your git repo while other people may also be simultaneously working on the same repo. As it takes you longer to make your changes, there is a greater chance that your local repo might already be out of date as other people have pushed their changes. In this setting, you don&rsquo;t want to make your changes directly in master because otherwise you might end up creating large merge commits which makes your repo&rsquo;s history convoluted and not very nice.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/how-to-enable-and-use-gcc-strict-mode-compilation/">How to Enable and Use GCC Strict Mode Compilation</a></h2>
+    <div class="article-style">
+      
+      One of the great feature that many C++ programmers rarely use is GCC strict mode compilation. Enabling this lets compiler warn you about any potential issues that might often get unnoticed in build noise. Unfortunately there is little documentation, let alone quick tutorial on this subject so I thought to write this up.
+First, let&rsquo;s clear this up: There is no official GCC mode called &ldquo;strict&rdquo;. I just made that term up.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/downloading-all-of-hacker-news-posts-and-comments/">Downloading All of Hacker News Posts and Comments</a></h2>
+    <div class="article-style">
+      
+      Introduction There are two files that contains all stories and comments posted at Hacker News from its start in 2006 to May 29, 2014 (exact dates are below). This was downloaded using simple program available I wrote Hacker News Downloader by making REST API calls to HN&rsquo;s official APIs. The program used API parameters to paginate through created date of items to retrieve all posts and comments. The file contains entire sequence of JSON responses exactly as returned by API call in JSON array.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/silencing-exceptions-in-a-little-better-way/">Silencing Exceptions in a Little Better Way</a></h2>
+    <div class="article-style">
+      
+      Some of the most disastrous code usually takes the following form
+try { //some code } catch { }  Silencing exceptions is almost never good but sometime the problem is minor and you don’t want want to blow up and call for an exit. However wouldn’t it be better if exceptions don’t remain silent and scream for your attention when you are debugging and behave less aggressively otherwise?
+How about if we can replace above code with following:
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/the-best-culture-invariant-format-for-datetime/">The Best Culture Invariant Format for DateTime</a></h2>
+    <div class="article-style">
+      
+      If you are looking to display how to display DateTime as text without causing confusion to users in different countries then good choices is either &ldquo;o&rdquo; or &ldquo;r&rdquo;. The &ldquo;o&rdquo; format is in general more preferable as it also puts timezone offset.
+long t = DateTime.Now.Ticks; Console.WriteLine((new DateTime(t)).ToString("o")); Console.WriteLine((new DateTime(t, DateTimeKind.Local)).ToString("o")); Console.WriteLine((new DateTime(t, DateTimeKind.Unspecified)).ToString("o")); Console.WriteLine((new DateTime(t, DateTimeKind.Utc)).ToString("o"));  Prints followings when actual date time is 2009-11-08T17:16:13.7791953 PST:
+2009-11-08T17:16:13.7791953 2009-11-08T17:16:13.7791953-08:00 2009-11-08T17:16:13.7791953 2009-11-08T17:16:13.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/find-path-of-a-command-line-tool/">Find Path of a Command Line Tool</a></h2>
+    <div class="article-style">
+      
+      Many times you work on different machines, execute a command line tool but often wonder where that tool is actually installed. One way to figure this out is to look at all environment PATH variables and search them manually in same order as Windows does. But you don’t have to because luckily there is a little known built-in command called WHERE that does that for you:
+This is similar to Unix commands like WHICH and WHEREIS.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/whats-in-a-name/">What’s in a name?</a></h2>
+    <div class="article-style">
+      
+      When you want to store the name of a person a typical design starts out by creating two fields (in database or class):
+Person
+First Name Last Name  Soon you realize lot of people have middle name, especially, when name change occurs after marriages. So you go and add one more field:
+Person
+First Name Middle Name Last Name  This is all good… until you encounter people in countries such as Spain and Cuba who have custom to have two last names.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/the-acm-turing-programming-contest-problem-set-archive/">The ACM Turing Programming Contest Problem Set Archive</a></h2>
+    <div class="article-style">
+      
+      Here&rsquo;s the list of problems used in ACM Turing programming contest. Surprisingly, like many other such contests, lots of problems are s simply a variant of shortest-path problem.
+The ACM ICPC Problem Set Archive
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/my-new-codeproject-article-on-equation-rendering/">My New CodeProject Article On Equation Rendering</a></h2>
+    <div class="article-style">
+      
+      I just finished my new article on CodeProject. The mission on MimeTeX was started about couple of months ago when in a weekend I just got attracted to MimeTeX&rsquo;s C code like a magnet ;). Now I&rsquo;ve built ASP.Net handler, caching, admin etc on the top of it and its looking great! Enabling scientific content on web seems to be my new obsession. So if you take pride in delighting your users with every new release, here&rsquo;s your brand new feature!
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/google-logo-headers-max-age/">Interesting Headers</a></h2>
+    <div class="article-style">
+      
+      The response headers returns with Google&rsquo;s logo looks like this:
+Content-Type: image/gif Last-Modified: Mon, 25 Apr 2005 21:06:18 GMT Expires: Sun, 17 Jan 2038 19:14:07 GMT Server: GWS/2.1 Content-Length: 8558 Date: Sat, 16 Jul 2005 01:52:05 GMT  And for some gif served by IIS on Win 2003 Server looks like this:
+Server: Microsoft-IIS/5.0 X-Powered-By: ASP.NET Date: Sat, 16 Jul 2005 02:08:59 GMT Content-Type: image/gif Accept-Ranges: bytes Last-Modified: Fri, 04 Mar 2005 09:12:29 GMT Etag: "
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/database-columns-char-numeric-stats/">Types Of Database Columns</a></h2>
+    <div class="article-style">
+      
+      From an excellent article on Decimal mentions survey of 1,091,916 columns in databases owned by 41 organizations to find that 41.8% of them contained numeric data and 53.7% contained char data.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/we-are-finite-state-machines/">We are Finite State Machines</a></h2>
+    <div class="article-style">
+      
+      From the coolest UML tutorial:
+ Systems that have a fixed number of states, and that respond to a fixed set of events are called finite state machines (FSM).
+ The book &ldquo;Birth of the Mind&rdquo; says DNA is nothing like conventional computers. It is FSM.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/five-good-books-on-microsoft-net-framework/">Five Good Books On Microsoft .Net Framework</a></h2>
+    <div class="article-style">
+      
+      In a programming world, to do a criticism against anything and everything Microsoft does is like putting up a fashion statement by beautiful models with their useless cloths. But after spending years in intensive computer programming, Microsoft .Net seems to be the best computer programming environment human kind can possess at this point of time. It&rsquo;s simply just too perfect (if you forget the stupid &ldquo;.Net&rdquo; name tag i.e.) converging several good stuff from lots of things that existed ranging from non-proprietary C++, rival Java, Microsoft&rsquo;s own VB and my old favorite Borland Delphi.
+      
+    </div>
+  </div>
+  
+
+  
+
+</div>
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/cpp.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/cs.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://sytelus.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.130521ecfc6f534c52c158217bbff718.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; Shital Shah. All rights reserved. &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

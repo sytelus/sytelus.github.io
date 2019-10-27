@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Developers | Shital Shah</title>
+    <link>https://shitalshah.github.io/categories/developers/</link>
+      <atom:link href="https://shitalshah.github.io/categories/developers/index.xml" rel="self" type="application/rss+xml" />
+    <description>Developers</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Sun, 26 Feb 2017 09:16:43 +0000</lastBuildDate>
+    <image>
+      <url>https://shitalshah.github.io/img/shitalshah.jepg</url>
+      <title>Developers</title>
+      <link>https://shitalshah.github.io/categories/developers/</link>
+    </image>
+    
+    <item>
+      <title>Git Workflow: Branch - Rebase - Squash - Merge</title>
+      <link>https://shitalshah.github.io/p/git-workflow-branch-rebase-squash-merge/</link>
+      <pubDate>Sun, 26 Feb 2017 09:16:43 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/git-workflow-branch-rebase-squash-merge/</guid>
+      <description>&lt;p&gt;So you want to make a change to your git repo while other people may also be simultaneously working on the same repo. As it takes you longer to make your changes, there is a greater chance that your local repo might already be out of date as other people have pushed their changes. In this setting, you don&amp;rsquo;t want to make your changes directly in master because otherwise you might end up creating large merge commits which makes your repo&amp;rsquo;s history convoluted and not very nice.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the better git workflow you might want to use in any team of size &amp;gt; 1.&lt;/p&gt;
+
+&lt;p&gt;Before you make changes, create a branch.&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git checkout -b MyFeature
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Next make changes, do commits as usual.&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t want to rely on your hard drive, you can also keep pushing the changes in your branch on the server every once in a while,&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git push -u origin MyFeature
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Once you are done with all your changes, first you want to rebase your branch to master. If master has no new changes since you had created your branch, this will be essentially be no-op. But otherwise, git will take all your commits and play them back on the top of master. This way your commits will look like as if they happened on latest version of master instead of the version you branched out from. This will make commit history of your repo clean and easy to reason about. If you were the only developer, this might not be very important but if there is more than just you then it makes easy to see for other people changes every one is making.&lt;/p&gt;
+
+&lt;p&gt;To do rebase, first get latest master.&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git checkout master
+git pull origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then go back to your branch and rebase, i.e.,&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git checkout Myfeature
+git rebase master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you are lucky, you won&amp;rsquo;t see the word &amp;ldquo;conflict&amp;rdquo; in git messages but otherwise there is more work for you! If someone already changed file sections you have also changed then you might see list of conflicts. If you get lost in too many messages, use this command to see pending conflicts:&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git diff --name-only --diff-filter=U
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now about resolving conflicts&amp;hellip; there are lots of tools out there and most unfortunately have some problem/confusion installing or using. If you absolutely want GUI tool, install &lt;a href=&#34;https://sourcegear.com/diffmerge/&#34; target=&#34;_blank&#34;&gt;DiffMerge&lt;/a&gt;, make sure its in your path and invoke it like,&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git mergetool -t diffmerge .
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;However my preferred method is to simply open up conflicted file in editor, search for &amp;ldquo;&amp;gt;&amp;gt;&amp;gt;&amp;rdquo; and review sections that looks like:&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
+This is change in master
+=======
+This is change in your branch
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; branch-a
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now keep the change you want, delete the markers and you are done with that conflict. Another shortcut is to just tell git to take master&amp;rsquo;s version (&amp;ldquo;ours&amp;rdquo;) or your branch&amp;rsquo;s version(&amp;ldquo;theirs&amp;rdquo;). For example, to resolve all conflicts by overriding using your changes:&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git checkout . --theirs
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Another tricky conflict is when file gets deleted by one person and simultaneously changed by you or vice versa. In this case, git will put a deleted file back in your repo and you have to decide either keep that one and/or remove/update your version. You won&amp;rsquo;t have markers this time like above. I tend to use tool like Beyond Compare to compare two files and make edits as needed.&lt;/p&gt;
+
+&lt;p&gt;To tell git that you have resolved all conflict,&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git add .
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now you can continue with your rebase,&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git rebase --continue
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t want to continue because of whatever reason,&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git rebase --abort
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sometime git might error out while doing continue because there is nothing to commit (may be it detected that the change already exists upstream). In that case you can do,&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git rebase --skip
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;At this point, your changes are now on the top of latest master. You can verify this by looking at quick history of latest 10 commits,&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git log --pretty=oneline -n 10
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note that everything still reside in your own branch. If you are not yet ready to push to master, keep working in your branch doing more commits as you go. After rebase if you want to save your branch on server, you must do &amp;ndash;force because you are rewriting history.&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git push --force origin Myfeature
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is perfectly fine as long as you are the only one working on the branch.&lt;/p&gt;
+
+&lt;p&gt;Once you are ready to push, first merge your branch with master,&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git checkout master
+git merge --squash MyFeature
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This shouldn&amp;rsquo;t give any errors or conflict messages because your branch was already synced up to latest master. The &amp;ndash;squash tells git to combine all your commit in to single commit. This is good idea most of the time if you have done lots of commits like &amp;ldquo;added forgotten file&amp;rdquo;, &amp;ldquo;fixed minor typo&amp;rdquo; and so on. It&amp;rsquo;s too much noise and not nice to other people for having to scroll through tons of minor commits to figure out your higher level goals. However its also ok if you don&amp;rsquo;t want &amp;ndash;squash option.&lt;/p&gt;
+
+&lt;p&gt;Finally do the commit after the merge,&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git commit -m &#34;MyFeature does X&#34;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you did &amp;ndash;squash above then you will see only one commit in your history at the top of previous commits with above message.&lt;/p&gt;
+
+&lt;p&gt;At this point, you can decide to push your changes to master OR move your changes to new branch and keep working. To move to new branch and revert master to original state,&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git checkout -b MyFeature2
+git checkout master
+git reset --hard origin/master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;OR if you are happy, go ahead and&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git push
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In either case you can delete the old branch,&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git push origin -delete MyFeature
+git branch -d MyFeature
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And you are done!&lt;/p&gt;
+
+&lt;p&gt;As usual, there are many ways to do things in git. There is another quicker and simpler way to achieve goal of clean history but its bit limited.&lt;/p&gt;
+
+&lt;p&gt;Make your changes in master, do commits as usual - but don&amp;rsquo;t push. Once in a while you want to sync up with master. To do this use,&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;git pull --rebase
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will get all changes from master and then play back your unpushed commits on the top of them. This may generate conflicts as described above so resolve them in same way. Once you are done with your changes, you can push your commits and they should appear on the top without extra merge commits. An obvious problem here is that you can&amp;rsquo;t push until you are really done with changes so this might be ok for quick short changes. If you want to &amp;ldquo;save&amp;rdquo; your commits on server or work from multiple machines for multiple days without pushing to master then above workflow would work better.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Enable and Use GCC Strict Mode Compilation</title>
+      <link>https://shitalshah.github.io/p/how-to-enable-and-use-gcc-strict-mode-compilation/</link>
+      <pubDate>Tue, 24 May 2016 01:19:51 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/how-to-enable-and-use-gcc-strict-mode-compilation/</guid>
+      <description>&lt;p&gt;One of the great feature that many C++ programmers rarely use is GCC strict mode compilation. Enabling this lets compiler warn you about any potential issues that might often get unnoticed in build noise. Unfortunately there is little documentation, let alone quick tutorial on this subject so I thought to write this up.&lt;/p&gt;
+
+&lt;p&gt;First, let&amp;rsquo;s clear this up: There is no official GCC mode called &amp;ldquo;strict&amp;rdquo;. I just made that term up. Fortunately there are enough compiler options that you can rig up to create &amp;ldquo;strict&amp;rdquo; mode that is often available in many other languages.&lt;/p&gt;
+
+&lt;p&gt;To get the &amp;ldquo;strict&amp;rdquo; mode, I use following command line options for gcc/g++. Below are written in format consumable in CMakeList.txt but you can use same options from pretty much anywhere.&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;set(CMAKE_CXX_FLAGS &#34;-std=c++11 -Wall -Wextra  -Wstrict-aliasing -pedantic -fmax-errors=5 -Werror -Wunreachable-code -Wcast-align -Wcast-qual -Wctor-dtor-privacy -Wdisabled-optimization -Wformat=2 -Winit-self -Wlogical-op -Wmissing-include-dirs -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wredundant-decls -Wshadow -Wsign-promo -Wstrict-null-sentinel -Wstrict-overflow=5 -Wswitch-default -Wundef -Wno-unused -Wno-variadic-macros -Wno-parentheses -fdiagnostics-show-option ${CMAKE_CXX_FLAGS}&#34;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s a looong list of compiler options so now I hope you can agree that we really mean &amp;ldquo;strict&amp;rdquo; business here :). In essence it enables extra warnings and makes all warnings as errors, points out coding issues that borderlines on pedantic and then on top of that enables some more warnings. Rest assured, above is not an overkill. You are going to thank compiler for taking care of these stuff as your code base becomes larger and more complex.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, road from here has lots of twist and turns. The first thing that might happen to you is that you will get tons of errors, most likely not from your own code but from the included headers that you don&amp;rsquo;t own! Because of the way C++ works, other people&amp;rsquo;s bad code in their included header becomes your liability. Except for Boost and standard library, I haven&amp;rsquo;t found many packages that can get through strict mode compilation. Even for relatively nicely written packages such as ROS you will get tons of compiler errors and for badly written packages such as DJI SDK, forget about it. Right&amp;hellip; So now what?&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the fix I have used with fair amount of success. First, declare these two macros in some common utility file you have in your project:&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;
+#define STRICT_MODE_OFF                                                                 \ 
+    _Pragma(&#34;GCC diagnostic push&#34;)                                            \
+    _Pragma(&#34;GCC diagnostic ignored \&#34;-Wreturn-type\&#34;&#34;)             \
+    _Pragma(&#34;GCC diagnostic ignored \&#34;-Wdelete-non-virtual-dtor\&#34;&#34;) \
+    _Pragma(&#34;GCC diagnostic ignored \&#34;-Wunused-parameter\&#34;&#34;)        \
+    _Pragma(&#34;GCC diagnostic ignored \&#34;-pedantic\&#34;&#34;)                 \
+    _Pragma(&#34;GCC diagnostic ignored \&#34;-Wshadow\&#34;&#34;)                  \
+    _Pragma(&#34;GCC diagnostic ignored \&#34;-Wold-style-cast\&#34;&#34;)          \
+    _Pragma(&#34;GCC diagnostic ignored \&#34;-Wswitch-default\&#34;&#34;)
+
+/* Addition options that can be enabled 
+    _Pragma(&#34;GCC diagnostic ignored \&#34;-Wpedantic\&#34;&#34;)                \
+    _Pragma(&#34;GCC diagnostic ignored \&#34;-Wformat=\&#34;&#34;)                 \
+    _Pragma(&#34;GCC diagnostic ignored \&#34;-Werror\&#34;&#34;)                   \
+    _Pragma(&#34;GCC diagnostic ignored \&#34;-Werror=\&#34;&#34;)                  \
+    _Pragma(&#34;GCC diagnostic ignored \&#34;-Wunused-variable\&#34;&#34;)         \
+*/
+              
+#define STRICT_MODE_ON                                                                  \
+    _Pragma(&#34;GCC diagnostic pop&#34;)          
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here we have two macros, one tells GCC to turn off selected warnings before some chunk of code and second tells GCC to re-enable it. Why can&amp;rsquo;t we just turn off all strict mode warnings at once? Because GCC currently doesn&amp;rsquo;t have that option. You must list every individual warning :(. Above list is something I just put together while dealing with ROS and DJI SDK and is obviously incomplete. Your project might encounter more stuff in which case you will need to keep adding in to above list. Another issue you might encounter is that GCC currently doesn&amp;rsquo;t support suppressing every possible warnings! Yes, a big oops there. One of them that I &lt;a href=&#34;https://github.com/dji-sdk/Onboard-SDK-ROS/issues/27&#34; target=&#34;_blank&#34;&gt;recently encountered in DJI SDK&lt;/a&gt; was this:&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;warning: ISO C99 requires rest arguments to be used
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The only way out for me in this case was to modify DJI&amp;rsquo;s source code and submit the issue to them so hopefully they will fix it in next release.&lt;/p&gt;
+
+&lt;p&gt;Once you have above macros, you can place them around problematic headers. For example,&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;#include &amp;lt;string&amp;gt;
+#include &amp;lt;vector&amp;gt;
+
+STRICT_MODE_OFF
+#include &amp;lt;ros/ros.h&amp;gt;
+#include &amp;lt;actionlib/server/simple_action_server.h&amp;gt;
+#include &amp;lt;dji_sdk/dji_drone.h&amp;gt;
+STRICT_MODE_ON
+
+#include &#34;mystuff.hpp&#34;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We are not out of the water yet because above trick will work only for some header files. The reason is that GCC sometime doesn&amp;rsquo;t compile entire file as soon as it encounters #include statement. So it&amp;rsquo;s pointless to put macros around those #include statements. Solving those issues requires some more work, and in some cases a lot more work. The trick I used was to create wrappers around things you use from bad headers such that only those wrappers needs to use &lt;code&gt;#include &amp;lt;BadStuff.h&amp;gt;&lt;/code&gt; statements and rest of your code doesn&amp;rsquo;t need those header. Then you can disable strict mode for the wrappers and rest of your code remains clean. To do this, you would need to implement &lt;a href=&#34;https://herbsutter.com/gotw/_100/&#34; target=&#34;_blank&#34;&gt;pimpl pattern&lt;/a&gt; in your wrapper classes so that all objects in BadStuff.h are behind opaque member. Notice that &lt;code&gt;#include &amp;lt;BadStuff.h&amp;gt;&lt;/code&gt; statements would be in your wrapper.cpp file, not wrapper.hpp file.&lt;/p&gt;
+
+&lt;p&gt;Even though this might require significant work in big project, it&amp;rsquo;s often worth it because you are clearly separating interface and dependency for the external stuff. Your own code then remains free of &lt;code&gt;#include &amp;lt;BadStuff.h&amp;gt;&lt;/code&gt;. This will enable you to do even more things like static code analysis just for your code. In either case, consider contributing to those project with bad stuff and make them pass strict compilation!&lt;/p&gt;
+
+&lt;p&gt;So as it happens, working strict mode requires buy off from C++ community. If everyone isn&amp;rsquo;t doing it then it becomes hard for others. So, tell everyone and start using yourself today!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Downloading All of Hacker News Posts and Comments</title>
+      <link>https://shitalshah.github.io/p/downloading-all-of-hacker-news-posts-and-comments/</link>
+      <pubDate>Sat, 31 May 2014 02:54:03 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/downloading-all-of-hacker-news-posts-and-comments/</guid>
+      <description>
+
+&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;There are two files that contains all stories and comments posted at &lt;a href=&#34;https://news.ycombinator.com/&#34; target=&#34;_blank&#34;&gt;Hacker News&lt;/a&gt; from its start in 2006 to May 29, 2014 (exact dates are below). This was downloaded using simple program available I wrote  &lt;a href=&#34;https://github.com/sytelus/HackerNewsDownloader&#34; target=&#34;_blank&#34;&gt;Hacker News Downloader&lt;/a&gt; by making REST API calls to &lt;a href=&#34;https://hn.algolia.com/api&#34; target=&#34;_blank&#34;&gt;HN&amp;rsquo;s official APIs&lt;/a&gt;. The program used API parameters to paginate through created date of items to retrieve all posts and comments. The file contains entire sequence of JSON responses exactly as returned by API call in JSON array.&lt;/p&gt;
+
+&lt;h3 id=&#34;hnstoriesall-json&#34;&gt;HNStoriesAll.json&lt;/h3&gt;
+
+&lt;p&gt;Contains all the stories posted on HN from &lt;code&gt;Mon, 09 Oct 2006 18:21:51 GMT&lt;/code&gt; to &lt;code&gt;Thu, 29 May 2014 08:25:40 GMT&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;total-count&#34;&gt;Total count&lt;/h3&gt;
+
+&lt;p&gt;1,333,789&lt;/p&gt;
+
+&lt;h3 id=&#34;file-size&#34;&gt;File size&lt;/h3&gt;
+
+&lt;p&gt;1.2GB uncompressed, 115MB compressed&lt;/p&gt;
+
+&lt;h3 id=&#34;how-was-this-created&#34;&gt;How was this created&lt;/h3&gt;
+
+&lt;p&gt;I wrote a small program &lt;a href=&#34;https://github.com/sytelus/HackerNewsDownloader&#34; target=&#34;_blank&#34;&gt;Hacker News Downloader&lt;/a&gt; to create these files, available at Github.&lt;/p&gt;
+
+&lt;h3 id=&#34;format&#34;&gt;Format&lt;/h3&gt;
+
+&lt;p&gt;Entire file is JSON compliant array. Each element in array is json object that is exactly the response that returned by HN Algolia REST API. The property named `hits` contains the actual list of stories. As this file is very large we recommend json parsers that can work on file streams instead of reading entire data in memory.&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;{
+    &#34;hits&#34;: [{
+        &#34;created_at&#34;: &#34;2014-05-31T00:05:54.000Z&#34;,
+        &#34;title&#34;: &#34;Publishers withdraw more than 120 gibberish papers&#34;,
+        &#34;url&#34;: &#34;http://www.nature.com/news/publishers-withdraw-more-than-120-gibberish-papers-1.14763?WT.mc_id=TWT_NatureNews&#34;,
+        &#34;author&#34;: &#34;danso&#34;,
+        &#34;points&#34;: 1,
+        &#34;story_text&#34;: &#34;&#34;,
+        &#34;comment_text&#34;: null,
+        &#34;num_comments&#34;: 0,
+        &#34;story_id&#34;: null,
+        &#34;story_title&#34;: null,
+        &#34;story_url&#34;: null,
+        &#34;parent_id&#34;: null,
+        &#34;created_at_i&#34;: 1401494754,
+        &#34;_tags&#34;: [&#34;story&#34;,
+        &#34;author_danso&#34;,
+        &#34;story_7824727&#34;],
+        &#34;objectID&#34;: &#34;7824727&#34;,
+        &#34;_highlightResult&#34;: {
+            &#34;title&#34;: {
+                &#34;value&#34;: &#34;Publishers withdraw more than 120 gibberish papers&#34;,
+                &#34;matchLevel&#34;: &#34;none&#34;,
+                &#34;matchedWords&#34;: []
+            },
+            &#34;url&#34;: {
+                &#34;value&#34;: &#34;http://www.nature.com/news/publishers-withdraw-more-than-120-gibberish-papers-1.14763?WT.mc_id=TWT_NatureNews&#34;,
+                &#34;matchLevel&#34;: &#34;none&#34;,
+                &#34;matchedWords&#34;: []
+            },
+            &#34;author&#34;: {
+                &#34;value&#34;: &#34;danso&#34;,
+                &#34;matchLevel&#34;: &#34;none&#34;,
+                &#34;matchedWords&#34;: []
+            },
+            &#34;story_text&#34;: {
+                &#34;value&#34;: &#34;&#34;,
+                &#34;matchLevel&#34;: &#34;none&#34;,
+                &#34;matchedWords&#34;: []
+            }
+        }
+    }],
+    &#34;nbHits&#34;: 636094,
+    &#34;page&#34;: 0,
+    &#34;nbPages&#34;: 1000,
+    &#34;hitsPerPage&#34;: 1,
+    &#34;processingTimeMS&#34;: 5,
+    &#34;query&#34;: &#34;&#34;,
+    &#34;params&#34;: &#34;advancedSyntax=true\u0026analytics=false\u0026hitsPerPage=1\u0026tags=story&#34;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;hncommentsall-json&#34;&gt;HNCommentsAll.json&lt;/h3&gt;
+
+&lt;p&gt;Contains all the comments posted on HN from &lt;code&gt;Mon, 09 Oct 2006 19:51:01 GMT&lt;/code&gt; to &lt;code&gt;Fri, 30 May 2014 08:19:34 GMT&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;total-count-1&#34;&gt;Total count&lt;/h3&gt;
+
+&lt;p&gt;5,845,908&lt;/p&gt;
+
+&lt;h3 id=&#34;file-size-1&#34;&gt;File size&lt;/h3&gt;
+
+&lt;p&gt;9.5GB uncompressed, 862MB compressed&lt;/p&gt;
+
+&lt;h3 id=&#34;how-was-this-created-1&#34;&gt;How was this created&lt;/h3&gt;
+
+&lt;p&gt;I wrote a small program &lt;a href=&#34;https://github.com/sytelus/HackerNewsDownloader&#34; target=&#34;_blank&#34;&gt;Hacker News Downloader&lt;/a&gt; to create these files, available at Github.&lt;/p&gt;
+
+&lt;h3 id=&#34;format-1&#34;&gt;Format&lt;/h3&gt;
+
+&lt;p&gt;Entire file is JSON compliant array. Each element in array is json object that is exactly the response that returned by HN Algolia REST API. The property named `hits` contains the actual list of stories. As this file is very large we recommend json parsers that can work on file streams instead of reading entire data in memory.&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;
+{
+    &#34;hits&#34;: [{
+        &#34;created_at&#34;: &#34;2014-05-31T00:22:01.000Z&#34;,
+        &#34;title&#34;: null,
+        &#34;url&#34;: null,
+        &#34;author&#34;: &#34;rikacomet&#34;,
+        &#34;points&#34;: 1,
+        &#34;story_text&#34;: null,
+        &#34;comment_text&#34;: &#34;Isn\u0026#x27;t the word dyes the right one to use here? Instead of dies?&#34;,
+        &#34;num_comments&#34;: null,
+        &#34;story_id&#34;: null,
+        &#34;story_title&#34;: null,
+        &#34;story_url&#34;: null,
+        &#34;parent_id&#34;: 7821954,
+        &#34;created_at_i&#34;: 1401495721,
+        &#34;_tags&#34;: [&#34;comment&#34;,
+        &#34;author_rikacomet&#34;,
+        &#34;story_7824763&#34;],
+        &#34;objectID&#34;: &#34;7824763&#34;,
+        &#34;_highlightResult&#34;: {
+            &#34;author&#34;: {
+                &#34;value&#34;: &#34;rikacomet&#34;,
+                &#34;matchLevel&#34;: &#34;none&#34;,
+                &#34;matchedWords&#34;: []
+            },
+            &#34;comment_text&#34;: {
+                &#34;value&#34;: &#34;Isn\u0026#x27;t the word dyes the right one to use here? Instead of dies?&#34;,
+                &#34;matchLevel&#34;: &#34;none&#34;,
+                &#34;matchedWords&#34;: []
+            }
+        }
+    }],
+    &#34;nbHits&#34;: 1371364,
+    &#34;page&#34;: 0,
+    &#34;nbPages&#34;: 1000,
+    &#34;hitsPerPage&#34;: 1,
+    &#34;processingTimeMS&#34;: 8,
+    &#34;query&#34;: &#34;&#34;,
+    &#34;params&#34;: &#34;advancedSyntax=true\u0026analytics=false\u0026hitsPerPage=1\u0026tags=comment&#34;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;where-to-download&#34;&gt;Where to download&lt;/h3&gt;
+
+&lt;p&gt;As GitHub restricts each file to be only 100MB and also has policies against data ware housing, these files are currently hosted at FileDropper.com. Unfortunately FileDropper currently shows ads with misleading download link so be careful on what link you click. Below is the screenshot FileDropper shows and currently the button marked in red would download the actual file.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2014/05/FileDropperDownloadScreen.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2014/05/FileDropperDownloadScreen.png&#34; alt=&#34;FileDropperDownloadScreen&#34; width=&#34;500&#34; class=&#34;alignnone size-full wp-image-1434&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2014/05/FileDropperDownloadScreen.png 905w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2014/05/FileDropperDownloadScreen-300x293.png 300w&#34; sizes=&#34;(max-width: 905px) 100vw, 905px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;hn-stories-download-url&#34;&gt;HN Stories Download URL&lt;/h4&gt;
+
+&lt;p&gt;Using Browser: &lt;a href=&#34;http://www.filedropper.com/hnstoriesall&#34; target=&#34;_blank&#34;&gt;http://www.filedropper.com/hnstoriesall&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Using Torrent Client: &lt;a href=&#34;magnet:?xt=urn:btih:00bfc9143ecdc8d3c27a170c2d1474e05ccdbc59&amp;dn=HNStoriesAll.7z&amp;tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&#34;&gt;magnet link&lt;/a&gt; (thanks to &lt;a href=&#34;https://github.com/saturation&#34;&gt;@saturation&lt;/a&gt;)&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Archived at: &lt;a href=&#34;https://archive.org/details/HackerNewsStoriesAndCommentsDump&#34;&gt;Internet Archive&lt;/a&gt; (thanks to &lt;a href=&#34;https://news.ycombinator.com/user?id=bertrandom&#34;&gt;Bertrand Fan&lt;/a&gt;)&lt;/small&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;hn-comments-download-url&#34;&gt;HN Comments Download URL&lt;/h4&gt;
+
+&lt;p&gt;Using Browser: &lt;a href=&#34;http://www.filedropper.com/hncommentsall&#34; target=&#34;_blank&#34;&gt;http://www.filedropper.com/hncommentsall&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Using Torrent Client: &lt;a href=&#34;magnet:?xt=urn:btih:21abd27bfe4c01264eb0548543606140ee48d19b&amp;dn=HNCommentsAll.7z&amp;tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&#34;&gt;magnet link&lt;/a&gt; (thanks to &lt;a href=&#34;https://github.com/saturation&#34;&gt;@saturation&lt;/a&gt;)&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Archived at: &lt;a href=&#34;https://archive.org/details/HackerNewsStoriesAndCommentsDump&#34;&gt;Internet Archive&lt;/a&gt; (thanks to &lt;a href=&#34;https://news.ycombinator.com/user?id=bertrandom&#34;&gt;Bertrand Fan&lt;/a&gt;)&lt;/small&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;few-points-of-interests&#34;&gt;Few points of interests&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;API rate limit is 10,000 requests per hour or you get blacklisted. I tried to be even more conservative by putting 4 sec of sleep between calls.&lt;/li&gt;
+&lt;li&gt;I like to keep entire response from the call as-is. So return value of this function is used to stream a serialized array of JSON response objects to a file.&lt;/li&gt;
+&lt;li&gt;As the output files are giant JSON files, you will need a JSON parser that can use streams. I used &lt;a href=&#34;http://james.newtonking.com/json&#34; target=&#34;_blank&#34;&gt;JSON.NET&lt;/a&gt; which worked out pretty well. You can find the sample code in &lt;a href=&#34;https://github.com/sytelus/HackerNewsDownloader&#34; target=&#34;_blank&#34;&gt;my Github repo&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;In total 1.3M stories and 5.8M comments were downloaded and each took about ~10 hours.&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s amazing to see all of HN stories and comments so far fits in to under just 1GB compressed!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;issues-and-suggestions&#34;&gt;Issues and Suggestions&lt;/h3&gt;
+
+&lt;p&gt;Please let me know any issues and suggestions in comments. You can also file issue at &lt;a href=&#34;https://github.com/sytelus/HackerNewsData&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;shell&amp;rdquo; Github repo&lt;/a&gt; I&amp;rsquo;d created for this data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Silencing Exceptions in a Little Better Way</title>
+      <link>https://shitalshah.github.io/p/silencing-exceptions-in-a-little-better-way/</link>
+      <pubDate>Mon, 07 Dec 2009 23:54:35 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/silencing-exceptions-in-a-little-better-way/</guid>
+      <description>&lt;p&gt;Some of the most disastrous code usually takes the following form&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;try
+{
+    //some code
+}
+catch
+{ }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Silencing exceptions is almost never good but sometime the problem is minor and you don’t want want to blow up and call for an exit. However wouldn’t it be better if exceptions don’t remain silent and scream for your attention when you are debugging and behave less aggressively otherwise?&lt;/p&gt;
+
+&lt;p&gt;How about if we can replace above code with following:&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code class=&#34;language-cs&#34;&gt;IgnoreExceptionButNotIfDebugging(() =&amp;gt;
+{
+    //some code
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Better.&lt;/p&gt;
+
+&lt;p&gt;The mysterious IgnoreExceptionButNotIfDebugging is a simple method that takes lambda and it would look like below:&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;public static void IgnoreExceptionButNotIfDebugging(Action codeBlockToExecute)
+{
+    try
+    {
+        codeBlockToExecute();
+    }
+    catch (Exception ex)
+    {
+        if (Debugger.IsAttached)
+            Debugger.Break();
+
+        Trace.Write(&#34;Exception occured: &#34; + ex.Message);
+
+        EventLog.WriteEntry(&#34;MyApp&#34;, ex.Message, EventLogEntryType.Warning);
+
+#if DEBUG
+            throw;
+#endif
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now you can surround any of your code by IgnoreExceptionButNotIfDebugging and make sure things don’t remain silent when you are debugging!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Best Culture Invariant Format for DateTime</title>
+      <link>https://shitalshah.github.io/p/the-best-culture-invariant-format-for-datetime/</link>
+      <pubDate>Mon, 09 Nov 2009 01:35:41 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/the-best-culture-invariant-format-for-datetime/</guid>
+      <description>&lt;p&gt;If you are looking to display how to display DateTime as text without causing confusion to users in different countries then good choices is either &amp;ldquo;o&amp;rdquo; or &amp;ldquo;r&amp;rdquo;. The &amp;ldquo;o&amp;rdquo; format is in general more preferable as it also puts timezone offset.&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;long t = DateTime.Now.Ticks;
+Console.WriteLine((new DateTime(t)).ToString(&#34;o&#34;));
+Console.WriteLine((new DateTime(t, DateTimeKind.Local)).ToString(&#34;o&#34;));
+Console.WriteLine((new DateTime(t, DateTimeKind.Unspecified)).ToString(&#34;o&#34;));
+Console.WriteLine((new DateTime(t, DateTimeKind.Utc)).ToString(&#34;o&#34;));
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Prints followings when actual date time is 2009-11-08T17:16:13.7791953 PST:&lt;/p&gt;
+
+&lt;pre class=&#34;code-block code-text&#34;&gt;&lt;code class=&#34;no-highlight&#34;&gt;2009-11-08T17:16:13.7791953
+2009-11-08T17:16:13.7791953-08:00
+2009-11-08T17:16:13.7791953
+2009-11-08T17:16:13.7791953Z
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you use &amp;ldquo;r&amp;rdquo; instead it would print followings:&lt;/p&gt;
+
+&lt;pre class=&#34;code-block code-text&#34;&gt;&lt;code class=&#34;no-highlight&#34;&gt;Sun, 08 Nov 2009 17:26:02 GMT
+Sun, 08 Nov 2009 17:26:02 GMT
+Sun, 08 Nov 2009 17:26:02 GMT
+Sun, 08 Nov 2009 17:26:02 GMT
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Find Path of a Command Line Tool</title>
+      <link>https://shitalshah.github.io/p/find-path-of-a-command-line-tool/</link>
+      <pubDate>Thu, 29 Oct 2009 23:06:45 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/find-path-of-a-command-line-tool/</guid>
+      <description>&lt;p&gt;Many times you work on different machines, execute a command line tool but often wonder where that tool is actually installed. One way to figure this out is to look at all environment PATH variables and search them manually in same order as Windows does. But you don’t have to because luckily there is a little known built-in command called WHERE that does that for you:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2009/10/image_8.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is similar to Unix commands like WHICH and WHEREIS.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What’s in a name?</title>
+      <link>https://shitalshah.github.io/p/whats-in-a-name/</link>
+      <pubDate>Sat, 08 Aug 2009 03:32:48 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/whats-in-a-name/</guid>
+      <description>&lt;p&gt;When you want to store the name of a person a typical design starts out by creating two fields (in database or class):&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Person&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre class=&#34;code-block code-text&#34;&gt;&lt;code class=&#34;no-highlight&#34;&gt;First Name
+Last Name
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Soon you realize lot of people have middle name, especially, when name change occurs after marriages. So you go and add one more field:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Person&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre class=&#34;code-block code-text&#34;&gt;&lt;code class=&#34;no-highlight&#34;&gt;First Name
+Middle Name 
+Last Name
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is all good… until you encounter people in countries such as Spain and Cuba who have custom to have two last names. Both are equally important and both are required in any official document (including ones your website or app may print out). So you go in and add one more field while thinking this ought to do it once and for all:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Person&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre class=&#34;code-block code-text&#34;&gt;&lt;code class=&#34;no-highlight&#34;&gt;First Name
+Middle Name 
+Last Name
+2nd Last Name
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Not so fast… Lot of people from Hong Kong and few other places in Asia actually carry two first names. One of these first names is traditional while other is typically a Western/Roman name. Both first names are important and often many people will know only Western/Roman first name of a person although official documents would only refer to traditional names.&lt;/p&gt;
+
+&lt;p&gt;For example, consider name of Hong Kong’s Chief Secretary &lt;a href=&#34;http://en.wikipedia.org/wiki/Anson_Chan&#34; target=&#34;_blank&#34;&gt;Anson Chan Fang On Sang&lt;/a&gt;. Here Anson is English given name, On Sang is Chinese given name, Chan is husband’s surname and Fang is her own surname.&lt;/p&gt;
+
+&lt;p&gt;So time to add few more field so we can store everybody’s names on planet without loss of semantics:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Person&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre class=&#34;code-block code-text&#34;&gt;&lt;code class=&#34;no-highlight&#34;&gt;Traditional Given Name
+English Given Name
+Middle Name 
+Last Name
+2nd Last Name
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ok… so are we done now? Well, almost! We are still missing at least two critical pieces of information: Salutation and Suffix.&lt;/p&gt;
+
+&lt;p&gt;Example of common salutations are Dr, Mr, Mrs, Mr. While salutations are quickly falling out of fashion it might be still required, for example, if you are printing out an official letter to your customer and don’t want to make it look very casual.&lt;/p&gt;
+
+&lt;p&gt;Example of common suffixes are Jr, Sr, III, IV etc. These are required in official/legal communication to avoid confusion with other family members of a person.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Person&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre class=&#34;code-block code-text&#34;&gt;&lt;code class=&#34;no-highlight&#34;&gt;Salutation
+Traditional Given Name
+English Given Name
+Middle Name 
+Last Name
+2nd Last Name
+Suffix
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now we have covered most of the globe. There are still two more nice-to-have fields if you want to make your customers happy: Phonetic Given Name and Phonetic Last Name. Remember the times when you call customer support and each time you have a guy struggling to say your name? These two fields would avoid those moments:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Person&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre class=&#34;code-block code-text&#34;&gt;&lt;code class=&#34;no-highlight&#34;&gt;Salutation
+Traditional Given Name
+English Given Name
+Middle Name 
+Last Name
+2nd Last Name
+Phonetic Given Name
+Phonetic Last Name
+Suffix
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So there you have it. A structure that can store almost anybody’s name on planet while maintaining semantics of each component of a name.&lt;/p&gt;
+
+&lt;p&gt;Most applications won’t need to go to this extreme because it’s OK to just have one first name and one last name that correctly identifies a person for its purpose even if it’s culturally incorrectly and technically incomplete. However if you are in a business where legal implications are high or if any information loss about your customer is not tolerable then it’s good to think about these possibilities.&lt;/p&gt;
+
+&lt;p&gt;There are probably better solutions than giant structure like above just to store name of a person. Instead of having all these different fields you can simply have one free form field, say, Full Name and another field called Full Name Style which takes values indicating how different components of names are arranged:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Person&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre class=&#34;code-block code-text&#34;&gt;&lt;code class=&#34;no-highlight&#34;&gt;Full Name
+Full Name Style
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This structure will make searches for specific components of a name little difficult but it would extend well as your application grows around the planet.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The ACM Turing Programming Contest Problem Set Archive</title>
+      <link>https://shitalshah.github.io/p/the-acm-turing-programming-contest-problem-set-archive/</link>
+      <pubDate>Thu, 13 Apr 2006 03:32:00 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/the-acm-turing-programming-contest-problem-set-archive/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s the list of problems used in ACM Turing programming contest. Surprisingly, like many other such contests, lots of problems are s simply a variant of shortest-path problem.&lt;br /&gt;
+&lt;a href=&#34;http://www.acm.inf.ethz.ch/ProblemSetArchive.html#A_FINALS&#34; target=&#34;_blank&#34;&gt;The ACM ICPC Problem Set Archive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My New CodeProject Article On Equation Rendering</title>
+      <link>https://shitalshah.github.io/p/my-new-codeproject-article-on-equation-rendering/</link>
+      <pubDate>Wed, 24 Aug 2005 02:31:01 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/my-new-codeproject-article-on-equation-rendering/</guid>
+      <description>&lt;p&gt;I just finished &lt;a href=&#34;http://www.codeproject.com/Articles/11406/Enable-Your-Users-to-Write-Math-Equations-in-Your&#34; target=&#34;_blank&#34;&gt;my new article on CodeProject&lt;/a&gt;. The mission on MimeTeX was started about couple of months ago when in a weekend I just got attracted to MimeTeX&amp;rsquo;s C code like a magnet ;). Now I&amp;rsquo;ve built ASP.Net handler, caching, admin etc on the top of it and its looking great! Enabling scientific content on web seems to be my new obsession. So if you take pride in delighting your users with every new release, here&amp;rsquo;s your brand new feature! Go ahead, download it, use it! If you run in to any problem, I&amp;rsquo;ll be glad to offer you my help.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interesting Headers</title>
+      <link>https://shitalshah.github.io/p/google-logo-headers-max-age/</link>
+      <pubDate>Sat, 16 Jul 2005 02:32:00 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/google-logo-headers-max-age/</guid>
+      <description>&lt;p&gt;The response headers returns with Google&amp;rsquo;s logo looks like this:&lt;/p&gt;
+
+&lt;pre class=&#34;code-block code-text&#34;&gt;&lt;code class=&#34;no-highlight&#34;&gt;Content-Type: image/gif
+Last-Modified: Mon, 25 Apr 2005 21:06:18 GMT
+Expires: Sun, 17 Jan 2038 19:14:07 GMT
+Server: GWS/2.1
+Content-Length: 8558
+Date: Sat, 16 Jul 2005 01:52:05 GMT
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And for some gif served by IIS on Win 2003 Server looks like this:&lt;/p&gt;
+
+&lt;pre class=&#34;code-block code-text&#34;&gt;&lt;code class=&#34;no-highlight&#34;&gt;Server: Microsoft-IIS/5.0
+X-Powered-By: ASP.NET
+Date: Sat, 16 Jul 2005 02:08:59 GMT
+Content-Type: image/gif
+Accept-Ranges: bytes
+Last-Modified: Fri, 04 Mar 2005 09:12:29 GMT
+Etag: &#34;20bb944a9a20c51:acc&#34;
+Content-Length: 3779&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can get this by using Web Developer Toolbar&amp;rsquo;s Information &amp;gt; Reponse Header button in Firefox.&lt;/p&gt;
+
+&lt;p&gt;Interesting things are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Google is not using Cache-Control: max-age=xxxx header which tells browser to cach the image for a while and not re-request from the server again. This is surprising because you would think Google would use every possible way out there to reduce the load on their server.&lt;/li&gt;
+&lt;li&gt;Google has named their custom web server as Google Web Server, not surprisingly.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Types Of Database Columns</title>
+      <link>https://shitalshah.github.io/p/database-columns-char-numeric-stats/</link>
+      <pubDate>Thu, 14 Jul 2005 18:35:00 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/database-columns-char-numeric-stats/</guid>
+      <description>&lt;p&gt;From an &lt;a href=&#34;http://www2.hursley.ibm.com/decimal/decifaq1.html&#34; target=&#34;_blank&#34;&gt;excellent article on Decimal&lt;/a&gt; mentions survey of 1,091,916 columns in databases owned by 41 organizations to find that 41.8% of them contained numeric data and 53.7% contained char data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>We are Finite State Machines</title>
+      <link>https://shitalshah.github.io/p/we-are-finite-state-machines/</link>
+      <pubDate>Mon, 11 Jul 2005 17:14:00 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/we-are-finite-state-machines/</guid>
+      <description>&lt;p&gt;From the coolest &lt;a href=&#34;http://www.objectmentor.com/resources/articles/umlCollaborationDiagrams.pdf&#34; target=&#34;_blank&#34;&gt;UML tutorial&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Systems that have a fixed number of states, and that respond to a fixed set of events are called finite state machines (FSM).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The book &amp;ldquo;Birth of the Mind&amp;rdquo; says DNA is nothing like conventional computers. It is FSM.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Five Good Books On Microsoft .Net Framework</title>
+      <link>https://shitalshah.github.io/p/five-good-books-on-microsoft-net-framework/</link>
+      <pubDate>Thu, 26 Dec 2002 20:05:50 +0000</pubDate>
+      <guid>https://shitalshah.github.io/p/five-good-books-on-microsoft-net-framework/</guid>
+      <description>&lt;p&gt;In a programming world, to do a criticism against anything and everything Microsoft does is like putting up a fashion statement by beautiful models with their useless cloths. But after spending years in intensive computer programming, Microsoft .Net seems to be &lt;em&gt;the best&lt;/em&gt; computer programming environment human kind can possess at this point of time. It&amp;rsquo;s simply just too perfect (if you forget the stupid &amp;ldquo;.Net&amp;rdquo; name tag i.e.) converging several good stuff from lots of things that existed ranging from non-proprietary C++, rival Java, Microsoft&amp;rsquo;s own VB and my old favorite Borland Delphi. I was kind of surprised at this level of perfection when I first used it and amazed at the numbers of human years that might have been spent to achieve this level of skills to do something this sophisticated flawlessly. So how do you get started? After going through details of more then 200 books, purchasing 10s of them, returning back many out of disappointment, here&amp;rsquo;s the 4 winners that has finally emerged. These books are probably all you need to learn almost everything you might need to develop advanced applications. I assume good familiarity with VB6, little more then intermediate programming experience and a desire to know low level details. [List arranged by order of importance]&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/exec/obidos/ASIN/0735613753/104-1231289-1628722&#34; target=&#34;_blank&#34;&gt;Programming Microsoft Visual Basic .NET&lt;/a&gt; - Francesco Balena. This one is an absolute must and covers almost everything in single volume. Fun to read and goes deep in to details. This is your ideal starting point if you were a VB6 programmer.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/exec/obidos/tg/detail/-/0672320681&#34; target=&#34;_blank&#34;&gt;ASP.NET Unleashed&lt;/a&gt; - Stephen Walther. The ASP.Net is the most changed part between transition from VS6 and it&amp;rsquo;s the most exciting one. This book, I&amp;rsquo;ve found, is the best on the subject.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/exec/obidos/ASIN/0130622966&#34; target=&#34;_blank&#34;&gt;.NET Common Language Runtime Unleashed&lt;/a&gt; - Kevin R. Burton. Haven&amp;rsquo;t read this one yet but it looked really cool with MSIL and other low level stuff.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/exec/obidos/ASIN/0130622966/104-1231289-1628722&#34; target=&#34;_blank&#34;&gt;Compiling for the .NET Common Language Runtime&lt;/a&gt; - John Gough. You don&amp;rsquo;t know it until you get dirty with details and this book gonna take you in &lt;em&gt;real&lt;/em&gt; details. I bought it to understand MSIL, virtual machine, common language issues and in future to make my own compiler for RPL.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/exec/obidos/ASIN/0130622966&#34; target=&#34;_blank&#34;&gt;Microsoft ADO.NET&lt;/a&gt; - David Sceppa. The ADO.Net is the center of almost any large scale app and you need to know every little thing about it. While I&amp;rsquo;ve included this book in the list, I must admit that this one was a disappointment when I tried to find details on some advanced level stuff I was doing for real world application. But still it clears up lots of basics on concurrency handling, typed datasets etc.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So, What&amp;rsquo;s not included in above books? First, the C# language spec is not included because you better off &lt;a href=&#34;http://msdn.microsoft.com/library/default.asp?url=/library/en-us/csspec/html/vclrfcsharpspec_1.asp&#34; target=&#34;_blank&#34;&gt;reading it from MSDN&lt;/a&gt;. General tasks that you might perform every now and then are at &lt;a href=&#34;http://samples.gotdotnet.com/quickstart/howto/&#34; target=&#34;_blank&#34;&gt;Quickstart tutorials (the HowTo index)&lt;/a&gt;. However, none of the books that I came across really contains good application architecture strategies that you can use in real world. For this subject, you should check out articles at &lt;a href=&#34;http://www.devx.com/dotnet&#34; target=&#34;_blank&#34;&gt;DevX&lt;/a&gt;, &lt;a href=&#34;http://www.fawcette.com/resources/spcollections/aspnet/default.asp&#34; target=&#34;_blank&#34;&gt;Fawcette&lt;/a&gt;, &lt;a href=&#34;http://asp411.com&#34; target=&#34;_blank&#34;&gt;asp411&lt;/a&gt; and &lt;a href=&#34;http://www.asp.net/Modules/MoreArticles.aspx?tabindex=0&amp;amp;mid=64&#34; target=&#34;_blank&#34;&gt;asp.net&lt;/a&gt;. This might be your best bet when it comes to putting principles in to practice. Finally, here&amp;rsquo;s the books I returned: Instant ASP.NET Applications, ASP.NET Tips &amp;amp; Techniques and Programming Windows with C#. Beware!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
