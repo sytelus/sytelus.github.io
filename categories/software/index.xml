@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software | Shital Shah</title>
-    <link>https://shitalshah.github.io/categories/software/</link>
-      <atom:link href="https://shitalshah.github.io/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://shitalshah.com/categories/software/</link>
+      <atom:link href="http://shitalshah.com/categories/software/index.xml" rel="self" type="application/rss+xml" />
     <description>Software</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Sat, 31 May 2014 02:54:03 +0000</lastBuildDate>
     <image>
-      <url>https://shitalshah.github.io/img/shitalshah.jepg</url>
+      <url>http://shitalshah.com/img/shitalshah.jepg</url>
       <title>Software</title>
-      <link>https://shitalshah.github.io/categories/software/</link>
+      <link>http://shitalshah.com/categories/software/</link>
     </image>
     
     <item>
       <title>Downloading All of Hacker News Posts and Comments</title>
-      <link>https://shitalshah.github.io/p/downloading-all-of-hacker-news-posts-and-comments/</link>
+      <link>http://shitalshah.com/p/downloading-all-of-hacker-news-posts-and-comments/</link>
       <pubDate>Sat, 31 May 2014 02:54:03 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/downloading-all-of-hacker-news-posts-and-comments/</guid>
+      <guid>http://shitalshah.com/p/downloading-all-of-hacker-news-posts-and-comments/</guid>
       <description>
 
 &lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
@@ -198,9 +198,9 @@
     
     <item>
       <title>Introducing DSS</title>
-      <link>https://shitalshah.github.io/p/introducing-dss/</link>
+      <link>http://shitalshah.com/p/introducing-dss/</link>
       <pubDate>Thu, 16 Feb 2006 15:04:01 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/introducing-dss/</guid>
+      <guid>http://shitalshah.com/p/introducing-dss/</guid>
       <description>&lt;p&gt;There are tons and tons of things to blog but here is a quick one.&lt;/p&gt;
 
 &lt;p&gt;Last Thanksgiving (a 4 days of holidays in USA) I wanted to work on something really cool that is absolutely worth doing and something I can spend my entire 4 days continuosly. I looked over my list of pending projects to find something extraordinarily cool, kept thinking about new ideas flowing around, looked over to other idea websites and realized that my mind was just keept going blank all the while.&lt;/p&gt;
@@ -217,31 +217,31 @@
     
     <item>
       <title>Groove Hacks</title>
-      <link>https://shitalshah.github.io/p/groove-hacks/</link>
+      <link>http://shitalshah.com/p/groove-hacks/</link>
       <pubDate>Tue, 15 Nov 2005 05:48:53 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/groove-hacks/</guid>
-      <description>&lt;p&gt;About a year and half ago, the new version of &lt;a href=&#34;https://shitalshah.github.io/astrila/messageexport/&#34;&gt;Groove&lt;/a&gt; had came out and it still didn&amp;rsquo;t had an ability export IMs. It drove me nuts so I started to write my own Groove tool that would do it in excuse to explore its infamous internals. Ah! What a ride that was! Groove APIs have extremely huge surface area (which means there are thousands and thousands of them sprinkled all over in hard to find places). Tons of them have confusing names, misleading functionalities and put in the wrong place. The fun part? There is almost no documentation! And yeah, did I forgot to mention that they are heavy C++ oriented, frequently late bound and mostly proprietary stuff (they even have their own proprietary definition for rich text and APIs!)?&lt;/p&gt;
+      <guid>http://shitalshah.com/p/groove-hacks/</guid>
+      <description>&lt;p&gt;About a year and half ago, the new version of &lt;a href=&#34;http://shitalshah.com/astrila/messageexport/&#34;&gt;Groove&lt;/a&gt; had came out and it still didn&amp;rsquo;t had an ability export IMs. It drove me nuts so I started to write my own Groove tool that would do it in excuse to explore its infamous internals. Ah! What a ride that was! Groove APIs have extremely huge surface area (which means there are thousands and thousands of them sprinkled all over in hard to find places). Tons of them have confusing names, misleading functionalities and put in the wrong place. The fun part? There is almost no documentation! And yeah, did I forgot to mention that they are heavy C++ oriented, frequently late bound and mostly proprietary stuff (they even have their own proprietary definition for rich text and APIs!)?&lt;/p&gt;
 
 &lt;p&gt;If your brain needs some challenge that&amp;rsquo;s the place to dig in to. After sacrificing my 3 weekends I finally had a working tool that exports Groove IMs and put them to Outlook without loosing formatting or attachments! I consider this an equivalent feat of removing nag dialog of WinZip by changing a x86 jump instruction in its disassembled binary using only Visual Studio debugger and absolutely nothing else ;).&lt;/p&gt;
 
-&lt;p&gt;This tool had been sitting on my hard drive crying to get out for months and months. In between, I did some polishing up, adding wizards, support for Word and Excel, creating a help file and even created a website for it. So now I think it’s pretty much ready and have decided to give it away for free personal use (similar tools cost $50 something I guess). &lt;a href=&#34;https://shitalshah.github.io/astrila/messageexport/&#34;&gt;Check it out&lt;/a&gt; if you use Groove and want to save your invaluable messages! Call it laziness or ignorance or whatever but I really do feel guilty not to putting this out early when 3.0 came out and lot of people SO need it!&lt;/p&gt;
+&lt;p&gt;This tool had been sitting on my hard drive crying to get out for months and months. In between, I did some polishing up, adding wizards, support for Word and Excel, creating a help file and even created a website for it. So now I think it’s pretty much ready and have decided to give it away for free personal use (similar tools cost $50 something I guess). &lt;a href=&#34;http://shitalshah.com/astrila/messageexport/&#34;&gt;Check it out&lt;/a&gt; if you use Groove and want to save your invaluable messages! Call it laziness or ignorance or whatever but I really do feel guilty not to putting this out early when 3.0 came out and lot of people SO need it!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>My New CodeProject Article On Equation Rendering</title>
-      <link>https://shitalshah.github.io/p/my-new-codeproject-article-on-equation-rendering/</link>
+      <link>http://shitalshah.com/p/my-new-codeproject-article-on-equation-rendering/</link>
       <pubDate>Wed, 24 Aug 2005 02:31:01 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/my-new-codeproject-article-on-equation-rendering/</guid>
+      <guid>http://shitalshah.com/p/my-new-codeproject-article-on-equation-rendering/</guid>
       <description>&lt;p&gt;I just finished &lt;a href=&#34;http://www.codeproject.com/Articles/11406/Enable-Your-Users-to-Write-Math-Equations-in-Your&#34; target=&#34;_blank&#34;&gt;my new article on CodeProject&lt;/a&gt;. The mission on MimeTeX was started about couple of months ago when in a weekend I just got attracted to MimeTeX&amp;rsquo;s C code like a magnet ;). Now I&amp;rsquo;ve built ASP.Net handler, caching, admin etc on the top of it and its looking great! Enabling scientific content on web seems to be my new obsession. So if you take pride in delighting your users with every new release, here&amp;rsquo;s your brand new feature! Go ahead, download it, use it! If you run in to any problem, I&amp;rsquo;ll be glad to offer you my help.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Some Cool .Net Nuggets</title>
-      <link>https://shitalshah.github.io/p/some-cool-net-nuggets/</link>
+      <link>http://shitalshah.com/p/some-cool-net-nuggets/</link>
       <pubDate>Fri, 24 Jun 2005 22:00:46 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/some-cool-net-nuggets/</guid>
+      <guid>http://shitalshah.com/p/some-cool-net-nuggets/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;If type&amp;rsquo;s constructor (i.e. static constructor) throws an exception, entire type becomes unusable. Any attempt to call any member of that type would result in TypeInitializationException.&lt;/li&gt;
 
@@ -341,23 +341,23 @@ End try
     
     <item>
       <title>Integrating RSS And Calendar Essay Available Now</title>
-      <link>https://shitalshah.github.io/p/integrating-rss-and-calendar-essay-available-now/</link>
+      <link>http://shitalshah.com/p/integrating-rss-and-calendar-essay-available-now/</link>
       <pubDate>Tue, 24 May 2005 02:10:36 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/integrating-rss-and-calendar-essay-available-now/</guid>
-      <description>&lt;p&gt;The idea of wrapping calendar information in to the RSS feed may sound very appealing. Almost every website owned by some kind of group or organization has their event calendar. The thought that you can aggregate them in to your &amp;ldquo;Calendar Aggregator&amp;rdquo; is just so geekily cool. What if people started putting up their weekend plans through some kind of RSS-Calendar and you can subscribe to them in your calendar program! I dig through dozens of W3C and other specs and half a dozen of implementation to find out what has been done so far and why it hasn&amp;rsquo;t happened yet. The result of my findings and possible solution are summarized in &lt;a href=&#34;https://shitalshah.github.io/p/integrating-rss-and-calendar/&#34;&gt;my essay&lt;/a&gt; in some reader friendly writing.&lt;/p&gt;
+      <guid>http://shitalshah.com/p/integrating-rss-and-calendar-essay-available-now/</guid>
+      <description>&lt;p&gt;The idea of wrapping calendar information in to the RSS feed may sound very appealing. Almost every website owned by some kind of group or organization has their event calendar. The thought that you can aggregate them in to your &amp;ldquo;Calendar Aggregator&amp;rdquo; is just so geekily cool. What if people started putting up their weekend plans through some kind of RSS-Calendar and you can subscribe to them in your calendar program! I dig through dozens of W3C and other specs and half a dozen of implementation to find out what has been done so far and why it hasn&amp;rsquo;t happened yet. The result of my findings and possible solution are summarized in &lt;a href=&#34;http://shitalshah.com/p/integrating-rss-and-calendar/&#34;&gt;my essay&lt;/a&gt; in some reader friendly writing.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Updates - Spring 2005</title>
-      <link>https://shitalshah.github.io/p/updates-spring-2005/</link>
+      <link>http://shitalshah.com/p/updates-spring-2005/</link>
       <pubDate>Thu, 21 Apr 2005 18:44:07 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/updates-spring-2005/</guid>
+      <guid>http://shitalshah.com/p/updates-spring-2005/</guid>
       <description>&lt;p&gt;I would be writing all New York City related stuff at &lt;a href=&#34;http://nyc.metblogs.com&#34; target=&#34;_blank&#34;&gt;Metblogs&lt;/a&gt; rather then my own blog. This makes sense because lot of people who aren&amp;rsquo;t in this region doesn&amp;rsquo;t need to get those NYC stories. On the other hand, my NYC related writing will now reach to much larger audience. Check out &lt;a href=&#34;http://www.google.com/search?q=site:nyc.metblogs.com+%22shital+shah%22&amp;amp;hl=en&amp;amp;lr=&amp;amp;c2coff=1&amp;amp;safe=off&amp;amp;filter=0&#34; target=&#34;_blank&#34;&gt;some of my entries there&lt;/a&gt; about cool New York events, restaurants and such stuff.&lt;/p&gt;
 
 &lt;p&gt;On the other site news, you might have noticed new skin and more FireFox friendly design. I also decided to give away the &lt;a href=&#34;https://github.com/sytelus/SyFastPage&#34; target=&#34;_blank&#34;&gt;engine that my website runs on&lt;/a&gt; (C# code I wrote almost 4 years ago) along with entire &lt;a href=&#34;https://github.com/sytelus/ShitalShahWebV3&#34; target=&#34;_blank&#34;&gt;source code for this website&lt;/a&gt; (thats in VB.Net just for fun). Nothing special but main highlights of the engine is that it accepts raw HTML file as the base template and embeds your dynamic ASP.Net WebForm content inside that HTML. It also provides navigation control which runs off of XHTML templates and XML.&lt;/p&gt;
 
-&lt;p&gt;If you like my free utilities, don&amp;rsquo;t forget to check out the &lt;a href=&#34;https://shitalshah.github.io/p/category/software/&#34;&gt;massive updates in my Software section&lt;/a&gt;. It has now many more of my programs and utilities that I kept it to myself. Specifically, the one called &lt;a href=&#34;https://github.com/sytelus/BrowserHistoryAnalyzer&#34; target=&#34;_blank&#34;&gt;Browser History Analyzer&lt;/a&gt; analyses your IE history (support for FireFox coming soon), builds MS Access database and gives you tons of amusing info about your browsing habits such has the queries you fired on search engine, how do you refine your keywords progressively, how much time you usually spend on a page, how much time you spend on browsing and so on. Whilte still in development, it also features extensible architecture to let you make your own plugins. I&amp;rsquo;ve also put the link for article I wrote for CodeProject about &lt;a href=&#34;https://github.com/sytelus/WinProgressDialog&#34; target=&#34;_blank&#34;&gt;how to show Explorer&amp;rsquo;s progress dialog in your apps&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you like my free utilities, don&amp;rsquo;t forget to check out the &lt;a href=&#34;http://shitalshah.com/p/category/software/&#34;&gt;massive updates in my Software section&lt;/a&gt;. It has now many more of my programs and utilities that I kept it to myself. Specifically, the one called &lt;a href=&#34;https://github.com/sytelus/BrowserHistoryAnalyzer&#34; target=&#34;_blank&#34;&gt;Browser History Analyzer&lt;/a&gt; analyses your IE history (support for FireFox coming soon), builds MS Access database and gives you tons of amusing info about your browsing habits such has the queries you fired on search engine, how do you refine your keywords progressively, how much time you usually spend on a page, how much time you spend on browsing and so on. Whilte still in development, it also features extensible architecture to let you make your own plugins. I&amp;rsquo;ve also put the link for article I wrote for CodeProject about &lt;a href=&#34;https://github.com/sytelus/WinProgressDialog&#34; target=&#34;_blank&#34;&gt;how to show Explorer&amp;rsquo;s progress dialog in your apps&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Finally some &lt;a href=&#34;https://plus.google.com/photos/111712720654017421562/albums/5987178406068558081&#34; target=&#34;_blank&#34;&gt;Alaska trip photos&lt;/a&gt; also have been added. Yenjoy :).&lt;/p&gt;
 </description>
@@ -365,10 +365,10 @@ End try
     
     <item>
       <title>Using Windows Explorer Progress Dialog In Your Application</title>
-      <link>https://shitalshah.github.io/p/using-windows-explorer-progress-dialog-in-your-application/</link>
+      <link>http://shitalshah.com/p/using-windows-explorer-progress-dialog-in-your-application/</link>
       <pubDate>Sun, 26 Dec 2004 19:37:27 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/using-windows-explorer-progress-dialog-in-your-application/</guid>
-      <description>&lt;p&gt;&lt;a href=https://shitalshah.github.io/images/posts/2004/12/ProgressDialogDemo.jpg&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2004/12/ProgressDialogDemo.jpg&#34; alt=&#34;ProgressDialogDemo&#34; width=&#34;381&#34; height=&#34;169&#34; class=&#34;alignleft size-full wp-image-897&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/ProgressDialogDemo.jpg 381w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/ProgressDialogDemo-300x133.jpg 300w&#34; sizes=&#34;(max-width: 381px) 100vw, 381px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shitalshah.com/p/using-windows-explorer-progress-dialog-in-your-application/</guid>
+      <description>&lt;p&gt;&lt;a href=http://shitalshah.com/images/posts/2004/12/ProgressDialogDemo.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/ProgressDialogDemo.jpg&#34; alt=&#34;ProgressDialogDemo&#34; width=&#34;381&#34; height=&#34;169&#34; class=&#34;alignleft size-full wp-image-897&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/ProgressDialogDemo.jpg 381w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/ProgressDialogDemo-300x133.jpg 300w&#34; sizes=&#34;(max-width: 381px) 100vw, 381px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;When you copy lot of files in Explorer, you see the standard Windows progress dialog with &amp;ldquo;flying papers&amp;rdquo; animation and the calculation of estimated time remaining. This dialog is accessible to any Windows application through &lt;a href=&#34;http://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/shell/reference/ifaces/iprogressdialog/iprogressdialog.asp&#34; target=&#34;_blank&#34;&gt;IProgressDialog interface&lt;/a&gt;. This source code provides you a managed .Net wrapper to easily and intuitively integrate Windows Progress Dialog in your own applications. You can read more details in &lt;a href=&#34;http://www.codeproject.com/Articles/9298/Using-Windows-Explorer-Progress-Dialog-In-Your-App&#34; target=&#34;_blank&#34;&gt;my original article on CodeProject&lt;/a&gt;. Also see the comments in that article. It looks like two of the guys really hit on it and have produced a stand alone version.&lt;/p&gt;
 
@@ -385,9 +385,9 @@ End try
     
     <item>
       <title>Is Jeff Richter Screwing Up The .Net Versioning?</title>
-      <link>https://shitalshah.github.io/p/is-jeff-richter-screwing-up-the-net-versioning/</link>
+      <link>http://shitalshah.com/p/is-jeff-richter-screwing-up-the-net-versioning/</link>
       <pubDate>Mon, 08 Nov 2004 21:51:06 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/is-jeff-richter-screwing-up-the-net-versioning/</guid>
+      <guid>http://shitalshah.com/p/is-jeff-richter-screwing-up-the-net-versioning/</guid>
       <description>&lt;p&gt;I don&amp;rsquo;t know how no one is bothered by this. May be because &lt;a href=&#34;http://www.theserverside.net/articles/showarticle.tss?id=AssemblyVersioning&#34; target=&#34;_blank&#34;&gt;it affects Longhorn&lt;/a&gt;. But anyway, everybody would agree that while .Net solved the DLL Hell issue, it created its own which I affectionally call Assembly Hell and had &lt;a href=&#34;http://groups.yahoo.com/group/win_tech_off_topic/message/21462&#34; target=&#34;_blank&#34;&gt;my rants&lt;/a&gt; loud from the start. I&amp;rsquo;d high hopes when I heard Jeff Richter is on the team. But be hold, they come up with the statement that the problem is &amp;ldquo;mathematically&amp;rdquo; unsolvable and some fuzzy argument to back up that statement and then they reveal possibly the worst versioning scheme I&amp;rsquo;ve heard in a decade for anything: divide the assemblies in &amp;ldquo;platform&amp;rdquo; and &amp;ldquo;library&amp;rdquo; groups! I can&amp;rsquo;t even start to imagine someone could think of this kind of stupid idea for things that will hit the entire planet on massive scale. Must be an outcome of long meetings for days :).&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;d been burned a lot by missing gaps in .Net versioning and problem is pretty simple if you had been in this mess. The solution is even amazingly simple for what it appears like a monster.&lt;/p&gt;
@@ -400,9 +400,9 @@ End try
     
     <item>
       <title>My WinForms Library</title>
-      <link>https://shitalshah.github.io/p/my-winforms-library/</link>
+      <link>http://shitalshah.com/p/my-winforms-library/</link>
       <pubDate>Wed, 20 Oct 2004 11:09:19 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/my-winforms-library/</guid>
+      <guid>http://shitalshah.com/p/my-winforms-library/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/wp-content/uploads/2004/12/WinFormsCommonLibrary.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://shitalshah.com/wp-content/uploads/2004/12/WinFormsCommonLibrary-186x300.jpg&#34; alt=&#34;WinFormsCommonLibrary&#34; width=&#34;186&#34; height=&#34;300&#34; class=&#34;alignleft size-medium wp-image-905&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/WinFormsCommonLibrary-186x300.jpg 186w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/WinFormsCommonLibrary.jpg 280w&#34; sizes=&#34;(max-width: 186px) 100vw, 186px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is collection of several reusable components to use in your WinForms application. I&amp;rsquo;d been building it up and reusing in my own personal applications such as BrowserHistoryAnalyser and NotepadX and others. It contains editable drag-n-drop enabled TreeView, RichText editor control with toolbar, Worksheet editor control, Password Input Form, MRU, custom attributes you can use for your assemblies, more easily usable hidden property editor control, advanced About Dialog, Application Options management and Assembly Info Viewer Control.&lt;/p&gt;
@@ -420,18 +420,18 @@ End try
     
     <item>
       <title>Make Your Windows More Geekier</title>
-      <link>https://shitalshah.github.io/p/make-your-windows-more-geekier/</link>
+      <link>http://shitalshah.com/p/make-your-windows-more-geekier/</link>
       <pubDate>Mon, 13 Sep 2004 17:45:06 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/make-your-windows-more-geekier/</guid>
+      <guid>http://shitalshah.com/p/make-your-windows-more-geekier/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.x-setup.net/&#34; target=&#34;_blank&#34;&gt;X-Setup&lt;/a&gt; is perhaps the most comprehensive Windows tweaking utility. I always end up spending half a day enabling all the hidden advanced settings using this thing. Fortunately it provides Recording mode and creation of a REG file. This is really cool because now with just a click I can make any XP/2003 machine more geekier and end lots of &amp;ldquo;default&amp;rdquo; annoyances. If you are interested you too can use my &lt;a href=&#34;https://github.com/sytelus/MiscDevFiles/blob/master/source/XSetup%20-%20All.reg&#34; target=&#34;_blank&#34;&gt;final REG file&lt;/a&gt;. It would enable a whole range of features – everything from showing additional control panel applets, using double pans in explorer, removing Outlook attachment restrictions, showing file attributes in tooltip, adding new items in Explorer context menu, removing Shutdown Reason UI, kill everything quickly when shutting down and so on&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Browser History Analyser</title>
-      <link>https://shitalshah.github.io/p/browser-history-analyser/</link>
+      <link>http://shitalshah.com/p/browser-history-analyser/</link>
       <pubDate>Tue, 07 Sep 2004 03:16:19 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/browser-history-analyser/</guid>
+      <guid>http://shitalshah.com/p/browser-history-analyser/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/wp-content/uploads/2004/12/BrowserHistoryAnalyser.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://shitalshah.com/wp-content/uploads/2004/12/BrowserHistoryAnalyser-300x174.jpg&#34; alt=&#34;BrowserHistoryAnalyser&#34; width=&#34;300&#34; height=&#34;174&#34; class=&#34;alignleft size-medium wp-image-892&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/BrowserHistoryAnalyser-300x174.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/BrowserHistoryAnalyser-1024x595.jpg 1024w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/BrowserHistoryAnalyser.jpg 1280w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I like to preserve logs of my browser history. Apart from recalling useful webpages I&amp;rsquo;d discovered, it helps to build kind of &amp;ldquo;journal&amp;rdquo; reflecting problems I was facing, things I was in to, things I was shopping and so on. An ability to look back and see what you were up to in any point of time is really important, not just useful. Unfortunately there is no easy way to export history from IE or Firefox, let alone query that data in an useful way. So this is the program I&amp;rsquo;d been putting some time on and off. The first version I&amp;rsquo;d made meant only for my personal and was a quick and dirty program in VB6 more then 5 years ago. Its latest incarnation is now rewritten from scratch in .Net 2.0 Beta1 and provides loads of functionalities in nice user interface. You can do all of followings:&lt;/p&gt;
@@ -462,9 +462,9 @@ End try
     
     <item>
       <title>Dealing With DataViews</title>
-      <link>https://shitalshah.github.io/p/dealing-with-dataviews/</link>
+      <link>http://shitalshah.com/p/dealing-with-dataviews/</link>
       <pubDate>Tue, 31 Aug 2004 18:50:57 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/dealing-with-dataviews/</guid>
+      <guid>http://shitalshah.com/p/dealing-with-dataviews/</guid>
       <description>&lt;p&gt;I never liked being forced to use DataView just to speed up my searches. Why not DataTable.Select() have an overload to generate internal indexes and do some smart things? But anyway, most people searching DataSet eventually would realizes that performance really sucks and they have no choice but to use DataViews, sometime whole bunch of it prepared for all sorts of queries you want to fire. Here are two things you should watch out (&lt;a href=&#34;http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemDataDataRowViewClassDeleteTopic.asp&#34; target=&#34;_blank&#34;&gt;MSDN docs&lt;/a&gt; aren’t clear about this):&lt;/p&gt;
 
 &lt;ol&gt;
@@ -479,9 +479,9 @@ End try
     
     <item>
       <title>DataSet, not XML</title>
-      <link>https://shitalshah.github.io/p/dataset-not-xml/</link>
+      <link>http://shitalshah.com/p/dataset-not-xml/</link>
       <pubDate>Tue, 24 Aug 2004 18:09:57 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/dataset-not-xml/</guid>
+      <guid>http://shitalshah.com/p/dataset-not-xml/</guid>
       <description>&lt;p&gt;If you need to store certain data in file, most of the time you will obviously think about storing it as XML file. Then soon you start drawing XML schemas and think about generating XSDs&amp;hellip; Well, stop! You might be making same mistake as many other people. The better idea is to design XML schema which is &lt;a href=&#34;http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpguide/html/cpconloadingdatasetfromxml.asp&#34; target=&#34;_blank&#34;&gt;loadable in DataSet&lt;/a&gt; rather then just &lt;a href=&#34;http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfsystemxmlxmldocumentclasstopic.asp&#34; target=&#34;_blank&#34;&gt;XMLDocument&lt;/a&gt;. This has tremendous advantages then your custom schema:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -507,9 +507,9 @@ End try
     
     <item>
       <title>When .Net Framework 2.0 Beta Messes You Up</title>
-      <link>https://shitalshah.github.io/p/when-net-framework-2-0-beta-messes-you-up/</link>
+      <link>http://shitalshah.com/p/when-net-framework-2-0-beta-messes-you-up/</link>
       <pubDate>Tue, 24 Aug 2004 04:02:08 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/when-net-framework-2-0-beta-messes-you-up/</guid>
+      <guid>http://shitalshah.com/p/when-net-framework-2-0-beta-messes-you-up/</guid>
       <description>&lt;p&gt;If you installed &lt;a href=&#34;http://www.microsoft.com/downloads/details.aspx?FamilyID=916ec067-8bdc-4737-9430-6cec9667655c&amp;amp;DisplayLang=en&#34; target=&#34;_blank&#34;&gt;.Net Framework 2.0 Beta&lt;/a&gt; and suddenly &lt;a href=&#34;http://msdn.microsoft.com/vstudio&#34; target=&#34;_blank&#34;&gt;VS2K3.Net&lt;/a&gt; refuses to attach to your existing 1.1 apps with a very cool error message “Unable to attach to process”, don’t get panic! Looks like side-by-side promise of Framework versions doesn’t work in some rare cases (which somehow I always get in to). Unfortunately you can’t uninstall 2.0 (even though it gets installed in separate folder, core DLLs such as mscorlib.dll is already replaced by 2.0 version). The best way to make things work is to live with it and add this little snippet in your &lt;a href=&#34;http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpguide/html/cpconapplicationconfigurationfiles.asp&#34; target=&#34;_blank&#34;&gt;[myapp].exe.config&lt;/a&gt;:&lt;/p&gt;
 
 &lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;&amp;lt;?xml:namespace prefix = o ns = &#34;urn:schemas-microsoft-com:office:office&#34; /&amp;gt;
@@ -528,18 +528,18 @@ End try
     
     <item>
       <title>I Replaced My Task Manager, Have You?</title>
-      <link>https://shitalshah.github.io/p/i-replaced-my-task-manager-have-you/</link>
+      <link>http://shitalshah.com/p/i-replaced-my-task-manager-have-you/</link>
       <pubDate>Mon, 02 Aug 2004 19:35:22 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/i-replaced-my-task-manager-have-you/</guid>
+      <guid>http://shitalshah.com/p/i-replaced-my-task-manager-have-you/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.sysinternals.com/ntw2k/freeware/procexp.shtml&#34; target=&#34;_blank&#34;&gt;This Task Manager&lt;/a&gt; for Windows rocks. Besides doing everything that you ever wanted from a thing called Task Manager (even showing open files for every process), it has one of the sweetest option that your application should provide: Replace Windows native [equivalent thing]! I just keep wishing if there had been free and with-source Calculators and Explorers and everything else Windows that I can just replace with a click like this and move on rather then &lt;a href=&#34;http://radio.weblogs.com/0001011/2002/09/27.html#a1547&#34; target=&#34;_blank&#34;&gt;waiting for a decade&lt;/a&gt; on Microsoft to improve their &lt;a href=&#34;http://thread.gmane.org/gmane.comp.windows.off-topic/5339&#34; target=&#34;_blank&#34;&gt;age old featureless&lt;/a&gt; apps. So when you are getting &lt;a href=&#34;http://www.stardock.com/products/windowblinds/&#34; target=&#34;_blank&#34;&gt;cool skinable Windows&lt;/a&gt;? In &lt;a href=&#34;http://www.microsoft-watch.com/article2/0,1995,1539735,00.asp&#34; target=&#34;_blank&#34;&gt;next 3 years&lt;/a&gt;? Yeah, right.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A Little .Net Puzzle</title>
-      <link>https://shitalshah.github.io/p/a-little-net-puzzle/</link>
+      <link>http://shitalshah.com/p/a-little-net-puzzle/</link>
       <pubDate>Wed, 28 Jul 2004 15:14:25 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/a-little-net-puzzle/</guid>
+      <guid>http://shitalshah.com/p/a-little-net-puzzle/</guid>
       <description>&lt;p&gt;This innocent little puzzle formed from some of the recent code I was writing. Lets see if it gets you!&lt;/p&gt;
 
 &lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;object p = 2;
@@ -554,18 +554,18 @@ System.Diagnostics.Debug.WriteLine(&#34;Answer is &#34; + q.ToString());
     
     <item>
       <title>Condomania Wizard Interface</title>
-      <link>https://shitalshah.github.io/p/condomania-wizard-interface/</link>
+      <link>http://shitalshah.com/p/condomania-wizard-interface/</link>
       <pubDate>Wed, 14 Jul 2004 06:07:33 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/condomania-wizard-interface/</guid>
+      <guid>http://shitalshah.com/p/condomania-wizard-interface/</guid>
       <description>&lt;p&gt;&lt;a href=http://www.condomania.com/shopping/wizards/wizardmain.jsp?itemType=CATEGORY&amp;itemID=105 target=&#34;new&#34;&gt;This&lt;/a&gt; is probably the best Wizard User Interface I&amp;rsquo;ve seen so far ;).&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Recursion Enabled Task Progress Dialog</title>
-      <link>https://shitalshah.github.io/p/recursion-enabled-task-progress-dialog/</link>
+      <link>http://shitalshah.com/p/recursion-enabled-task-progress-dialog/</link>
       <pubDate>Mon, 12 Jul 2004 10:37:07 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/recursion-enabled-task-progress-dialog/</guid>
+      <guid>http://shitalshah.com/p/recursion-enabled-task-progress-dialog/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/wp-content/uploads/2004/12/TaskProgress.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://shitalshah.com/wp-content/uploads/2004/12/TaskProgress-300x180.jpg&#34; alt=&#34;TaskProgress&#34; width=&#34;300&#34; height=&#34;180&#34; class=&#34;alignleft size-medium wp-image-903&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/TaskProgress-300x180.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/TaskProgress.jpg 344w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is an advanced progress dialog which can be shared among method calls which can call each other recursively. Each method call gets a portion of the total progress so we can see some continuous progress instead of only top level method progress.&lt;/p&gt;
@@ -606,9 +606,9 @@ private void Callee1()
     
     <item>
       <title>Hackers Conference @ NYC Starts</title>
-      <link>https://shitalshah.github.io/p/hackers-conference-nyc-2004/</link>
+      <link>http://shitalshah.com/p/hackers-conference-nyc-2004/</link>
       <pubDate>Fri, 09 Jul 2004 16:57:02 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/hackers-conference-nyc-2004/</guid>
+      <guid>http://shitalshah.com/p/hackers-conference-nyc-2004/</guid>
       <description>&lt;p&gt;The &lt;a href=&#34;http://www.the-fifth-hope.org/hoop/&#34; target=&#34;_blank&#34;&gt;Fifth HOPE conference&lt;/a&gt; featuring talks, workshops, movies and other events from several well known hackers including Steve Wozniak, Cult of Dead Cow, John Draper and so on is already started at NYC today (July 9, 2004). I&amp;rsquo;d read lot about many of these people dedicated to pure hacking in early years in the book &lt;a href=&#34;http://www.amazon.com/exec/obidos/ASIN/0141000511&#34; target=&#34;_blank&#34;&gt;Hackers&lt;/a&gt; and now its a chance to actually hear them! The conference has 70+ talks which itself is pretty long list even to browse through. Here are my picks from the list:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -632,9 +632,9 @@ private void Callee1()
     
     <item>
       <title>NotepadX - Manage Your Notes With Power!</title>
-      <link>https://shitalshah.github.io/p/notepadx-manage-your-notes-with-power/</link>
+      <link>http://shitalshah.com/p/notepadx-manage-your-notes-with-power/</link>
       <pubDate>Tue, 23 Mar 2004 19:15:48 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/notepadx-manage-your-notes-with-power/</guid>
+      <guid>http://shitalshah.com/p/notepadx-manage-your-notes-with-power/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/wp-content/uploads/2004/03/notepad-intro.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://shitalshah.com/wp-content/uploads/2004/03/notepad-intro-300x198.jpg&#34; alt=&#34;notepad-intro&#34; width=&#34;300&#34; height=&#34;198&#34; class=&#34;alignleft size-medium wp-image-998&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/03/notepad-intro-300x198.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/03/notepad-intro.jpg 632w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;NotepadX is a powerful program to let you to keep your notes in hierarchically organized categories. Also it not just allows you to create rich text/ plain text notes but also the notes which are like Worksheet or a treeview! It also supports encrypted secured notes so you can save your passwords and sensitive information safely. You can also create read-only notes and pass it around. The Edit-In-Word allows you to use Word for rich text formatting in case my basic editor didn&amp;rsquo;t fit your needs. All your notes get saved in to one single XML file and for programmers, you have entire source code, several reusable components and nice object model if you need to tweak it. This has been my pass time project and several features are missing right now which I might work on in future, such as: integration with OneNote, search feature, export feature, merging of several notes etc.&lt;/p&gt;
@@ -652,21 +652,21 @@ private void Callee1()
     
     <item>
       <title>Anders Hejlsberg</title>
-      <link>https://shitalshah.github.io/p/anders-hejlsberg/</link>
+      <link>http://shitalshah.com/p/anders-hejlsberg/</link>
       <pubDate>Tue, 26 Aug 2003 06:09:42 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/anders-hejlsberg/</guid>
+      <guid>http://shitalshah.com/p/anders-hejlsberg/</guid>
       <description>&lt;p&gt;Just watched &lt;a href=&#34;http://msdn.microsoft.com/theshow/Episode035/default.asp&#34; target=&#34;_blank&#34;&gt;MSDN TV&amp;rsquo;s new episode on Managed Code&lt;/a&gt;. The topic is pretty trivial for me but what&amp;rsquo;s exciting is to see one person talking and seating there. I remember my years as a rebellious programmer when followers were few and swimming opposite the popular currents wasn&amp;rsquo;t easy. In all-Unix all-C++ organization I&amp;rsquo;d heavily pushed for tools and style I believed in - even if it meant taking over entire responsibility and work load on me. All those tools that I chose, used and appreciated for the vision it embedded, looked separate pieces of great ideas which just seem to happen to came on my way&amp;hellip; until there was one day when I read a magazine article and came to know there was really only one person behind all of those and all these years: Anders Hejlsberg. Those separate pieces of vision now seems to make a complete picture and so you can imagine how I would have stand in awe of him. As far as world of programming is concerned, Anders is my hero.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Blogger.com To dasBlog Converter Tool</title>
-      <link>https://shitalshah.github.io/p/blogger-com-to-dasblog-converter-tool/</link>
+      <link>http://shitalshah.com/p/blogger-com-to-dasblog-converter-tool/</link>
       <pubDate>Tue, 01 Jul 2003 10:40:48 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/blogger-com-to-dasblog-converter-tool/</guid>
+      <guid>http://shitalshah.com/p/blogger-com-to-dasblog-converter-tool/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/wp-content/uploads/2004/12/Blogger2dasBlog.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://shitalshah.com/wp-content/uploads/2004/12/Blogger2dasBlog-300x214.jpg&#34; alt=&#34;Blogger2dasBlog&#34; width=&#34;300&#34; height=&#34;214&#34; class=&#34;alignleft size-medium wp-image-891&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/Blogger2dasBlog-300x214.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/Blogger2dasBlog.jpg 768w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;My &lt;a href=&#34;https://shitalshah.github.io/&#34;&gt;blog&lt;/a&gt; was previously hosted on Blogger.com and boy, that thing sucked. So my mission was to host my blog on my own site with an ASP.Net engine that I can customize and extend as I like. So DasBlog came along but there weren&amp;rsquo;t any tools around to fetch my blog entries from Blogger.com and put in to dasBlog. Sure I didn&amp;rsquo;t want to loose my previous entries, so I made my own conversion tool that does this export from blogger.com and import in to dasBlog. It&amp;rsquo;s also a good demonstration of how to use Blogger API, XML-RPC and use dasBlog engine. Infect you can use it with any host that supports Blogger API by changing server URI in Blogger.cs class. I used open source XML-RPC wrapper for .Net but had to tweak it and fix it a bit so this is more improved version :). You may note that, it imports entries in to dasBlog hosted on your localhost and not on remote server, so you will need to manually copy XMLs generated in Content folder on your local machines inetpub\wwwroot$$!dasBlog path]\Content to your remote server.&lt;/p&gt;
+&lt;p&gt;My &lt;a href=&#34;http://shitalshah.com/&#34;&gt;blog&lt;/a&gt; was previously hosted on Blogger.com and boy, that thing sucked. So my mission was to host my blog on my own site with an ASP.Net engine that I can customize and extend as I like. So DasBlog came along but there weren&amp;rsquo;t any tools around to fetch my blog entries from Blogger.com and put in to dasBlog. Sure I didn&amp;rsquo;t want to loose my previous entries, so I made my own conversion tool that does this export from blogger.com and import in to dasBlog. It&amp;rsquo;s also a good demonstration of how to use Blogger API, XML-RPC and use dasBlog engine. Infect you can use it with any host that supports Blogger API by changing server URI in Blogger.cs class. I used open source XML-RPC wrapper for .Net but had to tweak it and fix it a bit so this is more improved version :). You may note that, it imports entries in to dasBlog hosted on your localhost and not on remote server, so you will need to manually copy XMLs generated in Content folder on your local machines inetpub\wwwroot$$!dasBlog path]\Content to your remote server.&lt;/p&gt;
 
 &lt;p class=&#34;obsolete&#34;&gt;
   Warning: This program was written circa 2003 and last updated around Mar 2005. It is currently considered obsolete. There are no plans to update it and no support is provided.
@@ -681,9 +681,9 @@ private void Callee1()
     
     <item>
       <title>Misc Dev Files</title>
-      <link>https://shitalshah.github.io/p/misc-dev-files-project/</link>
+      <link>http://shitalshah.com/p/misc-dev-files-project/</link>
       <pubDate>Thu, 29 May 2003 12:30:23 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/misc-dev-files-project/</guid>
+      <guid>http://shitalshah.com/p/misc-dev-files-project/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2003/05/RepoMiscDevFiles20140613.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2003/05/RepoMiscDevFiles20140613.png&#34; alt=&#34;RepoMiscDevFiles20140613&#34; width=&#34;210&#34; height=&#34;134&#34; class=&#34;alignleft size-full wp-image-1445&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -721,10 +721,10 @@ private void Callee1()
     
     <item>
       <title>SyFastPage - Churn Out Those Web Sites Faster!</title>
-      <link>https://shitalshah.github.io/p/syfastpage-churn-out-those-web-sites-faster/</link>
+      <link>http://shitalshah.com/p/syfastpage-churn-out-those-web-sites-faster/</link>
       <pubDate>Mon, 03 Mar 2003 19:15:42 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/syfastpage-churn-out-those-web-sites-faster/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2003/03/tools_icon.gif&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2003/03/tools_icon.gif&#34; alt=&#34;tools_icon&#34; width=&#34;40&#34; height=&#34;40&#34; class=&#34;alignleft size-full wp-image-1124&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shitalshah.com/p/syfastpage-churn-out-those-web-sites-faster/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2003/03/tools_icon.gif&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2003/03/tools_icon.gif&#34; alt=&#34;tools_icon&#34; width=&#34;40&#34; height=&#34;40&#34; class=&#34;alignleft size-full wp-image-1124&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is my private library to build ASP.Net websites with one goal in mind: build it fast! I&amp;rsquo;ve already exploited it in building 3 of the websites (including this one) and one of them was literally built overnight! So well, it proves the point. This is still evolving code and there is not much documentation right now but you can contact me for assistance. Here&amp;rsquo;s what this library contains:&lt;/p&gt;
 
@@ -745,10 +745,10 @@ private void Callee1()
     
     <item>
       <title>WizAddIn &#43; Test program &#43; dev manual (beta version)</title>
-      <link>https://shitalshah.github.io/p/wizaddin-test-program-dev-manual-beta-version/</link>
+      <link>http://shitalshah.com/p/wizaddin-test-program-dev-manual-beta-version/</link>
       <pubDate>Thu, 18 Jul 2002 15:00:54 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/wizaddin-test-program-dev-manual-beta-version/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2004/12/wizaddin.jpg&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2004/12/wizaddin.jpg&#34; alt=&#34;wizaddin&#34; width=&#34;202&#34; height=&#34;118&#34; class=&#34;alignleft size-full wp-image-906&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shitalshah.com/p/wizaddin-test-program-dev-manual-beta-version/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/wizaddin.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/wizaddin.jpg&#34; alt=&#34;wizaddin&#34; width=&#34;202&#34; height=&#34;118&#34; class=&#34;alignleft size-full wp-image-906&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is complete rewrite of WizAddIn and much more organized code but less tested. However you get nice document on how to use it and a test demo program too.&lt;/p&gt;
 
@@ -765,10 +765,10 @@ private void Callee1()
     
     <item>
       <title>Wiz AddIn - Add Line Numbers, Error Handlers, Fix MRU</title>
-      <link>https://shitalshah.github.io/p/wiz-addin-add-line-numbers-error-handlers-fix-mru/</link>
+      <link>http://shitalshah.com/p/wiz-addin-add-line-numbers-error-handlers-fix-mru/</link>
       <pubDate>Mon, 14 Jan 2002 11:29:07 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/wiz-addin-add-line-numbers-error-handlers-fix-mru/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2004/12/wizaddin.jpg&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2004/12/wizaddin.jpg&#34; alt=&#34;wizaddin&#34; width=&#34;202&#34; height=&#34;118&#34; class=&#34;alignleft size-full wp-image-906&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shitalshah.com/p/wiz-addin-add-line-numbers-error-handlers-fix-mru/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/wizaddin.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/wizaddin.jpg&#34; alt=&#34;wizaddin&#34; width=&#34;202&#34; height=&#34;118&#34; class=&#34;alignleft size-full wp-image-906&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is an add-in for Microsoft Visual Basic 6.0. It does following of things: \ 1. Adds/removes line numbers from projects in a group. Unlike other add-ins, this one has been thoroughly tested on live complex projects for more then a year and has lots of code to workaround VB IDE object model bugs. It also does smart numbering (for example it won&amp;rsquo;t number trivial assignment statements in Property Get). 2. This add-in can also add error handlers in all methods. Again unlike other similar utilities, this one has been thoroughly tested, accepts a directive to turn off error handler and has some decision making code to decide whether an error handler would effect actual logic. 3. Fix for VB&amp;rsquo;s recent menu item bug (MRU) (you might have noticed VB&amp;rsquo;s Recent project item menu always gets messed up). is an add-in for Microsoft Visual Basic 6.0. It does following of things: \ 1. Adds/removes line numbers from projects in a group. Unlike other add-ins, this one has been thoroughly tested on live complex projects for more then a year and has lots of code to workaround VB IDE object model bugs. It also does smart numbering (for example it won&amp;rsquo;t number trivial assignment statements in Property Get). 2. This add-in can also add error handlers in all methods. Again unlike other similar utilities, this one has been thoroughly tested, accepts a directive to turn off error handler and has some decision making code to decide whether an error handler would effect actual logic. 3. Fix for VB&amp;rsquo;s recent menu item bug (MRU) (you might have noticed VB&amp;rsquo;s Recent project item menu always gets messed up).&lt;/p&gt;
 
@@ -785,9 +785,9 @@ private void Callee1()
     
     <item>
       <title>Source Code For ShitalShah.com V3</title>
-      <link>https://shitalshah.github.io/p/source-code-for-shitalshah-com-v3/</link>
+      <link>http://shitalshah.com/p/source-code-for-shitalshah-com-v3/</link>
       <pubDate>Tue, 01 Jan 2002 00:00:37 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/source-code-for-shitalshah-com-v3/</guid>
+      <guid>http://shitalshah.com/p/source-code-for-shitalshah-com-v3/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/wp-content/uploads/2004/12/ShitalShah.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://shitalshah.com/wp-content/uploads/2004/12/ShitalShah-300x207.jpg&#34; alt=&#34;ShitalShah&#34; width=&#34;300&#34; height=&#34;207&#34; class=&#34;alignleft size-medium wp-image-902&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/ShitalShah-300x207.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/ShitalShah.jpg 907w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I believe websites should give away their source code if you&amp;rsquo;d created it just for fun and it wasn&amp;rsquo;t for money. So yes, here&amp;rsquo;s the source code of this whole website itself! Points of interests: SiteData.mdb contains most of the data in relational format which you can query, lots of examples of user controls that I use as templates in DataGrid rows and it is a good example of how my SyFastPage framework actually gets used. The code may be slighly out of date as I do not plan to always keep it synchronized. This website is active since 1998 and its implementation had moved from HTML/JavaScript to ASP to finally its present day ASP.Net. The source code contains only most recent implementation.&lt;/p&gt;
@@ -805,10 +805,10 @@ private void Callee1()
     
     <item>
       <title>Outlook Quote</title>
-      <link>https://shitalshah.github.io/p/outlook-quote/</link>
+      <link>http://shitalshah.com/p/outlook-quote/</link>
       <pubDate>Thu, 29 Nov 2001 10:06:13 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/outlook-quote/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2001/11/outlook_quote_screenshot.jpg&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2001/11/outlook_quote_screenshot-267x300.jpg&#34; alt=&#34;outlook_quote_screenshot&#34; width=&#34;267&#34; height=&#34;300&#34; class=&#34;alignleft size-medium wp-image-1199&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2001/11/outlook_quote_screenshot-267x300.jpg 267w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2001/11/outlook_quote_screenshot.jpg 439w&#34; sizes=&#34;(max-width: 267px) 100vw, 267px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shitalshah.com/p/outlook-quote/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2001/11/outlook_quote_screenshot.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2001/11/outlook_quote_screenshot-267x300.jpg&#34; alt=&#34;outlook_quote_screenshot&#34; width=&#34;267&#34; height=&#34;300&#34; class=&#34;alignleft size-medium wp-image-1199&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2001/11/outlook_quote_screenshot-267x300.jpg 267w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2001/11/outlook_quote_screenshot.jpg 439w&#34; sizes=&#34;(max-width: 267px) 100vw, 267px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Unix users have taken for granted automatic insertion of a random quote-of-the-day in their emails since ages and that&amp;rsquo;s something Windows users still can&amp;rsquo;t do with their brilliant Ver. 10 of Microsoft Outlook. The situation usually gets unnoticed until you start getting those emails with quotes from a Linux guy and you find yourself incapable of &amp;ldquo;responding&amp;rdquo; with the similar cream-at-the-bottom. That was yesterday, however. The Outlook Quote is the cool answer to the quest and it does it all and more. It has very elegant user interface, extensibility, ease of use, ease of installation and complete seamless integration with Outlook.&lt;/p&gt;
 
@@ -825,9 +825,9 @@ private void Callee1()
     
     <item>
       <title>DiffAnalyzer - See The Differences Between Branched SourceSafe Projects</title>
-      <link>https://shitalshah.github.io/p/diffanalyzer-see-the-differences-between-branched-sourcesafe-projects/</link>
+      <link>http://shitalshah.com/p/diffanalyzer-see-the-differences-between-branched-sourcesafe-projects/</link>
       <pubDate>Mon, 19 Nov 2001 13:24:48 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/diffanalyzer-see-the-differences-between-branched-sourcesafe-projects/</guid>
+      <guid>http://shitalshah.com/p/diffanalyzer-see-the-differences-between-branched-sourcesafe-projects/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/wp-content/uploads/2003/03/tools_icon.gif&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://shitalshah.com/wp-content/uploads/2003/03/tools_icon.gif&#34; alt=&#34;tools_icon&#34; width=&#34;40&#34; height=&#34;40&#34; class=&#34;alignleft size-full wp-image-1124&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;If you need to maintain several source branches in SourceSafe and constantly retrofitting your code around, this application can be tremendously helpful. It looks in to two specified SourceSafe folders, goes through all the files in them and finds out which files are different and performs various analysis in smarter way so you don&amp;rsquo;t have to actually check diffs manually. This application is in state of easy clicks.&lt;/p&gt;
@@ -845,10 +845,10 @@ private void Callee1()
     
     <item>
       <title>Fix MSCOM OCX Class IDs In VB Projects</title>
-      <link>https://shitalshah.github.io/p/fix-mscom-ocx-class-ids-in-vb-projects/</link>
+      <link>http://shitalshah.com/p/fix-mscom-ocx-class-ids-in-vb-projects/</link>
       <pubDate>Sat, 04 Mar 2000 16:13:33 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/fix-mscom-ocx-class-ids-in-vb-projects/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2003/03/tools_icon.gif&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2003/03/tools_icon.gif&#34; alt=&#34;tools_icon&#34; width=&#34;40&#34; height=&#34;40&#34; class=&#34;alignleft size-full wp-image-1124&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shitalshah.com/p/fix-mscom-ocx-class-ids-in-vb-projects/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2003/03/tools_icon.gif&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2003/03/tools_icon.gif&#34; alt=&#34;tools_icon&#34; width=&#34;40&#34; height=&#34;40&#34; class=&#34;alignleft size-full wp-image-1124&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Call it yet another Microsoft&amp;rsquo;s blunder but you still can&amp;rsquo;t forget when you try to load a VB project and it says something &amp;ldquo;Can&amp;rsquo;t load MSCOMCTL.OCX&amp;rdquo; and replaces all your fancy controls with mere picture boxes! Here&amp;rsquo;s small utility that might do the trick. It goes through all your vbp, frm, ctl and replaces GUIDs of crazy OCXes with ones that you have. This application is right now not in state of easy clicks. You will have to find out GUIDs of OCXes installed in your machine and replace it by hand in the source code.&lt;/p&gt;
 
@@ -865,10 +865,10 @@ private void Callee1()
     
     <item>
       <title>Sorten Your File Names Before CD Writing!</title>
-      <link>https://shitalshah.github.io/p/sorten-your-file-names-before-cd-writing/</link>
+      <link>http://shitalshah.com/p/sorten-your-file-names-before-cd-writing/</link>
       <pubDate>Fri, 24 Dec 1999 17:22:02 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/sorten-your-file-names-before-cd-writing/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2003/03/tools_icon.gif&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2003/03/tools_icon.gif&#34; alt=&#34;tools_icon&#34; width=&#34;40&#34; height=&#34;40&#34; class=&#34;alignleft size-full wp-image-1124&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shitalshah.com/p/sorten-your-file-names-before-cd-writing/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2003/03/tools_icon.gif&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2003/03/tools_icon.gif&#34; alt=&#34;tools_icon&#34; width=&#34;40&#34; height=&#34;40&#34; class=&#34;alignleft size-full wp-image-1124&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;If you are like me you would be maintaining backups of things ranging from your favorite links to ICQ logs on writable CDs. But there is a snag. There would be lots of files on your disk that has names more then 60 characters - like the .lnk file in your Favorite folder! And that crashes the CD writing process regularly because normal CD file system doesn&amp;rsquo;t allow longer names. Solution? Sorten it! With this utility! This application is right now not in state of easy clicks. You might have to modify the source code for your needs.&lt;/p&gt;
 
@@ -885,10 +885,10 @@ private void Callee1()
     
     <item>
       <title>RefController - VB Add-In To Automatically Correct References</title>
-      <link>https://shitalshah.github.io/p/refcontroller-vb-add-in-to-automatically-correct-references/</link>
+      <link>http://shitalshah.com/p/refcontroller-vb-add-in-to-automatically-correct-references/</link>
       <pubDate>Fri, 15 Oct 1999 12:51:01 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/refcontroller-vb-add-in-to-automatically-correct-references/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2004/12/refcontroller.jpg&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2004/12/refcontroller-300x172.jpg&#34; alt=&#34;refcontroller&#34; width=&#34;300&#34; height=&#34;172&#34; class=&#34;alignleft size-medium wp-image-899&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/refcontroller-300x172.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/refcontroller.jpg 469w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shitalshah.com/p/refcontroller-vb-add-in-to-automatically-correct-references/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/refcontroller.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/refcontroller-300x172.jpg&#34; alt=&#34;refcontroller&#34; width=&#34;300&#34; height=&#34;172&#34; class=&#34;alignleft size-medium wp-image-899&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/refcontroller-300x172.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/refcontroller.jpg 469w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s not unusual to see &amp;ldquo;Missing References&amp;rdquo; when you open the VB project and then take the pain of correcting them by hand. If it has became your daily routine and you are really tired of that, here&amp;rsquo;s the magic VB Add-In that will save you from that! This add-in monitors the state of references when you open the VB project. If it&amp;rsquo;s Missing or not proper, it will look in to VBP file and try to locate the DLL and correct that bad reference for you! Besides everything else, it shows how to write self-installing VB Add-In and some cool add-in techniques. If you said WOW, head on for download!&lt;/p&gt;
 
@@ -905,10 +905,10 @@ private void Callee1()
     
     <item>
       <title>ScriptGen - Generate INSERT Scripts For MS SQL Server Data</title>
-      <link>https://shitalshah.github.io/p/scriptgen-generate-insert-scripts-for-ms-sql-server-data/</link>
+      <link>http://shitalshah.com/p/scriptgen-generate-insert-scripts-for-ms-sql-server-data/</link>
       <pubDate>Mon, 13 Sep 1999 07:34:21 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/scriptgen-generate-insert-scripts-for-ms-sql-server-data/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2004/12/scriptgen.jpg&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2004/12/scriptgen-300x234.jpg&#34; alt=&#34;scriptgen&#34; width=&#34;300&#34; height=&#34;234&#34; class=&#34;alignleft size-medium wp-image-901&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/scriptgen-300x234.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/scriptgen.jpg 594w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shitalshah.com/p/scriptgen-generate-insert-scripts-for-ms-sql-server-data/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/scriptgen.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/scriptgen-300x234.jpg&#34; alt=&#34;scriptgen&#34; width=&#34;300&#34; height=&#34;234&#34; class=&#34;alignleft size-medium wp-image-901&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/scriptgen-300x234.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/scriptgen.jpg 594w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;One of the most wanted feature from users point of view in MS SQL Server is capability to generate INSERT scripts for MS SQL Server data. But call it Microsoft&amp;rsquo;s ignorance, this feature not supplied since quite long. And even worse, there is no public domain application to do that. This feature is usually desperately required in situation like sending test data to somebody or supply sample data. So I decided to write my own. It&amp;rsquo;s still isn&amp;rsquo;t the perfect and can&amp;rsquo;t handle all of the possibilities but it could be your best bet with supplied source code! This application is right now in state of easy installation but no on-line help is available.&lt;/p&gt;
 
@@ -925,10 +925,10 @@ private void Callee1()
     
     <item>
       <title>Messanger - Send Windows NT Messages To Users</title>
-      <link>https://shitalshah.github.io/p/messanger-send-windows-nt-messages-to-users/</link>
+      <link>http://shitalshah.com/p/messanger-send-windows-nt-messages-to-users/</link>
       <pubDate>Thu, 19 Aug 1999 12:24:54 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/messanger-send-windows-nt-messages-to-users/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2004/12/messanger.jpg&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2004/12/messanger.jpg&#34; alt=&#34;messanger&#34; width=&#34;245&#34; height=&#34;192&#34; class=&#34;alignleft size-full wp-image-895&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shitalshah.com/p/messanger-send-windows-nt-messages-to-users/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/messanger.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/messanger.jpg&#34; alt=&#34;messanger&#34; width=&#34;245&#34; height=&#34;192&#34; class=&#34;alignleft size-full wp-image-895&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;If you have Windows network with NT Server in your organization, you have now ability to send messages to users that will popup on their screens all of the sudden. This is similar to how you get the message box on the screen when printer completes the printing. Administrators can use this app to send message to users asking them to log out. Or may be you just want to ask a colleague to come for a coffee! This application is right now in state of easy clicks.&lt;/p&gt;
 
@@ -945,10 +945,10 @@ private void Callee1()
     
     <item>
       <title>Relations Between Your VB Components</title>
-      <link>https://shitalshah.github.io/p/relations-between-your-vb-components/</link>
+      <link>http://shitalshah.com/p/relations-between-your-vb-components/</link>
       <pubDate>Tue, 10 Aug 1999 07:50:35 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/relations-between-your-vb-components/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2004/12/refexplorer.jpg&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2004/12/refexplorer-300x191.jpg&#34; alt=&#34;refexplorer&#34; width=&#34;300&#34; height=&#34;191&#34; class=&#34;alignleft size-medium wp-image-900&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/refexplorer-300x191.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/refexplorer.jpg 660w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shitalshah.com/p/relations-between-your-vb-components/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/refexplorer.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/refexplorer-300x191.jpg&#34; alt=&#34;refexplorer&#34; width=&#34;300&#34; height=&#34;191&#34; class=&#34;alignleft size-medium wp-image-900&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/refexplorer-300x191.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/refexplorer.jpg 660w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This application scans the given folder and sub folders for VBP files, analyses which VBP file references which ones and generates a Tree view showing this relationships. What&amp;rsquo;s more, it stores this analysis results in Access database so that you can run your own query or open it at later time. This utility is typically useful if your project consists of tons of VB components calling each other and if you wish to see what will be the impact of changing interface of one on other components. You can also use it to just document component relationships between your projects. This application also shows you how to analyze VBP file contents and ready-to-use source code. This application is right now in state of easy clicks but no online help is available.&lt;/p&gt;
 
@@ -965,10 +965,10 @@ private void Callee1()
     
     <item>
       <title>Text In File Search</title>
-      <link>https://shitalshah.github.io/p/text-in-file-search-all-terms/</link>
+      <link>http://shitalshah.com/p/text-in-file-search-all-terms/</link>
       <pubDate>Thu, 17 Jun 1999 20:58:24 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/text-in-file-search-all-terms/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2004/12/text_in_file.jpg&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2004/12/text_in_file.jpg&#34; alt=&#34;text_in_file&#34; width=&#34;265&#34; height=&#34;173&#34; class=&#34;alignleft size-full wp-image-904&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shitalshah.com/p/text-in-file-search-all-terms/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/text_in_file.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/text_in_file.jpg&#34; alt=&#34;text_in_file&#34; width=&#34;265&#34; height=&#34;173&#34; class=&#34;alignleft size-full wp-image-904&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is a little program to search for particular words in files in particular folder. Windows Find feature does search for a particular string in files but you can&amp;rsquo;t search for Word1 AND Word2 AND Word3. This program does just that. I made this program mainly to search for specific piece of code from 1000s of VB source code samples stored on my hard drive. This application is right now in state of easy installation and no on-line help is available.&lt;/p&gt;
 
@@ -985,10 +985,10 @@ private void Callee1()
     
     <item>
       <title>Visual Music- Play 128 Musical Instruments</title>
-      <link>https://shitalshah.github.io/p/visual-music-play-128-musical-instruments/</link>
+      <link>http://shitalshah.com/p/visual-music-play-128-musical-instruments/</link>
       <pubDate>Mon, 07 Jun 1999 22:01:19 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/visual-music-play-128-musical-instruments/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/1999/06/vmusic_screenshot.jpg&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/1999/06/vmusic_screenshot.jpg&#34; alt=&#34;vmusic_screenshot&#34; width=&#34;300&#34; height=&#34;282&#34; class=&#34;alignleft size-full wp-image-1237&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shitalshah.com/p/visual-music-play-128-musical-instruments/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/1999/06/vmusic_screenshot.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/1999/06/vmusic_screenshot.jpg&#34; alt=&#34;vmusic_screenshot&#34; width=&#34;300&#34; height=&#34;282&#34; class=&#34;alignleft size-full wp-image-1237&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Visual Music lets you play 128 musical instruments on your PC including Flute, Bagpiper and even whistle! You can even record what you are playing, edit it and save it in a file. If you not expert at playing synthesiser keyboard, it provides you a easy to use scripting language to create music just by telling what key in which instrument you want to play for how much time!&lt;/p&gt;
 
@@ -1005,10 +1005,10 @@ private void Callee1()
     
     <item>
       <title>Planet Source Code Downloader</title>
-      <link>https://shitalshah.github.io/p/planet-source-code-downloader/</link>
+      <link>http://shitalshah.com/p/planet-source-code-downloader/</link>
       <pubDate>Fri, 12 Mar 1999 17:28:36 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/planet-source-code-downloader/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2004/12/PSCDownloader.jpg&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2004/12/PSCDownloader.jpg&#34; alt=&#34;PSCDownloader&#34; width=&#34;231&#34; height=&#34;213&#34; class=&#34;alignleft size-full wp-image-898&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shitalshah.com/p/planet-source-code-downloader/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/PSCDownloader.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/PSCDownloader.jpg&#34; alt=&#34;PSCDownloader&#34; width=&#34;231&#34; height=&#34;213&#34; class=&#34;alignleft size-full wp-image-898&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.planet-source-code.com&#34; target=&#34;_blank&#34;&gt;Planet Source Code&lt;/a&gt; is one of the huge resources of VB code. Say you want to download all of it&amp;rsquo;s listing and make a CD that might serve as 1000s of VB code snippets. This program exactly does that. It&amp;rsquo;s actually general purpose program that downloads all the pages having address like&lt;/p&gt;
 
@@ -1029,10 +1029,10 @@ private void Callee1()
     
     <item>
       <title>REA2 - Take The Control</title>
-      <link>https://shitalshah.github.io/p/rea2-take-the-control/</link>
+      <link>http://shitalshah.com/p/rea2-take-the-control/</link>
       <pubDate>Fri, 03 Jul 1998 16:59:33 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/rea2-take-the-control/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2003/03/tools_icon.gif&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2003/03/tools_icon.gif&#34; alt=&#34;tools_icon&#34; width=&#34;40&#34; height=&#34;40&#34; class=&#34;alignleft size-full wp-image-1124&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shitalshah.com/p/rea2-take-the-control/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2003/03/tools_icon.gif&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2003/03/tools_icon.gif&#34; alt=&#34;tools_icon&#34; width=&#34;40&#34; height=&#34;40&#34; class=&#34;alignleft size-full wp-image-1124&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Concept of trojan horses is not new. Programs like &lt;a href=&#34;http://www.shitalshah.com/www.bo2k.com&#34; target=&#34;_blank&#34;&gt;Back Orifice 2000&lt;/a&gt; silently stays in background in your PC, acts as TCP/IP server and allows somebody to connect it through Internet and execute commands sent by them. The REA2 (Remote Execution Agent) is my own trojan horse specifically designed for silent, full proof, reliable and powerfull intrusion and control. I crafted this gem in about 5 hours and comparing with BO2K, it lacks few features like real time screen display and mouse control and plug-ins but it&amp;rsquo;s designed to be much more &amp;ldquo;reliable and silent intrusion&amp;rdquo; and has some more capabilities then BO2K. It&amp;rsquo;s written in Delphi 3.0 to eliminate any runtime requirements. The EXE available here is a server. You can use any client that can connect to it on port 23145 and send the command as strings. My favorite client is my own PortTalk. I didn&amp;rsquo;t got much time to document these stuff (as usual it was fun program solely meant for me) but you can get the list of commands in TMainForm.ProcessReq function in main.pas file. This application is right now not in state of easy clicks. You might have to modify the source code for your needs. However you may freely contact me for the assistance.&lt;/p&gt;
 
@@ -1049,10 +1049,10 @@ private void Callee1()
     
     <item>
       <title>Auto Actuals (0.9 Beta) - Track Your Time!</title>
-      <link>https://shitalshah.github.io/p/auto-actuals-0-9-beta-track-your-time/</link>
+      <link>http://shitalshah.com/p/auto-actuals-0-9-beta-track-your-time/</link>
       <pubDate>Sun, 14 Jun 1998 13:32:57 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/auto-actuals-0-9-beta-track-your-time/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2004/12/AutoActuals.jpg&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2004/12/AutoActuals-259x300.jpg&#34; alt=&#34;AutoActuals&#34; width=&#34;259&#34; height=&#34;300&#34; class=&#34;alignleft size-medium wp-image-890&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/AutoActuals-259x300.jpg 259w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/AutoActuals.jpg 375w&#34; sizes=&#34;(max-width: 259px) 100vw, 259px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shitalshah.com/p/auto-actuals-0-9-beta-track-your-time/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/AutoActuals.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/AutoActuals-259x300.jpg&#34; alt=&#34;AutoActuals&#34; width=&#34;259&#34; height=&#34;300&#34; class=&#34;alignleft size-medium wp-image-890&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/AutoActuals-259x300.jpg 259w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/AutoActuals.jpg 375w&#34; sizes=&#34;(max-width: 259px) 100vw, 259px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Have you ever felt that your time goes faster then the speed of light? Or have you ever had hard time to recollect what exactly you did whole month while filling your employer&amp;rsquo;s timesheets? Or have you ever had desired to analyse how much portion of time you spend in meetings and reading emails? Or have you ever wanted to keep Star Trek style daily logs but never maintained it? Well, then this application is just for you! Once installed, AutoActuals will pop up on your screen at regular intervals and ask you what you were doing! And it&amp;rsquo;s far more then that. It allows you to categorize your tasks, gives you hint on what program were you running all the time, generates reports in Word, maintains data in Access, supports multiuser access, supports task assignment and tracking by project managers and lot lot more. And all that in very simple intuitive UI! This application is right now in state of easy installation and no on-line help is available.&lt;/p&gt;
 
@@ -1069,10 +1069,10 @@ private void Callee1()
     
     <item>
       <title>PortTalk - Talk To TCP/IP Servers</title>
-      <link>https://shitalshah.github.io/p/porttalk-talk-to-tcpip-servers/</link>
+      <link>http://shitalshah.com/p/porttalk-talk-to-tcpip-servers/</link>
       <pubDate>Mon, 25 May 1998 15:39:02 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/porttalk-talk-to-tcpip-servers/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2004/12/porttalk.jpg&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2004/12/porttalk-300x210.jpg&#34; alt=&#34;porttalk&#34; width=&#34;300&#34; height=&#34;210&#34; class=&#34;alignleft size-medium wp-image-896&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/porttalk-300x210.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/porttalk.jpg 686w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shitalshah.com/p/porttalk-talk-to-tcpip-servers/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/porttalk.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/porttalk-300x210.jpg&#34; alt=&#34;porttalk&#34; width=&#34;300&#34; height=&#34;210&#34; class=&#34;alignleft size-medium wp-image-896&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/porttalk-300x210.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/porttalk.jpg 686w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This 2 year old application is still the gem of it&amp;rsquo;s own. You can use this program to connect to any TCP/IP server, send it some commands and see how server responds. I used this program to learn how exactly browser makes request for a page to HTTP server or how other TCP/IP protocols like Ping and Time works. I started out my TCP/IP programming journey by reading &lt;a href=&#34;http://www.rfc-editor.org/&#34; title=&#34;Request For Comment Documents By Internet Engineering Task Force&#34; target=&#34;_blank&#34;&gt;RFCs&lt;/a&gt; on different protocols and actually experimenting with them using PortTalk. I&amp;rsquo;d made even my own HTTP server and utilities like PortTalk were indispensible while testing them. The advanced version allows you to connect to to REA2 server (see below) and do a file transfer. This application is right now in state of easy clicks.&lt;/p&gt;
 

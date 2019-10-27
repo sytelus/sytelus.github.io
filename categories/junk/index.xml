@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Junk | Shital Shah</title>
-    <link>https://shitalshah.github.io/categories/junk/</link>
-      <atom:link href="https://shitalshah.github.io/categories/junk/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://shitalshah.com/categories/junk/</link>
+      <atom:link href="http://shitalshah.com/categories/junk/index.xml" rel="self" type="application/rss+xml" />
     <description>Junk</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Fri, 07 Oct 2005 05:37:08 +0000</lastBuildDate>
     <image>
-      <url>https://shitalshah.github.io/img/shitalshah.jepg</url>
+      <url>http://shitalshah.com/img/shitalshah.jepg</url>
       <title>Junk</title>
-      <link>https://shitalshah.github.io/categories/junk/</link>
+      <link>http://shitalshah.com/categories/junk/</link>
     </image>
     
     <item>
       <title>On The Run</title>
-      <link>https://shitalshah.github.io/p/on-the-run/</link>
+      <link>http://shitalshah.com/p/on-the-run/</link>
       <pubDate>Fri, 07 Oct 2005 05:37:08 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/on-the-run/</guid>
+      <guid>http://shitalshah.com/p/on-the-run/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://astrila.blogspot.com&#34; target=&#34;_blank&#34;&gt;It&amp;rsquo;s easier to run&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Finally Runs Even If Method Returns</title>
-      <link>https://shitalshah.github.io/p/finally-runs-even-if-method-returns/</link>
+      <link>http://shitalshah.com/p/finally-runs-even-if-method-returns/</link>
       <pubDate>Sat, 16 Jul 2005 03:41:00 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/finally-runs-even-if-method-returns/</guid>
+      <guid>http://shitalshah.com/p/finally-runs-even-if-method-returns/</guid>
       <description>&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;using (DisTest o = new DisTest())
 {
         return;
@@ -46,9 +46,9 @@ End Try
     
     <item>
       <title>15 Questions On Leadership</title>
-      <link>https://shitalshah.github.io/p/15-questions-on-leadership/</link>
+      <link>http://shitalshah.com/p/15-questions-on-leadership/</link>
       <pubDate>Tue, 24 May 2005 21:26:55 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/15-questions-on-leadership/</guid>
+      <guid>http://shitalshah.com/p/15-questions-on-leadership/</guid>
       <description>&lt;p&gt;These are interesting questions if you were pursuing an acadamy degree on management/leadership. I do have the answers but don&amp;rsquo;t have enough room here to write it down (&lt;a href=&#34;http://mathforum.org/dr.math/faq/faq.fermat.html&#34; target=&#34;_blank&#34;&gt;Fermat&lt;/a&gt; R.I.P.).&lt;/p&gt;
 
 &lt;ol&gt;
@@ -73,9 +73,9 @@ End Try
     
     <item>
       <title>StarWars Weekend Marathon</title>
-      <link>https://shitalshah.github.io/p/starwars-weekend-marathon-2005/</link>
+      <link>http://shitalshah.com/p/starwars-weekend-marathon-2005/</link>
       <pubDate>Tue, 10 May 2005 13:49:10 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/starwars-weekend-marathon-2005/</guid>
+      <guid>http://shitalshah.com/p/starwars-weekend-marathon-2005/</guid>
       <description>&lt;p&gt;We planned back-to-back original StarWars trilogy marathon over the weekend. I got to watch them in sequence for the first time and it made lot of sense and gave me a new perspective about this whole “religion”. Some observations…&lt;/p&gt;
 
 &lt;ul&gt;
@@ -93,9 +93,9 @@ End Try
     
     <item>
       <title>Places I Found On Google Maps</title>
-      <link>https://shitalshah.github.io/p/places-i-found-on-google-maps-2005/</link>
+      <link>http://shitalshah.com/p/places-i-found-on-google-maps-2005/</link>
       <pubDate>Sat, 30 Apr 2005 14:39:05 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/places-i-found-on-google-maps-2005/</guid>
+      <guid>http://shitalshah.com/p/places-i-found-on-google-maps-2005/</guid>
       <description>&lt;p&gt;After Google Maps included a link for satellite views, I ended up spending a night in finding all kind of places. Yeah, this is &lt;a href=&#34;http://terraserver.microsoft.com/&#34; target=&#34;_blank&#34;&gt;not new&lt;/a&gt; but not it is so much more cleaner, convenient and faster.&lt;/p&gt;
 
 &lt;p&gt;[Partial List]&lt;/p&gt;
@@ -119,9 +119,9 @@ End Try
     
     <item>
       <title>Buying And Selling Broadway Show Tickets</title>
-      <link>https://shitalshah.github.io/p/buying-and-selling-broadway-show-tickets-2005/</link>
+      <link>http://shitalshah.com/p/buying-and-selling-broadway-show-tickets-2005/</link>
       <pubDate>Mon, 28 Mar 2005 16:34:02 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/buying-and-selling-broadway-show-tickets-2005/</guid>
+      <guid>http://shitalshah.com/p/buying-and-selling-broadway-show-tickets-2005/</guid>
       <description>&lt;p&gt;When it comes to buy Broadway show tickets these days, scene is really the worse. Few years ago, you only had to deal with idiotic Ticketmaster and now the pain is extended to &lt;a href=&#34;http://tech2.nytimes.com/mem/technology/techreview.html?res=9803E3DB133CF934A25750C0A9639C8B63&#34; target=&#34;_blank&#34;&gt;100s of brokers&lt;/a&gt; that have mushroomed to somehow &amp;ldquo;lawfully&amp;rdquo; buying off all the nicest seats and later sells it with the price tag of 2X or more. No wonder shows like Wicked and Lion King are now suddenly sold out for next 8 months or so. These guys even have their &lt;a href=&#34;http://www.natb.org/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;national association&amp;rdquo;&lt;/a&gt; and just makes me wonder what they did to the system so as to make their whole thing a perfectly &amp;ldquo;legal business&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;This entire anomaly could be blamed on &lt;a href=&#34;http://www.ticketmaster.com&#34; target=&#34;_blank&#34;&gt;this worst ticketing website&lt;/a&gt; of the World. Not only they charge &amp;ldquo;convenience fee&amp;rdquo; of $5 per ticket for using their annoying website but unlike anything else on the Net, they have absolutely no returns policy! I think they are the good subjects to study how to force customer to knowingly pay more then they should, how to have no returns policy, worst possible customer service and still maintain almost a monopoly.&lt;/p&gt;
@@ -136,63 +136,63 @@ End Try
     
     <item>
       <title>Condomania Wizard Interface</title>
-      <link>https://shitalshah.github.io/p/condomania-wizard-interface/</link>
+      <link>http://shitalshah.com/p/condomania-wizard-interface/</link>
       <pubDate>Wed, 14 Jul 2004 06:07:33 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/condomania-wizard-interface/</guid>
+      <guid>http://shitalshah.com/p/condomania-wizard-interface/</guid>
       <description>&lt;p&gt;&lt;a href=http://www.condomania.com/shopping/wizards/wizardmain.jsp?itemType=CATEGORY&amp;itemID=105 target=&#34;new&#34;&gt;This&lt;/a&gt; is probably the best Wizard User Interface I&amp;rsquo;ve seen so far ;).&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Voyager Is Missing</title>
-      <link>https://shitalshah.github.io/p/voyager-is-missing/</link>
+      <link>http://shitalshah.com/p/voyager-is-missing/</link>
       <pubDate>Fri, 12 Sep 2003 04:23:18 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/voyager-is-missing/</guid>
+      <guid>http://shitalshah.com/p/voyager-is-missing/</guid>
       <description>&lt;p&gt;Star Trek Voyager is off-air since past few months. So I went to Netflix, my DVD subscription, just to find that Paramount hasn&amp;rsquo;t produced DVDs yet. So I went to Amazon to buy VHS version, just to find that the video cassets are one episod per casset (consider having 150+ episodes). So all these have almost ruined my hopes to get back to Voyager, just when I needed the most. As my last resort, I looked up in Kazza and found some of the cool episodes floating around but it gonna take days to get them. Moral of the story: If it is still on-air in your area, watch it while you still can. Don&amp;rsquo;t mess with your luck.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>When I Fall</title>
-      <link>https://shitalshah.github.io/p/when-i-fall/</link>
+      <link>http://shitalshah.com/p/when-i-fall/</link>
       <pubDate>Fri, 15 Aug 2003 03:56:38 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/when-i-fall/</guid>
+      <guid>http://shitalshah.com/p/when-i-fall/</guid>
       <description>&lt;p&gt;In this world of the Greater Being, I feel like I&amp;rsquo;m at play&amp;hellip; like a little kid. With all my sense of wonder and curiosity&amp;hellip; walking on my knees to get close, see and feel everything that has been put around me&amp;hellip; and smile for all those good things that I find. And when I&amp;rsquo;m just moving around, there are moments when things are not the way I would have wanted&amp;hellip; sometime when I would have really wanted. Some of the worst moments of my life constitutes of those when the people I&amp;rsquo;d admired I see falling apart and I can&amp;rsquo;t do anything about it&amp;hellip; when someone you cared is dieing and you can do nothing about it&amp;hellip; Those moments&amp;hellip; when I just want to look up in the sky and pretend that I don&amp;rsquo;t exist&amp;hellip; trying to convince myself that it&amp;rsquo;s ok&amp;hellip; I feel like I&amp;rsquo;m betrayed with anger bursting out every inch of my body&amp;hellip; But then when I&amp;rsquo;m all low and down, there&amp;rsquo;s always something that happens&amp;hellip; like someone struck the new string on the guitar that I&amp;rsquo;d never heard before&amp;hellip; wiping out all my doubts with just that one stroke of note. So I look around to find the one but I can&amp;rsquo;t see. But I know she was there smiling at me&amp;hellip; like I&amp;rsquo;m a little kid&amp;hellip; someone is sure playing with me.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Things With The Rain Drops...</title>
-      <link>https://shitalshah.github.io/p/things-with-the-rain-drops/</link>
+      <link>http://shitalshah.com/p/things-with-the-rain-drops/</link>
       <pubDate>Wed, 23 Jul 2003 05:16:44 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/things-with-the-rain-drops/</guid>
+      <guid>http://shitalshah.com/p/things-with-the-rain-drops/</guid>
       <description>&lt;p&gt;Listening to &lt;a href=&#34;http://launch.yahoo.com/song/default.asp?songID=966065&#34; target=&#34;_blank&#34;&gt;When I Fall&lt;/a&gt; with sound of rain drops from my window&amp;hellip; These days are going good. Haven&amp;rsquo;t missed chance to get myself wet in rain most of the time&amp;hellip; and walking on wet grass with bare feet&amp;hellip; and watching rain drops making curves in cones of street lights&amp;hellip; and taking a long drive in rain with my windows open&amp;hellip; and taking snaps of Sun hiding behind dark clouds&amp;hellip; and taking a deep breath in drizzly air&amp;hellip; and wondering at water dance on my wind-shield&amp;hellip; and following a droplet cloud around wheels of other vehicles&amp;hellip; and making a splash on my way&amp;hellip; These days are going good.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Lost and unfound</title>
-      <link>https://shitalshah.github.io/p/lost-and-unfound/</link>
+      <link>http://shitalshah.com/p/lost-and-unfound/</link>
       <pubDate>Sun, 06 Jul 2003 05:42:56 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/lost-and-unfound/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s frustrating how much difference a little stupidity can make to your life. Yours and others. These days and nights are dedicated to &lt;a href=&#34;https://shitalshah.github.io/images/posts/2003/07/leave_portrait.jpg&#34;&gt;some meanest of them&lt;/a&gt;. [Listening: &lt;a href=&#34;http://launch.yahoo.com/musicvideos/player/default.asp?videoID=173820&#34; target=&#34;_blank&#34;&gt;Matchbox Twenty - If you&amp;rsquo;re gone&lt;/a&gt;]&lt;/p&gt;
+      <guid>http://shitalshah.com/p/lost-and-unfound/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s frustrating how much difference a little stupidity can make to your life. Yours and others. These days and nights are dedicated to &lt;a href=&#34;http://shitalshah.com/images/posts/2003/07/leave_portrait.jpg&#34;&gt;some meanest of them&lt;/a&gt;. [Listening: &lt;a href=&#34;http://launch.yahoo.com/musicvideos/player/default.asp?videoID=173820&#34; target=&#34;_blank&#34;&gt;Matchbox Twenty - If you&amp;rsquo;re gone&lt;/a&gt;]&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Hallowin Signout</title>
-      <link>https://shitalshah.github.io/p/hallowin-signout-2002/</link>
+      <link>http://shitalshah.com/p/hallowin-signout-2002/</link>
       <pubDate>Fri, 01 Nov 2002 04:52:21 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/hallowin-signout-2002/</guid>
+      <guid>http://shitalshah.com/p/hallowin-signout-2002/</guid>
       <description>&lt;p&gt;Okay&amp;hellip; guess this will be the end of the day - it&amp;rsquo;s hallowing! And Aishwarya Rai&amp;rsquo;s birthday&amp;hellip; 10 mins to midnight&amp;hellip; Since last two years this is the day and time (1st nov between 1 AM to 3 AM) when I always got in to a car accident - a nearly fatal ones. oh&amp;hellip; need to eat something&amp;hellip; should be going to Nanuet for that cool diner I&amp;rsquo;d found&amp;hellip; will keep blogging if am alive tomorrow 🙂&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Favorite Links In Zip File</title>
-      <link>https://shitalshah.github.io/p/favorite-links-in-zip-file-2002/</link>
+      <link>http://shitalshah.com/p/favorite-links-in-zip-file-2002/</link>
       <pubDate>Tue, 25 Jun 2002 11:35:28 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/favorite-links-in-zip-file-2002/</guid>
+      <guid>http://shitalshah.com/p/favorite-links-in-zip-file-2002/</guid>
       <description>&lt;p&gt;&lt;TABLE WIDTH=&#34;93%&#34; ALIGN=&#34;CENTER&#34; VALIGN=&#34;MIDDLE&#34;&gt;
   &lt;br /&gt;&lt;/p&gt;
 
@@ -222,9 +222,9 @@ End Try
     
     <item>
       <title>15&#43; Programmer&#39;s Tools And Utilities</title>
-      <link>https://shitalshah.github.io/p/15-programmers-tools-and-utilities/</link>
+      <link>http://shitalshah.com/p/15-programmers-tools-and-utilities/</link>
       <pubDate>Mon, 01 Jan 1990 00:00:15 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/15-programmers-tools-and-utilities/</guid>
+      <guid>http://shitalshah.com/p/15-programmers-tools-and-utilities/</guid>
       <description>&lt;p&gt;&lt;TABLE WIDTH=&#34;93%&#34; ALIGN=&#34;CENTER&#34; VALIGN=&#34;MIDDLE&#34;&gt;
   &lt;br /&gt;&lt;/p&gt;
 

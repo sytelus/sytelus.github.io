@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Shital Shah</title>
-    <link>https://shitalshah.github.io/authors/</link>
-      <atom:link href="https://shitalshah.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://shitalshah.com/authors/</link>
+      <atom:link href="http://shitalshah.com/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright>
     <image>
-      <url>https://shitalshah.github.io/img/shitalshah.jepg</url>
+      <url>http://shitalshah.com/img/shitalshah.jepg</url>
       <title>Authors</title>
-      <link>https://shitalshah.github.io/authors/</link>
+      <link>http://shitalshah.com/authors/</link>
     </image>
     
     <item>
       <title></title>
-      <link>https://shitalshah.github.io/authors/admin/</link>
+      <link>http://shitalshah.com/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shitalshah.github.io/authors/admin/</guid>
+      <guid>http://shitalshah.com/authors/admin/</guid>
       <description>&lt;p&gt;Shital Shah is a Principal Research Engineer at Microsoft Research AI. His interests include simulation, robotics, deep learning and reinforcement learning. He has been working at Microsoft for 14 years, contributing to architecture, design and development of large scale distributed machine learning systems. He has assumed various roles in several different teams at Microsoft, including software developer, research engineer and engineering manager. At Bing, he co-founded and led the team to design and develop a distributed machine-learned clustering platform for web-scale data. At Microsoft Research, he conceived and lead the development of &lt;a href=&#34;https://github.com/microsoft/airsim&#34; target=&#34;_blank&#34;&gt;AirSim&lt;/a&gt;, a physically and visually realistic cross-platform simulator for AI research. Most recently, he developed &lt;a href=&#34;http://tensorwatch.org&#34; target=&#34;_blank&#34;&gt;TensorWatch&lt;/a&gt;, a new approach for debugging and visualizing machine learning.&lt;/p&gt;
 </description>
     </item>

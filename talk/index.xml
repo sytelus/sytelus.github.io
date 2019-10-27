@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | Shital Shah</title>
-    <link>https://shitalshah.github.io/talk/</link>
-      <atom:link href="https://shitalshah.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://shitalshah.com/talk/</link>
+      <atom:link href="http://shitalshah.com/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright>
     <image>
-      <url>https://shitalshah.github.io/img/shitalshah.jepg</url>
+      <url>http://shitalshah.com/img/shitalshah.jepg</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://shitalshah.github.io/talk/</link>
+      <link>http://shitalshah.com/talk/</link>
     </image>
     
   </channel>

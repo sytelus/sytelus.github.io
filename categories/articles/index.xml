@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Articles | Shital Shah</title>
-    <link>https://shitalshah.github.io/categories/articles/</link>
-      <atom:link href="https://shitalshah.github.io/categories/articles/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://shitalshah.com/categories/articles/</link>
+      <atom:link href="http://shitalshah.com/categories/articles/index.xml" rel="self" type="application/rss+xml" />
     <description>Articles</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Thu, 16 Feb 2006 15:04:01 +0000</lastBuildDate>
     <image>
-      <url>https://shitalshah.github.io/img/shitalshah.jepg</url>
+      <url>http://shitalshah.com/img/shitalshah.jepg</url>
       <title>Articles</title>
-      <link>https://shitalshah.github.io/categories/articles/</link>
+      <link>http://shitalshah.com/categories/articles/</link>
     </image>
     
     <item>
       <title>Introducing DSS</title>
-      <link>https://shitalshah.github.io/p/introducing-dss/</link>
+      <link>http://shitalshah.com/p/introducing-dss/</link>
       <pubDate>Thu, 16 Feb 2006 15:04:01 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/introducing-dss/</guid>
+      <guid>http://shitalshah.com/p/introducing-dss/</guid>
       <description>&lt;p&gt;There are tons and tons of things to blog but here is a quick one.&lt;/p&gt;
 
 &lt;p&gt;Last Thanksgiving (a 4 days of holidays in USA) I wanted to work on something really cool that is absolutely worth doing and something I can spend my entire 4 days continuosly. I looked over my list of pending projects to find something extraordinarily cool, kept thinking about new ideas flowing around, looked over to other idea websites and realized that my mind was just keept going blank all the while.&lt;/p&gt;
@@ -33,9 +33,9 @@
     
     <item>
       <title>Using Windows Explorer Progress Dialog In Your Application</title>
-      <link>https://shitalshah.github.io/p/using-windows-explorer-progress-dialog-in-your-application-2/</link>
+      <link>http://shitalshah.com/p/using-windows-explorer-progress-dialog-in-your-application-2/</link>
       <pubDate>Tue, 23 Aug 2005 19:31:32 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/using-windows-explorer-progress-dialog-in-your-application-2/</guid>
+      <guid>http://shitalshah.com/p/using-windows-explorer-progress-dialog-in-your-application-2/</guid>
       <description>&lt;p&gt;A simple .NET wrapper that lets you use IProgressDialog interface to show standard Windows progress dialog with AVI animation and built-in time remaining calculation.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.codeproject.com/Articles/9298/Using-Windows-Explorer-Progress-Dialog-In-Your-App&#34; target=&#34;_blank&#34;&gt;Using Windows Explorer Progress Dialog In Your Application&lt;/a&gt;&lt;/p&gt;
@@ -44,9 +44,9 @@
     
     <item>
       <title>Enable Your Users To Write Math Equations In Your Web And Desktop Apps</title>
-      <link>https://shitalshah.github.io/p/enable-your-users-to-write-math-equations-in-your-web-and-desktop-apps/</link>
+      <link>http://shitalshah.com/p/enable-your-users-to-write-math-equations-in-your-web-and-desktop-apps/</link>
       <pubDate>Tue, 23 Aug 2005 00:00:33 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/enable-your-users-to-write-math-equations-in-your-web-and-desktop-apps/</guid>
+      <guid>http://shitalshah.com/p/enable-your-users-to-write-math-equations-in-your-web-and-desktop-apps/</guid>
       <description>&lt;p&gt;This article shows you how you can let your users type mathematical equations in popular TeX format and render them into GIF images in your applications with just 10 minutes of coding effort.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.codeproject.com/Articles/11406/Enable-Your-Users-to-Write-Math-Equations-in-Your&#34; target=&#34;_blank&#34;&gt;Enable Your Users to Write Math Equations in Your Web and Desktop Apps&lt;/a&gt;&lt;/p&gt;
@@ -55,16 +55,16 @@
     
     <item>
       <title>On Expression Of Number As A Sum Of Primes And Twin Prime Counting Function Using Sieve Method Without Heuristic Assumption</title>
-      <link>https://shitalshah.github.io/p/on-expression-of-number-as-a-sum-of-primes-and-twin-prime-counting-function-using-sieve-method-without-heuristic-assumption/</link>
+      <link>http://shitalshah.com/p/on-expression-of-number-as-a-sum-of-primes-and-twin-prime-counting-function-using-sieve-method-without-heuristic-assumption/</link>
       <pubDate>Sun, 12 Jun 2005 00:00:48 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/on-expression-of-number-as-a-sum-of-primes-and-twin-prime-counting-function-using-sieve-method-without-heuristic-assumption/</guid>
+      <guid>http://shitalshah.com/p/on-expression-of-number-as-a-sum-of-primes-and-twin-prime-counting-function-using-sieve-method-without-heuristic-assumption/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;We will use the sieve method for twin primes to obtain the relationship for the twin prime counting function same as that was conjectured by Hardy and Littlewood but without making their heuristic assumption about the prime number distribution. Later we generalize our method to get the expression for the counting function for prime pairs (n, n+2k) and show that it is again same as the extended Goldbach conjecture that was conjectured by Hardy and Littlewood.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/post-files/2014/02/TwinPrimesDistribution.pdf&#34;&gt;View PDF&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/post-files/2014/02/TwinPrimesDistribution.pdf&#34;&gt;View PDF&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/post-files/2014/02/TwinPrimesDistribution.zip&#34;&gt;LaTeX source, PS and DVI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/post-files/2014/02/TwinPrimesDistribution.zip&#34;&gt;LaTeX source, PS and DVI&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/sytelus/TwinPrimes&#34; target=&#34;_blank&#34;&gt;Or find it Github&lt;/a&gt;&lt;/p&gt;
 
@@ -75,9 +75,9 @@
     
     <item>
       <title>Integrating RSS And Calendar</title>
-      <link>https://shitalshah.github.io/p/integrating-rss-and-calendar/</link>
+      <link>http://shitalshah.com/p/integrating-rss-and-calendar/</link>
       <pubDate>Mon, 23 May 2005 00:00:46 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/integrating-rss-and-calendar/</guid>
+      <guid>http://shitalshah.com/p/integrating-rss-and-calendar/</guid>
       <description>
 
 &lt;h3 id=&#34;summary&#34;&gt;Summary:&lt;/h3&gt;

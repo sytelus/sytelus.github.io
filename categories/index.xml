@@ -2,173 +2,173 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Shital Shah</title>
-    <link>https://shitalshah.github.io/categories/</link>
-      <atom:link href="https://shitalshah.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://shitalshah.com/categories/</link>
+      <atom:link href="http://shitalshah.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Sun, 26 Feb 2017 09:16:43 +0000</lastBuildDate>
     <image>
-      <url>https://shitalshah.github.io/img/shitalshah.jepg</url>
+      <url>http://shitalshah.com/img/shitalshah.jepg</url>
       <title>Categories</title>
-      <link>https://shitalshah.github.io/categories/</link>
+      <link>http://shitalshah.com/categories/</link>
     </image>
     
     <item>
       <title>Developers</title>
-      <link>https://shitalshah.github.io/categories/developers/</link>
+      <link>http://shitalshah.com/categories/developers/</link>
       <pubDate>Sun, 26 Feb 2017 09:16:43 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/developers/</guid>
+      <guid>http://shitalshah.com/categories/developers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gadgets</title>
-      <link>https://shitalshah.github.io/categories/gadgets/</link>
+      <link>http://shitalshah.com/categories/gadgets/</link>
       <pubDate>Sat, 24 Dec 2016 00:15:13 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/gadgets/</guid>
+      <guid>http://shitalshah.com/categories/gadgets/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uncategorized</title>
-      <link>https://shitalshah.github.io/categories/uncategorized/</link>
+      <link>http://shitalshah.com/categories/uncategorized/</link>
       <pubDate>Sun, 05 Jun 2016 09:24:38 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/uncategorized/</guid>
+      <guid>http://shitalshah.com/categories/uncategorized/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software</title>
-      <link>https://shitalshah.github.io/categories/software/</link>
+      <link>http://shitalshah.com/categories/software/</link>
       <pubDate>Sat, 31 May 2014 02:54:03 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/software/</guid>
+      <guid>http://shitalshah.com/categories/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Astronomy</title>
-      <link>https://shitalshah.github.io/categories/astronomy/</link>
+      <link>http://shitalshah.com/categories/astronomy/</link>
       <pubDate>Mon, 04 Jun 2012 23:05:54 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/astronomy/</guid>
+      <guid>http://shitalshah.com/categories/astronomy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Geekery</title>
-      <link>https://shitalshah.github.io/categories/geekery/</link>
+      <link>http://shitalshah.com/categories/geekery/</link>
       <pubDate>Mon, 04 Jun 2012 07:14:46 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/geekery/</guid>
+      <guid>http://shitalshah.com/categories/geekery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Events</title>
-      <link>https://shitalshah.github.io/categories/events/</link>
+      <link>http://shitalshah.com/categories/events/</link>
       <pubDate>Thu, 26 Aug 2010 23:46:07 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/events/</guid>
+      <guid>http://shitalshah.com/categories/events/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Outside</title>
-      <link>https://shitalshah.github.io/categories/outside/</link>
+      <link>http://shitalshah.com/categories/outside/</link>
       <pubDate>Thu, 26 Aug 2010 23:46:07 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/outside/</guid>
+      <guid>http://shitalshah.com/categories/outside/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Physics</title>
-      <link>https://shitalshah.github.io/categories/physics/</link>
+      <link>http://shitalshah.com/categories/physics/</link>
       <pubDate>Sat, 14 Feb 2009 08:02:00 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/physics/</guid>
+      <guid>http://shitalshah.com/categories/physics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Opinions</title>
-      <link>https://shitalshah.github.io/categories/opinions/</link>
+      <link>http://shitalshah.com/categories/opinions/</link>
       <pubDate>Sat, 12 Apr 2008 06:17:00 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/opinions/</guid>
+      <guid>http://shitalshah.com/categories/opinions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Articles</title>
-      <link>https://shitalshah.github.io/categories/articles/</link>
+      <link>http://shitalshah.com/categories/articles/</link>
       <pubDate>Thu, 16 Feb 2006 15:04:01 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/articles/</guid>
+      <guid>http://shitalshah.com/categories/articles/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Life TODO</title>
-      <link>https://shitalshah.github.io/categories/life-todo/</link>
+      <link>http://shitalshah.com/categories/life-todo/</link>
       <pubDate>Sat, 31 Dec 2005 00:00:07 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/life-todo/</guid>
+      <guid>http://shitalshah.com/categories/life-todo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Junk</title>
-      <link>https://shitalshah.github.io/categories/junk/</link>
+      <link>http://shitalshah.com/categories/junk/</link>
       <pubDate>Fri, 07 Oct 2005 05:37:08 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/junk/</guid>
+      <guid>http://shitalshah.com/categories/junk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Personal News</title>
-      <link>https://shitalshah.github.io/categories/personal-news/</link>
+      <link>http://shitalshah.com/categories/personal-news/</link>
       <pubDate>Fri, 07 Oct 2005 03:46:54 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/personal-news/</guid>
+      <guid>http://shitalshah.com/categories/personal-news/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Music</title>
-      <link>https://shitalshah.github.io/categories/music/</link>
+      <link>http://shitalshah.com/categories/music/</link>
       <pubDate>Thu, 04 Aug 2005 18:36:00 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/music/</guid>
+      <guid>http://shitalshah.com/categories/music/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Site News</title>
-      <link>https://shitalshah.github.io/categories/site-news/</link>
+      <link>http://shitalshah.com/categories/site-news/</link>
       <pubDate>Mon, 18 Jul 2005 19:32:00 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/site-news/</guid>
+      <guid>http://shitalshah.com/categories/site-news/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mathematics</title>
-      <link>https://shitalshah.github.io/categories/mathematics/</link>
+      <link>http://shitalshah.com/categories/mathematics/</link>
       <pubDate>Tue, 21 Jun 2005 20:20:14 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/mathematics/</guid>
+      <guid>http://shitalshah.com/categories/mathematics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reading</title>
-      <link>https://shitalshah.github.io/categories/reading/</link>
+      <link>http://shitalshah.com/categories/reading/</link>
       <pubDate>Tue, 24 May 2005 00:00:53 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/reading/</guid>
+      <guid>http://shitalshah.com/categories/reading/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>https://shitalshah.github.io/categories/machine-learning/</link>
+      <link>http://shitalshah.com/categories/machine-learning/</link>
       <pubDate>Tue, 10 May 2005 22:18:16 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/machine-learning/</guid>
+      <guid>http://shitalshah.com/categories/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photos</title>
-      <link>https://shitalshah.github.io/categories/photos/</link>
+      <link>http://shitalshah.com/categories/photos/</link>
       <pubDate>Sun, 14 Mar 2004 00:00:22 +0000</pubDate>
-      <guid>https://shitalshah.github.io/categories/photos/</guid>
+      <guid>http://shitalshah.com/categories/photos/</guid>
       <description></description>
     </item>
     

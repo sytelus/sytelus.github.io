@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Developers | Shital Shah</title>
-    <link>https://shitalshah.github.io/categories/developers/</link>
-      <atom:link href="https://shitalshah.github.io/categories/developers/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://shitalshah.com/categories/developers/</link>
+      <atom:link href="http://shitalshah.com/categories/developers/index.xml" rel="self" type="application/rss+xml" />
     <description>Developers</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Sun, 26 Feb 2017 09:16:43 +0000</lastBuildDate>
     <image>
-      <url>https://shitalshah.github.io/img/shitalshah.jepg</url>
+      <url>http://shitalshah.com/img/shitalshah.jepg</url>
       <title>Developers</title>
-      <link>https://shitalshah.github.io/categories/developers/</link>
+      <link>http://shitalshah.com/categories/developers/</link>
     </image>
     
     <item>
       <title>Git Workflow: Branch - Rebase - Squash - Merge</title>
-      <link>https://shitalshah.github.io/p/git-workflow-branch-rebase-squash-merge/</link>
+      <link>http://shitalshah.com/p/git-workflow-branch-rebase-squash-merge/</link>
       <pubDate>Sun, 26 Feb 2017 09:16:43 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/git-workflow-branch-rebase-squash-merge/</guid>
+      <guid>http://shitalshah.com/p/git-workflow-branch-rebase-squash-merge/</guid>
       <description>&lt;p&gt;So you want to make a change to your git repo while other people may also be simultaneously working on the same repo. As it takes you longer to make your changes, there is a greater chance that your local repo might already be out of date as other people have pushed their changes. In this setting, you don&amp;rsquo;t want to make your changes directly in master because otherwise you might end up creating large merge commits which makes your repo&amp;rsquo;s history convoluted and not very nice.&lt;/p&gt;
 
 &lt;p&gt;Here&amp;rsquo;s the better git workflow you might want to use in any team of size &amp;gt; 1.&lt;/p&gt;
@@ -153,9 +153,9 @@ git branch -d MyFeature
     
     <item>
       <title>How to Enable and Use GCC Strict Mode Compilation</title>
-      <link>https://shitalshah.github.io/p/how-to-enable-and-use-gcc-strict-mode-compilation/</link>
+      <link>http://shitalshah.com/p/how-to-enable-and-use-gcc-strict-mode-compilation/</link>
       <pubDate>Tue, 24 May 2016 01:19:51 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/how-to-enable-and-use-gcc-strict-mode-compilation/</guid>
+      <guid>http://shitalshah.com/p/how-to-enable-and-use-gcc-strict-mode-compilation/</guid>
       <description>&lt;p&gt;One of the great feature that many C++ programmers rarely use is GCC strict mode compilation. Enabling this lets compiler warn you about any potential issues that might often get unnoticed in build noise. Unfortunately there is little documentation, let alone quick tutorial on this subject so I thought to write this up.&lt;/p&gt;
 
 &lt;p&gt;First, let&amp;rsquo;s clear this up: There is no official GCC mode called &amp;ldquo;strict&amp;rdquo;. I just made that term up. Fortunately there are enough compiler options that you can rig up to create &amp;ldquo;strict&amp;rdquo; mode that is often available in many other languages.&lt;/p&gt;
@@ -225,9 +225,9 @@ STRICT_MODE_ON
     
     <item>
       <title>Downloading All of Hacker News Posts and Comments</title>
-      <link>https://shitalshah.github.io/p/downloading-all-of-hacker-news-posts-and-comments/</link>
+      <link>http://shitalshah.com/p/downloading-all-of-hacker-news-posts-and-comments/</link>
       <pubDate>Sat, 31 May 2014 02:54:03 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/downloading-all-of-hacker-news-posts-and-comments/</guid>
+      <guid>http://shitalshah.com/p/downloading-all-of-hacker-news-posts-and-comments/</guid>
       <description>
 
 &lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
@@ -409,9 +409,9 @@ STRICT_MODE_ON
     
     <item>
       <title>Silencing Exceptions in a Little Better Way</title>
-      <link>https://shitalshah.github.io/p/silencing-exceptions-in-a-little-better-way/</link>
+      <link>http://shitalshah.com/p/silencing-exceptions-in-a-little-better-way/</link>
       <pubDate>Mon, 07 Dec 2009 23:54:35 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/silencing-exceptions-in-a-little-better-way/</guid>
+      <guid>http://shitalshah.com/p/silencing-exceptions-in-a-little-better-way/</guid>
       <description>&lt;p&gt;Some of the most disastrous code usually takes the following form&lt;/p&gt;
 
 &lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;try
@@ -464,9 +464,9 @@ catch
     
     <item>
       <title>The Best Culture Invariant Format for DateTime</title>
-      <link>https://shitalshah.github.io/p/the-best-culture-invariant-format-for-datetime/</link>
+      <link>http://shitalshah.com/p/the-best-culture-invariant-format-for-datetime/</link>
       <pubDate>Mon, 09 Nov 2009 01:35:41 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/the-best-culture-invariant-format-for-datetime/</guid>
+      <guid>http://shitalshah.com/p/the-best-culture-invariant-format-for-datetime/</guid>
       <description>&lt;p&gt;If you are looking to display how to display DateTime as text without causing confusion to users in different countries then good choices is either &amp;ldquo;o&amp;rdquo; or &amp;ldquo;r&amp;rdquo;. The &amp;ldquo;o&amp;rdquo; format is in general more preferable as it also puts timezone offset.&lt;/p&gt;
 
 &lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;long t = DateTime.Now.Ticks;
@@ -496,12 +496,12 @@ Sun, 08 Nov 2009 17:26:02 GMT
     
     <item>
       <title>Find Path of a Command Line Tool</title>
-      <link>https://shitalshah.github.io/p/find-path-of-a-command-line-tool/</link>
+      <link>http://shitalshah.com/p/find-path-of-a-command-line-tool/</link>
       <pubDate>Thu, 29 Oct 2009 23:06:45 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/find-path-of-a-command-line-tool/</guid>
+      <guid>http://shitalshah.com/p/find-path-of-a-command-line-tool/</guid>
       <description>&lt;p&gt;Many times you work on different machines, execute a command line tool but often wonder where that tool is actually installed. One way to figure this out is to look at all environment PATH variables and search them manually in same order as Windows does. But you don’t have to because luckily there is a little known built-in command called WHERE that does that for you:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2009/10/image_8.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2009/10/image_8.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This is similar to Unix commands like WHICH and WHEREIS.&lt;/p&gt;
 </description>
@@ -509,9 +509,9 @@ Sun, 08 Nov 2009 17:26:02 GMT
     
     <item>
       <title>What’s in a name?</title>
-      <link>https://shitalshah.github.io/p/whats-in-a-name/</link>
+      <link>http://shitalshah.com/p/whats-in-a-name/</link>
       <pubDate>Sat, 08 Aug 2009 03:32:48 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/whats-in-a-name/</guid>
+      <guid>http://shitalshah.com/p/whats-in-a-name/</guid>
       <description>&lt;p&gt;When you want to store the name of a person a typical design starts out by creating two fields (in database or class):&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Person&lt;/strong&gt;&lt;/p&gt;
@@ -604,9 +604,9 @@ Full Name Style
     
     <item>
       <title>The ACM Turing Programming Contest Problem Set Archive</title>
-      <link>https://shitalshah.github.io/p/the-acm-turing-programming-contest-problem-set-archive/</link>
+      <link>http://shitalshah.com/p/the-acm-turing-programming-contest-problem-set-archive/</link>
       <pubDate>Thu, 13 Apr 2006 03:32:00 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/the-acm-turing-programming-contest-problem-set-archive/</guid>
+      <guid>http://shitalshah.com/p/the-acm-turing-programming-contest-problem-set-archive/</guid>
       <description>&lt;p&gt;Here&amp;rsquo;s the list of problems used in ACM Turing programming contest. Surprisingly, like many other such contests, lots of problems are s simply a variant of shortest-path problem.&lt;br /&gt;
 &lt;a href=&#34;http://www.acm.inf.ethz.ch/ProblemSetArchive.html#A_FINALS&#34; target=&#34;_blank&#34;&gt;The ACM ICPC Problem Set Archive&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -614,18 +614,18 @@ Full Name Style
     
     <item>
       <title>My New CodeProject Article On Equation Rendering</title>
-      <link>https://shitalshah.github.io/p/my-new-codeproject-article-on-equation-rendering/</link>
+      <link>http://shitalshah.com/p/my-new-codeproject-article-on-equation-rendering/</link>
       <pubDate>Wed, 24 Aug 2005 02:31:01 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/my-new-codeproject-article-on-equation-rendering/</guid>
+      <guid>http://shitalshah.com/p/my-new-codeproject-article-on-equation-rendering/</guid>
       <description>&lt;p&gt;I just finished &lt;a href=&#34;http://www.codeproject.com/Articles/11406/Enable-Your-Users-to-Write-Math-Equations-in-Your&#34; target=&#34;_blank&#34;&gt;my new article on CodeProject&lt;/a&gt;. The mission on MimeTeX was started about couple of months ago when in a weekend I just got attracted to MimeTeX&amp;rsquo;s C code like a magnet ;). Now I&amp;rsquo;ve built ASP.Net handler, caching, admin etc on the top of it and its looking great! Enabling scientific content on web seems to be my new obsession. So if you take pride in delighting your users with every new release, here&amp;rsquo;s your brand new feature! Go ahead, download it, use it! If you run in to any problem, I&amp;rsquo;ll be glad to offer you my help.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Interesting Headers</title>
-      <link>https://shitalshah.github.io/p/google-logo-headers-max-age/</link>
+      <link>http://shitalshah.com/p/google-logo-headers-max-age/</link>
       <pubDate>Sat, 16 Jul 2005 02:32:00 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/google-logo-headers-max-age/</guid>
+      <guid>http://shitalshah.com/p/google-logo-headers-max-age/</guid>
       <description>&lt;p&gt;The response headers returns with Google&amp;rsquo;s logo looks like this:&lt;/p&gt;
 
 &lt;pre class=&#34;code-block code-text&#34;&gt;&lt;code class=&#34;no-highlight&#34;&gt;Content-Type: image/gif
@@ -660,18 +660,18 @@ Content-Length: 3779&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Types Of Database Columns</title>
-      <link>https://shitalshah.github.io/p/database-columns-char-numeric-stats/</link>
+      <link>http://shitalshah.com/p/database-columns-char-numeric-stats/</link>
       <pubDate>Thu, 14 Jul 2005 18:35:00 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/database-columns-char-numeric-stats/</guid>
+      <guid>http://shitalshah.com/p/database-columns-char-numeric-stats/</guid>
       <description>&lt;p&gt;From an &lt;a href=&#34;http://www2.hursley.ibm.com/decimal/decifaq1.html&#34; target=&#34;_blank&#34;&gt;excellent article on Decimal&lt;/a&gt; mentions survey of 1,091,916 columns in databases owned by 41 organizations to find that 41.8% of them contained numeric data and 53.7% contained char data.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>We are Finite State Machines</title>
-      <link>https://shitalshah.github.io/p/we-are-finite-state-machines/</link>
+      <link>http://shitalshah.com/p/we-are-finite-state-machines/</link>
       <pubDate>Mon, 11 Jul 2005 17:14:00 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/we-are-finite-state-machines/</guid>
+      <guid>http://shitalshah.com/p/we-are-finite-state-machines/</guid>
       <description>&lt;p&gt;From the coolest &lt;a href=&#34;http://www.objectmentor.com/resources/articles/umlCollaborationDiagrams.pdf&#34; target=&#34;_blank&#34;&gt;UML tutorial&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -684,9 +684,9 @@ Content-Length: 3779&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Five Good Books On Microsoft .Net Framework</title>
-      <link>https://shitalshah.github.io/p/five-good-books-on-microsoft-net-framework/</link>
+      <link>http://shitalshah.com/p/five-good-books-on-microsoft-net-framework/</link>
       <pubDate>Thu, 26 Dec 2002 20:05:50 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/five-good-books-on-microsoft-net-framework/</guid>
+      <guid>http://shitalshah.com/p/five-good-books-on-microsoft-net-framework/</guid>
       <description>&lt;p&gt;In a programming world, to do a criticism against anything and everything Microsoft does is like putting up a fashion statement by beautiful models with their useless cloths. But after spending years in intensive computer programming, Microsoft .Net seems to be &lt;em&gt;the best&lt;/em&gt; computer programming environment human kind can possess at this point of time. It&amp;rsquo;s simply just too perfect (if you forget the stupid &amp;ldquo;.Net&amp;rdquo; name tag i.e.) converging several good stuff from lots of things that existed ranging from non-proprietary C++, rival Java, Microsoft&amp;rsquo;s own VB and my old favorite Borland Delphi. I was kind of surprised at this level of perfection when I first used it and amazed at the numbers of human years that might have been spent to achieve this level of skills to do something this sophisticated flawlessly. So how do you get started? After going through details of more then 200 books, purchasing 10s of them, returning back many out of disappointment, here&amp;rsquo;s the 4 winners that has finally emerged. These books are probably all you need to learn almost everything you might need to develop advanced applications. I assume good familiarity with VB6, little more then intermediate programming experience and a desire to know low level details. [List arranged by order of importance]&lt;/p&gt;
 
 &lt;ol&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Uncategorized | Shital Shah</title>
-    <link>https://shitalshah.github.io/categories/uncategorized/</link>
-      <atom:link href="https://shitalshah.github.io/categories/uncategorized/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://shitalshah.com/categories/uncategorized/</link>
+      <atom:link href="http://shitalshah.com/categories/uncategorized/index.xml" rel="self" type="application/rss+xml" />
     <description>Uncategorized</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Sun, 05 Jun 2016 09:24:38 +0000</lastBuildDate>
     <image>
-      <url>https://shitalshah.github.io/img/shitalshah.jepg</url>
+      <url>http://shitalshah.com/img/shitalshah.jepg</url>
       <title>Uncategorized</title>
-      <link>https://shitalshah.github.io/categories/uncategorized/</link>
+      <link>http://shitalshah.com/categories/uncategorized/</link>
     </image>
     
     <item>
       <title>Writing Generic Container Functions in C&#43;&#43;11</title>
-      <link>https://shitalshah.github.io/p/writing-generic-container-function-in-c11/</link>
+      <link>http://shitalshah.com/p/writing-generic-container-function-in-c11/</link>
       <pubDate>Sun, 05 Jun 2016 09:24:38 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/writing-generic-container-function-in-c11/</guid>
+      <guid>http://shitalshah.com/p/writing-generic-container-function-in-c11/</guid>
       <description>&lt;p&gt;Let&amp;rsquo;s say we want to write function to append one vector to another. It can be done like,&lt;/p&gt;
 
 &lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;template&amp;lt;typename T&amp;gt;
@@ -153,9 +153,9 @@ append(Container&amp; to, const Container&amp; from)
     
     <item>
       <title>How to use Windows network share from domain joined machine on Linux</title>
-      <link>https://shitalshah.github.io/p/how-to-use-windows-network-share-from-domain-joined-machine-on-linux/</link>
+      <link>http://shitalshah.com/p/how-to-use-windows-network-share-from-domain-joined-machine-on-linux/</link>
       <pubDate>Fri, 03 Jun 2016 21:22:15 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/how-to-use-windows-network-share-from-domain-joined-machine-on-linux/</guid>
+      <guid>http://shitalshah.com/p/how-to-use-windows-network-share-from-domain-joined-machine-on-linux/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m seeing lot of websites with bit outdated or incomplete instructions. So here are the full steps that works for Ubuntu 14 for mounting Windows network file share on Ubuntu through active directory domain account:&lt;/p&gt;
 
 &lt;p&gt;First you need to install cifs-utils. Check if you already have it:&lt;/p&gt;

@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Opinions | Shital Shah</title>
-    <link>https://shitalshah.github.io/categories/opinions/</link>
-      <atom:link href="https://shitalshah.github.io/categories/opinions/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://shitalshah.com/categories/opinions/</link>
+      <atom:link href="http://shitalshah.com/categories/opinions/index.xml" rel="self" type="application/rss+xml" />
     <description>Opinions</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Sat, 12 Apr 2008 06:17:00 +0000</lastBuildDate>
     <image>
-      <url>https://shitalshah.github.io/img/shitalshah.jepg</url>
+      <url>http://shitalshah.com/img/shitalshah.jepg</url>
       <title>Opinions</title>
-      <link>https://shitalshah.github.io/categories/opinions/</link>
+      <link>http://shitalshah.com/categories/opinions/</link>
     </image>
     
     <item>
       <title>Kiwi Berries</title>
-      <link>https://shitalshah.github.io/p/kiwi-berries/</link>
+      <link>http://shitalshah.com/p/kiwi-berries/</link>
       <pubDate>Sat, 12 Apr 2008 06:17:00 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/kiwi-berries/</guid>
+      <guid>http://shitalshah.com/p/kiwi-berries/</guid>
       <description>&lt;p&gt;Oh&amp;hellip; these Kiwi Berries from Te Puke, NZ&amp;hellip; some of the best fruits in the world!&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2008/04/img_kiwiberry-packaging.jpg&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2008/04/img_kiwiberry-packaging.jpg&#34; alt=&#34;img_kiwiberry-packaging&#34; width=&#34;374&#34; height=&#34;236&#34; class=&#34;alignnone size-full wp-image-763&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2008/04/img_kiwiberry-packaging.jpg 374w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2008/04/img_kiwiberry-packaging-300x189.jpg 300w&#34; sizes=&#34;(max-width: 374px) 100vw, 374px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2008/04/img_kiwiberry-packaging.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2008/04/img_kiwiberry-packaging.jpg&#34; alt=&#34;img_kiwiberry-packaging&#34; width=&#34;374&#34; height=&#34;236&#34; class=&#34;alignnone size-full wp-image-763&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2008/04/img_kiwiberry-packaging.jpg 374w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2008/04/img_kiwiberry-packaging-300x189.jpg 300w&#34; sizes=&#34;(max-width: 374px) 100vw, 374px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Dev OS Choice: Windows 2003 Server Or XP</title>
-      <link>https://shitalshah.github.io/p/dev-os-choice-windows-2003-server-or-xp/</link>
+      <link>http://shitalshah.com/p/dev-os-choice-windows-2003-server-or-xp/</link>
       <pubDate>Sat, 06 Nov 2004 00:25:42 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/dev-os-choice-windows-2003-server-or-xp/</guid>
+      <guid>http://shitalshah.com/p/dev-os-choice-windows-2003-server-or-xp/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.peterprovost.org/&#34; target=&#34;_blank&#34;&gt;Peter Provost&lt;/a&gt; is &lt;a href=&#34;http://www.peterprovost.org/archive/2004/11/04/2067.aspx&#34; target=&#34;_blank&#34;&gt;switching to Server 2003&lt;/a&gt;. I want to say: don&amp;rsquo;t do it! I&amp;rsquo;d been using server version of operating system on my dev machines, even on laptops, since I can remember. But now I&amp;rsquo;m about to change my mind for the first time. Windows Server 2003 is not a cutting edge OS any longer. Infect it sucks!&lt;/p&gt;
 
 &lt;ol&gt;
@@ -52,9 +52,9 @@
     
     <item>
       <title>Anders Hejlsberg</title>
-      <link>https://shitalshah.github.io/p/anders-hejlsberg/</link>
+      <link>http://shitalshah.com/p/anders-hejlsberg/</link>
       <pubDate>Tue, 26 Aug 2003 06:09:42 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/anders-hejlsberg/</guid>
+      <guid>http://shitalshah.com/p/anders-hejlsberg/</guid>
       <description>&lt;p&gt;Just watched &lt;a href=&#34;http://msdn.microsoft.com/theshow/Episode035/default.asp&#34; target=&#34;_blank&#34;&gt;MSDN TV&amp;rsquo;s new episode on Managed Code&lt;/a&gt;. The topic is pretty trivial for me but what&amp;rsquo;s exciting is to see one person talking and seating there. I remember my years as a rebellious programmer when followers were few and swimming opposite the popular currents wasn&amp;rsquo;t easy. In all-Unix all-C++ organization I&amp;rsquo;d heavily pushed for tools and style I believed in - even if it meant taking over entire responsibility and work load on me. All those tools that I chose, used and appreciated for the vision it embedded, looked separate pieces of great ideas which just seem to happen to came on my way&amp;hellip; until there was one day when I read a magazine article and came to know there was really only one person behind all of those and all these years: Anders Hejlsberg. Those separate pieces of vision now seems to make a complete picture and so you can imagine how I would have stand in awe of him. As far as world of programming is concerned, Anders is my hero.&lt;/p&gt;
 </description>
     </item>

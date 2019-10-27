@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gadgets | Shital Shah</title>
-    <link>https://shitalshah.github.io/categories/gadgets/</link>
-      <atom:link href="https://shitalshah.github.io/categories/gadgets/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://shitalshah.com/categories/gadgets/</link>
+      <atom:link href="http://shitalshah.com/categories/gadgets/index.xml" rel="self" type="application/rss+xml" />
     <description>Gadgets</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Sat, 24 Dec 2016 00:15:13 +0000</lastBuildDate>
     <image>
-      <url>https://shitalshah.github.io/img/shitalshah.jepg</url>
+      <url>http://shitalshah.com/img/shitalshah.jepg</url>
       <title>Gadgets</title>
-      <link>https://shitalshah.github.io/categories/gadgets/</link>
+      <link>http://shitalshah.com/categories/gadgets/</link>
     </image>
     
     <item>
       <title>Playing with HoloLens</title>
-      <link>https://shitalshah.github.io/p/playing-with-hololens/</link>
+      <link>http://shitalshah.com/p/playing-with-hololens/</link>
       <pubDate>Sat, 24 Dec 2016 00:15:13 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/playing-with-hololens/</guid>
+      <guid>http://shitalshah.com/p/playing-with-hololens/</guid>
       <description>&lt;p&gt;Few days ago I got chance to play with HoloLens. Here&amp;rsquo;s the clip I shot from HoloLens in my bedroom during first few minutes with the device. The video posted directly from the HoloLens to YouTube, no postprocessing, and it&amp;rsquo;s very close to what I was seeing:&lt;/p&gt;
 
 
@@ -37,9 +37,9 @@
     
     <item>
       <title>Mazda RX-8 Review</title>
-      <link>https://shitalshah.github.io/p/mazda-rx-8-review/</link>
+      <link>http://shitalshah.com/p/mazda-rx-8-review/</link>
       <pubDate>Sat, 30 Apr 2005 21:19:52 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/mazda-rx-8-review/</guid>
+      <guid>http://shitalshah.com/p/mazda-rx-8-review/</guid>
       <description>&lt;p&gt;I guess it&amp;rsquo;s the time to write down bits about &lt;a href=&#34;http://www.mazdausa.com/MusaWeb/handleHomeFlash.action?vehicleCode=RX8&amp;amp;modelYear=2005&amp;amp;bhcp=1&#34; target=&#34;_blank&#34;&gt;Mazda RX-8&lt;/a&gt; for the benefit of future buyers. This is the car we bought in year 2004. I&amp;rsquo;ve heard that the 2005 model is exactly the same but I haven&amp;rsquo;t checked it. Anyway lets start the engines!&lt;/p&gt;
 
 &lt;ul&gt;
@@ -81,9 +81,9 @@
     
     <item>
       <title>Electrons Are Out, Photons Are In</title>
-      <link>https://shitalshah.github.io/p/electrons-are-out-photons-are-in/</link>
+      <link>http://shitalshah.com/p/electrons-are-out-photons-are-in/</link>
       <pubDate>Tue, 08 Mar 2005 02:42:08 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/electrons-are-out-photons-are-in/</guid>
+      <guid>http://shitalshah.com/p/electrons-are-out-photons-are-in/</guid>
       <description>&lt;p&gt;Our custom made PC based &amp;ldquo;media center&amp;rdquo; just got its new replacement screen: &lt;a href=&#34;http://accessories.us.dell.com/sna/productdetail.aspx?sku=2300CC1&amp;amp;c=us&amp;amp;l=en&amp;amp;cs=19&amp;amp;category_id=2999&amp;amp;page=external&#34; target=&#34;_blank&#34;&gt;Dell 2300MP Projector&lt;/a&gt;! Short review: It rocks and totally worth it (especially playing PS2 games wired with 5.1 sound system and WinAmp Visualizers on a big screen). And here are more tidbits for you geeks:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -104,27 +104,27 @@
     
     <item>
       <title>The New Synthesizer</title>
-      <link>https://shitalshah.github.io/p/yamaha-ez250i-synthesizer/</link>
+      <link>http://shitalshah.com/p/yamaha-ez250i-synthesizer/</link>
       <pubDate>Thu, 02 Oct 2003 04:37:52 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/yamaha-ez250i-synthesizer/</guid>
+      <guid>http://shitalshah.com/p/yamaha-ez250i-synthesizer/</guid>
       <description>&lt;p&gt;I finally bought my new keyboard synthesizer - something I wanted since last few months. It&amp;rsquo;s &lt;a href=&#34;http://www.yamaha.com/yamahavgn/CDA/ContentDetail/ModelSeriesDetail/0,6373,CNTID%253D21387%2526CTID%253D205300%2526VNM%253DLIVE%2526AFLG%253DY%2526LGFL%253DN,00.html&#34; target=&#34;_blank&#34;&gt;Yamaha EZ250i&lt;/a&gt; from &lt;a href=&#34;http://www.instrumentpro.com/&#34; target=&#34;_blank&#34;&gt;InstrumentPro&lt;/a&gt; (they seems to be the only one bundling the survival kit along with). This one is suitable for beginners as well as advanced users who needs a perfect piano experience. Infect it&amp;rsquo;s the ultimate machine available for learner in the market. This one is an upgrade over EZ30 and has just arrived in last July. It can be connected to computer right away, has 400+ voices, accurate Grand Piano sounds, built-in Education Suit among several other things. Sweeeet!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Things To Remember When Building Your PC</title>
-      <link>https://shitalshah.github.io/p/custom-pc-checklist-2003/</link>
+      <link>http://shitalshah.com/p/custom-pc-checklist-2003/</link>
       <pubDate>Sat, 06 Sep 2003 06:48:36 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/custom-pc-checklist-2003/</guid>
+      <guid>http://shitalshah.com/p/custom-pc-checklist-2003/</guid>
       <description>&lt;p&gt;I recently upgraded my custom build 2.5 year old beast. When I started out that time, I wanted to make something really powerful, enviable and which kind of had everything. After burning $3500 in this endeavor I enjoyed owning something that exceeded what Microsoft and others just recently &amp;ldquo;innovated&amp;rdquo; as &lt;a href=&#34;http://www.microsoft.com/windowsxp/mediacenter/evaluation/products.asp&#34; target=&#34;_blank&#34;&gt;Media Center PC&lt;/a&gt;. But this time upgrade wasn&amp;rsquo;t easy and I kept messing up things many times and calling up other gurus. So here&amp;rsquo;s the list for the benefit of someone not-so-skilled: 1. Usually motherboards have 3 special screws that would touch the chassis and provide the grounding. Don&amp;rsquo;t mix up (aha, screw up) those screws. 2. When you lay PC on its side (motherboard top facing you), remember all IDE cable&amp;rsquo;s red-line side faces you but floppy&amp;rsquo;s faces down. If you mess this up, drives won&amp;rsquo;t be detected and you might keep thinking that you blew up power supply and run to buy another one. 3. Power cables to all IDE drives would have yellow side facing you and red side facing IDE cable&amp;rsquo;s red-line. Usually you can&amp;rsquo;t plug other way, unless, uhhh&amp;hellip; you push really hard! 4. It&amp;rsquo;s important to see which drive is master and which one is slave (ALWAYS look at the jumper settings before you put drives in bays wire everything up). I didn&amp;rsquo;t bothered and just keep trying until they all were detected (real reason being I&amp;rsquo;d lost my flashlight). This won&amp;rsquo;t blow up your drives but it&amp;rsquo;s very unreliable. 5. Don&amp;rsquo;t forget to connect CD digital and DVD SPDF connectors to sound card. Former allows digital ripping of audio CDs in MP3s and later allows Dolby Digital sound if you have the card that supports that and have hooked up to Home Theater system. Also if you want to listen modem noises on speakers (or home theater as in my case), don&amp;rsquo;t forget to connect modem and sound card. Many cheap modems don&amp;rsquo;t support this any longer however. 6. If power light blinks then probably you have power supply set on 230V (European style) rather then 115V (US style).&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>PhysLink store</title>
-      <link>https://shitalshah.github.io/p/physlink-store-shopping-2003/</link>
+      <link>http://shitalshah.com/p/physlink-store-shopping-2003/</link>
       <pubDate>Tue, 10 Jun 2003 20:44:08 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/physlink-store-shopping-2003/</guid>
+      <guid>http://shitalshah.com/p/physlink-store-shopping-2003/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s nice &lt;a href=&#34;http://www.physlink.com&#34; target=&#34;_blank&#34;&gt;store&lt;/a&gt;. Here are the things I just bought&amp;hellip;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -141,39 +141,39 @@
     
     <item>
       <title>The Better Giving</title>
-      <link>https://shitalshah.github.io/p/the-better-giving-for-relatives-abroad-2002/</link>
+      <link>http://shitalshah.com/p/the-better-giving-for-relatives-abroad-2002/</link>
       <pubDate>Mon, 16 Dec 2002 07:09:19 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/the-better-giving-for-relatives-abroad-2002/</guid>
+      <guid>http://shitalshah.com/p/the-better-giving-for-relatives-abroad-2002/</guid>
       <description>&lt;p&gt;A year ago it took me around 6 months before I felt it was the perfect gift to give it to my cousins. But the trouble was that by the time they received it they got confused whether it was for last year&amp;rsquo;s occasion or coming year&amp;rsquo;s! It&amp;rsquo;s an art to find a gift that&amp;rsquo;s unique, hard to find, memorable and the one matching with person&amp;rsquo;s personality and need. Here are some of those tips and places that I came across over time to help you out this holiday season. 1. The premier destination to get the unique gift idea is &lt;a href=&#34;http://www.surprise.com&#34; target=&#34;_blank&#34;&gt;surprise.com&lt;/a&gt;. A must visit if you are still in the complete darkness. 2. Check out &lt;a href=&#34;https://github.com/sytelus/Bookmarks&#34; target=&#34;_blank&#34;&gt;my collection of gift links&lt;/a&gt;. You will find things ranging from &lt;a href=&#34;http://www.drugstore.com/qxp69153_333181_sespider/kama_sutra/weekender_kit.htm&#34; target=&#34;_blank&#34;&gt;Kamasutra weekender kit&lt;/a&gt; to &lt;a href=&#34;https://stardate.utexas.edu/giftshop/store.tpl&#34; target=&#34;_blank&#34;&gt;Astronomy&amp;rsquo;s cool gift ideas&lt;/a&gt;. 3. To find out what&amp;rsquo;s latest and coolest, check out &lt;a href=&#34;http://www.sciam.com/article.cfm?&amp;amp;articleID=00062C10-684A-1DDE-A838809EC588F2D7&#34; target=&#34;_blank&#34;&gt;Scientific American&amp;rsquo;s Top SciTech Gifts of 2002&lt;/a&gt;. This one is a real good contemporary compilation. 4. If you still didn&amp;rsquo;t found you were looking for, view &lt;a href=&#34;https://github.com/sytelus/Bookmarks&#34; target=&#34;_blank&#34;&gt;my collection of shopping links&lt;/a&gt;. Specially check for Diversity Stores section. 5. Instead of giving gifts to someone who already has too much, you might want to ask them if it&amp;rsquo;s ok to give some donations to non-profit organizations instead of giving them yet another gift that would be anyway useless to them. Click here for some &lt;a href=&#34;https://github.com/sytelus/Bookmarks&#34; target=&#34;_blank&#34;&gt;charity organizations in my links collection&lt;/a&gt;. 6. Finally here are my personal favorites and non-favorites for this year: &lt;a href=&#34;http://www.wizcomtech.com/products2/quicktionary2.php3&#34; target=&#34;_blank&#34;&gt;Quicktionary&lt;/a&gt;, Book light (both are perfect if a person is an avid reader), external hard drive (perfect for heavy laptop users because they always run out of space), &lt;a href=&#34;http://www.getfeetwet.com/&#34; target=&#34;_blank&#34;&gt;handheld GPS&lt;/a&gt; (for outdoor person), &lt;a href=&#34;http://mindstorms.lego.com/eng/default.asp&#34; target=&#34;_blank&#34;&gt;Lego Mindstorm robot kit&lt;/a&gt; (absolute perfect gift for kids), DVD/MP3 players, HP49 calc (perfect for mathematicians), &lt;a href=&#34;http://www.ehobbies.com/radio-control-airplanes.html&#34; target=&#34;_blank&#34;&gt;model air plane kit&lt;/a&gt; (prefer unassembled ones). And now the things that sucks as gifts: fragrances, cloths, pocket PCs and palms, organizers, CD players, pocket MP3 players, RC cars, PS2. These gifts totally suck. Finally it&amp;rsquo;s not necessary to go overboard. Infect being a follower of &amp;lsquo;Grinch philosophy&amp;rsquo; I&amp;rsquo;m supposed to hate all give and take of gifts. May be it&amp;rsquo;s just enough to &lt;a href=&#34;https://github.com/sytelus/Bookmarks&#34; target=&#34;_blank&#34;&gt;send a web card&lt;/a&gt; with few clicks to let someone know that you still remember.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The Pen With Dictionary And Voice</title>
-      <link>https://shitalshah.github.io/p/quicktionary-the-pen-with-dictionary-and-voice/</link>
+      <link>http://shitalshah.com/p/quicktionary-the-pen-with-dictionary-and-voice/</link>
       <pubDate>Fri, 01 Nov 2002 00:26:10 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/quicktionary-the-pen-with-dictionary-and-voice/</guid>
+      <guid>http://shitalshah.com/p/quicktionary-the-pen-with-dictionary-and-voice/</guid>
       <description>&lt;p&gt;Now this is something I was absolutely looking for. A device which scans the printed word in a book and tell you it&amp;rsquo;s meaning and pronounces it through voice! Sure there are lots of hand electronics dictionaries for this but it&amp;rsquo;s still work half done because you have to cut your chain of thought and type in word in it. Guess what, there a pen shaped hand held scanner that does the same thingy - you just move it over a text and in seconds it gives dictionary entry and pronunciation! It&amp;rsquo;s called QuickLink or Quicktionary handheld scanner pen. The mfg site is at &lt;a href=&#34;http://www.wizcomtech.com&#34; target=&#34;_blank&#34;&gt;http://www.wizcomtech.com&lt;/a&gt; but sadly isn&amp;rsquo;t available at stores like Best Buy. All of the e-tailers including buy.com and amazon.com I tried were mysteriously out of stock and the manufacturer has kept their direct prices higher then any retailer (this really sucks). I will be buying a version called SuperPen - that one you can also use for storing lines of text you have jotted down and transfer to your PC later. Also it can translate scanned text in to many languages. very cool! Past few months I came across many many cool books and I wished if had this thing&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Gizmos - Backup Drive, USB TV, External Dolby Sound Card</title>
-      <link>https://shitalshah.github.io/p/gizmos-backup-drive-usb-tv-external-dolby-sound-card/</link>
+      <link>http://shitalshah.com/p/gizmos-backup-drive-usb-tv-external-dolby-sound-card/</link>
       <pubDate>Fri, 01 Nov 2002 00:13:11 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/gizmos-backup-drive-usb-tv-external-dolby-sound-card/</guid>
+      <guid>http://shitalshah.com/p/gizmos-backup-drive-usb-tv-external-dolby-sound-card/</guid>
       <description>&lt;p&gt;Here&amp;rsquo;s some of the very cool gizmos I&amp;rsquo;ve found: I was looking for a backup device for a long time. I&amp;rsquo;ve some 200 gigs of stuff scattered around and I realized much of it isn&amp;rsquo;t really junk!! So gave thought on DVD writers but I have no wish to carry 20 DVDs around. And then suddenly I found this 120GB external hard drive. It&amp;rsquo;s perfect. One from Iomega comes for around $290 and it&amp;rsquo;s 7200 RPM (look in Amazon). Another thing on my wish list was portable TV tuner card which I can connect to my laptop or home PC. It might surprise you but I&amp;rsquo;ve gave up on those &amp;ldquo;idiot box&amp;rdquo; type TVs since around year and half. I&amp;rsquo;ve Radeon All-In-Wonder showing TV on my 20&amp;rdquo; PC screen. And then there&amp;rsquo;s Creative 5.1 Dolby card which sends sound signal from my PC to 600W home theater system. Neat, isn&amp;rsquo;t it? I can use sophisticated program search, record program on my huge hard drives in MPEG, take stills and even view all channels at once (very slow though). But my PC died few days ago. It won&amp;rsquo;t power up because of that buggy CLSUS II motherboard bug. And now I&amp;rsquo;m missing South Park and Seinfeld. And so I realized I need to have something that I can plug in to my notebook on the go and watch TV! And I found more the what I asked for. For $80 you can get KWorld external USB TV tuner device which is also an FM tuner! It works on PAL also so good for travelling with laptops to UK and India. Watch out for few others like WinTV - they don&amp;rsquo;t have these things. Yet another thing that I was looking for was external Dolby 5.1 sound card. For those who have bought expensive computer speakers, well, guys you wasted your money. You can always get 600W home theater system (i.e. amplifier and speakers) and connect it to Dolby 5.1 compatible card. Until last year only such card was Creative Live! 5.1. Now there are many but I guess Creative still rules because they give you optical as well as SPDF outputs. The beauty of external card is that you can carry it with your notebook and instantly start a sort of night club wherever you can find amplifier and speakers (say, your friend&amp;rsquo;s bachelor party) streaming out your favorite MP3s. As you might know, most non-geeks who have home theater systems don&amp;rsquo;t know how to connect it to PC.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Garmin eMap GPS System</title>
-      <link>https://shitalshah.github.io/p/garmin-emap-gps-system/</link>
+      <link>http://shitalshah.com/p/garmin-emap-gps-system/</link>
       <pubDate>Tue, 25 Jun 2002 21:35:51 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/garmin-emap-gps-system/</guid>
+      <guid>http://shitalshah.com/p/garmin-emap-gps-system/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2002/06/gps_emap.jpg&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2002/06/gps_emap.jpg&#34; alt=&#34;gps_emap&#34; width=&#34;79&#34; height=&#34;150&#34; class=&#34;alignleft size-full wp-image-1183&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2002/06/gps_emap.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2002/06/gps_emap.jpg&#34; alt=&#34;gps_emap&#34; width=&#34;79&#34; height=&#34;150&#34; class=&#34;alignleft size-full wp-image-1183&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
 
@@ -223,12 +223,12 @@
     
     <item>
       <title>Memorex Personal CD/MP3 Player MPD8505CP</title>
-      <link>https://shitalshah.github.io/p/memorex-personal-cdmp3-player-mpd8505cp/</link>
+      <link>http://shitalshah.com/p/memorex-personal-cdmp3-player-mpd8505cp/</link>
       <pubDate>Tue, 25 Jun 2002 09:35:11 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/memorex-personal-cdmp3-player-mpd8505cp/</guid>
+      <guid>http://shitalshah.com/p/memorex-personal-cdmp3-player-mpd8505cp/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;https://shitalshah.github.io/images/posts/2002/06/mp3_player_memorex.jpg&#34;&gt;&lt;img src=&#34;https://shitalshah.github.io/images/posts/2002/06/mp3_player_memorex.jpg&#34; alt=&#34;mp3_player_memorex&#34; width=&#34;150&#34; height=&#34;111&#34; class=&#34;alignleft size-full wp-image-1184&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2002/06/mp3_player_memorex.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2002/06/mp3_player_memorex.jpg&#34; alt=&#34;mp3_player_memorex&#34; width=&#34;150&#34; height=&#34;111&#34; class=&#34;alignleft size-full wp-image-1184&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
 

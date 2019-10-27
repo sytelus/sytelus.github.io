@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mathematics | Shital Shah</title>
-    <link>https://shitalshah.github.io/categories/mathematics/</link>
-      <atom:link href="https://shitalshah.github.io/categories/mathematics/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://shitalshah.com/categories/mathematics/</link>
+      <atom:link href="http://shitalshah.com/categories/mathematics/index.xml" rel="self" type="application/rss+xml" />
     <description>Mathematics</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Tue, 21 Jun 2005 20:20:14 +0000</lastBuildDate>
     <image>
-      <url>https://shitalshah.github.io/img/shitalshah.jepg</url>
+      <url>http://shitalshah.com/img/shitalshah.jepg</url>
       <title>Mathematics</title>
-      <link>https://shitalshah.github.io/categories/mathematics/</link>
+      <link>http://shitalshah.com/categories/mathematics/</link>
     </image>
     
     <item>
       <title>Digits Of Pi</title>
-      <link>https://shitalshah.github.io/p/digits-of-pi/</link>
+      <link>http://shitalshah.com/p/digits-of-pi/</link>
       <pubDate>Tue, 21 Jun 2005 20:20:14 +0000</pubDate>
-      <guid>https://shitalshah.github.io/p/digits-of-pi/</guid>
+      <guid>http://shitalshah.com/p/digits-of-pi/</guid>
       <description>&lt;p&gt;A famous quote from John Von Neumann goes like this,&lt;/p&gt;
 
 &lt;blockquote&gt;
