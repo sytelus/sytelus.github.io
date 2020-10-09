@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software | Shital Shah</title>
-    <link>http://shitalshah.com/categories/software/</link>
-      <atom:link href="http://shitalshah.com/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://shital.com/categories/software/</link>
+      <atom:link href="http://shital.com/categories/software/index.xml" rel="self" type="application/rss+xml" />
     <description>Software</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Sat, 31 May 2014 02:54:03 +0000</lastBuildDate>
     <image>
-      <url>http://shitalshah.com/img/shitalshah.jepg</url>
+      <url>http://shital.com/img/shitalshah.jepg</url>
       <title>Software</title>
-      <link>http://shitalshah.com/categories/software/</link>
+      <link>http://shital.com/categories/software/</link>
     </image>
     
     <item>
       <title>Downloading All of Hacker News Posts and Comments</title>
-      <link>http://shitalshah.com/p/downloading-all-of-hacker-news-posts-and-comments/</link>
+      <link>http://shital.com/p/downloading-all-of-hacker-news-posts-and-comments/</link>
       <pubDate>Sat, 31 May 2014 02:54:03 +0000</pubDate>
-      <guid>http://shitalshah.com/p/downloading-all-of-hacker-news-posts-and-comments/</guid>
+      <guid>http://shital.com/p/downloading-all-of-hacker-news-posts-and-comments/</guid>
       <description>
 
 &lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
@@ -197,10 +197,34 @@
     </item>
     
     <item>
+      <title>A quicker way to Twitter</title>
+      <link>http://shital.com/p/a-quicker-way-to-twitter/</link>
+      <pubDate>Tue, 22 Apr 2008 11:25:03 +0000</pubDate>
+      <guid>http://shital.com/p/a-quicker-way-to-twitter/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2008/04/screenshot_quicktwit.png&#34;&gt;&lt;img class=&#34;alignleft wp-image-753 size-full&#34; src=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2008/04/screenshot_quicktwit.png&#34; alt=&#34;screenshot_quicktwit&#34; width=&#34;373&#34; height=&#34;238&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2008/04/screenshot_quicktwit.png 373w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2008/04/screenshot_quicktwit-300x191.png 300w&#34; sizes=&#34;(max-width: 373px) 100vw, 373px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past weekend, I finally thought about giving Twitter a try and started looking for a client app that just allows me to very quickly update the status with a global keyboard shot cut. I&amp;rsquo;m not in to following anyone or replying anyone but wanted this very simple app with one text box. Apparently no such apps existed in Twitter Fan Wiki which actually turned out to be a good thing because I immediately started looking at Twitter&amp;rsquo;s API and any C# wrappers. About 90 minutes later I&amp;rsquo;d my app ready. On the way I also added functionality to break the big updates in to multiple twits. This little (literally) app is now open sourced on CodePlex and ready for you to &lt;a href=&#34;http://www.codeplex.com/QckTwit/Release/ProjectReleases.aspx&#34; target=&#34;_blank&#34;&gt;try it out&lt;/a&gt;!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Two Small Utilities</title>
+      <link>http://shital.com/p/sql-insert-script-disk-defuzzer/</link>
+      <pubDate>Mon, 07 May 2007 02:38:03 +0000</pubDate>
+      <guid>http://shital.com/p/sql-insert-script-disk-defuzzer/</guid>
+      <description>&lt;p&gt;These two small utilities I&amp;rsquo;d wrote about an year ago and since then they were sitting on my network share. Meanwhile lot of people in my team used it and found them useful. There is still a large list of features that I&amp;rsquo;d like to add but even without it, these are pretty usable at this point. So enjoy!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/sytelus/SQLUtils&#34; target=&#34;_blank&#34;&gt;SQL INSERT Script Genertor&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/sytelus/DiskDefuzzerMdb&#34; target=&#34;_blank&#34;&gt;Disk Defuzzer&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Introducing DSS</title>
-      <link>http://shitalshah.com/p/introducing-dss/</link>
+      <link>http://shital.com/p/introducing-dss/</link>
       <pubDate>Thu, 16 Feb 2006 15:04:01 +0000</pubDate>
-      <guid>http://shitalshah.com/p/introducing-dss/</guid>
+      <guid>http://shital.com/p/introducing-dss/</guid>
       <description>&lt;p&gt;There are tons and tons of things to blog but here is a quick one.&lt;/p&gt;
 
 &lt;p&gt;Last Thanksgiving (a 4 days of holidays in USA) I wanted to work on something really cool that is absolutely worth doing and something I can spend my entire 4 days continuosly. I looked over my list of pending projects to find something extraordinarily cool, kept thinking about new ideas flowing around, looked over to other idea websites and realized that my mind was just keept going blank all the while.&lt;/p&gt;
@@ -217,31 +241,31 @@
     
     <item>
       <title>Groove Hacks</title>
-      <link>http://shitalshah.com/p/groove-hacks/</link>
+      <link>http://shital.com/p/groove-hacks/</link>
       <pubDate>Tue, 15 Nov 2005 05:48:53 +0000</pubDate>
-      <guid>http://shitalshah.com/p/groove-hacks/</guid>
-      <description>&lt;p&gt;About a year and half ago, the new version of &lt;a href=&#34;http://shitalshah.com/astrila/messageexport/&#34;&gt;Groove&lt;/a&gt; had came out and it still didn&amp;rsquo;t had an ability export IMs. It drove me nuts so I started to write my own Groove tool that would do it in excuse to explore its infamous internals. Ah! What a ride that was! Groove APIs have extremely huge surface area (which means there are thousands and thousands of them sprinkled all over in hard to find places). Tons of them have confusing names, misleading functionalities and put in the wrong place. The fun part? There is almost no documentation! And yeah, did I forgot to mention that they are heavy C++ oriented, frequently late bound and mostly proprietary stuff (they even have their own proprietary definition for rich text and APIs!)?&lt;/p&gt;
+      <guid>http://shital.com/p/groove-hacks/</guid>
+      <description>&lt;p&gt;About a year and half ago, the new version of &lt;a href=&#34;http://shital.com/astrila/messageexport/&#34;&gt;Groove&lt;/a&gt; had came out and it still didn&amp;rsquo;t had an ability export IMs. It drove me nuts so I started to write my own Groove tool that would do it in excuse to explore its infamous internals. Ah! What a ride that was! Groove APIs have extremely huge surface area (which means there are thousands and thousands of them sprinkled all over in hard to find places). Tons of them have confusing names, misleading functionalities and put in the wrong place. The fun part? There is almost no documentation! And yeah, did I forgot to mention that they are heavy C++ oriented, frequently late bound and mostly proprietary stuff (they even have their own proprietary definition for rich text and APIs!)?&lt;/p&gt;
 
 &lt;p&gt;If your brain needs some challenge that&amp;rsquo;s the place to dig in to. After sacrificing my 3 weekends I finally had a working tool that exports Groove IMs and put them to Outlook without loosing formatting or attachments! I consider this an equivalent feat of removing nag dialog of WinZip by changing a x86 jump instruction in its disassembled binary using only Visual Studio debugger and absolutely nothing else ;).&lt;/p&gt;
 
-&lt;p&gt;This tool had been sitting on my hard drive crying to get out for months and months. In between, I did some polishing up, adding wizards, support for Word and Excel, creating a help file and even created a website for it. So now I think it’s pretty much ready and have decided to give it away for free personal use (similar tools cost $50 something I guess). &lt;a href=&#34;http://shitalshah.com/astrila/messageexport/&#34;&gt;Check it out&lt;/a&gt; if you use Groove and want to save your invaluable messages! Call it laziness or ignorance or whatever but I really do feel guilty not to putting this out early when 3.0 came out and lot of people SO need it!&lt;/p&gt;
+&lt;p&gt;This tool had been sitting on my hard drive crying to get out for months and months. In between, I did some polishing up, adding wizards, support for Word and Excel, creating a help file and even created a website for it. So now I think it’s pretty much ready and have decided to give it away for free personal use (similar tools cost $50 something I guess). &lt;a href=&#34;http://shital.com/astrila/messageexport/&#34;&gt;Check it out&lt;/a&gt; if you use Groove and want to save your invaluable messages! Call it laziness or ignorance or whatever but I really do feel guilty not to putting this out early when 3.0 came out and lot of people SO need it!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>My New CodeProject Article On Equation Rendering</title>
-      <link>http://shitalshah.com/p/my-new-codeproject-article-on-equation-rendering/</link>
+      <link>http://shital.com/p/my-new-codeproject-article-on-equation-rendering/</link>
       <pubDate>Wed, 24 Aug 2005 02:31:01 +0000</pubDate>
-      <guid>http://shitalshah.com/p/my-new-codeproject-article-on-equation-rendering/</guid>
+      <guid>http://shital.com/p/my-new-codeproject-article-on-equation-rendering/</guid>
       <description>&lt;p&gt;I just finished &lt;a href=&#34;http://www.codeproject.com/Articles/11406/Enable-Your-Users-to-Write-Math-Equations-in-Your&#34; target=&#34;_blank&#34;&gt;my new article on CodeProject&lt;/a&gt;. The mission on MimeTeX was started about couple of months ago when in a weekend I just got attracted to MimeTeX&amp;rsquo;s C code like a magnet ;). Now I&amp;rsquo;ve built ASP.Net handler, caching, admin etc on the top of it and its looking great! Enabling scientific content on web seems to be my new obsession. So if you take pride in delighting your users with every new release, here&amp;rsquo;s your brand new feature! Go ahead, download it, use it! If you run in to any problem, I&amp;rsquo;ll be glad to offer you my help.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Some Cool .Net Nuggets</title>
-      <link>http://shitalshah.com/p/some-cool-net-nuggets/</link>
+      <link>http://shital.com/p/some-cool-net-nuggets/</link>
       <pubDate>Fri, 24 Jun 2005 22:00:46 +0000</pubDate>
-      <guid>http://shitalshah.com/p/some-cool-net-nuggets/</guid>
+      <guid>http://shital.com/p/some-cool-net-nuggets/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;If type&amp;rsquo;s constructor (i.e. static constructor) throws an exception, entire type becomes unusable. Any attempt to call any member of that type would result in TypeInitializationException.&lt;/li&gt;
 
@@ -341,34 +365,108 @@ End try
     
     <item>
       <title>Integrating RSS And Calendar Essay Available Now</title>
-      <link>http://shitalshah.com/p/integrating-rss-and-calendar-essay-available-now/</link>
+      <link>http://shital.com/p/integrating-rss-and-calendar-essay-available-now/</link>
       <pubDate>Tue, 24 May 2005 02:10:36 +0000</pubDate>
-      <guid>http://shitalshah.com/p/integrating-rss-and-calendar-essay-available-now/</guid>
-      <description>&lt;p&gt;The idea of wrapping calendar information in to the RSS feed may sound very appealing. Almost every website owned by some kind of group or organization has their event calendar. The thought that you can aggregate them in to your &amp;ldquo;Calendar Aggregator&amp;rdquo; is just so geekily cool. What if people started putting up their weekend plans through some kind of RSS-Calendar and you can subscribe to them in your calendar program! I dig through dozens of W3C and other specs and half a dozen of implementation to find out what has been done so far and why it hasn&amp;rsquo;t happened yet. The result of my findings and possible solution are summarized in &lt;a href=&#34;http://shitalshah.com/p/integrating-rss-and-calendar/&#34;&gt;my essay&lt;/a&gt; in some reader friendly writing.&lt;/p&gt;
+      <guid>http://shital.com/p/integrating-rss-and-calendar-essay-available-now/</guid>
+      <description>&lt;p&gt;The idea of wrapping calendar information in to the RSS feed may sound very appealing. Almost every website owned by some kind of group or organization has their event calendar. The thought that you can aggregate them in to your &amp;ldquo;Calendar Aggregator&amp;rdquo; is just so geekily cool. What if people started putting up their weekend plans through some kind of RSS-Calendar and you can subscribe to them in your calendar program! I dig through dozens of W3C and other specs and half a dozen of implementation to find out what has been done so far and why it hasn&amp;rsquo;t happened yet. The result of my findings and possible solution are summarized in &lt;a href=&#34;http://shital.com/p/integrating-rss-and-calendar/&#34;&gt;my essay&lt;/a&gt; in some reader friendly writing.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Updates - Spring 2005</title>
-      <link>http://shitalshah.com/p/updates-spring-2005/</link>
+      <link>http://shital.com/p/updates-spring-2005/</link>
       <pubDate>Thu, 21 Apr 2005 18:44:07 +0000</pubDate>
-      <guid>http://shitalshah.com/p/updates-spring-2005/</guid>
+      <guid>http://shital.com/p/updates-spring-2005/</guid>
       <description>&lt;p&gt;I would be writing all New York City related stuff at &lt;a href=&#34;http://nyc.metblogs.com&#34; target=&#34;_blank&#34;&gt;Metblogs&lt;/a&gt; rather then my own blog. This makes sense because lot of people who aren&amp;rsquo;t in this region doesn&amp;rsquo;t need to get those NYC stories. On the other hand, my NYC related writing will now reach to much larger audience. Check out &lt;a href=&#34;http://www.google.com/search?q=site:nyc.metblogs.com+%22shital+shah%22&amp;amp;hl=en&amp;amp;lr=&amp;amp;c2coff=1&amp;amp;safe=off&amp;amp;filter=0&#34; target=&#34;_blank&#34;&gt;some of my entries there&lt;/a&gt; about cool New York events, restaurants and such stuff.&lt;/p&gt;
 
 &lt;p&gt;On the other site news, you might have noticed new skin and more FireFox friendly design. I also decided to give away the &lt;a href=&#34;https://github.com/sytelus/SyFastPage&#34; target=&#34;_blank&#34;&gt;engine that my website runs on&lt;/a&gt; (C# code I wrote almost 4 years ago) along with entire &lt;a href=&#34;https://github.com/sytelus/ShitalShahWebV3&#34; target=&#34;_blank&#34;&gt;source code for this website&lt;/a&gt; (thats in VB.Net just for fun). Nothing special but main highlights of the engine is that it accepts raw HTML file as the base template and embeds your dynamic ASP.Net WebForm content inside that HTML. It also provides navigation control which runs off of XHTML templates and XML.&lt;/p&gt;
 
-&lt;p&gt;If you like my free utilities, don&amp;rsquo;t forget to check out the &lt;a href=&#34;http://shitalshah.com/p/category/software/&#34;&gt;massive updates in my Software section&lt;/a&gt;. It has now many more of my programs and utilities that I kept it to myself. Specifically, the one called &lt;a href=&#34;https://github.com/sytelus/BrowserHistoryAnalyzer&#34; target=&#34;_blank&#34;&gt;Browser History Analyzer&lt;/a&gt; analyses your IE history (support for FireFox coming soon), builds MS Access database and gives you tons of amusing info about your browsing habits such has the queries you fired on search engine, how do you refine your keywords progressively, how much time you usually spend on a page, how much time you spend on browsing and so on. Whilte still in development, it also features extensible architecture to let you make your own plugins. I&amp;rsquo;ve also put the link for article I wrote for CodeProject about &lt;a href=&#34;https://github.com/sytelus/WinProgressDialog&#34; target=&#34;_blank&#34;&gt;how to show Explorer&amp;rsquo;s progress dialog in your apps&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you like my free utilities, don&amp;rsquo;t forget to check out the &lt;a href=&#34;http://shital.com/p/category/software/&#34;&gt;massive updates in my Software section&lt;/a&gt;. It has now many more of my programs and utilities that I kept it to myself. Specifically, the one called &lt;a href=&#34;https://github.com/sytelus/BrowserHistoryAnalyzer&#34; target=&#34;_blank&#34;&gt;Browser History Analyzer&lt;/a&gt; analyses your IE history (support for FireFox coming soon), builds MS Access database and gives you tons of amusing info about your browsing habits such has the queries you fired on search engine, how do you refine your keywords progressively, how much time you usually spend on a page, how much time you spend on browsing and so on. Whilte still in development, it also features extensible architecture to let you make your own plugins. I&amp;rsquo;ve also put the link for article I wrote for CodeProject about &lt;a href=&#34;https://github.com/sytelus/WinProgressDialog&#34; target=&#34;_blank&#34;&gt;how to show Explorer&amp;rsquo;s progress dialog in your apps&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Finally some &lt;a href=&#34;https://plus.google.com/photos/111712720654017421562/albums/5987178406068558081&#34; target=&#34;_blank&#34;&gt;Alaska trip photos&lt;/a&gt; also have been added. Yenjoy :).&lt;/p&gt;
 </description>
     </item>
     
     <item>
+      <title>On Truly Managed Operating Systems</title>
+      <link>http://shital.com/p/on-truly-managed-operating-systems/</link>
+      <pubDate>Mon, 28 Mar 2005 19:03:23 +0000</pubDate>
+      <guid>http://shital.com/p/on-truly-managed-operating-systems/</guid>
+      <description>&lt;p&gt;Anyone who have worked with .Net or Java would have certainly thought about this: Is there a way to extend these runtimes/VMs to build truly managed operating system? As it turns out Longhorn would be &amp;ldquo;mostly&amp;rdquo; managed OS but this is not the kind of &amp;ldquo;managed&amp;rdquo; OS stuff we are talking about. We are talking about truly managed OS, in theory and in imagination, that is.&lt;/p&gt;
+
+&lt;p&gt;If you look at .Net runtime, it indeed provides several services that should be coming from OS otherwise: threading, security, PE loading and so on. When I was watching the documentary &lt;a href=&#34;http://www.imdb.com/title/tt0308808/&#34; target=&#34;_blank&#34;&gt;Revolution&lt;/a&gt;, Richard Stallman was describing similar situation in his days: they wanted to build an OS, they had compilers, all kind of command line utilities, code for various services and so on but they were missing a kernel. So even if they had got lot of functionality working, they still needed some base OS to run off their stuff. I think the .Net runtime/JVM are in the same situation.&lt;/p&gt;
+
+&lt;p&gt;So what a managed OS would look like? Who handles all the system calls down the line and how? Say I want to turn on a pixel on the screen, what my lowest level code running on a truly managed OS would look like? Let’s think about it: the lowest level managed code you can write in .Net is IL, which is essentially an assembly language for a virtualized CPU and memory system. The IL essentially has no idea about the world outside its virtualized CPU and memory system. For instance, I can’t write any direct IL instructions to read sector 510 from my hard drive or turn on a pixel on my screen. In its current form, I would have no choice but to extend IL somehow so I can make low level system BIOS calls or embed native instruction for my graphic card inside my IL. That’s not good. If I’m allowed to embed such low level calls in IL, the whole thing isn’t &amp;ldquo;managed&amp;rdquo; anymore and also not independent of the hardware I’m using.&lt;/p&gt;
+
+&lt;p&gt;As I thought about this more, I converged to the answer that we need a &amp;ldquo;runtime&amp;rdquo; for each of the subsystem in the computer. If you think about it, a hard-drive controller is a CPU in its own right with its own instruction set and so is your graphics card. Your main CPU and memory are just &amp;ldquo;over hyped&amp;rdquo; subsystems of your computer. Our traditional runtime and IL only virtualizes main CPU and memory, not these other subsystems. Once we have this &amp;ldquo;runtime&amp;rdquo; for video subsystem, hard drive controller and so on, it should be possible to write pure IL instructions to say, draw a bitmap on the screen. Notice that the IL code should work on any graphics card which has been similarly virtualized. Now you see, these &amp;ldquo;runtimes&amp;rdquo; for subsystems are essentially equivalent to drivers in current world but with a twist that they follow exactly the same structure and standards as the main runtime.&lt;/p&gt;
+
+&lt;p&gt;So now imagination can go wild: You have several &amp;ldquo;runtimes&amp;rdquo; running and managing each subsystem in your computer. Obviously each of these runtimes needs to discover and talk with other. The traditional runtime only manages main processor and memory but now it needs to send out IL instructions to say, VM controlling hard drive. So we now have a need for a standard protocol to discover virtual machines in the system and talk to them (much like Plug And Play). Also we need a system boot-strapper, which initializes all the runtimes in your system and provides common &amp;ldquo;channel&amp;rdquo; for them to discover and talk with each other. I also speculate a base runtime from which all other runtimes must &amp;ldquo;inherit&amp;rdquo; so as to enforce common infrastructure such as secured access to instructions and inter-VM communication. If you let your imagination wilder, you can think of a runtime/VM as something that consumes bytecode, changes its own memory state and outputs bytecode to another VM or a hardware. So essentially you can have cascading VMs too. You can even pass objects around VMs and even create your own VM (for example, to emulate non-existent hardware or to create a OS level service).&lt;/p&gt;
+
+&lt;p&gt;So what is the managed OS again? It’s collection of VMs for each subsystem and a bootstrapper. Good, we got somewhere. Anything you code against it would be (really) 100% pure managed code with potential to be executed on variety of hardware. Infect you could even have a VM which simply delegates call to parent OS instead of real hardware subsystem. That could make it possible to build versions of this managed OS that could run off the host OS that you already have, without forcing you to partition your hard drive or reboot your machine. This would still let all your &amp;ldquo;managed&amp;rdquo; code run as is it but may be without extra-strength security and such stuff.&lt;/p&gt;
+
+&lt;p&gt;This all sounds really cool. Now only if I can figure out how performance won&amp;rsquo;t suck&amp;hellip; 😉&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Algorithm Puzzle - Sync&#39;ing Big Lists And Nodes</title>
+      <link>http://shital.com/p/algorithm-puzzle-syncing-big-lists-and-nodes/</link>
+      <pubDate>Tue, 15 Mar 2005 01:05:02 +0000</pubDate>
+      <guid>http://shital.com/p/algorithm-puzzle-syncing-big-lists-and-nodes/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a mathematical algorithmic puzzle for all you bright challange-seeking minds:&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve my own big business contact list and so does my friends. One day we decide to call up with each other on phone (only 2 people on one line), talk to each other and have our lists sync&amp;rsquo;ed up with each other. That is to say, we add any contacts we didn&amp;rsquo;t had already, update any outdated ones and delete anyone who has gone out of business. However, you will be pleased to know that content of any two contact lists are pretty much same with only few differences. Infect many of my friends have identical contact lists and so they don&amp;rsquo;t need sync&amp;rsquo;ing at all (though they don&amp;rsquo;t know if they do have identical lists). We&amp;rsquo;ll let you arrange pairs of people calling each other any way and at any time you&amp;rsquo;d like. Eventually, we hope to end up with exactly identical one mega list. But we want you to be fair, i.e., schemes like appointing one &amp;ldquo;central person&amp;rdquo; and having everyone talk to him in turns and let him do all the sync work is not cool. That&amp;rsquo;s not fair for him and that would take lot of time too because talking in turns uses only one phone line at a time. For us &amp;ldquo;fair&amp;rdquo; means each person only needs to talk with same number of people as every other person needs to. And yes, before I forget to mention, our contact lists are really big and so does the count of my friends - both currently running over a million - and of course, us busy tired souls want you to finish this exercise in as little time and effort as possible.&lt;/p&gt;
+
+&lt;p&gt;So how would you do that?&lt;/p&gt;
+
+&lt;p&gt;[UPDATE: I&amp;rsquo;d posted &lt;a href=&#34;http://groups.yahoo.com/group/win_tech_off_topic/message/38726&#34; target=&#34;_blank&#34;&gt;the answer in the off topic group&lt;/a&gt;. Excerpt is in comments. Enjoy!]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Applications And Platforms, An Another Face Of Internet And Why I Hate Groove</title>
+      <link>http://shital.com/p/applications-and-platforms-an-another-face-of-internet-and-why-i-hate-groove/</link>
+      <pubDate>Thu, 10 Mar 2005 02:11:44 +0000</pubDate>
+      <guid>http://shital.com/p/applications-and-platforms-an-another-face-of-internet-and-why-i-hate-groove/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.Groove.net&#34; target=&#34;_blank&#34;&gt;Groove&lt;/a&gt; is perhaps one of the finest example of technology in recent times which has tons of potential and no vision. If you ask Groove what their product is, they will probably reply with something like this: &amp;ldquo;it&amp;rsquo;s a &lt;em&gt;program&lt;/em&gt; that allows people to work together on files, projects, meetings and so on.&amp;ldquo;. And that underlines their severe lack of vision and plain immaturity which otherwise could have changed the face of the Internet. What it could have been is this: A &lt;em&gt;platform&lt;/em&gt; that allows developers to build applications that could work online or offline with automatic real-time database and file replication. There is a huge difference between creating an &lt;em&gt;application&lt;/em&gt; and a &lt;em&gt;platform&lt;/em&gt;. To put it in perspective, imagine Microsoft developers betting most of their time and energy to create vast variety of end user applications and paying little or no attention in producing well documented APIs, solid development tools and nurturing, supporting and enticing developer community to enable &lt;em&gt;them&lt;/em&gt; to create applications. Would Microsoft have gone that way it would have become another Apple. And computers would still be privately manufactured expensive white boxes fancied by richies.&lt;/p&gt;
+
+&lt;p&gt;Why I like FireFox so much? If I was using it out of the box and without downloading any extensions, I would have dumped it in trash can right away. Without extentions support, it&amp;rsquo;s not that powerful and cool out of the box as those guys would have like you to believe. But enter the hundreds of cool extensions made by &lt;em&gt;other people&lt;/em&gt;, and FireFox is suddenly the most appealing and powerful browser to me. FireFox extension API has essentially became a platform.&lt;/p&gt;
+
+&lt;p&gt;If you want to create a fast spreading powerful software, the bottom line is simple: Through people the plateform and thou shalt built apps upon it. Invest more in platform, not applications. Groove hasn&amp;rsquo;t learned this lesson.&lt;/p&gt;
+
+&lt;p&gt;Actually, they are learning. They have VS.Net integration with GTK now, managed wrappers for lot of things, Developer Tools division, more then zero documentation and (are you ready?) even a book! But when you look at all these, you immediately realize that this effort to make Groove as a platform is more like an afterthought, a low priority, a low budget corporate &amp;ldquo;hobby&amp;rdquo; project and definitely an unfocused one. Before GTK came out some hardcore people were still trying to figure out how to use capabilities of Groove even if they had to use JavaScript APIs without documentation! And lot of them even then built cool apps. Imagine what if a real developer friendly platform was available wide open? How many applications would be built upon it? How many people would have downloaded Groove just to use those apps?&lt;/p&gt;
+
+&lt;p&gt;So exactly how does Groove fails to deliver to developers? To start with, they are extremely reluctant to change, re-designing, re-factoring, modernizing and rewriting their aged stuff. Their original core engine C++ code and API design is beyond the edge of being outdated and that&amp;rsquo;s an understatement to fully describe the troubles with it. Groove APIs are exposed through COM and has a massive surface area combined with no documentation for much of the part. It&amp;rsquo;s bloated, broken and even not fully implemented in many cases. In latest version 3.0 they have changed their UI makeup (and file share performance) but they are still dragging along ancient under the hood code. Compare that to Microsoft rewriting and renewing their massive operating systems every 5 years or so.&lt;/p&gt;
+
+&lt;p&gt;Current development aids for Groove aren&amp;rsquo;t just enough. Even if you are using VS.Net integration, lots of things needed for real world apps would require you to modify proprietary files in obscure places under the direction of support people. To publish a Groove tool there is &lt;a href=&#34;%20http://www.ischool.washington.edu/groove/solutions/groove_tool_publication.html&#34; target=&#34;_blank&#34;&gt;20+ step procedure&lt;/a&gt;with warnings signs: don&amp;rsquo;t screw up here. For anything more then &amp;ldquo;hello world&amp;rdquo; app, you would have no choice but to sign up with Groove as their partner and hire their super expensive consulting and support services (which on many instances just comes back with replies &amp;ldquo;we never thought you might want to do that with Groove. Sorry, that&amp;rsquo;s not possible.&amp;rdquo;). Groove doesn&amp;rsquo;t realise that the worst way to make money for them would be by squeezing the developer and proding them away for ever. And I&amp;rsquo;m not talking about launching rockets with Groove, but things as trivial as programmatically hiding left pan is simply not possible. And yes, they have the largest surface area API I&amp;rsquo;ve seen anywhere, including Windows. They haven&amp;rsquo;t reused almost anything: everything from files, data, installation - you name it - they have their own proprietary APIs that you need to learn from the scratch (I&amp;rsquo;d spent tons of time and energy to have them support standard ADO.Net instead of their properitory data API and we used it in our project but unfortunetely they have pulled it out from Groove 3.0). I wouldn&amp;rsquo;t say those guys at Groove are uncompetitive (I&amp;rsquo;d been to their office for couple of days worth of meetings and those guys were smart and cool), it&amp;rsquo;s just bloated outdated design that they have to live with and work with. What a waste of an outstanding concept&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;There is lot more to it. Groove isn&amp;rsquo;t good and inviting to developers. Besides terrible &amp;ldquo;partner only access&amp;rdquo; schemes, you will also get recommendations to use their expensive personal training classes (I&amp;rsquo;d been to the one which was a week long). Can you imagine if FireFox didn&amp;rsquo;t fully document their APIs and asked you to sign up for their really expensive training if you&amp;rsquo;d wanted to make extentions for their browser? On most instances you would also end up hiring their &amp;ldquo;per hour&amp;rdquo; support and consulting staff to actually solve your problems that comes dozen a dime in real-world Groove development. I think several companies like IBM, Apple and Oracle workes just in this way and Microsoft is the only one to actually get developers on their side, give them nice tools and make things easily and freely accessible to them.&lt;/p&gt;
+
+&lt;p&gt;Several bad unrealistic decisions made during Groove&amp;rsquo;s inceptions are still stuck with it even after almost a decade. For instance, Groove&amp;rsquo;s replicated store is maintained in the encrypted XML files rather then real relational database powerhouse. Those designers wanted plateform independence and they screwed up (such types of failures are becoming so common they deserve a name: &amp;ldquo;Cross-Plateform Wanna Be Failure Pattern&amp;rdquo;). Results? Groove sucks at scalability. In my experience, put more then 15 people in a space or more then 10,000 rows in &amp;ldquo;database&amp;rdquo; and you will be soon thinking about uninstalling Groove. Yet another example of carrying over ancient design misshapes is that the entire Groove engine works only from inside their proprietary &amp;ldquo;Transreceiver&amp;rdquo;. You can&amp;rsquo;t build your own EXE and consume those API from outside (actually you can at very limited extent but it&amp;rsquo;s so ugly even some internal gurus don&amp;rsquo;t want you to try that).&lt;/p&gt;
+
+&lt;p&gt;So what Groove could have been if they weren&amp;rsquo;t what they have become? Well, they could have given a birth to thousands of applications that could work either online and offline and anywhere. These vast variety of apps would have almost magical capability to synchronize their data with other people and computers. If you look beyond, it&amp;rsquo;s a whole new form of Internet and here is a highlight of what I mean: You won&amp;rsquo;t need a webserver to host your website. You could have just created a &amp;ldquo;space&amp;rdquo;, listed it somewhere and allowed open anonymous invitations to let anybody find it and browse it. So Internet would mostly become the collection of spaces hosted on individual computers instead of collection of web servers. It&amp;rsquo;s far more advanced then client-server model of current Internet and far beyond then traditional file-sharing P2P apps. In that form of Internet, there truely can not be any censorship. You can have your private television station and serve your content to millions of users through distributed P2P network without a need for expensive webservers and requiring huge bandwidth. Same would happen to audio communication that is currently being done by Skype: you get standard P2P plateform to build VoIP and PodCast servers. Traditional websites would have major facelift: HTML would have been replaced by interactive GUI tools that runs in space running under a secured account. Webistes are no more just HTTPs but are fully functional interactive GUI applications. So you see, lots of software you see around - everything from Kazaa to SETI distributed computing screensavers to &lt;a href=&#34;%20http://freenet.sourceforge.net/&#34; target=&#34;_blank&#34;&gt;Freenet&lt;/a&gt; to BitTorrent to Skype - are just specific instances of this technology. All of these applications are screaming for common P2P plateform and because there is none, each have their own quick and dirty homegrown one. If Groove concept was done right, it could have been this universal peer-to-peer computing plateform to do all of these in clear homogeneous way and there would have been an avalanche of next generation P2P applications. And that&amp;rsquo;s why I hate Groove for making it not happen.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jeff Hawkins - On Intelligence</title>
+      <link>http://shital.com/p/jeff-hawkins-on-intelligence/</link>
+      <pubDate>Tue, 01 Feb 2005 23:29:42 +0000</pubDate>
+      <guid>http://shital.com/p/jeff-hawkins-on-intelligence/</guid>
+      <description>&lt;p&gt;If all research papers were published the way Jeff Hawkins published his &lt;a href=&#34;http://www.onintelligence.org&#34; target=&#34;_blank&#34;&gt;On Intelligence&lt;/a&gt;, the world would be a&amp;nbsp;different place to live. I strongly feel that this is the most important work in the field which is otherwise &lt;a href=&#34;http://www.shitalshah.com/blog/PermaLink.aspx?guid=0b81a11a-0e5d-4ead-aeef-4552f52b0055&#34; target=&#34;_blank&#34;&gt;so bloated with wasted directionless efforts&lt;/a&gt;. This book is nothing like any research paper you might have read so far. It&amp;rsquo;s written in very personal way. Instead of just spitting out end product, thoughts and algorithms, author also tells you what other directions he was thinking about and what made him to go for this one. The book however is really low on technical &amp;ldquo;mojo&amp;rdquo;. Infect I just&amp;nbsp;barely found it technical enough to keep me interested.&amp;nbsp;The biggest missing&amp;nbsp;gap is&amp;nbsp;that author haven&amp;rsquo;t really formalized his ideas&amp;nbsp;on strong mathematical foundation. Also at times you would feel as if content is just too overly sweetened&amp;nbsp;and you can&amp;rsquo;t just let it push it through your throat&amp;nbsp;(talk about&amp;nbsp;pages and&amp;nbsp;pages of &amp;ldquo;for example&amp;rdquo; for one simple concept!), but hang on. A guy from Stanford, Dileep Geaorge, has done &lt;a href=&#34;http://www.stanford.edu/~dil/invariance/&#34; target=&#34;_blank&#34;&gt;some work in formalizing authors ideas&lt;/a&gt; and even made a working software prototype showing that it successfully produces solid vision recognition. There are still few&amp;nbsp;missing links but I&amp;rsquo;ve hardly any doubts that this is the right direction.&lt;/p&gt;
+
+&lt;p&gt;Jeff Hawkins will be &lt;a href=&#34;http://www.nyas.org/events/eventDetail.asp?eventID=3379&amp;amp;date=2/2/2005%206:00:00%20PM&#34; target=&#34;_blank&#34;&gt;giving a lecture&lt;/a&gt; at NY Science Acadamy tomorrow (2/2/2005).&lt;/p&gt;
+
+&lt;p&gt;The stage is set.&lt;A&gt;&lt;/A&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Using Windows Explorer Progress Dialog In Your Application</title>
-      <link>http://shitalshah.com/p/using-windows-explorer-progress-dialog-in-your-application/</link>
+      <link>http://shital.com/p/using-windows-explorer-progress-dialog-in-your-application/</link>
       <pubDate>Sun, 26 Dec 2004 19:37:27 +0000</pubDate>
-      <guid>http://shitalshah.com/p/using-windows-explorer-progress-dialog-in-your-application/</guid>
-      <description>&lt;p&gt;&lt;a href=http://shitalshah.com/images/posts/2004/12/ProgressDialogDemo.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/ProgressDialogDemo.jpg&#34; alt=&#34;ProgressDialogDemo&#34; width=&#34;381&#34; height=&#34;169&#34; class=&#34;alignleft size-full wp-image-897&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/ProgressDialogDemo.jpg 381w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/ProgressDialogDemo-300x133.jpg 300w&#34; sizes=&#34;(max-width: 381px) 100vw, 381px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shital.com/p/using-windows-explorer-progress-dialog-in-your-application/</guid>
+      <description>&lt;p&gt;&lt;a href=http://shital.com/images/posts/2004/12/ProgressDialogDemo.jpg&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2004/12/ProgressDialogDemo.jpg&#34; alt=&#34;ProgressDialogDemo&#34; width=&#34;381&#34; height=&#34;169&#34; class=&#34;alignleft size-full wp-image-897&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/ProgressDialogDemo.jpg 381w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/ProgressDialogDemo-300x133.jpg 300w&#34; sizes=&#34;(max-width: 381px) 100vw, 381px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;When you copy lot of files in Explorer, you see the standard Windows progress dialog with &amp;ldquo;flying papers&amp;rdquo; animation and the calculation of estimated time remaining. This dialog is accessible to any Windows application through &lt;a href=&#34;http://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/shell/reference/ifaces/iprogressdialog/iprogressdialog.asp&#34; target=&#34;_blank&#34;&gt;IProgressDialog interface&lt;/a&gt;. This source code provides you a managed .Net wrapper to easily and intuitively integrate Windows Progress Dialog in your own applications. You can read more details in &lt;a href=&#34;http://www.codeproject.com/Articles/9298/Using-Windows-Explorer-Progress-Dialog-In-Your-App&#34; target=&#34;_blank&#34;&gt;my original article on CodeProject&lt;/a&gt;. Also see the comments in that article. It looks like two of the guys really hit on it and have produced a stand alone version.&lt;/p&gt;
 
@@ -384,10 +482,76 @@ End try
     </item>
     
     <item>
+      <title>Algorithms: Extract List Patterns, Word Clusters</title>
+      <link>http://shital.com/p/algorithms-extract-list-patterns-word-clusters/</link>
+      <pubDate>Mon, 20 Dec 2004 13:59:47 +0000</pubDate>
+      <guid>http://shital.com/p/algorithms-extract-list-patterns-word-clusters/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2004/12/WordGroups.jpg&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2004/12/WordGroups.jpg&#34; alt=&#34;WordGroups&#34; width=&#34;1280&#34; height=&#34;744&#34; class=&#34;alignleft size-full wp-image-907&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/WordGroups.jpg 1280w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/WordGroups-300x174.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/WordGroups-1024x595.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This program demos two very interesting algorithms that I&amp;rsquo;d started designing during Fall 2004 and then got busy in other stuff.&lt;/p&gt;
+
+&lt;p&gt;First algorithm is simple which I call List Extractor and it finds the list like structures in any given text and extracts the data out of them. This enables automatic data extraction without prior knowledge of layout or formatting in web pages. If you look at lot of web pages, you will find that they just present some data in some repetative HTML formatting which I call a &amp;ldquo;list&amp;rdquo;. Examples are airlines schedules list, Google search results list, chronological experience list in resumes and so on. Challenge is to extract these lists from a page without knowing beforehand how this page has been laid out. Lot of web scrapping algorithms works on a fixed known layouts and by use of complex regular expressions. They will usually break if layout even changes slighly. This program demos my algorithm. Though I&amp;rsquo;d made some last minute changes which have affected its performance and accuracy. I&amp;rsquo;ll correct that as I get sometime.&lt;/p&gt;
+
+&lt;p&gt;Second algorithm is what I (and apparently now Google too) calls the &amp;ldquo;Word Clustering&amp;rdquo;. Basically the concept is that when you are looking at a genuinely informative webpage on a particular subject, say, General Relativity, you will tend to find (and intuitively expect) several other associated relevant words to appear on the same page such as metric, tensor, Riemann, geometry, gravity and so on. So these sets of words form a relevant &amp;ldquo;cluster&amp;rdquo; and they tend to appear together a lot. So by checking what kind of word clusters a page contains, it should be possible to find out what &amp;ldquo;topics&amp;rdquo; that page is talking about and you can also get some idea of the degree it&amp;rsquo;s genuinely informative. This program contains quick and dirty way to find Word clusters on a page (not fully implemented yet) including elimination of &amp;ldquo;noise&amp;rdquo; words such as &amp;ldquo;is&amp;rdquo;, &amp;ldquo;this&amp;rdquo;, &amp;ldquo;are&amp;rdquo; etc.&lt;/p&gt;
+
+&lt;p class=&#34;obsolete&#34;&gt;
+  Warning: This program was written circa Dec 2004 and last updated around Mar 2005. It is currently considered obsolete for most practical purposes. There are no plans to update it and no support is provided. It exists here purely for its historical and nostalgic value.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/sytelus/ListExtractor&#34; target=&#34;_blank&#34;&gt;ListExtractor is now archived at Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&#34;github-widget&#34; data-repo=&#34;sytelus/ListExtractor&#34;&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Health Diary</title>
+      <link>http://shital.com/p/health-diary/</link>
+      <pubDate>Thu, 16 Dec 2004 16:08:43 +0000</pubDate>
+      <guid>http://shital.com/p/health-diary/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2004/12/healthdiary.jpg&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2004/12/healthdiary.jpg&#34; alt=&#34;healthdiary&#34; width=&#34;1280&#34; height=&#34;744&#34; class=&#34;alignleft size-full wp-image-894&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/healthdiary.jpg 1280w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/healthdiary-300x174.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/healthdiary-1024x595.jpg 1024w&#34; sizes=&#34;(max-width: 1280px) 100vw, 1280px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is an ASP.Net based sample website created for Highland Tech Highschool, AK. I like to show it as more of a demo for my SyFastPage framework. Nothing fancy here except that it was literally created overnight and it justifies &amp;ldquo;fast&amp;rdquo; in the name SyFastPage. I&amp;rsquo;d initially decided to give a try to CodeCharge studio and automatically generate pages in about 5 hours that I&amp;rsquo;d i my hand but results weren&amp;rsquo;t professional and customizable as we wanted. So I dig up my old code in SyFastPage and put it to work. It also proved the point that I often make: Code generation sucks, reusable libraries rules.&lt;/p&gt;
+
+&lt;p class=&#34;obsolete&#34;&gt;
+  Warning: This program was written circa Nov 2004. It is currently considered obsolete for most practical purposes. There are no plans to update it and no support is provided. It exists here purely for its historical and nostalgic value.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/sytelus/HealthDiary&#34; target=&#34;_blank&#34;&gt;HealthDiary is now archived at Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&#34;github-widget&#34; data-repo=&#34;sytelus/HealthDiary&#34;&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Virtual By Default</title>
+      <link>http://shital.com/p/virtual-by-default/</link>
+      <pubDate>Mon, 15 Nov 2004 20:33:19 +0000</pubDate>
+      <guid>http://shital.com/p/virtual-by-default/</guid>
+      <description>&lt;p&gt;Omar &lt;a href=&#34;http://weblogs.asp.net/okloeten/archive/2004/11/15/257678.aspx&#34; target=&#34;_blank&#34;&gt;blogs about an age-old debate&lt;/a&gt; on whether class members should be &lt;a href=&#34;http://artima.com/intv/nonvirtual.html&#34; target=&#34;_blank&#34;&gt;virtual-by-default or final-by-default&lt;/a&gt;. Here&amp;rsquo;s my take:&lt;/p&gt;
+
+&lt;p&gt;After my years of messing around with .Net class libraries, I would prefer virtual-by-default any day. Basically, when people designs their classes they really don&amp;rsquo;t want to spend much time on analyzing how &lt;em&gt;someone else&lt;/em&gt; would be overriding a particular method - unless they are really sure that lot of people really wants to do that. And so it makes a logical sense to be pessimistic for a language designer and assume that something bad indeed will happen and disable overriding by default. The bad part of this pessimistic assumption is that it doesn&amp;rsquo;t go well with the real world statistics while its still logically pure and solid. In real world, you will find yourself in need so often to override a particular method, even if its &amp;ldquo;at your own risk&amp;rdquo;, and hack your way through to satisfy the requirements that original authors didn&amp;rsquo;t spend time thinking about. Usually most people will test their such &amp;ldquo;hacks&amp;rdquo; and know that they might be shooting a bullet in their foot. But an ideal language should allow them to do so with warnings - just like unsafe keyword - rather then making it impossible. You had done that rather then relying on original authors (such Microsoft) to come out with new functionality after half a decade or wrapping entire interface in your custom classes. The problem is that people does wish that their methods be extensible but they don&amp;rsquo;t have time to analyse all the side effects and make promises. My solution is that the compiler should just flag the warning that the method you are trying to override was not marked as virtual by default and may cause side effects (instead of current behavior of shadowing them). It should make all methods virtual unless specified otherwise and store additional metadata info that the method is virtual but wasn&amp;rsquo;t marked explicitly so. Forcing virtual or final keywords explicitly does not solve the problem because most people will choose final anyway to be idealistic as they still haven&amp;rsquo;t got time to analyze the side effects but those could have been statistically be mitigated by the authors who are willing to spend time in testing after they override.&lt;/p&gt;
+
+&lt;p&gt;As far as the performance goes, I believe, authors of base class would much rather willing to spend time in finding hot-spot public methods and mark them as final rather then running complete analysis to decide if each of their methods could be virtual. So vote again goes for virtual-by-default.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VB.Net Resource Kit Saves The Day</title>
+      <link>http://shital.com/p/vb-net-resource-kit-saves-the-day/</link>
+      <pubDate>Tue, 09 Nov 2004 04:54:51 +0000</pubDate>
+      <guid>http://shital.com/p/vb-net-resource-kit-saves-the-day/</guid>
+      <description>&lt;p&gt;Did you knew that &lt;a href=&#34;http://msdn.microsoft.com/vbasic/vbrkit/default.aspx&#34; target=&#34;_blank&#34;&gt;Visual Basic.Net Resource Kit&lt;/a&gt; has an utility to convert C# code to VB.Net? Of course there are &lt;a href=&#34;http://www.vbcity.com/forums/topic.asp?tid=75214&#34; target=&#34;_blank&#34;&gt;several online language converters&lt;/a&gt; but this one works great. And that&amp;rsquo;s besides having cool Dundas Chart control and tons of other components from Component One absolutely free (though their charting component is pretty miserable and requires free registration for licensing). Charting is seriously missing component in 2.0&amp;rsquo;s toolbox.and I&amp;rsquo;m just &lt;a href=&#34;http://lab.msdn.microsoft.com/ProductFeedback/viewFeedback.aspx?feedbackId=FDBK17664&#34; target=&#34;_blank&#34;&gt;wondering&lt;/a&gt; why doesn&amp;rsquo;t MS thinks of bundling these components with VS.Net 2005 installer rather than keeping it in an lesser known corner of web.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Is Jeff Richter Screwing Up The .Net Versioning?</title>
-      <link>http://shitalshah.com/p/is-jeff-richter-screwing-up-the-net-versioning/</link>
+      <link>http://shital.com/p/is-jeff-richter-screwing-up-the-net-versioning/</link>
       <pubDate>Mon, 08 Nov 2004 21:51:06 +0000</pubDate>
-      <guid>http://shitalshah.com/p/is-jeff-richter-screwing-up-the-net-versioning/</guid>
+      <guid>http://shital.com/p/is-jeff-richter-screwing-up-the-net-versioning/</guid>
       <description>&lt;p&gt;I don&amp;rsquo;t know how no one is bothered by this. May be because &lt;a href=&#34;http://www.theserverside.net/articles/showarticle.tss?id=AssemblyVersioning&#34; target=&#34;_blank&#34;&gt;it affects Longhorn&lt;/a&gt;. But anyway, everybody would agree that while .Net solved the DLL Hell issue, it created its own which I affectionally call Assembly Hell and had &lt;a href=&#34;http://groups.yahoo.com/group/win_tech_off_topic/message/21462&#34; target=&#34;_blank&#34;&gt;my rants&lt;/a&gt; loud from the start. I&amp;rsquo;d high hopes when I heard Jeff Richter is on the team. But be hold, they come up with the statement that the problem is &amp;ldquo;mathematically&amp;rdquo; unsolvable and some fuzzy argument to back up that statement and then they reveal possibly the worst versioning scheme I&amp;rsquo;ve heard in a decade for anything: divide the assemblies in &amp;ldquo;platform&amp;rdquo; and &amp;ldquo;library&amp;rdquo; groups! I can&amp;rsquo;t even start to imagine someone could think of this kind of stupid idea for things that will hit the entire planet on massive scale. Must be an outcome of long meetings for days :).&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;d been burned a lot by missing gaps in .Net versioning and problem is pretty simple if you had been in this mess. The solution is even amazingly simple for what it appears like a monster.&lt;/p&gt;
@@ -400,9 +564,9 @@ End try
     
     <item>
       <title>My WinForms Library</title>
-      <link>http://shitalshah.com/p/my-winforms-library/</link>
+      <link>http://shital.com/p/my-winforms-library/</link>
       <pubDate>Wed, 20 Oct 2004 11:09:19 +0000</pubDate>
-      <guid>http://shitalshah.com/p/my-winforms-library/</guid>
+      <guid>http://shital.com/p/my-winforms-library/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/wp-content/uploads/2004/12/WinFormsCommonLibrary.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://shitalshah.com/wp-content/uploads/2004/12/WinFormsCommonLibrary-186x300.jpg&#34; alt=&#34;WinFormsCommonLibrary&#34; width=&#34;186&#34; height=&#34;300&#34; class=&#34;alignleft size-medium wp-image-905&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/WinFormsCommonLibrary-186x300.jpg 186w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/WinFormsCommonLibrary.jpg 280w&#34; sizes=&#34;(max-width: 186px) 100vw, 186px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is collection of several reusable components to use in your WinForms application. I&amp;rsquo;d been building it up and reusing in my own personal applications such as BrowserHistoryAnalyser and NotepadX and others. It contains editable drag-n-drop enabled TreeView, RichText editor control with toolbar, Worksheet editor control, Password Input Form, MRU, custom attributes you can use for your assemblies, more easily usable hidden property editor control, advanced About Dialog, Application Options management and Assembly Info Viewer Control.&lt;/p&gt;
@@ -420,18 +584,18 @@ End try
     
     <item>
       <title>Make Your Windows More Geekier</title>
-      <link>http://shitalshah.com/p/make-your-windows-more-geekier/</link>
+      <link>http://shital.com/p/make-your-windows-more-geekier/</link>
       <pubDate>Mon, 13 Sep 2004 17:45:06 +0000</pubDate>
-      <guid>http://shitalshah.com/p/make-your-windows-more-geekier/</guid>
+      <guid>http://shital.com/p/make-your-windows-more-geekier/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.x-setup.net/&#34; target=&#34;_blank&#34;&gt;X-Setup&lt;/a&gt; is perhaps the most comprehensive Windows tweaking utility. I always end up spending half a day enabling all the hidden advanced settings using this thing. Fortunately it provides Recording mode and creation of a REG file. This is really cool because now with just a click I can make any XP/2003 machine more geekier and end lots of &amp;ldquo;default&amp;rdquo; annoyances. If you are interested you too can use my &lt;a href=&#34;https://github.com/sytelus/MiscDevFiles/blob/master/source/XSetup%20-%20All.reg&#34; target=&#34;_blank&#34;&gt;final REG file&lt;/a&gt;. It would enable a whole range of features – everything from showing additional control panel applets, using double pans in explorer, removing Outlook attachment restrictions, showing file attributes in tooltip, adding new items in Explorer context menu, removing Shutdown Reason UI, kill everything quickly when shutting down and so on&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Browser History Analyser</title>
-      <link>http://shitalshah.com/p/browser-history-analyser/</link>
+      <link>http://shital.com/p/browser-history-analyser/</link>
       <pubDate>Tue, 07 Sep 2004 03:16:19 +0000</pubDate>
-      <guid>http://shitalshah.com/p/browser-history-analyser/</guid>
+      <guid>http://shital.com/p/browser-history-analyser/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/wp-content/uploads/2004/12/BrowserHistoryAnalyser.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://shitalshah.com/wp-content/uploads/2004/12/BrowserHistoryAnalyser-300x174.jpg&#34; alt=&#34;BrowserHistoryAnalyser&#34; width=&#34;300&#34; height=&#34;174&#34; class=&#34;alignleft size-medium wp-image-892&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/BrowserHistoryAnalyser-300x174.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/BrowserHistoryAnalyser-1024x595.jpg 1024w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/BrowserHistoryAnalyser.jpg 1280w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I like to preserve logs of my browser history. Apart from recalling useful webpages I&amp;rsquo;d discovered, it helps to build kind of &amp;ldquo;journal&amp;rdquo; reflecting problems I was facing, things I was in to, things I was shopping and so on. An ability to look back and see what you were up to in any point of time is really important, not just useful. Unfortunately there is no easy way to export history from IE or Firefox, let alone query that data in an useful way. So this is the program I&amp;rsquo;d been putting some time on and off. The first version I&amp;rsquo;d made meant only for my personal and was a quick and dirty program in VB6 more then 5 years ago. Its latest incarnation is now rewritten from scratch in .Net 2.0 Beta1 and provides loads of functionalities in nice user interface. You can do all of followings:&lt;/p&gt;
@@ -462,9 +626,9 @@ End try
     
     <item>
       <title>Dealing With DataViews</title>
-      <link>http://shitalshah.com/p/dealing-with-dataviews/</link>
+      <link>http://shital.com/p/dealing-with-dataviews/</link>
       <pubDate>Tue, 31 Aug 2004 18:50:57 +0000</pubDate>
-      <guid>http://shitalshah.com/p/dealing-with-dataviews/</guid>
+      <guid>http://shital.com/p/dealing-with-dataviews/</guid>
       <description>&lt;p&gt;I never liked being forced to use DataView just to speed up my searches. Why not DataTable.Select() have an overload to generate internal indexes and do some smart things? But anyway, most people searching DataSet eventually would realizes that performance really sucks and they have no choice but to use DataViews, sometime whole bunch of it prepared for all sorts of queries you want to fire. Here are two things you should watch out (&lt;a href=&#34;http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemDataDataRowViewClassDeleteTopic.asp&#34; target=&#34;_blank&#34;&gt;MSDN docs&lt;/a&gt; aren’t clear about this):&lt;/p&gt;
 
 &lt;ol&gt;
@@ -479,9 +643,9 @@ End try
     
     <item>
       <title>DataSet, not XML</title>
-      <link>http://shitalshah.com/p/dataset-not-xml/</link>
+      <link>http://shital.com/p/dataset-not-xml/</link>
       <pubDate>Tue, 24 Aug 2004 18:09:57 +0000</pubDate>
-      <guid>http://shitalshah.com/p/dataset-not-xml/</guid>
+      <guid>http://shital.com/p/dataset-not-xml/</guid>
       <description>&lt;p&gt;If you need to store certain data in file, most of the time you will obviously think about storing it as XML file. Then soon you start drawing XML schemas and think about generating XSDs&amp;hellip; Well, stop! You might be making same mistake as many other people. The better idea is to design XML schema which is &lt;a href=&#34;http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpguide/html/cpconloadingdatasetfromxml.asp&#34; target=&#34;_blank&#34;&gt;loadable in DataSet&lt;/a&gt; rather then just &lt;a href=&#34;http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfsystemxmlxmldocumentclasstopic.asp&#34; target=&#34;_blank&#34;&gt;XMLDocument&lt;/a&gt;. This has tremendous advantages then your custom schema:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -507,9 +671,9 @@ End try
     
     <item>
       <title>When .Net Framework 2.0 Beta Messes You Up</title>
-      <link>http://shitalshah.com/p/when-net-framework-2-0-beta-messes-you-up/</link>
+      <link>http://shital.com/p/when-net-framework-2-0-beta-messes-you-up/</link>
       <pubDate>Tue, 24 Aug 2004 04:02:08 +0000</pubDate>
-      <guid>http://shitalshah.com/p/when-net-framework-2-0-beta-messes-you-up/</guid>
+      <guid>http://shital.com/p/when-net-framework-2-0-beta-messes-you-up/</guid>
       <description>&lt;p&gt;If you installed &lt;a href=&#34;http://www.microsoft.com/downloads/details.aspx?FamilyID=916ec067-8bdc-4737-9430-6cec9667655c&amp;amp;DisplayLang=en&#34; target=&#34;_blank&#34;&gt;.Net Framework 2.0 Beta&lt;/a&gt; and suddenly &lt;a href=&#34;http://msdn.microsoft.com/vstudio&#34; target=&#34;_blank&#34;&gt;VS2K3.Net&lt;/a&gt; refuses to attach to your existing 1.1 apps with a very cool error message “Unable to attach to process”, don’t get panic! Looks like side-by-side promise of Framework versions doesn’t work in some rare cases (which somehow I always get in to). Unfortunately you can’t uninstall 2.0 (even though it gets installed in separate folder, core DLLs such as mscorlib.dll is already replaced by 2.0 version). The best way to make things work is to live with it and add this little snippet in your &lt;a href=&#34;http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpguide/html/cpconapplicationconfigurationfiles.asp&#34; target=&#34;_blank&#34;&gt;[myapp].exe.config&lt;/a&gt;:&lt;/p&gt;
 
 &lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;&amp;lt;?xml:namespace prefix = o ns = &#34;urn:schemas-microsoft-com:office:office&#34; /&amp;gt;
@@ -527,19 +691,30 @@ End try
     </item>
     
     <item>
+      <title>Get Yourself Some Bayes!</title>
+      <link>http://shital.com/p/get-yourself-some-bayes/</link>
+      <pubDate>Sat, 07 Aug 2004 01:00:42 +0000</pubDate>
+      <guid>http://shital.com/p/get-yourself-some-bayes/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2004/08/bayesaid.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/wp-content/uploads/2004/08/bayesaid-234x300.jpg&#34; alt=&#34;bayesaid&#34; width=&#34;234&#34; height=&#34;300&#34; class=&#34;alignleft size-medium wp-image-1282&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/08/bayesaid-234x300.jpg 234w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/08/bayesaid.jpg 726w&#34; sizes=&#34;(max-width: 234px) 100vw, 234px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I read about Bayesian probability first on Paul Graham&amp;rsquo; &lt;a href=&#34;http://www.paulgraham.com/spam.html&#34; target=&#34;new&#34;&gt;milestone article on spam&lt;/a&gt; two years ago. Amazingly, his Bayesian based algorithm did the same thing that a sophisticated AI algorithm will do, i.e. to precisely identify spam emails (success rate: 995 out of 1000) just like humans do it with their image recognition, natural language processing capabilities and yet unparalleled intelligence. That got me interested and Bayesian probabilities got added in my things to learn. I just recently finished my that goal and I can&amp;rsquo;t over emphasize, its an serious weapon in your. The coolest way to understand Bayes is &lt;a href=&#34;http://yudkowsky.net/bayes/bayes.html&#34; target=&#34;new&#34;&gt;this article on web&lt;/a&gt;. Unlike most others, this article states real equation at the end rather then at the start or middle of the article and author writes &amp;ldquo;By this point, Bayes&amp;rsquo; Theorem may seem blatantly obvious or even tautological, rather than exciting and new. If so, this introduction has entirely succeeded in its purpose.&amp;rdquo; Yes, indeed he is! One of the points that isn&amp;rsquo;t crystal clear in this article is the difference between P(A&amp;amp;B) and P(A|B). I wouldn&amp;rsquo;t go on explaining that but you can see on left the small diagram that I created which will aid in understanding with above article. These two terms are actually the key in understanding why traditional probability analysis (which is about time independent calculations i.e. about probabilities that exist after all events have been finished occurring) is different then Bayesian analysis (which is about probabilities when we are still waiting for some events still to occur but we don&amp;rsquo;t know which one will really occur).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>I Replaced My Task Manager, Have You?</title>
-      <link>http://shitalshah.com/p/i-replaced-my-task-manager-have-you/</link>
+      <link>http://shital.com/p/i-replaced-my-task-manager-have-you/</link>
       <pubDate>Mon, 02 Aug 2004 19:35:22 +0000</pubDate>
-      <guid>http://shitalshah.com/p/i-replaced-my-task-manager-have-you/</guid>
+      <guid>http://shital.com/p/i-replaced-my-task-manager-have-you/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.sysinternals.com/ntw2k/freeware/procexp.shtml&#34; target=&#34;_blank&#34;&gt;This Task Manager&lt;/a&gt; for Windows rocks. Besides doing everything that you ever wanted from a thing called Task Manager (even showing open files for every process), it has one of the sweetest option that your application should provide: Replace Windows native [equivalent thing]! I just keep wishing if there had been free and with-source Calculators and Explorers and everything else Windows that I can just replace with a click like this and move on rather then &lt;a href=&#34;http://radio.weblogs.com/0001011/2002/09/27.html#a1547&#34; target=&#34;_blank&#34;&gt;waiting for a decade&lt;/a&gt; on Microsoft to improve their &lt;a href=&#34;http://thread.gmane.org/gmane.comp.windows.off-topic/5339&#34; target=&#34;_blank&#34;&gt;age old featureless&lt;/a&gt; apps. So when you are getting &lt;a href=&#34;http://www.stardock.com/products/windowblinds/&#34; target=&#34;_blank&#34;&gt;cool skinable Windows&lt;/a&gt;? In &lt;a href=&#34;http://www.microsoft-watch.com/article2/0,1995,1539735,00.asp&#34; target=&#34;_blank&#34;&gt;next 3 years&lt;/a&gt;? Yeah, right.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A Little .Net Puzzle</title>
-      <link>http://shitalshah.com/p/a-little-net-puzzle/</link>
+      <link>http://shital.com/p/a-little-net-puzzle/</link>
       <pubDate>Wed, 28 Jul 2004 15:14:25 +0000</pubDate>
-      <guid>http://shitalshah.com/p/a-little-net-puzzle/</guid>
+      <guid>http://shital.com/p/a-little-net-puzzle/</guid>
       <description>&lt;p&gt;This innocent little puzzle formed from some of the recent code I was writing. Lets see if it gets you!&lt;/p&gt;
 
 &lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;object p = 2;
@@ -554,18 +729,18 @@ System.Diagnostics.Debug.WriteLine(&#34;Answer is &#34; + q.ToString());
     
     <item>
       <title>Condomania Wizard Interface</title>
-      <link>http://shitalshah.com/p/condomania-wizard-interface/</link>
+      <link>http://shital.com/p/condomania-wizard-interface/</link>
       <pubDate>Wed, 14 Jul 2004 06:07:33 +0000</pubDate>
-      <guid>http://shitalshah.com/p/condomania-wizard-interface/</guid>
+      <guid>http://shital.com/p/condomania-wizard-interface/</guid>
       <description>&lt;p&gt;&lt;a href=http://www.condomania.com/shopping/wizards/wizardmain.jsp?itemType=CATEGORY&amp;itemID=105 target=&#34;new&#34;&gt;This&lt;/a&gt; is probably the best Wizard User Interface I&amp;rsquo;ve seen so far ;).&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Recursion Enabled Task Progress Dialog</title>
-      <link>http://shitalshah.com/p/recursion-enabled-task-progress-dialog/</link>
+      <link>http://shital.com/p/recursion-enabled-task-progress-dialog/</link>
       <pubDate>Mon, 12 Jul 2004 10:37:07 +0000</pubDate>
-      <guid>http://shitalshah.com/p/recursion-enabled-task-progress-dialog/</guid>
+      <guid>http://shital.com/p/recursion-enabled-task-progress-dialog/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/wp-content/uploads/2004/12/TaskProgress.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://shitalshah.com/wp-content/uploads/2004/12/TaskProgress-300x180.jpg&#34; alt=&#34;TaskProgress&#34; width=&#34;300&#34; height=&#34;180&#34; class=&#34;alignleft size-medium wp-image-903&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/TaskProgress-300x180.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/TaskProgress.jpg 344w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is an advanced progress dialog which can be shared among method calls which can call each other recursively. Each method call gets a portion of the total progress so we can see some continuous progress instead of only top level method progress.&lt;/p&gt;
@@ -606,9 +781,9 @@ private void Callee1()
     
     <item>
       <title>Hackers Conference @ NYC Starts</title>
-      <link>http://shitalshah.com/p/hackers-conference-nyc-2004/</link>
+      <link>http://shital.com/p/hackers-conference-nyc-2004/</link>
       <pubDate>Fri, 09 Jul 2004 16:57:02 +0000</pubDate>
-      <guid>http://shitalshah.com/p/hackers-conference-nyc-2004/</guid>
+      <guid>http://shital.com/p/hackers-conference-nyc-2004/</guid>
       <description>&lt;p&gt;The &lt;a href=&#34;http://www.the-fifth-hope.org/hoop/&#34; target=&#34;_blank&#34;&gt;Fifth HOPE conference&lt;/a&gt; featuring talks, workshops, movies and other events from several well known hackers including Steve Wozniak, Cult of Dead Cow, John Draper and so on is already started at NYC today (July 9, 2004). I&amp;rsquo;d read lot about many of these people dedicated to pure hacking in early years in the book &lt;a href=&#34;http://www.amazon.com/exec/obidos/ASIN/0141000511&#34; target=&#34;_blank&#34;&gt;Hackers&lt;/a&gt; and now its a chance to actually hear them! The conference has 70+ talks which itself is pretty long list even to browse through. Here are my picks from the list:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -632,9 +807,9 @@ private void Callee1()
     
     <item>
       <title>NotepadX - Manage Your Notes With Power!</title>
-      <link>http://shitalshah.com/p/notepadx-manage-your-notes-with-power/</link>
+      <link>http://shital.com/p/notepadx-manage-your-notes-with-power/</link>
       <pubDate>Tue, 23 Mar 2004 19:15:48 +0000</pubDate>
-      <guid>http://shitalshah.com/p/notepadx-manage-your-notes-with-power/</guid>
+      <guid>http://shital.com/p/notepadx-manage-your-notes-with-power/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/wp-content/uploads/2004/03/notepad-intro.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://shitalshah.com/wp-content/uploads/2004/03/notepad-intro-300x198.jpg&#34; alt=&#34;notepad-intro&#34; width=&#34;300&#34; height=&#34;198&#34; class=&#34;alignleft size-medium wp-image-998&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/03/notepad-intro-300x198.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/03/notepad-intro.jpg 632w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;NotepadX is a powerful program to let you to keep your notes in hierarchically organized categories. Also it not just allows you to create rich text/ plain text notes but also the notes which are like Worksheet or a treeview! It also supports encrypted secured notes so you can save your passwords and sensitive information safely. You can also create read-only notes and pass it around. The Edit-In-Word allows you to use Word for rich text formatting in case my basic editor didn&amp;rsquo;t fit your needs. All your notes get saved in to one single XML file and for programmers, you have entire source code, several reusable components and nice object model if you need to tweak it. This has been my pass time project and several features are missing right now which I might work on in future, such as: integration with OneNote, search feature, export feature, merging of several notes etc.&lt;/p&gt;
@@ -652,21 +827,21 @@ private void Callee1()
     
     <item>
       <title>Anders Hejlsberg</title>
-      <link>http://shitalshah.com/p/anders-hejlsberg/</link>
+      <link>http://shital.com/p/anders-hejlsberg/</link>
       <pubDate>Tue, 26 Aug 2003 06:09:42 +0000</pubDate>
-      <guid>http://shitalshah.com/p/anders-hejlsberg/</guid>
+      <guid>http://shital.com/p/anders-hejlsberg/</guid>
       <description>&lt;p&gt;Just watched &lt;a href=&#34;http://msdn.microsoft.com/theshow/Episode035/default.asp&#34; target=&#34;_blank&#34;&gt;MSDN TV&amp;rsquo;s new episode on Managed Code&lt;/a&gt;. The topic is pretty trivial for me but what&amp;rsquo;s exciting is to see one person talking and seating there. I remember my years as a rebellious programmer when followers were few and swimming opposite the popular currents wasn&amp;rsquo;t easy. In all-Unix all-C++ organization I&amp;rsquo;d heavily pushed for tools and style I believed in - even if it meant taking over entire responsibility and work load on me. All those tools that I chose, used and appreciated for the vision it embedded, looked separate pieces of great ideas which just seem to happen to came on my way&amp;hellip; until there was one day when I read a magazine article and came to know there was really only one person behind all of those and all these years: Anders Hejlsberg. Those separate pieces of vision now seems to make a complete picture and so you can imagine how I would have stand in awe of him. As far as world of programming is concerned, Anders is my hero.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Blogger.com To dasBlog Converter Tool</title>
-      <link>http://shitalshah.com/p/blogger-com-to-dasblog-converter-tool/</link>
+      <link>http://shital.com/p/blogger-com-to-dasblog-converter-tool/</link>
       <pubDate>Tue, 01 Jul 2003 10:40:48 +0000</pubDate>
-      <guid>http://shitalshah.com/p/blogger-com-to-dasblog-converter-tool/</guid>
+      <guid>http://shital.com/p/blogger-com-to-dasblog-converter-tool/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/wp-content/uploads/2004/12/Blogger2dasBlog.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://shitalshah.com/wp-content/uploads/2004/12/Blogger2dasBlog-300x214.jpg&#34; alt=&#34;Blogger2dasBlog&#34; width=&#34;300&#34; height=&#34;214&#34; class=&#34;alignleft size-medium wp-image-891&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/Blogger2dasBlog-300x214.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/Blogger2dasBlog.jpg 768w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;My &lt;a href=&#34;http://shitalshah.com/&#34;&gt;blog&lt;/a&gt; was previously hosted on Blogger.com and boy, that thing sucked. So my mission was to host my blog on my own site with an ASP.Net engine that I can customize and extend as I like. So DasBlog came along but there weren&amp;rsquo;t any tools around to fetch my blog entries from Blogger.com and put in to dasBlog. Sure I didn&amp;rsquo;t want to loose my previous entries, so I made my own conversion tool that does this export from blogger.com and import in to dasBlog. It&amp;rsquo;s also a good demonstration of how to use Blogger API, XML-RPC and use dasBlog engine. Infect you can use it with any host that supports Blogger API by changing server URI in Blogger.cs class. I used open source XML-RPC wrapper for .Net but had to tweak it and fix it a bit so this is more improved version :). You may note that, it imports entries in to dasBlog hosted on your localhost and not on remote server, so you will need to manually copy XMLs generated in Content folder on your local machines inetpub\wwwroot$$!dasBlog path]\Content to your remote server.&lt;/p&gt;
+&lt;p&gt;My &lt;a href=&#34;http://shital.com/&#34;&gt;blog&lt;/a&gt; was previously hosted on Blogger.com and boy, that thing sucked. So my mission was to host my blog on my own site with an ASP.Net engine that I can customize and extend as I like. So DasBlog came along but there weren&amp;rsquo;t any tools around to fetch my blog entries from Blogger.com and put in to dasBlog. Sure I didn&amp;rsquo;t want to loose my previous entries, so I made my own conversion tool that does this export from blogger.com and import in to dasBlog. It&amp;rsquo;s also a good demonstration of how to use Blogger API, XML-RPC and use dasBlog engine. Infect you can use it with any host that supports Blogger API by changing server URI in Blogger.cs class. I used open source XML-RPC wrapper for .Net but had to tweak it and fix it a bit so this is more improved version :). You may note that, it imports entries in to dasBlog hosted on your localhost and not on remote server, so you will need to manually copy XMLs generated in Content folder on your local machines inetpub\wwwroot$$!dasBlog path]\Content to your remote server.&lt;/p&gt;
 
 &lt;p class=&#34;obsolete&#34;&gt;
   Warning: This program was written circa 2003 and last updated around Mar 2005. It is currently considered obsolete. There are no plans to update it and no support is provided.
@@ -681,9 +856,9 @@ private void Callee1()
     
     <item>
       <title>Misc Dev Files</title>
-      <link>http://shitalshah.com/p/misc-dev-files-project/</link>
+      <link>http://shital.com/p/misc-dev-files-project/</link>
       <pubDate>Thu, 29 May 2003 12:30:23 +0000</pubDate>
-      <guid>http://shitalshah.com/p/misc-dev-files-project/</guid>
+      <guid>http://shital.com/p/misc-dev-files-project/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2003/05/RepoMiscDevFiles20140613.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2003/05/RepoMiscDevFiles20140613.png&#34; alt=&#34;RepoMiscDevFiles20140613&#34; width=&#34;210&#34; height=&#34;134&#34; class=&#34;alignleft size-full wp-image-1445&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -721,10 +896,10 @@ private void Callee1()
     
     <item>
       <title>SyFastPage - Churn Out Those Web Sites Faster!</title>
-      <link>http://shitalshah.com/p/syfastpage-churn-out-those-web-sites-faster/</link>
+      <link>http://shital.com/p/syfastpage-churn-out-those-web-sites-faster/</link>
       <pubDate>Mon, 03 Mar 2003 19:15:42 +0000</pubDate>
-      <guid>http://shitalshah.com/p/syfastpage-churn-out-those-web-sites-faster/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2003/03/tools_icon.gif&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2003/03/tools_icon.gif&#34; alt=&#34;tools_icon&#34; width=&#34;40&#34; height=&#34;40&#34; class=&#34;alignleft size-full wp-image-1124&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shital.com/p/syfastpage-churn-out-those-web-sites-faster/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2003/03/tools_icon.gif&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2003/03/tools_icon.gif&#34; alt=&#34;tools_icon&#34; width=&#34;40&#34; height=&#34;40&#34; class=&#34;alignleft size-full wp-image-1124&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is my private library to build ASP.Net websites with one goal in mind: build it fast! I&amp;rsquo;ve already exploited it in building 3 of the websites (including this one) and one of them was literally built overnight! So well, it proves the point. This is still evolving code and there is not much documentation right now but you can contact me for assistance. Here&amp;rsquo;s what this library contains:&lt;/p&gt;
 
@@ -744,11 +919,55 @@ private void Callee1()
     </item>
     
     <item>
+      <title>Why VB.Net Is Better Than C#</title>
+      <link>http://shital.com/p/why-vb-net-is-better-than-c/</link>
+      <pubDate>Thu, 26 Dec 2002 22:31:17 +0000</pubDate>
+      <guid>http://shital.com/p/why-vb-net-is-better-than-c/</guid>
+      <description>&lt;p&gt;Seven years ago, a candidate appearing for his first job interview right after school was put up with cold stare and a question: &amp;ldquo;So, what you know in C?&amp;rdquo;. The candidate kept his reply short with similar cold stare: &amp;ldquo;everything&amp;rdquo;. While candidate got the job very next day, the reply was unusual for interviewers because C was notorious for being deceptively complex language and it was believed that only few knew it&amp;rsquo;s real innards. So for decades, for most hard-core programmers, it had been a passion to meet every challenge and master it&amp;rsquo;s every intricacy. And still many of them knew it was becoming increasingly impractical to use it and compete against new RAD stuff like Delphi and VB. Even if we&amp;rsquo;d adapt to (some call it give in to&amp;rdquo;) RAD which had much weaker languages, we always kept our secret hidden love for C++ in our heart and hoped that our darling would be reincarnated one day to be back with us again. When I saw C# spec in .Net beta I was thrilled. The re-incarnation was finally happened. The C# is probably the best programming language yet that is modern, sophisticated, sexy and yes, has true RAD vision behind it. For more than a year, I&amp;rsquo;d aggressively fought to choose C# in anything I was doing until I started comparing it with VB.Net from good &amp;lsquo;ol productivity point of view. And this is really bad&amp;hellip; VB which I thought will be dead in coming years, seems to be winning again. I&amp;rsquo;m still reluctant to give final verdict and you are invited to pour in your opinions. While &lt;a href=&#34;http://www.amazon.com/exec/obidos/ASIN/B00005YX8N&#34; target=&#34;_blank&#34;&gt;the entire book&lt;/a&gt; is already devoted on this subject, here&amp;rsquo;s one of the most complete list of reasoning I&amp;rsquo;ve compiled from several sources and my observations on VB.net and C# pros and cons:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Direct copy paste of large amount of existing VB6 code in to your .Net projects. I did this so many times until I realized what if I&amp;rsquo;d been writing code in C#?&lt;/li&gt;
+&lt;li&gt;Option Strict can be turned on or off at will in VB.Net. With C# it&amp;rsquo;s not in &lt;em&gt;your&lt;/em&gt; control. This is really helpful to reduce unreadable ugly type casting when using COM interops&lt;/li&gt;
+&lt;li&gt;You can use either traditional On..Error or Try-Catch. With C# you only have later choice&lt;/li&gt;
+&lt;li&gt;With VB.Net you can have &amp;ldquo;modules&amp;rdquo; which is little cleaner then static classes.&lt;/li&gt;
+&lt;li&gt;Easier way to resize arrays in VB.Net and other functions like IsDbNull and exponentiation&lt;/li&gt;
+&lt;li&gt;More granular way to shadow methods in derived classes&lt;/li&gt;
+&lt;li&gt;No automatic indentation and removal of extra spaces. This slows you down plus your code looks little ugly.&lt;/li&gt;
+&lt;li&gt;No automatic statement completion (for example VB.Net IDE automatically completes constructs like If-Then-Else)&lt;/li&gt;
+&lt;li&gt;No automatic casing. How many times your compilation failed because of stupid upper case/lower case mistakes?&lt;/li&gt;
+&lt;li&gt;No redundant &amp;ldquo;;&amp;rdquo; after every statements. We originally loved this as C programmer but think about it: How many times you combined two statement in single line? Isn&amp;rsquo;t new line enough to mark end of 99% of the statements you usually write?&lt;/li&gt;
+&lt;li&gt;Auto completion of &amp;ldquo;()&amp;rdquo;. As usual, I love all kind of auto completions. Code must flow with speed!&lt;/li&gt;
+&lt;li&gt;Have to use escape sequences for &amp;ldquo;\&amp;rdquo; in XPath and file paths. This native C feature really becomes cumbersome and even worse can produce hard to find run time errors.&lt;/li&gt;
+&lt;li&gt;Microsoft.VisualBasic namespace provides for missing .Net functionalities like case insensitive string replace. While you can use it in C# also, it&amp;rsquo;s bit natural to use in VB.Net&lt;/li&gt;
+&lt;li&gt;VB.Net wires events in forms transparently (you can delete the event handler without compilation error)&lt;/li&gt;
+&lt;li&gt;VB.Net allows optional parameters&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Having said that, C# also has it&amp;rsquo;s own share of advantages:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Much powerful and flexible language constructs&lt;/li&gt;
+&lt;li&gt;Can do Operator overloading&lt;/li&gt;
+&lt;li&gt;You can use real memory pointers for performance code!&lt;/li&gt;
+&lt;li&gt;Lots of original Microsoft and 3rd party code will be ported to C# rather than VB.Net. For example source code for DevXpress grid and many other is available only in C#&lt;/li&gt;
+&lt;li&gt;Better looking type cast statements&lt;/li&gt;
+&lt;li&gt;Much of Java, C++ Builder and VC++ code may be re-used - but with comparitively more care and may need more changes than using VB6 code in VB.Net&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;http://msdn.microsoft.com/downloads/default.asp?url=/downloads/sample.asp?url=/msdn-files/027/002/097/msdncompositedoc.xml&#34; target=&#34;_blank&#34;&gt;Shared Source CLI code&lt;/a&gt; is in C#&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.devx.com/cplus/Article/9937&#34; target=&#34;_blank&#34;&gt;New language features&lt;/a&gt; are announced for C# but not for VB.Net&lt;/li&gt;
+&lt;li&gt;Multi line comments&lt;/li&gt;
+&lt;li&gt;C# can use native unsigned data types in .Net framework&lt;/li&gt;
+&lt;li&gt;Allows XML documentation of code&lt;/li&gt;
+&lt;li&gt;The great Using keyword in C# allows to do &amp;ldquo;deterministic finalization&amp;rdquo; in easy readable way for objects implementing IDisposible.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>WizAddIn &#43; Test program &#43; dev manual (beta version)</title>
-      <link>http://shitalshah.com/p/wizaddin-test-program-dev-manual-beta-version/</link>
+      <link>http://shital.com/p/wizaddin-test-program-dev-manual-beta-version/</link>
       <pubDate>Thu, 18 Jul 2002 15:00:54 +0000</pubDate>
-      <guid>http://shitalshah.com/p/wizaddin-test-program-dev-manual-beta-version/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/wizaddin.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/wizaddin.jpg&#34; alt=&#34;wizaddin&#34; width=&#34;202&#34; height=&#34;118&#34; class=&#34;alignleft size-full wp-image-906&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shital.com/p/wizaddin-test-program-dev-manual-beta-version/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2004/12/wizaddin.jpg&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2004/12/wizaddin.jpg&#34; alt=&#34;wizaddin&#34; width=&#34;202&#34; height=&#34;118&#34; class=&#34;alignleft size-full wp-image-906&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is complete rewrite of WizAddIn and much more organized code but less tested. However you get nice document on how to use it and a test demo program too.&lt;/p&gt;
 
@@ -765,10 +984,10 @@ private void Callee1()
     
     <item>
       <title>Wiz AddIn - Add Line Numbers, Error Handlers, Fix MRU</title>
-      <link>http://shitalshah.com/p/wiz-addin-add-line-numbers-error-handlers-fix-mru/</link>
+      <link>http://shital.com/p/wiz-addin-add-line-numbers-error-handlers-fix-mru/</link>
       <pubDate>Mon, 14 Jan 2002 11:29:07 +0000</pubDate>
-      <guid>http://shitalshah.com/p/wiz-addin-add-line-numbers-error-handlers-fix-mru/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/wizaddin.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/wizaddin.jpg&#34; alt=&#34;wizaddin&#34; width=&#34;202&#34; height=&#34;118&#34; class=&#34;alignleft size-full wp-image-906&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shital.com/p/wiz-addin-add-line-numbers-error-handlers-fix-mru/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2004/12/wizaddin.jpg&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2004/12/wizaddin.jpg&#34; alt=&#34;wizaddin&#34; width=&#34;202&#34; height=&#34;118&#34; class=&#34;alignleft size-full wp-image-906&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is an add-in for Microsoft Visual Basic 6.0. It does following of things: \ 1. Adds/removes line numbers from projects in a group. Unlike other add-ins, this one has been thoroughly tested on live complex projects for more then a year and has lots of code to workaround VB IDE object model bugs. It also does smart numbering (for example it won&amp;rsquo;t number trivial assignment statements in Property Get). 2. This add-in can also add error handlers in all methods. Again unlike other similar utilities, this one has been thoroughly tested, accepts a directive to turn off error handler and has some decision making code to decide whether an error handler would effect actual logic. 3. Fix for VB&amp;rsquo;s recent menu item bug (MRU) (you might have noticed VB&amp;rsquo;s Recent project item menu always gets messed up). is an add-in for Microsoft Visual Basic 6.0. It does following of things: \ 1. Adds/removes line numbers from projects in a group. Unlike other add-ins, this one has been thoroughly tested on live complex projects for more then a year and has lots of code to workaround VB IDE object model bugs. It also does smart numbering (for example it won&amp;rsquo;t number trivial assignment statements in Property Get). 2. This add-in can also add error handlers in all methods. Again unlike other similar utilities, this one has been thoroughly tested, accepts a directive to turn off error handler and has some decision making code to decide whether an error handler would effect actual logic. 3. Fix for VB&amp;rsquo;s recent menu item bug (MRU) (you might have noticed VB&amp;rsquo;s Recent project item menu always gets messed up).&lt;/p&gt;
 
@@ -785,9 +1004,9 @@ private void Callee1()
     
     <item>
       <title>Source Code For ShitalShah.com V3</title>
-      <link>http://shitalshah.com/p/source-code-for-shitalshah-com-v3/</link>
+      <link>http://shital.com/p/source-code-for-shitalshah-com-v3/</link>
       <pubDate>Tue, 01 Jan 2002 00:00:37 +0000</pubDate>
-      <guid>http://shitalshah.com/p/source-code-for-shitalshah-com-v3/</guid>
+      <guid>http://shital.com/p/source-code-for-shitalshah-com-v3/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/wp-content/uploads/2004/12/ShitalShah.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://shitalshah.com/wp-content/uploads/2004/12/ShitalShah-300x207.jpg&#34; alt=&#34;ShitalShah&#34; width=&#34;300&#34; height=&#34;207&#34; class=&#34;alignleft size-medium wp-image-902&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/ShitalShah-300x207.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/ShitalShah.jpg 907w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I believe websites should give away their source code if you&amp;rsquo;d created it just for fun and it wasn&amp;rsquo;t for money. So yes, here&amp;rsquo;s the source code of this whole website itself! Points of interests: SiteData.mdb contains most of the data in relational format which you can query, lots of examples of user controls that I use as templates in DataGrid rows and it is a good example of how my SyFastPage framework actually gets used. The code may be slighly out of date as I do not plan to always keep it synchronized. This website is active since 1998 and its implementation had moved from HTML/JavaScript to ASP to finally its present day ASP.Net. The source code contains only most recent implementation.&lt;/p&gt;
@@ -805,10 +1024,10 @@ private void Callee1()
     
     <item>
       <title>Outlook Quote</title>
-      <link>http://shitalshah.com/p/outlook-quote/</link>
+      <link>http://shital.com/p/outlook-quote/</link>
       <pubDate>Thu, 29 Nov 2001 10:06:13 +0000</pubDate>
-      <guid>http://shitalshah.com/p/outlook-quote/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2001/11/outlook_quote_screenshot.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2001/11/outlook_quote_screenshot-267x300.jpg&#34; alt=&#34;outlook_quote_screenshot&#34; width=&#34;267&#34; height=&#34;300&#34; class=&#34;alignleft size-medium wp-image-1199&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2001/11/outlook_quote_screenshot-267x300.jpg 267w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2001/11/outlook_quote_screenshot.jpg 439w&#34; sizes=&#34;(max-width: 267px) 100vw, 267px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shital.com/p/outlook-quote/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2001/11/outlook_quote_screenshot.jpg&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2001/11/outlook_quote_screenshot-267x300.jpg&#34; alt=&#34;outlook_quote_screenshot&#34; width=&#34;267&#34; height=&#34;300&#34; class=&#34;alignleft size-medium wp-image-1199&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2001/11/outlook_quote_screenshot-267x300.jpg 267w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2001/11/outlook_quote_screenshot.jpg 439w&#34; sizes=&#34;(max-width: 267px) 100vw, 267px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Unix users have taken for granted automatic insertion of a random quote-of-the-day in their emails since ages and that&amp;rsquo;s something Windows users still can&amp;rsquo;t do with their brilliant Ver. 10 of Microsoft Outlook. The situation usually gets unnoticed until you start getting those emails with quotes from a Linux guy and you find yourself incapable of &amp;ldquo;responding&amp;rdquo; with the similar cream-at-the-bottom. That was yesterday, however. The Outlook Quote is the cool answer to the quest and it does it all and more. It has very elegant user interface, extensibility, ease of use, ease of installation and complete seamless integration with Outlook.&lt;/p&gt;
 
@@ -825,9 +1044,9 @@ private void Callee1()
     
     <item>
       <title>DiffAnalyzer - See The Differences Between Branched SourceSafe Projects</title>
-      <link>http://shitalshah.com/p/diffanalyzer-see-the-differences-between-branched-sourcesafe-projects/</link>
+      <link>http://shital.com/p/diffanalyzer-see-the-differences-between-branched-sourcesafe-projects/</link>
       <pubDate>Mon, 19 Nov 2001 13:24:48 +0000</pubDate>
-      <guid>http://shitalshah.com/p/diffanalyzer-see-the-differences-between-branched-sourcesafe-projects/</guid>
+      <guid>http://shital.com/p/diffanalyzer-see-the-differences-between-branched-sourcesafe-projects/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/wp-content/uploads/2003/03/tools_icon.gif&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://shitalshah.com/wp-content/uploads/2003/03/tools_icon.gif&#34; alt=&#34;tools_icon&#34; width=&#34;40&#34; height=&#34;40&#34; class=&#34;alignleft size-full wp-image-1124&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;If you need to maintain several source branches in SourceSafe and constantly retrofitting your code around, this application can be tremendously helpful. It looks in to two specified SourceSafe folders, goes through all the files in them and finds out which files are different and performs various analysis in smarter way so you don&amp;rsquo;t have to actually check diffs manually. This application is in state of easy clicks.&lt;/p&gt;
@@ -845,10 +1064,10 @@ private void Callee1()
     
     <item>
       <title>Fix MSCOM OCX Class IDs In VB Projects</title>
-      <link>http://shitalshah.com/p/fix-mscom-ocx-class-ids-in-vb-projects/</link>
+      <link>http://shital.com/p/fix-mscom-ocx-class-ids-in-vb-projects/</link>
       <pubDate>Sat, 04 Mar 2000 16:13:33 +0000</pubDate>
-      <guid>http://shitalshah.com/p/fix-mscom-ocx-class-ids-in-vb-projects/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2003/03/tools_icon.gif&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2003/03/tools_icon.gif&#34; alt=&#34;tools_icon&#34; width=&#34;40&#34; height=&#34;40&#34; class=&#34;alignleft size-full wp-image-1124&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shital.com/p/fix-mscom-ocx-class-ids-in-vb-projects/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2003/03/tools_icon.gif&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2003/03/tools_icon.gif&#34; alt=&#34;tools_icon&#34; width=&#34;40&#34; height=&#34;40&#34; class=&#34;alignleft size-full wp-image-1124&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Call it yet another Microsoft&amp;rsquo;s blunder but you still can&amp;rsquo;t forget when you try to load a VB project and it says something &amp;ldquo;Can&amp;rsquo;t load MSCOMCTL.OCX&amp;rdquo; and replaces all your fancy controls with mere picture boxes! Here&amp;rsquo;s small utility that might do the trick. It goes through all your vbp, frm, ctl and replaces GUIDs of crazy OCXes with ones that you have. This application is right now not in state of easy clicks. You will have to find out GUIDs of OCXes installed in your machine and replace it by hand in the source code.&lt;/p&gt;
 
@@ -865,10 +1084,10 @@ private void Callee1()
     
     <item>
       <title>Sorten Your File Names Before CD Writing!</title>
-      <link>http://shitalshah.com/p/sorten-your-file-names-before-cd-writing/</link>
+      <link>http://shital.com/p/sorten-your-file-names-before-cd-writing/</link>
       <pubDate>Fri, 24 Dec 1999 17:22:02 +0000</pubDate>
-      <guid>http://shitalshah.com/p/sorten-your-file-names-before-cd-writing/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2003/03/tools_icon.gif&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2003/03/tools_icon.gif&#34; alt=&#34;tools_icon&#34; width=&#34;40&#34; height=&#34;40&#34; class=&#34;alignleft size-full wp-image-1124&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shital.com/p/sorten-your-file-names-before-cd-writing/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2003/03/tools_icon.gif&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2003/03/tools_icon.gif&#34; alt=&#34;tools_icon&#34; width=&#34;40&#34; height=&#34;40&#34; class=&#34;alignleft size-full wp-image-1124&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;If you are like me you would be maintaining backups of things ranging from your favorite links to ICQ logs on writable CDs. But there is a snag. There would be lots of files on your disk that has names more then 60 characters - like the .lnk file in your Favorite folder! And that crashes the CD writing process regularly because normal CD file system doesn&amp;rsquo;t allow longer names. Solution? Sorten it! With this utility! This application is right now not in state of easy clicks. You might have to modify the source code for your needs.&lt;/p&gt;
 
@@ -885,10 +1104,10 @@ private void Callee1()
     
     <item>
       <title>RefController - VB Add-In To Automatically Correct References</title>
-      <link>http://shitalshah.com/p/refcontroller-vb-add-in-to-automatically-correct-references/</link>
+      <link>http://shital.com/p/refcontroller-vb-add-in-to-automatically-correct-references/</link>
       <pubDate>Fri, 15 Oct 1999 12:51:01 +0000</pubDate>
-      <guid>http://shitalshah.com/p/refcontroller-vb-add-in-to-automatically-correct-references/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/refcontroller.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/refcontroller-300x172.jpg&#34; alt=&#34;refcontroller&#34; width=&#34;300&#34; height=&#34;172&#34; class=&#34;alignleft size-medium wp-image-899&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/refcontroller-300x172.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/refcontroller.jpg 469w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shital.com/p/refcontroller-vb-add-in-to-automatically-correct-references/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2004/12/refcontroller.jpg&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2004/12/refcontroller-300x172.jpg&#34; alt=&#34;refcontroller&#34; width=&#34;300&#34; height=&#34;172&#34; class=&#34;alignleft size-medium wp-image-899&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/refcontroller-300x172.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/refcontroller.jpg 469w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s not unusual to see &amp;ldquo;Missing References&amp;rdquo; when you open the VB project and then take the pain of correcting them by hand. If it has became your daily routine and you are really tired of that, here&amp;rsquo;s the magic VB Add-In that will save you from that! This add-in monitors the state of references when you open the VB project. If it&amp;rsquo;s Missing or not proper, it will look in to VBP file and try to locate the DLL and correct that bad reference for you! Besides everything else, it shows how to write self-installing VB Add-In and some cool add-in techniques. If you said WOW, head on for download!&lt;/p&gt;
 
@@ -905,10 +1124,10 @@ private void Callee1()
     
     <item>
       <title>ScriptGen - Generate INSERT Scripts For MS SQL Server Data</title>
-      <link>http://shitalshah.com/p/scriptgen-generate-insert-scripts-for-ms-sql-server-data/</link>
+      <link>http://shital.com/p/scriptgen-generate-insert-scripts-for-ms-sql-server-data/</link>
       <pubDate>Mon, 13 Sep 1999 07:34:21 +0000</pubDate>
-      <guid>http://shitalshah.com/p/scriptgen-generate-insert-scripts-for-ms-sql-server-data/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/scriptgen.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/scriptgen-300x234.jpg&#34; alt=&#34;scriptgen&#34; width=&#34;300&#34; height=&#34;234&#34; class=&#34;alignleft size-medium wp-image-901&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/scriptgen-300x234.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/scriptgen.jpg 594w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shital.com/p/scriptgen-generate-insert-scripts-for-ms-sql-server-data/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2004/12/scriptgen.jpg&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2004/12/scriptgen-300x234.jpg&#34; alt=&#34;scriptgen&#34; width=&#34;300&#34; height=&#34;234&#34; class=&#34;alignleft size-medium wp-image-901&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/scriptgen-300x234.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/scriptgen.jpg 594w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;One of the most wanted feature from users point of view in MS SQL Server is capability to generate INSERT scripts for MS SQL Server data. But call it Microsoft&amp;rsquo;s ignorance, this feature not supplied since quite long. And even worse, there is no public domain application to do that. This feature is usually desperately required in situation like sending test data to somebody or supply sample data. So I decided to write my own. It&amp;rsquo;s still isn&amp;rsquo;t the perfect and can&amp;rsquo;t handle all of the possibilities but it could be your best bet with supplied source code! This application is right now in state of easy installation but no on-line help is available.&lt;/p&gt;
 
@@ -925,10 +1144,10 @@ private void Callee1()
     
     <item>
       <title>Messanger - Send Windows NT Messages To Users</title>
-      <link>http://shitalshah.com/p/messanger-send-windows-nt-messages-to-users/</link>
+      <link>http://shital.com/p/messanger-send-windows-nt-messages-to-users/</link>
       <pubDate>Thu, 19 Aug 1999 12:24:54 +0000</pubDate>
-      <guid>http://shitalshah.com/p/messanger-send-windows-nt-messages-to-users/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/messanger.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/messanger.jpg&#34; alt=&#34;messanger&#34; width=&#34;245&#34; height=&#34;192&#34; class=&#34;alignleft size-full wp-image-895&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shital.com/p/messanger-send-windows-nt-messages-to-users/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2004/12/messanger.jpg&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2004/12/messanger.jpg&#34; alt=&#34;messanger&#34; width=&#34;245&#34; height=&#34;192&#34; class=&#34;alignleft size-full wp-image-895&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;If you have Windows network with NT Server in your organization, you have now ability to send messages to users that will popup on their screens all of the sudden. This is similar to how you get the message box on the screen when printer completes the printing. Administrators can use this app to send message to users asking them to log out. Or may be you just want to ask a colleague to come for a coffee! This application is right now in state of easy clicks.&lt;/p&gt;
 
@@ -945,10 +1164,10 @@ private void Callee1()
     
     <item>
       <title>Relations Between Your VB Components</title>
-      <link>http://shitalshah.com/p/relations-between-your-vb-components/</link>
+      <link>http://shital.com/p/relations-between-your-vb-components/</link>
       <pubDate>Tue, 10 Aug 1999 07:50:35 +0000</pubDate>
-      <guid>http://shitalshah.com/p/relations-between-your-vb-components/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/refexplorer.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/refexplorer-300x191.jpg&#34; alt=&#34;refexplorer&#34; width=&#34;300&#34; height=&#34;191&#34; class=&#34;alignleft size-medium wp-image-900&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/refexplorer-300x191.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/refexplorer.jpg 660w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shital.com/p/relations-between-your-vb-components/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2004/12/refexplorer.jpg&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2004/12/refexplorer-300x191.jpg&#34; alt=&#34;refexplorer&#34; width=&#34;300&#34; height=&#34;191&#34; class=&#34;alignleft size-medium wp-image-900&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/refexplorer-300x191.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/refexplorer.jpg 660w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This application scans the given folder and sub folders for VBP files, analyses which VBP file references which ones and generates a Tree view showing this relationships. What&amp;rsquo;s more, it stores this analysis results in Access database so that you can run your own query or open it at later time. This utility is typically useful if your project consists of tons of VB components calling each other and if you wish to see what will be the impact of changing interface of one on other components. You can also use it to just document component relationships between your projects. This application also shows you how to analyze VBP file contents and ready-to-use source code. This application is right now in state of easy clicks but no online help is available.&lt;/p&gt;
 
@@ -965,10 +1184,10 @@ private void Callee1()
     
     <item>
       <title>Text In File Search</title>
-      <link>http://shitalshah.com/p/text-in-file-search-all-terms/</link>
+      <link>http://shital.com/p/text-in-file-search-all-terms/</link>
       <pubDate>Thu, 17 Jun 1999 20:58:24 +0000</pubDate>
-      <guid>http://shitalshah.com/p/text-in-file-search-all-terms/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/text_in_file.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/text_in_file.jpg&#34; alt=&#34;text_in_file&#34; width=&#34;265&#34; height=&#34;173&#34; class=&#34;alignleft size-full wp-image-904&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shital.com/p/text-in-file-search-all-terms/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2004/12/text_in_file.jpg&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2004/12/text_in_file.jpg&#34; alt=&#34;text_in_file&#34; width=&#34;265&#34; height=&#34;173&#34; class=&#34;alignleft size-full wp-image-904&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is a little program to search for particular words in files in particular folder. Windows Find feature does search for a particular string in files but you can&amp;rsquo;t search for Word1 AND Word2 AND Word3. This program does just that. I made this program mainly to search for specific piece of code from 1000s of VB source code samples stored on my hard drive. This application is right now in state of easy installation and no on-line help is available.&lt;/p&gt;
 
@@ -985,10 +1204,10 @@ private void Callee1()
     
     <item>
       <title>Visual Music- Play 128 Musical Instruments</title>
-      <link>http://shitalshah.com/p/visual-music-play-128-musical-instruments/</link>
+      <link>http://shital.com/p/visual-music-play-128-musical-instruments/</link>
       <pubDate>Mon, 07 Jun 1999 22:01:19 +0000</pubDate>
-      <guid>http://shitalshah.com/p/visual-music-play-128-musical-instruments/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/1999/06/vmusic_screenshot.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/1999/06/vmusic_screenshot.jpg&#34; alt=&#34;vmusic_screenshot&#34; width=&#34;300&#34; height=&#34;282&#34; class=&#34;alignleft size-full wp-image-1237&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shital.com/p/visual-music-play-128-musical-instruments/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/1999/06/vmusic_screenshot.jpg&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/1999/06/vmusic_screenshot.jpg&#34; alt=&#34;vmusic_screenshot&#34; width=&#34;300&#34; height=&#34;282&#34; class=&#34;alignleft size-full wp-image-1237&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Visual Music lets you play 128 musical instruments on your PC including Flute, Bagpiper and even whistle! You can even record what you are playing, edit it and save it in a file. If you not expert at playing synthesiser keyboard, it provides you a easy to use scripting language to create music just by telling what key in which instrument you want to play for how much time!&lt;/p&gt;
 
@@ -1005,10 +1224,10 @@ private void Callee1()
     
     <item>
       <title>Planet Source Code Downloader</title>
-      <link>http://shitalshah.com/p/planet-source-code-downloader/</link>
+      <link>http://shital.com/p/planet-source-code-downloader/</link>
       <pubDate>Fri, 12 Mar 1999 17:28:36 +0000</pubDate>
-      <guid>http://shitalshah.com/p/planet-source-code-downloader/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/PSCDownloader.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/PSCDownloader.jpg&#34; alt=&#34;PSCDownloader&#34; width=&#34;231&#34; height=&#34;213&#34; class=&#34;alignleft size-full wp-image-898&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shital.com/p/planet-source-code-downloader/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2004/12/PSCDownloader.jpg&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2004/12/PSCDownloader.jpg&#34; alt=&#34;PSCDownloader&#34; width=&#34;231&#34; height=&#34;213&#34; class=&#34;alignleft size-full wp-image-898&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.planet-source-code.com&#34; target=&#34;_blank&#34;&gt;Planet Source Code&lt;/a&gt; is one of the huge resources of VB code. Say you want to download all of it&amp;rsquo;s listing and make a CD that might serve as 1000s of VB code snippets. This program exactly does that. It&amp;rsquo;s actually general purpose program that downloads all the pages having address like&lt;/p&gt;
 
@@ -1029,10 +1248,10 @@ private void Callee1()
     
     <item>
       <title>REA2 - Take The Control</title>
-      <link>http://shitalshah.com/p/rea2-take-the-control/</link>
+      <link>http://shital.com/p/rea2-take-the-control/</link>
       <pubDate>Fri, 03 Jul 1998 16:59:33 +0000</pubDate>
-      <guid>http://shitalshah.com/p/rea2-take-the-control/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2003/03/tools_icon.gif&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2003/03/tools_icon.gif&#34; alt=&#34;tools_icon&#34; width=&#34;40&#34; height=&#34;40&#34; class=&#34;alignleft size-full wp-image-1124&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shital.com/p/rea2-take-the-control/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2003/03/tools_icon.gif&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2003/03/tools_icon.gif&#34; alt=&#34;tools_icon&#34; width=&#34;40&#34; height=&#34;40&#34; class=&#34;alignleft size-full wp-image-1124&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Concept of trojan horses is not new. Programs like &lt;a href=&#34;http://www.shitalshah.com/www.bo2k.com&#34; target=&#34;_blank&#34;&gt;Back Orifice 2000&lt;/a&gt; silently stays in background in your PC, acts as TCP/IP server and allows somebody to connect it through Internet and execute commands sent by them. The REA2 (Remote Execution Agent) is my own trojan horse specifically designed for silent, full proof, reliable and powerfull intrusion and control. I crafted this gem in about 5 hours and comparing with BO2K, it lacks few features like real time screen display and mouse control and plug-ins but it&amp;rsquo;s designed to be much more &amp;ldquo;reliable and silent intrusion&amp;rdquo; and has some more capabilities then BO2K. It&amp;rsquo;s written in Delphi 3.0 to eliminate any runtime requirements. The EXE available here is a server. You can use any client that can connect to it on port 23145 and send the command as strings. My favorite client is my own PortTalk. I didn&amp;rsquo;t got much time to document these stuff (as usual it was fun program solely meant for me) but you can get the list of commands in TMainForm.ProcessReq function in main.pas file. This application is right now not in state of easy clicks. You might have to modify the source code for your needs. However you may freely contact me for the assistance.&lt;/p&gt;
 
@@ -1049,10 +1268,10 @@ private void Callee1()
     
     <item>
       <title>Auto Actuals (0.9 Beta) - Track Your Time!</title>
-      <link>http://shitalshah.com/p/auto-actuals-0-9-beta-track-your-time/</link>
+      <link>http://shital.com/p/auto-actuals-0-9-beta-track-your-time/</link>
       <pubDate>Sun, 14 Jun 1998 13:32:57 +0000</pubDate>
-      <guid>http://shitalshah.com/p/auto-actuals-0-9-beta-track-your-time/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/AutoActuals.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/AutoActuals-259x300.jpg&#34; alt=&#34;AutoActuals&#34; width=&#34;259&#34; height=&#34;300&#34; class=&#34;alignleft size-medium wp-image-890&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/AutoActuals-259x300.jpg 259w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/AutoActuals.jpg 375w&#34; sizes=&#34;(max-width: 259px) 100vw, 259px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shital.com/p/auto-actuals-0-9-beta-track-your-time/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2004/12/AutoActuals.jpg&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2004/12/AutoActuals-259x300.jpg&#34; alt=&#34;AutoActuals&#34; width=&#34;259&#34; height=&#34;300&#34; class=&#34;alignleft size-medium wp-image-890&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/AutoActuals-259x300.jpg 259w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/AutoActuals.jpg 375w&#34; sizes=&#34;(max-width: 259px) 100vw, 259px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Have you ever felt that your time goes faster then the speed of light? Or have you ever had hard time to recollect what exactly you did whole month while filling your employer&amp;rsquo;s timesheets? Or have you ever had desired to analyse how much portion of time you spend in meetings and reading emails? Or have you ever wanted to keep Star Trek style daily logs but never maintained it? Well, then this application is just for you! Once installed, AutoActuals will pop up on your screen at regular intervals and ask you what you were doing! And it&amp;rsquo;s far more then that. It allows you to categorize your tasks, gives you hint on what program were you running all the time, generates reports in Word, maintains data in Access, supports multiuser access, supports task assignment and tracking by project managers and lot lot more. And all that in very simple intuitive UI! This application is right now in state of easy installation and no on-line help is available.&lt;/p&gt;
 
@@ -1069,10 +1288,10 @@ private void Callee1()
     
     <item>
       <title>PortTalk - Talk To TCP/IP Servers</title>
-      <link>http://shitalshah.com/p/porttalk-talk-to-tcpip-servers/</link>
+      <link>http://shital.com/p/porttalk-talk-to-tcpip-servers/</link>
       <pubDate>Mon, 25 May 1998 15:39:02 +0000</pubDate>
-      <guid>http://shitalshah.com/p/porttalk-talk-to-tcpip-servers/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://shitalshah.com/images/posts/2004/12/porttalk.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2004/12/porttalk-300x210.jpg&#34; alt=&#34;porttalk&#34; width=&#34;300&#34; height=&#34;210&#34; class=&#34;alignleft size-medium wp-image-896&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/porttalk-300x210.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/porttalk.jpg 686w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://shital.com/p/porttalk-talk-to-tcpip-servers/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2004/12/porttalk.jpg&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2004/12/porttalk-300x210.jpg&#34; alt=&#34;porttalk&#34; width=&#34;300&#34; height=&#34;210&#34; class=&#34;alignleft size-medium wp-image-896&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/porttalk-300x210.jpg 300w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/12/porttalk.jpg 686w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This 2 year old application is still the gem of it&amp;rsquo;s own. You can use this program to connect to any TCP/IP server, send it some commands and see how server responds. I used this program to learn how exactly browser makes request for a page to HTTP server or how other TCP/IP protocols like Ping and Time works. I started out my TCP/IP programming journey by reading &lt;a href=&#34;http://www.rfc-editor.org/&#34; title=&#34;Request For Comment Documents By Internet Engineering Task Force&#34; target=&#34;_blank&#34;&gt;RFCs&lt;/a&gt; on different protocols and actually experimenting with them using PortTalk. I&amp;rsquo;d made even my own HTTP server and utilities like PortTalk were indispensible while testing them. The advanced version allows you to connect to to REA2 server (see below) and do a file transfer. This application is right now in state of easy clicks.&lt;/p&gt;
 

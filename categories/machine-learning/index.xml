@@ -2,22 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine Learning | Shital Shah</title>
-    <link>http://shitalshah.com/categories/machine-learning/</link>
-      <atom:link href="http://shitalshah.com/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://shital.com/categories/machine-learning/</link>
+      <atom:link href="http://shital.com/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Tue, 10 May 2005 22:18:16 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Tue, 04 Nov 2008 00:28:56 +0000</lastBuildDate>
     <image>
-      <url>http://shitalshah.com/img/shitalshah.jepg</url>
+      <url>http://shital.com/img/shitalshah.jepg</url>
       <title>Machine Learning</title>
-      <link>http://shitalshah.com/categories/machine-learning/</link>
+      <link>http://shital.com/categories/machine-learning/</link>
     </image>
     
     <item>
+      <title>Making 2D photos in to 3D</title>
+      <link>http://shital.com/p/making-2d-photos-in-to-3d/</link>
+      <pubDate>Tue, 04 Nov 2008 00:28:56 +0000</pubDate>
+      <guid>http://shital.com/p/making-2d-photos-in-to-3d/</guid>
+      <description>&lt;p&gt;How do you take a 2D photograph and create a 3D scene out of it? When you take a 2D photograph the depth information is inherently loss. However when we see 2D photograph our brains can actually still perceive and estimate depth information, for example, a tree is in front and house is about 10 feet in the back and mountain is very far even though the photograph doesn&amp;rsquo;t have any depth information in it at all. Using machine learning it is possible to partially recover and estimate depth information just like our brains does. For this, the team at Stanford has achieved very convincing results: first they divide the photograph in multiple segments and then applies several image processing filters for each segment to extract information such as blurriness, texture variation, shading etc. Then they create some training shots by sending out a robot toy car with laser light to get some sample scenes and actual depth information in the scene (they also use computer generated scenes to train the model). Then they feed this training data to algorithm based on Marcov Random Field to train the model. Each photograph is nothing but a connected graph of these segments as nodes and MRF fits quite well to operate on this graph using properties and connection of node as input and depth as output. Try out some photos you have taken at &lt;a href=&#34;http://make3d.stanford.edu/&#34; target=&#34;_blank&#34;&gt;their website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;On unrelated note, there is an effect called &lt;a href=&#34;http://en.wikipedia.org/wiki/Dolly_zoom&#34; target=&#34;_blank&#34;&gt;Hitchcock Zoom&lt;/a&gt; where camera moves closer (or away) but in a way so that the subject size remains same by reducing (or increasing) zoom. As this is very counter intuitive for our visual system it provides for &lt;a href=&#34;http://www.youtube.com/watch?v=R3W2BgM5N3A&#34; target=&#34;_blank&#34;&gt;an interesting effect&lt;/a&gt; :).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fast Asymmetric Generalized Hebbian Algorithm</title>
+      <link>http://shital.com/p/fast-asymmetric-generalized-hebbian-algorithm/</link>
+      <pubDate>Mon, 07 May 2007 03:43:37 +0000</pubDate>
+      <guid>http://shital.com/p/fast-asymmetric-generalized-hebbian-algorithm/</guid>
+      <description>&lt;p&gt;I can get sucked in to &lt;a href=&#34;http://www.a-i.com/show_tree.asp?id=76&amp;amp;level=2&amp;amp;root=75&#34; target=&#34;_blank&#34;&gt;challenges&lt;/a&gt; very easily especially when that involves Artificial Intelligence or statistical analysis. The challenge that has occupied my interests these days is the one that was put up by &lt;a href=&#34;http://netflixprize.com/&#34; target=&#34;_blank&#34;&gt;Netflix&lt;/a&gt;. It’s easy to describe: They give you 100 million data points for a triplet (Customer, Movie, Rating) and you have to predict the rating for given (customer, movie) pairs. If the average of squared errors of your predictions is below certain value you get a million dollar prize.&lt;/p&gt;
+
+&lt;p&gt;The problem is nothing new in the field. The researchers have been developing techniques for this class of problems since centuries – often without anticipating rewards. Any such material reward would be embarrassingly insignificant compared to the real prize - understanding the most unique and powerful thing in existence that we are aware of: The intelligence.&lt;/p&gt;
+
+&lt;p&gt;What makes Netflix prize an interesting challenge, however, is that it’s very well defined and several researchers are trying out their tools of trade so it also provides quantitative measurement for comparison. There are some consensus that Netflix have set the bar just high enough that no one would ever be able to achieve the lowest required RMS. But that shouldn’t stop you to enjoy the game and push extremes to new boundaries.&lt;/p&gt;
+
+&lt;p&gt;So how am I doing this? I started out brushing up on all existing techniques: Neural networks with linear elements, back propagation, principle component analysis and SVD, logistic regression (still many more to go: Bayesian networks, Markov decision process, SOMs and Recurrent networks). It’s one thing to read about these algorithms from text books and other to actually put in the practice to solve real world problems efficiently. The difficulty using these techniques straight from textbook (without domain specific enhancements) is that they suck when your data set is huge (matrix with 8.6 billion elements) and that there is no real generalized algorithms to determine several parameters such as learning rate, number of units and so on effectively.&lt;/p&gt;
+
+&lt;p&gt;The one algorithm that swept me away among all of these is called Generalized Hebbian Algorithm (&lt;a href=&#34;http://www.dcs.shef.ac.uk/~genevieve/gorrell_thesis.pdf&#34; target=&#34;_blank&#34;&gt;GHA&lt;/a&gt;) - which probably is the most practical algorithm out there for linear problems since 1985 but is not described in even latest well known textbooks! This algorithm can deal with essentially infinite data that available serially, it will use only required amount of memory to hold eigenvectors and perform SVD starting with most significant eigenvalue!&lt;/p&gt;
+
+&lt;p&gt;In any case, I&amp;rsquo;m making &lt;a href=&#34;https://github.com/sytelus/AGHA&#34; target=&#34;_blank&#34;&gt;my implementation&lt;/a&gt; of highly optimized version of this neural network algorithm available with source code.&lt;/p&gt;
+
+&lt;p&gt;Again limitation of GHA (and AGHA) is that they work best on linear problems only.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Critticall</title>
+      <link>http://shital.com/p/critticall/</link>
+      <pubDate>Wed, 08 Mar 2006 08:57:00 +0000</pubDate>
+      <guid>http://shital.com/p/critticall/</guid>
+      <description>&lt;p&gt;This is very interesting concept. I wonder if a language can be specifically designed so that genetic algorithms can natuarally be applied. Notes as my next project!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://critticall.com/&#34; target=&#34;_blank&#34;&gt;Critticall&lt;br /&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Earth: The Largest Neural Model</title>
+      <link>http://shital.com/p/earth-the-largest-neural-model/</link>
+      <pubDate>Fri, 30 Sep 2005 15:59:00 +0000</pubDate>
+      <guid>http://shital.com/p/earth-the-largest-neural-model/</guid>
+      <description>&lt;p&gt;The individuals in population and their interaction with each other very closely models neural activities in brain. The entire neural network can be looked upon as smaller fractal version of human population, with lot of details vanished. It occurs to me that an alien might prefer to look upon Earth as the planet hosting one huge &amp;ldquo;brain&amp;rdquo; with individual humans essentially just forming &amp;ldquo;cells&amp;rdquo; for this brain.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Trading Geek Dinner For Self-Theories Of Intelligence</title>
-      <link>http://shitalshah.com/p/trading-geek-dinner-for-self-theories-of-intelligence/</link>
+      <link>http://shital.com/p/trading-geek-dinner-for-self-theories-of-intelligence/</link>
       <pubDate>Tue, 10 May 2005 22:18:16 +0000</pubDate>
-      <guid>http://shitalshah.com/p/trading-geek-dinner-for-self-theories-of-intelligence/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;d to ditch the grand &lt;a href=&#34;http://www.micropersuasion.com/2005/04/scoble_rubel_ho.html&#34; target=&#34;_blank&#34;&gt;New York geek dinner&lt;/a&gt; to attend &lt;a href=&#34;http://www.nyas.org/events/eventDetail.asp?eventID=3182&amp;amp;date=5/2/2005%207:15:00%20PM&#34; target=&#34;_blank&#34;&gt;a talk&lt;/a&gt; on how the Brain makes memories at &lt;a href=&#34;http://www.nyas.org&#34; target=&#34;_blank&#34;&gt;New York Academy of Sciences&lt;/a&gt;. This is my current absolute favorite subject to spend all my free time so I HAD to be there. The talk also turned out to be very energetic, fun and fast paced by Jennifer Mangels of Columbia University. The first part of the talk was about the role of the hippocampus in forming long term memories and her research. What they tried to do was to record EEG signals from different areas of the neocortex when a person tries to memorize something and recall it back later. Her research attempts to &lt;em&gt;imperially&lt;/em&gt; prove that different areas of the brain must strongly participate together to have hippocampus realize the importance of the incoming information and form the contextual long term memories. While I really disgust at how everyone in neuroscience these days just do some EEGs and fMRIs and run around to write conclusions, above theory fits well with Jeff Hawkin&amp;rsquo;s &lt;a href=&#34;http://shitalshah.com/p/jeff-hawkins-on-intelligence/&#34;&gt;On Intelligence&lt;/a&gt;.&lt;/p&gt;
+      <guid>http://shital.com/p/trading-geek-dinner-for-self-theories-of-intelligence/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;d to ditch the grand &lt;a href=&#34;http://www.micropersuasion.com/2005/04/scoble_rubel_ho.html&#34; target=&#34;_blank&#34;&gt;New York geek dinner&lt;/a&gt; to attend &lt;a href=&#34;http://www.nyas.org/events/eventDetail.asp?eventID=3182&amp;amp;date=5/2/2005%207:15:00%20PM&#34; target=&#34;_blank&#34;&gt;a talk&lt;/a&gt; on how the Brain makes memories at &lt;a href=&#34;http://www.nyas.org&#34; target=&#34;_blank&#34;&gt;New York Academy of Sciences&lt;/a&gt;. This is my current absolute favorite subject to spend all my free time so I HAD to be there. The talk also turned out to be very energetic, fun and fast paced by Jennifer Mangels of Columbia University. The first part of the talk was about the role of the hippocampus in forming long term memories and her research. What they tried to do was to record EEG signals from different areas of the neocortex when a person tries to memorize something and recall it back later. Her research attempts to &lt;em&gt;imperially&lt;/em&gt; prove that different areas of the brain must strongly participate together to have hippocampus realize the importance of the incoming information and form the contextual long term memories. While I really disgust at how everyone in neuroscience these days just do some EEGs and fMRIs and run around to write conclusions, above theory fits well with Jeff Hawkin&amp;rsquo;s &lt;a href=&#34;http://shital.com/p/jeff-hawkins-on-intelligence/&#34;&gt;On Intelligence&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;However more interesting was the second part of the talk: The Self Theory of Intelligence. This is very interesting. In 1970s, Carol Dweck did some research on human motivation in school children and noted that some students intrinsically tend to persist in the face of failure while others quit as soon as the going gets rough. After more investigations, she discovered that student&amp;rsquo;s beliefs about the nature of intelligence had a strong connection with the way they approach challenging intellectual tasks: Students who view their intelligence as an unchangeable internal characteristic tend to shy away from academic challenges, whereas students who believe that their intelligence can be increased through effort and persistence seek them out.&lt;/p&gt;
 
@@ -28,6 +81,41 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;Dr.Mangels then showed some videos demonstrating how EEG patterns differ in these two types of people. This is very significant. It essentially implies that you can device a helmet for a person to wear and after few EEG recordings I would be able to tell if person is in one group or another! Think, interviews would be so different ;).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jeff Hawkins - On Intelligence</title>
+      <link>http://shital.com/p/jeff-hawkins-on-intelligence/</link>
+      <pubDate>Tue, 01 Feb 2005 23:29:42 +0000</pubDate>
+      <guid>http://shital.com/p/jeff-hawkins-on-intelligence/</guid>
+      <description>&lt;p&gt;If all research papers were published the way Jeff Hawkins published his &lt;a href=&#34;http://www.onintelligence.org&#34; target=&#34;_blank&#34;&gt;On Intelligence&lt;/a&gt;, the world would be a&amp;nbsp;different place to live. I strongly feel that this is the most important work in the field which is otherwise &lt;a href=&#34;http://www.shitalshah.com/blog/PermaLink.aspx?guid=0b81a11a-0e5d-4ead-aeef-4552f52b0055&#34; target=&#34;_blank&#34;&gt;so bloated with wasted directionless efforts&lt;/a&gt;. This book is nothing like any research paper you might have read so far. It&amp;rsquo;s written in very personal way. Instead of just spitting out end product, thoughts and algorithms, author also tells you what other directions he was thinking about and what made him to go for this one. The book however is really low on technical &amp;ldquo;mojo&amp;rdquo;. Infect I just&amp;nbsp;barely found it technical enough to keep me interested.&amp;nbsp;The biggest missing&amp;nbsp;gap is&amp;nbsp;that author haven&amp;rsquo;t really formalized his ideas&amp;nbsp;on strong mathematical foundation. Also at times you would feel as if content is just too overly sweetened&amp;nbsp;and you can&amp;rsquo;t just let it push it through your throat&amp;nbsp;(talk about&amp;nbsp;pages and&amp;nbsp;pages of &amp;ldquo;for example&amp;rdquo; for one simple concept!), but hang on. A guy from Stanford, Dileep Geaorge, has done &lt;a href=&#34;http://www.stanford.edu/~dil/invariance/&#34; target=&#34;_blank&#34;&gt;some work in formalizing authors ideas&lt;/a&gt; and even made a working software prototype showing that it successfully produces solid vision recognition. There are still few&amp;nbsp;missing links but I&amp;rsquo;ve hardly any doubts that this is the right direction.&lt;/p&gt;
+
+&lt;p&gt;Jeff Hawkins will be &lt;a href=&#34;http://www.nyas.org/events/eventDetail.asp?eventID=3379&amp;amp;date=2/2/2005%206:00:00%20PM&#34; target=&#34;_blank&#34;&gt;giving a lecture&lt;/a&gt; at NY Science Acadamy tomorrow (2/2/2005).&lt;/p&gt;
+
+&lt;p&gt;The stage is set.&lt;A&gt;&lt;/A&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Neural Networks And Learning Bayesian Networks</title>
+      <link>http://shital.com/p/neural-networks-and-learning-bayesian-networks/</link>
+      <pubDate>Tue, 09 Nov 2004 05:13:41 +0000</pubDate>
+      <guid>http://shital.com/p/neural-networks-and-learning-bayesian-networks/</guid>
+      <description>&lt;p&gt;These are the two most interesting subjects for me right now. &lt;a href=&#34;http://www.amazon.com/exec/obidos/tg/detail/-/0761914404/102-9310019-0481730&#34; target=&#34;_blank&#34;&gt;This book on Neural Networks&lt;/a&gt; is probably the best to take a dive in the field. This is truly the magnificent book that you can read like some thriller story (assuming you are not afraid of some mathematical depth) and look at the real working through cool numerical examples. Short but concise explanations might make this book deceptively tiny but it&amp;rsquo;s sure the best introduction in this field.&lt;/p&gt;
+
+&lt;p&gt;On the other hand &lt;a href=&#34;http://www.amazon.com/exec/obidos/tg/detail/-/0130125342/102-9310019-0481730&#34; target=&#34;_blank&#34;&gt;Learning Bayesian Networks&lt;/a&gt; is little dry but has solid examples and it promises answers to some of the puzzling questions that had been playing around in my mind while thinking about my own correlation algorithm. So it’s still an interesting read. This book you can probably read more comfortably if you are already familiar with &lt;a href=&#34;http://shital.com/p/get-yourself-some-bayes/&#34;&gt;Bayesian probabilities&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Get Yourself Some Bayes!</title>
+      <link>http://shital.com/p/get-yourself-some-bayes/</link>
+      <pubDate>Sat, 07 Aug 2004 01:00:42 +0000</pubDate>
+      <guid>http://shital.com/p/get-yourself-some-bayes/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2004/08/bayesaid.jpg&#34;&gt;&lt;img src=&#34;http://shitalshah.com/wp-content/uploads/2004/08/bayesaid-234x300.jpg&#34; alt=&#34;bayesaid&#34; width=&#34;234&#34; height=&#34;300&#34; class=&#34;alignleft size-medium wp-image-1282&#34; srcset=&#34;http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/08/bayesaid-234x300.jpg 234w, http://shitalshah.com/ShitalShahWP/wp-content/uploads/2004/08/bayesaid.jpg 726w&#34; sizes=&#34;(max-width: 234px) 100vw, 234px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I read about Bayesian probability first on Paul Graham&amp;rsquo; &lt;a href=&#34;http://www.paulgraham.com/spam.html&#34; target=&#34;new&#34;&gt;milestone article on spam&lt;/a&gt; two years ago. Amazingly, his Bayesian based algorithm did the same thing that a sophisticated AI algorithm will do, i.e. to precisely identify spam emails (success rate: 995 out of 1000) just like humans do it with their image recognition, natural language processing capabilities and yet unparalleled intelligence. That got me interested and Bayesian probabilities got added in my things to learn. I just recently finished my that goal and I can&amp;rsquo;t over emphasize, its an serious weapon in your. The coolest way to understand Bayes is &lt;a href=&#34;http://yudkowsky.net/bayes/bayes.html&#34; target=&#34;new&#34;&gt;this article on web&lt;/a&gt;. Unlike most others, this article states real equation at the end rather then at the start or middle of the article and author writes &amp;ldquo;By this point, Bayes&amp;rsquo; Theorem may seem blatantly obvious or even tautological, rather than exciting and new. If so, this introduction has entirely succeeded in its purpose.&amp;rdquo; Yes, indeed he is! One of the points that isn&amp;rsquo;t crystal clear in this article is the difference between P(A&amp;amp;B) and P(A|B). I wouldn&amp;rsquo;t go on explaining that but you can see on left the small diagram that I created which will aid in understanding with above article. These two terms are actually the key in understanding why traditional probability analysis (which is about time independent calculations i.e. about probabilities that exist after all events have been finished occurring) is different then Bayesian analysis (which is about probabilities when we are still waiting for some events still to occur but we don&amp;rsquo;t know which one will really occur).&lt;/p&gt;
 </description>
     </item>
     

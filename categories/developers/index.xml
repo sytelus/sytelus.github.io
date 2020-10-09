@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Developers | Shital Shah</title>
-    <link>http://shitalshah.com/categories/developers/</link>
-      <atom:link href="http://shitalshah.com/categories/developers/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://shital.com/categories/developers/</link>
+      <atom:link href="http://shital.com/categories/developers/index.xml" rel="self" type="application/rss+xml" />
     <description>Developers</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Sun, 26 Feb 2017 09:16:43 +0000</lastBuildDate>
     <image>
-      <url>http://shitalshah.com/img/shitalshah.jepg</url>
+      <url>http://shital.com/img/shitalshah.jepg</url>
       <title>Developers</title>
-      <link>http://shitalshah.com/categories/developers/</link>
+      <link>http://shital.com/categories/developers/</link>
     </image>
     
     <item>
       <title>Git Workflow: Branch - Rebase - Squash - Merge</title>
-      <link>http://shitalshah.com/p/git-workflow-branch-rebase-squash-merge/</link>
+      <link>http://shital.com/p/git-workflow-branch-rebase-squash-merge/</link>
       <pubDate>Sun, 26 Feb 2017 09:16:43 +0000</pubDate>
-      <guid>http://shitalshah.com/p/git-workflow-branch-rebase-squash-merge/</guid>
+      <guid>http://shital.com/p/git-workflow-branch-rebase-squash-merge/</guid>
       <description>&lt;p&gt;So you want to make a change to your git repo while other people may also be simultaneously working on the same repo. As it takes you longer to make your changes, there is a greater chance that your local repo might already be out of date as other people have pushed their changes. In this setting, you don&amp;rsquo;t want to make your changes directly in master because otherwise you might end up creating large merge commits which makes your repo&amp;rsquo;s history convoluted and not very nice.&lt;/p&gt;
 
 &lt;p&gt;Here&amp;rsquo;s the better git workflow you might want to use in any team of size &amp;gt; 1.&lt;/p&gt;
@@ -153,9 +153,9 @@ git branch -d MyFeature
     
     <item>
       <title>How to Enable and Use GCC Strict Mode Compilation</title>
-      <link>http://shitalshah.com/p/how-to-enable-and-use-gcc-strict-mode-compilation/</link>
+      <link>http://shital.com/p/how-to-enable-and-use-gcc-strict-mode-compilation/</link>
       <pubDate>Tue, 24 May 2016 01:19:51 +0000</pubDate>
-      <guid>http://shitalshah.com/p/how-to-enable-and-use-gcc-strict-mode-compilation/</guid>
+      <guid>http://shital.com/p/how-to-enable-and-use-gcc-strict-mode-compilation/</guid>
       <description>&lt;p&gt;One of the great feature that many C++ programmers rarely use is GCC strict mode compilation. Enabling this lets compiler warn you about any potential issues that might often get unnoticed in build noise. Unfortunately there is little documentation, let alone quick tutorial on this subject so I thought to write this up.&lt;/p&gt;
 
 &lt;p&gt;First, let&amp;rsquo;s clear this up: There is no official GCC mode called &amp;ldquo;strict&amp;rdquo;. I just made that term up. Fortunately there are enough compiler options that you can rig up to create &amp;ldquo;strict&amp;rdquo; mode that is often available in many other languages.&lt;/p&gt;
@@ -225,9 +225,9 @@ STRICT_MODE_ON
     
     <item>
       <title>Downloading All of Hacker News Posts and Comments</title>
-      <link>http://shitalshah.com/p/downloading-all-of-hacker-news-posts-and-comments/</link>
+      <link>http://shital.com/p/downloading-all-of-hacker-news-posts-and-comments/</link>
       <pubDate>Sat, 31 May 2014 02:54:03 +0000</pubDate>
-      <guid>http://shitalshah.com/p/downloading-all-of-hacker-news-posts-and-comments/</guid>
+      <guid>http://shital.com/p/downloading-all-of-hacker-news-posts-and-comments/</guid>
       <description>
 
 &lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
@@ -408,10 +408,130 @@ STRICT_MODE_ON
     </item>
     
     <item>
+      <title>BadImageFormatException - This assembly is built by a runtime newer than the currently loaded</title>
+      <link>http://shital.com/p/badimageformatexception-this-assembly-is-built-by-a-runtime-newer-than-the-currently-loaded/</link>
+      <pubDate>Tue, 24 Apr 2012 05:49:22 +0000</pubDate>
+      <guid>http://shital.com/p/badimageformatexception-this-assembly-is-built-by-a-runtime-newer-than-the-currently-loaded/</guid>
+      <description>&lt;p&gt;Strange thing happened today. I upgraded one of the internal tool to .Net 4.0 without any issues but as soon as I attempt to debug/run the binary, I’ll see this exception:&lt;/p&gt;
+
+&lt;pre class=&#34;code-block code-text&#34;&gt;&lt;code class=&#34;no-highlight&#34;&gt;System.BadImageFormatException was unhandled Message: Could not load file or assembly SomeTool.exe&#39; or one of its dependencies. This assembly is built by a runtime newer than the currently loaded runtime and cannot be loaded.&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Normally you see this exception if the machine doesn’t have right run time installed. But this was obviously not the case. Changing build to x86 or x64 didn’t made any difference either. Next I ran peverify.exe which happily reported that there was nothing wrong with the binary image. Finally I needed to pull out the big guns, ask fuslogvw, which would show me if there are any dependent assembly binding that was failing. But that also didn’t produce any boom sounds. So the last resort was to just meditate over the issue for few minutes. And that works. In a sign of enlightenment I saw app.config buried along with bunch of files and it had these lines:&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;    &amp;lt;?xml version=&#34;1.0&#34;?&amp;gt; 
+    &amp;lt;configuration&amp;gt; 
+    &amp;lt;startup&amp;gt;&amp;lt;supportedRuntime version=&#34;v2.0.50727&#34;/&amp;gt;&amp;lt;/startup&amp;gt;&amp;lt;/configuration&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Aha! Apparently the app.config doesn’t get updated (may be because it was in TFS?) when VS did the 4.0 upgrade. As app.config didn’t had anything else, just deleting this file solved the issue. I do wonder how many people come across this gotcha.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Day in SQL Tuning</title>
+      <link>http://shital.com/p/a-day-in-sql-tuning/</link>
+      <pubDate>Wed, 27 Jan 2010 09:11:27 +0000</pubDate>
+      <guid>http://shital.com/p/a-day-in-sql-tuning/</guid>
+      <description>&lt;p&gt;Today I got in to some heavy weight TSQL tuning. This time the target was a legendary sproc that was taking 3 mins and now I’m about to call it a day when this giant SP is eating only 16 sec. Not excellent but not bad at this point. Here are some notes…&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Apparently resetting identity using DBCC CHECKIDENT can be expensive operation if you are also deleting all items from the table. One way to reduce time is use TRUNCATE TABLE before DBCC CHECKIDENT.&lt;/li&gt;
+&lt;li&gt;I prefer table variables instead of temp tables but one place temp tables are required is if you have lots of data in them and want index!&lt;/li&gt;
+&lt;li&gt;Data Tuning Wizard would come out with zero suggestions on many occasions but it does not mean there are no significant optimizations possible. The best way to “guess” possible index is to have index for all columns used in join &lt;em&gt;and&lt;/em&gt; use INCLUDE clause that has columns accessed in SELECT. This last thing does attracts even the least interested query plans to use the index :).&lt;/li&gt;
+&lt;li&gt;If you have temp tables, it’s usually better to create index after you have inserted data instead of before.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If you have complex sproc, SQL Server Profiler will spit out thousands of trace lines during the run. A quick way to pin point the SQL statements needing performance tuning is to use File &amp;gt; Save As to put the trace results in to a table. You can use then following query that immediately surfaces culprits. Notice that statements which run in WHILE loop might take less time individually but collectively their duration sum may be higher. Below query would reveal this culprits immediately. &lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;    select SUBSTRING(TextData, 1, 4000), SUM(duration), COUNT(1)
+from [SavedTrace]
+group by SUBSTRING(TextData, 1, 4000)
+order by 2 desc&amp;lt;/li&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/ul&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the big performance hits occur when you must process individual rows one at a time instead of in set. For instance, let’s say you have a table with a column that has comma delimited values. Now you want to split these values in each cell and create a new table which would have N rows for each row in original table – one for each spitted value. The Internet is littered with dozen ways to split strings in TSQL, some even uses CTEs (not a good idea because there are lots of gotchas like max recursion limit). So far the best way is to use SQL CLR with code like below. Its as fast as any native TSQL juggling, if not faster. However most important thing here is not SQL CLR but how you use this table valued function and here’s the secret: The best bang for the performance you would get is using CROSS APPLY (or OUTER APPLY) with table valued UDF.&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;    public partial class UtilityFunctions
+{
+    [Microsoft.SqlServer.Server.SqlFunction(FillRowMethodName = &amp;lt;span class=&#34;c10&#34;&gt;&#34;FillRow&#34;, TableDefinition=&amp;lt;span class=&#34;c10&#34;&gt;&#34;StringPart nvarchar(max)&#34;, 
+        IsDeterministic=true, IsPrecise=true, SystemDataAccess=SystemDataAccessKind.None)]
+    public static IEnumerable ClrSplitString(SqlString sqlStringToSplit, SqlChars delimiter, SqlBoolean removeEmptyEntries)
+    {
+        if (!string.IsNullOrEmpty(sqlStringToSplit.Value))
+        {
+            return sqlStringToSplit.Value.Split(delimiter.Value
+                , (StringSplitOptions)(removeEmptyEntries ?
+                        StringSplitOptions.RemoveEmptyEntries : StringSplitOptions.None));
+        }
+        else
+        {
+            return null;
+        }
+    }
+
+    public static void FillRow(object obj, out SqlString splittedString)
+    {
+        if (obj != null)
+            splittedString = new SqlString((string)obj);
+        else
+            splittedString = SqlString.Null;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Test Results Windows and Exception has been thrown by the target of an invocation</title>
+      <link>http://shital.com/p/test-results-windows-and-exception-has-been-thrown-by-the-target-of-an-invocation/</link>
+      <pubDate>Thu, 31 Dec 2009 23:29:45 +0000</pubDate>
+      <guid>http://shital.com/p/test-results-windows-and-exception-has-been-thrown-by-the-target-of-an-invocation/</guid>
+      <description>&lt;p&gt;Just a note… if you are getting &amp;ldquo;Exception has been thrown by the target of an invocation&amp;rdquo; message when opening Test Results window in Visual Studio 2008 then it’s most likely because you have an open solution in offline mode that was bound to some TFS instance. A bug that can waste lots of your time if you didn’t knew about it!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What to do on dreaded error CS0003: Out of memory</title>
+      <link>http://shital.com/p/what-to-do-on-dreaded-error-cs0003-out-of-memory/</link>
+      <pubDate>Thu, 31 Dec 2009 09:36:33 +0000</pubDate>
+      <guid>http://shital.com/p/what-to-do-on-dreaded-error-cs0003-out-of-memory/</guid>
+      <description>&lt;p&gt;I’ve spent way too much of time today (again!) on this error so here’s blog post for future reminder to me!&lt;/p&gt;
+
+&lt;p&gt;If you are generating or working with very large proxies then you might see following error:&lt;/p&gt;
+
+&lt;pre class=&#34;code-block code-text&#34;&gt;&lt;code class=&#34;no-highlight&#34;&gt;Exception: InvalidOperationException&amp;lt;br&gt;
+Message: Unable to generate a temporary class (result=1).
+error CS0001: Internal compiler error (0xc00000fd)
+error CS0003: Out of memory&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This error typically occurs when .Net infrastructure attempts to generate *XmlSerializers.dll on the fly. To do this csc.exe is spawned off and if your proxy is too large then it might error out with a message like above. This seems to be a bug in csc and reportedly it might get fixed in .Net 4.0.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, here’s how you can workaround it:&lt;/p&gt;
+
+&lt;p&gt;First make sure all your classes that are derived from SoapHttpClientProtocol (i.e. the proxy classes) are decorated with WebServiceBindingAttribute. If you have a whole class hierarchy that derives from SoapHttpClientProtocol then all classes in that hierarchy must be decorated.&lt;/p&gt;
+
+&lt;p&gt;Next, for all the projects that contains classes derived from SoapHttpClientProtocol, turn “Generate serialization assembly” option on Build page to ON. Remember you will need to do this for Debug as well as Release mode or your code will fail in production.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://shital.com/images/posts/2009/12/clip_image002_2.jpg&#34; alt=&#34;Visual Studio XML Serialization Option&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now you are set. The *XmlSerializers.dll will be generated and signed+versioned automatically (if your project is signed and versioned) when you do build and csc.exe won’t get spawned to cause above error.&lt;/p&gt;
+
+&lt;p&gt;Few more things to keep in mind:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;One of the “popular” workaround in some forums is to switch IIS app pool for WCF to 32-bit. I wouldn’t advise this because you loose all the advantage of 64-bit, primarily, access to all the memory available on server.&lt;/li&gt;
+&lt;li&gt;Above error often occurs for Microsoft Dynamics CRM proxies if you have tons of entities and attributes.&lt;/li&gt;
+&lt;li&gt;If your code is running as plugin then you might have plugin DLLs hosted at different location than main app exe. An example of this is Microsoft Dynamics CRM plugins that gets hosted by CRM Async service. In this case, you need to copy the *XmlSerializer.dll generated after the build to same location as host exe otherwise it won’t be found by .Net infrastructure!&lt;/li&gt;
+&lt;li&gt;If you are using Visual Studio integrated debugging feature for WCF services then you must run Visual Studio as Administrator or above error will pop its ugly head when you are debugging.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If above steps doesn’t solve your problem then you might have to dig deeper using techniques described &lt;a href=&#34;http://blog.bits-in-motion.com/2009/11/xmlserializers-moduleversionid-ilmerge.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, watching binding errors from fuslogvw or attempt to generate Xml serilizer DLL manually using sgen.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Silencing Exceptions in a Little Better Way</title>
-      <link>http://shitalshah.com/p/silencing-exceptions-in-a-little-better-way/</link>
+      <link>http://shital.com/p/silencing-exceptions-in-a-little-better-way/</link>
       <pubDate>Mon, 07 Dec 2009 23:54:35 +0000</pubDate>
-      <guid>http://shitalshah.com/p/silencing-exceptions-in-a-little-better-way/</guid>
+      <guid>http://shital.com/p/silencing-exceptions-in-a-little-better-way/</guid>
       <description>&lt;p&gt;Some of the most disastrous code usually takes the following form&lt;/p&gt;
 
 &lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;try
@@ -463,10 +583,65 @@ catch
     </item>
     
     <item>
+      <title>Lightweight DataTable Serialization</title>
+      <link>http://shital.com/p/lightweight-datatable-serialization/</link>
+      <pubDate>Fri, 04 Dec 2009 16:32:07 +0000</pubDate>
+      <guid>http://shital.com/p/lightweight-datatable-serialization/</guid>
+      <description>&lt;p&gt;We all know untyped data structures like DataTable and DataSet should not be passed around but sometimes - just sometimes - you got to do it because it makes sense and because it’s the most cost effective way to meet your goals. However passing things like DataTable over WCF can kill performance because of huge serialization overhead in both space and time.&lt;/p&gt;
+
+&lt;p&gt;So if you really had to go ahead with this crazy idea of sending DataTable over WCF then here’s the somewhat more efficient serialization technique you can use. The basic idea is to use binary serialization of DataTable and pass that serialized data as byte array along with the schema information so the client can reconstruct it on other end. It’s needless to say that doing this would invariably restrict your WCF clients to .Net so you might also want to include other web method for other clients.&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;public static void LightWeightSerialize(DataTable myDataTable, out byte[] serializedTableData, out string tableSchema)
+{
+    //Get all row values as jagged object array
+    object[][] tableItems = new object[myDataTable.Rows.Count][];
+    for (int rowIndex = 0; rowIndex &amp;lt; myDataTable.Rows.Count; rowIndex++)
+    tableItems[rowIndex] = myDataTable.Rows[rowIndex].ItemArray;
+
+    //binary serialize jagged object array
+    BinaryFormatter serializationFormatter = new BinaryFormatter();
+    MemoryStream buffer = new MemoryStream();
+    serializationFormatter.Serialize(buffer, tableItems);
+    serializedTableData = buffer.ToArray();
+
+
+    //Get table schema
+    StringBuilder tableSchemaBuilder = new StringBuilder();
+    myDataTable.WriteXmlSchema(new StringWriter(tableSchemaBuilder));
+    tableSchema = tableSchemaBuilder.ToString();
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And here’s the deserializer to go with it:&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;public static DataTable LightWeightDeserialize(byte[] serializedTableData, string tableSchema)
+{
+    DataTable table = new DataTable();
+    table.ReadXmlSchema(new StringReader(tableSchema));
+
+    BinaryFormatter serializationFormatter = new BinaryFormatter();
+    MemoryStream buffer = new MemoryStream(serializedTableData);
+    object[][] itemArrayForRows = (object[][]) serializationFormatter.Deserialize(buffer);
+
+    table.MinimumCapacity = itemArrayForRows.Length;
+    table.BeginLoadData();
+    for (int rowIndex = 0; rowIndex &amp;lt; itemArrayForRows.Length; rowIndex++)
+    table.Rows.Add(itemArrayForRows[rowIndex]);
+    table.EndLoadData();
+
+    return table;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How efficient is this? It really depends on your data. For instance, with some of my test data with 10K rows I could get about 6X smaller payload size and 30% faster serialization. But as number of rows increases, the speed advantage diminishes compared to built-in XML serializer that you can access via ReadXml/WriteXml. For example, for a million row, above method still gives me 4X smaller payload but serialization is actually 3X slower than built-in XML serializer. So experiment before you go either way!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The Best Culture Invariant Format for DateTime</title>
-      <link>http://shitalshah.com/p/the-best-culture-invariant-format-for-datetime/</link>
+      <link>http://shital.com/p/the-best-culture-invariant-format-for-datetime/</link>
       <pubDate>Mon, 09 Nov 2009 01:35:41 +0000</pubDate>
-      <guid>http://shitalshah.com/p/the-best-culture-invariant-format-for-datetime/</guid>
+      <guid>http://shital.com/p/the-best-culture-invariant-format-for-datetime/</guid>
       <description>&lt;p&gt;If you are looking to display how to display DateTime as text without causing confusion to users in different countries then good choices is either &amp;ldquo;o&amp;rdquo; or &amp;ldquo;r&amp;rdquo;. The &amp;ldquo;o&amp;rdquo; format is in general more preferable as it also puts timezone offset.&lt;/p&gt;
 
 &lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;long t = DateTime.Now.Ticks;
@@ -496,22 +671,34 @@ Sun, 08 Nov 2009 17:26:02 GMT
     
     <item>
       <title>Find Path of a Command Line Tool</title>
-      <link>http://shitalshah.com/p/find-path-of-a-command-line-tool/</link>
+      <link>http://shital.com/p/find-path-of-a-command-line-tool/</link>
       <pubDate>Thu, 29 Oct 2009 23:06:45 +0000</pubDate>
-      <guid>http://shitalshah.com/p/find-path-of-a-command-line-tool/</guid>
+      <guid>http://shital.com/p/find-path-of-a-command-line-tool/</guid>
       <description>&lt;p&gt;Many times you work on different machines, execute a command line tool but often wonder where that tool is actually installed. One way to figure this out is to look at all environment PATH variables and search them manually in same order as Windows does. But you don’t have to because luckily there is a little known built-in command called WHERE that does that for you:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://shitalshah.com/images/posts/2009/10/image_8.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://shital.com/images/posts/2009/10/image_8.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This is similar to Unix commands like WHICH and WHEREIS.&lt;/p&gt;
 </description>
     </item>
     
     <item>
+      <title>Selecting Random Row From SQL Server Table</title>
+      <link>http://shital.com/p/selecting-random-row-from-sql-server-table/</link>
+      <pubDate>Tue, 06 Oct 2009 03:08:25 +0000</pubDate>
+      <guid>http://shital.com/p/selecting-random-row-from-sql-server-table/</guid>
+      <description>&lt;p&gt;It is important to make sure your automated tests covers various real-world data combinations (for instance, some columns could be null or some rows could be duplicate). For perf testing you want to reduce effects of caching by not firing same SQL over and over. In these cases, ability to select a random row for your test could come in handy and here’s neat little trick to do it:&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;select top 1 * from table order by newid()
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>What’s in a name?</title>
-      <link>http://shitalshah.com/p/whats-in-a-name/</link>
+      <link>http://shital.com/p/whats-in-a-name/</link>
       <pubDate>Sat, 08 Aug 2009 03:32:48 +0000</pubDate>
-      <guid>http://shitalshah.com/p/whats-in-a-name/</guid>
+      <guid>http://shital.com/p/whats-in-a-name/</guid>
       <description>&lt;p&gt;When you want to store the name of a person a typical design starts out by creating two fields (in database or class):&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Person&lt;/strong&gt;&lt;/p&gt;
@@ -603,29 +790,113 @@ Full Name Style
     </item>
     
     <item>
+      <title>Twitter Dishing Out 417 - Expectation Failed to .Net Clients</title>
+      <link>http://shital.com/p/twitter-dishing-out-417-expectation-failed-to-net-clients/</link>
+      <pubDate>Sat, 27 Dec 2008 12:20:00 +0000</pubDate>
+      <guid>http://shital.com/p/twitter-dishing-out-417-expectation-failed-to-net-clients/</guid>
+      <description>&lt;p&gt;My little &lt;a href=&#34;http://www.codeplex.com/QckTwit&#34; target=&#34;_blank&#34;&gt;Twitter app&lt;/a&gt; was broke since past few days with error 417 - Expectation Failed. Infect most .Net apps calling Twitter APIs would be broken right now so I thought to write this up.&lt;/p&gt;
+
+&lt;p&gt;This error is seemingly because Twitter servers have started rejecting Expect HTTP header with value &amp;ldquo;!00-Continue&amp;rdquo;. I&amp;rsquo;m not sure if this was planned event or enough warnings were issued to developers but it would be guaranteed to drive you nuts.&lt;/p&gt;
+
+&lt;p&gt;The error is because of default behavior in HttpWebRequest object that &lt;a href=&#34;http://haacked.com/archive/2004/05/15/http-web-request-expect-100-continue.aspx&#34; target=&#34;_blank&#34;&gt;adds an HTTP header&lt;/a&gt; called Expect with value &amp;ldquo;100-Continue&amp;rdquo; to almost every outgoing POST request. This header basically tells the server that it&amp;rsquo;s going to send all the data in form in the next request instead of current request so that if server has redirects or auth then it doesn&amp;rsquo;t have to resend it all over again. This is a good thing if your web form has lots of data or if you are on low latency network or most servers in the word have either redirects or auth when submitting forms but a bad thing for server performance because now it gets hit twice for each request. I think performance might be the reason Twitter has turned off support for such two partter POST requests which unfortunately happens to be the default for HttpWebRequest.&lt;/p&gt;
+
+&lt;p&gt;In any case, it turns out that HttpWebRequest does all these thing under the hood so to get rid of this error you will need to set a static flag in ServicePointManager class like this:&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;System.Net.ServicePointManager.Expect100Continue = false;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Above statement will cause elimination of HTTP Expect header from your calls to Twitter and it will be happy again.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m using &lt;a href=&#34;http://devblog.yedda.com/index.php/twitter-c-library/&#34; target=&#34;_blank&#34;&gt;Yedda&amp;rsquo;s C# wrapper&lt;/a&gt; for Twitter APIs for &lt;a href=&#34;http://www.codeplex.com/QckTwit&#34; target=&#34;_blank&#34;&gt;QckTwit&lt;/a&gt; so above line goes in to start of ExecutePostCommand method.&lt;/p&gt;
+
+&lt;p&gt;PS: If you are new to Twitter try out free simple lightweight app &lt;a href=&#34;http://www.codeplex.com/QckTwit&#34; target=&#34;_blank&#34;&gt;QckTwit&lt;/a&gt;. It just sits in your system tray, asks you about what you are doing at reminder interval you set, updates the Twitter and gets out of your way!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why would you still get &#34;Strong name validation failed&#34;?</title>
+      <link>http://shital.com/p/why-would-you-still-get-strong-name-validation-failed/</link>
+      <pubDate>Thu, 01 May 2008 10:34:00 +0000</pubDate>
+      <guid>http://shital.com/p/why-would-you-still-get-strong-name-validation-failed/</guid>
+      <description>&lt;p&gt;There are not many web pages mentioning this so I would just post this so it comes up in search. Having personally spent 4 hours tracking this little thing down, I would want anyone else to go through same :).&lt;/p&gt;
+
+&lt;p&gt;So&amp;hellip; if you are using delay signing, you will need to run the following command so you can still debug from Visual Studio.Net:&lt;/p&gt;
+
+&lt;pre class=&#34;code-block code-text&#34;&gt;&lt;code class=&#34;no-highlight&#34;&gt;sn -Vr *,[public key token]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Apparently if you are using Vista 64-bit it just won&amp;rsquo;t work! You will still keep getting error something like,&lt;/p&gt;
+
+&lt;pre class=&#34;code-block code-text&#34;&gt;&lt;code class=&#34;no-highlight&#34;&gt;Could not load file or assembly &#39;[Your file], Version=2.0.0.0, Culture=neutral, PublicKeyToken=[public ket token]&#39; or one of its dependencies. Strong name validation failed. (Exception from HRESULT: 0x8013141A)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can try viewing Fusion log, cleaning solution, rebooting machine, watch FileMon, run Process Explorer, rebuild everything 10 times&amp;hellip; but it just won&amp;rsquo;t work. Infect if you try removing signing and if your app is WPF 3.5 then you might even get even more weird errors like&lt;/p&gt;
+
+&lt;pre class=&#34;code-block code-text&#34;&gt;&lt;code class=&#34;no-highlight&#34;&gt;Could not create an instance of type &#39;StaticExtension&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The solution is hidden in a one liner in &lt;a href=&#34;http://weblogs.asp.net/dwahlin/archive/2007/08/06/fixing-a-vs-net-2008-asp-net-debugging-issue-on-vista-quot-strong-name-validation-failed-quot.aspx&#34; target=&#34;_blank&#34;&gt;Dan Wahlin&amp;rsquo;s blog&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you&amp;rsquo;re running a 64-bit installation of Vista you&amp;rsquo;ll need to use the sn.exe located at &lt;strong&gt;C:\Program Files\Microsoft SDKs\Windows\v6.0A\Bin\x64\sn.exe&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m pretty sure tons of developers adopting shiny 64-bit OS are/would run in to this. The root cause here is sn.exe designed for 32-bit doesn&amp;rsquo;t error out instead it happily lets you know that &amp;ldquo;&lt;em&gt;Verification entry added for assembly &amp;lsquo;*,*&lt;/em&gt;&amp;rsquo;&amp;rdquo; successfully! It&amp;rsquo;s not! So I also filed &lt;a href=&#34;https://connect.microsoft.com/VisualStudio/feedback/ViewFeedback.aspx?FeedbackID=341426&#34; target=&#34;_blank&#34;&gt;a bug in out Connect web site&lt;/a&gt;. Please vote to make 64-bit world a better place!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The ACM Turing Programming Contest Problem Set Archive</title>
-      <link>http://shitalshah.com/p/the-acm-turing-programming-contest-problem-set-archive/</link>
+      <link>http://shital.com/p/the-acm-turing-programming-contest-problem-set-archive/</link>
       <pubDate>Thu, 13 Apr 2006 03:32:00 +0000</pubDate>
-      <guid>http://shitalshah.com/p/the-acm-turing-programming-contest-problem-set-archive/</guid>
+      <guid>http://shital.com/p/the-acm-turing-programming-contest-problem-set-archive/</guid>
       <description>&lt;p&gt;Here&amp;rsquo;s the list of problems used in ACM Turing programming contest. Surprisingly, like many other such contests, lots of problems are s simply a variant of shortest-path problem.&lt;br /&gt;
 &lt;a href=&#34;http://www.acm.inf.ethz.ch/ProblemSetArchive.html#A_FINALS&#34; target=&#34;_blank&#34;&gt;The ACM ICPC Problem Set Archive&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
+      <title>Exception Code Template For CodeRush</title>
+      <link>http://shital.com/p/exception-code-template-for-coderush/</link>
+      <pubDate>Tue, 06 Sep 2005 17:55:00 +0000</pubDate>
+      <guid>http://shital.com/p/exception-code-template-for-coderush/</guid>
+      <description>&lt;p&gt;How CodeRush could miss this template? Anyway you can copy and paste this in CodeRush Options (Expert mode) to have your own!&lt;/p&gt;
+
+&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;[System.Serializable]
+public class InvalidDataException
+{
+    public InvalidDataException()
+    {
+    } 
+
+    public InvalidDataException(string message) : base( message )
+    {
+    } 
+
+    public InvalidDataException (string message, System.Exception inner): base( message, inner )
+    {
+    } 
+
+    public InvalidDataException (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context) : base(info, context)
+    {
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>My New CodeProject Article On Equation Rendering</title>
-      <link>http://shitalshah.com/p/my-new-codeproject-article-on-equation-rendering/</link>
+      <link>http://shital.com/p/my-new-codeproject-article-on-equation-rendering/</link>
       <pubDate>Wed, 24 Aug 2005 02:31:01 +0000</pubDate>
-      <guid>http://shitalshah.com/p/my-new-codeproject-article-on-equation-rendering/</guid>
+      <guid>http://shital.com/p/my-new-codeproject-article-on-equation-rendering/</guid>
       <description>&lt;p&gt;I just finished &lt;a href=&#34;http://www.codeproject.com/Articles/11406/Enable-Your-Users-to-Write-Math-Equations-in-Your&#34; target=&#34;_blank&#34;&gt;my new article on CodeProject&lt;/a&gt;. The mission on MimeTeX was started about couple of months ago when in a weekend I just got attracted to MimeTeX&amp;rsquo;s C code like a magnet ;). Now I&amp;rsquo;ve built ASP.Net handler, caching, admin etc on the top of it and its looking great! Enabling scientific content on web seems to be my new obsession. So if you take pride in delighting your users with every new release, here&amp;rsquo;s your brand new feature! Go ahead, download it, use it! If you run in to any problem, I&amp;rsquo;ll be glad to offer you my help.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Interesting Headers</title>
-      <link>http://shitalshah.com/p/google-logo-headers-max-age/</link>
+      <link>http://shital.com/p/google-logo-headers-max-age/</link>
       <pubDate>Sat, 16 Jul 2005 02:32:00 +0000</pubDate>
-      <guid>http://shitalshah.com/p/google-logo-headers-max-age/</guid>
+      <guid>http://shital.com/p/google-logo-headers-max-age/</guid>
       <description>&lt;p&gt;The response headers returns with Google&amp;rsquo;s logo looks like this:&lt;/p&gt;
 
 &lt;pre class=&#34;code-block code-text&#34;&gt;&lt;code class=&#34;no-highlight&#34;&gt;Content-Type: image/gif
@@ -660,18 +931,18 @@ Content-Length: 3779&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Types Of Database Columns</title>
-      <link>http://shitalshah.com/p/database-columns-char-numeric-stats/</link>
+      <link>http://shital.com/p/database-columns-char-numeric-stats/</link>
       <pubDate>Thu, 14 Jul 2005 18:35:00 +0000</pubDate>
-      <guid>http://shitalshah.com/p/database-columns-char-numeric-stats/</guid>
+      <guid>http://shital.com/p/database-columns-char-numeric-stats/</guid>
       <description>&lt;p&gt;From an &lt;a href=&#34;http://www2.hursley.ibm.com/decimal/decifaq1.html&#34; target=&#34;_blank&#34;&gt;excellent article on Decimal&lt;/a&gt; mentions survey of 1,091,916 columns in databases owned by 41 organizations to find that 41.8% of them contained numeric data and 53.7% contained char data.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>We are Finite State Machines</title>
-      <link>http://shitalshah.com/p/we-are-finite-state-machines/</link>
+      <link>http://shital.com/p/we-are-finite-state-machines/</link>
       <pubDate>Mon, 11 Jul 2005 17:14:00 +0000</pubDate>
-      <guid>http://shitalshah.com/p/we-are-finite-state-machines/</guid>
+      <guid>http://shital.com/p/we-are-finite-state-machines/</guid>
       <description>&lt;p&gt;From the coolest &lt;a href=&#34;http://www.objectmentor.com/resources/articles/umlCollaborationDiagrams.pdf&#34; target=&#34;_blank&#34;&gt;UML tutorial&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -684,9 +955,9 @@ Content-Length: 3779&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Five Good Books On Microsoft .Net Framework</title>
-      <link>http://shitalshah.com/p/five-good-books-on-microsoft-net-framework/</link>
+      <link>http://shital.com/p/five-good-books-on-microsoft-net-framework/</link>
       <pubDate>Thu, 26 Dec 2002 20:05:50 +0000</pubDate>
-      <guid>http://shitalshah.com/p/five-good-books-on-microsoft-net-framework/</guid>
+      <guid>http://shital.com/p/five-good-books-on-microsoft-net-framework/</guid>
       <description>&lt;p&gt;In a programming world, to do a criticism against anything and everything Microsoft does is like putting up a fashion statement by beautiful models with their useless cloths. But after spending years in intensive computer programming, Microsoft .Net seems to be &lt;em&gt;the best&lt;/em&gt; computer programming environment human kind can possess at this point of time. It&amp;rsquo;s simply just too perfect (if you forget the stupid &amp;ldquo;.Net&amp;rdquo; name tag i.e.) converging several good stuff from lots of things that existed ranging from non-proprietary C++, rival Java, Microsoft&amp;rsquo;s own VB and my old favorite Borland Delphi. I was kind of surprised at this level of perfection when I first used it and amazed at the numbers of human years that might have been spent to achieve this level of skills to do something this sophisticated flawlessly. So how do you get started? After going through details of more then 200 books, purchasing 10s of them, returning back many out of disappointment, here&amp;rsquo;s the 4 winners that has finally emerged. These books are probably all you need to learn almost everything you might need to develop advanced applications. I assume good familiarity with VB6, little more then intermediate programming experience and a desire to know low level details. [List arranged by order of importance]&lt;/p&gt;
 
 &lt;ol&gt;
@@ -698,6 +969,40 @@ Content-Length: 3779&lt;/code&gt;&lt;/pre&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;So, What&amp;rsquo;s not included in above books? First, the C# language spec is not included because you better off &lt;a href=&#34;http://msdn.microsoft.com/library/default.asp?url=/library/en-us/csspec/html/vclrfcsharpspec_1.asp&#34; target=&#34;_blank&#34;&gt;reading it from MSDN&lt;/a&gt;. General tasks that you might perform every now and then are at &lt;a href=&#34;http://samples.gotdotnet.com/quickstart/howto/&#34; target=&#34;_blank&#34;&gt;Quickstart tutorials (the HowTo index)&lt;/a&gt;. However, none of the books that I came across really contains good application architecture strategies that you can use in real world. For this subject, you should check out articles at &lt;a href=&#34;http://www.devx.com/dotnet&#34; target=&#34;_blank&#34;&gt;DevX&lt;/a&gt;, &lt;a href=&#34;http://www.fawcette.com/resources/spcollections/aspnet/default.asp&#34; target=&#34;_blank&#34;&gt;Fawcette&lt;/a&gt;, &lt;a href=&#34;http://asp411.com&#34; target=&#34;_blank&#34;&gt;asp411&lt;/a&gt; and &lt;a href=&#34;http://www.asp.net/Modules/MoreArticles.aspx?tabindex=0&amp;amp;mid=64&#34; target=&#34;_blank&#34;&gt;asp.net&lt;/a&gt;. This might be your best bet when it comes to putting principles in to practice. Finally, here&amp;rsquo;s the books I returned: Instant ASP.NET Applications, ASP.NET Tips &amp;amp; Techniques and Programming Windows with C#. Beware!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Underscores be Gone</title>
+      <link>http://shital.com/p1469/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <guid>http://shital.com/p1469/</guid>
+      <description>&lt;p&gt;My two biggest pet peeves with Python are underscores and outdated less powerful list comprehensions compared to modern standards such as Linq. The _ should be considered as relics of 60s era when terminals/printers didn&amp;rsquo;t had ability to print lower cases. However programming languages didn&amp;rsquo;t allowed spaces so programmers were forced to use some character to separate words in variable names. With new technology of lower case letters this was no longer needed since about 50 years. Underscores takes away extra space, makes code actually less readable because they stand out too much among regular roman characters and its slow down the typing a lot (I&amp;rsquo;ve to reach my finger for shift key followed by _ key on most keyboards).&lt;/p&gt;
+
+&lt;p&gt;can&amp;rsquo;t select a variable or function name with a double click&lt;/p&gt;
+
+&lt;p&gt;One case for the underscored style is that you can use one-letter-words better. For (a rather silly) example, findMeAClass is perhaps uglier than find_me_a_class&lt;/p&gt;
+
+&lt;p&gt;Google Python Style Guide has the following convention:&lt;/p&gt;
+
+&lt;p&gt;module_name, package_name, ClassName, method_name, ExceptionName, function_name, GLOBAL_CONSTANT_NAME, global_var_name, instance_var_name, function_parameter_name, local_var_name&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Underscores be Gone</title>
+      <link>http://shital.com/p1469/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <guid>http://shital.com/p1469/</guid>
+      <description>&lt;p&gt;My two biggest pet peeves with Python are underscores and outdated less powerful list comprehensions compared to modern standards such as Linq. The _ should be considered as relics of 60s era when terminals/printers didn&amp;rsquo;t had ability to print lower cases. However programming languages didn&amp;rsquo;t allowed spaces so programmers were forced to use some character to separate words in variable names. With new technology of lower case letters this was no longer needed since about 50 years. Underscores takes away extra space, makes code actually less readable because they stand out too much among regular roman characters and its slow down the typing a lot (I&amp;rsquo;ve to reach my finger for shift key followed by _ key on most keyboards).&lt;/p&gt;
+
+&lt;p&gt;can&amp;rsquo;t select a variable or function name with a double click&lt;/p&gt;
+
+&lt;p&gt;One case for the underscored style is that you can use one-letter-words better. For (a rather silly) example, findMeAClass is perhaps uglier than find_me_a_class&lt;/p&gt;
+
+&lt;p&gt;Google Python Style Guide has the following convention:&lt;/p&gt;
+
+&lt;p&gt;module_name, package_name, ClassName, method_name, ExceptionName, function_name, GLOBAL_CONSTANT_NAME, global_var_name, instance_var_name, function_parameter_name, local_var_name&lt;/p&gt;
 </description>
     </item>
     

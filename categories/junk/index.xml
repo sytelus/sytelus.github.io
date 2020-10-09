@@ -2,30 +2,97 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Junk | Shital Shah</title>
-    <link>http://shitalshah.com/categories/junk/</link>
-      <atom:link href="http://shitalshah.com/categories/junk/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://shital.com/categories/junk/</link>
+      <atom:link href="http://shital.com/categories/junk/index.xml" rel="self" type="application/rss+xml" />
     <description>Junk</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Fri, 07 Oct 2005 05:37:08 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Tue, 22 Nov 2005 03:08:02 +0000</lastBuildDate>
     <image>
-      <url>http://shitalshah.com/img/shitalshah.jepg</url>
+      <url>http://shital.com/img/shitalshah.jepg</url>
       <title>Junk</title>
-      <link>http://shitalshah.com/categories/junk/</link>
+      <link>http://shital.com/categories/junk/</link>
     </image>
     
     <item>
+      <title>CPUs And GPUs Of Game Consoles</title>
+      <link>http://shital.com/p/cpus-and-gpus-of-game-consoles-xbox-2005/</link>
+      <pubDate>Tue, 22 Nov 2005 03:08:02 +0000</pubDate>
+      <guid>http://shital.com/p/cpus-and-gpus-of-game-consoles-xbox-2005/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://shital.com/images/posts/2014/04/xboxwait.jpg&#34;&gt;&lt;img src=&#34;http://shital.com/images/posts/2014/04/xboxwait.jpg&#34; alt=&#34;xboxwait&#34; width=&#34;120&#34; height=&#34;150&#34; class=&#34;alignleft size-full wp-image-1266&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Outside Fred Myer&amp;rsquo;s there is head scratching scene right now: there are about 16 people, mostly middle edges or elders, in their sleeping bags and chairs planning to spend the whole cold foggy night. We asked them and as we had guessed, all of them are waiting for XBox to take home!&lt;/p&gt;
+
+&lt;p&gt;The physiology of these kind of people is interesting to me. After all, why can&amp;rsquo;t they walk in the store at 9 AM and buy then? Even if they are out of stock, the rules of economy would dictate that demand would meet the supply pretty soon. So why, just why, they would take out their sleeping bags and spend cold night outside the store?&lt;/p&gt;
+
+&lt;p&gt;It turns out, they are not bunch of psychos. They are not even hard core gamers who just can&amp;rsquo;t wait a day longer. Hack, most of them aren&amp;rsquo;t even there for themselves! They are there for their teens and kids. And reason their teens and kids wants Xbox so badly is because tomorrow that would be the talk of the class and they would have to face the question from everyone they know: &amp;ldquo;Did you got it?&amp;rdquo;. There would be great divide in the school: Those who has it and those who don&amp;rsquo;t - i.e. the uncool ones. Lines at Cosco is even bigger because they are going to have 96 of them to sell while Fred Myer only 16! Ironically, the sign where the line begins says: Xbox 360 - The wait is over ;). From all that can be seen, Microsoft has essentially won the Console market game.&lt;/p&gt;
+
+&lt;p&gt;Apart from this, I&amp;rsquo;d always been sceptical about the hardware power of consoles and haven&amp;rsquo;t quite digested why they even exists? Most newer PCs are extremely powerful compared to measly specs of far more cheaper consoles. For instance, Xbox 360 has triple core Xenon CPU but each without guts and advanced features such as OoO. The main advantage of triple core CPU is that you can actually have up to 6 hardware threads resulting in smooth performance. But, surprisingly, most compilers and tools currently used for game development rely on mostly single threaded architecture and heavily depend on GPU power instead. The most new game titles ends up treating the console as if it had single core CPU and thus giving less throughput than the desktop PC. It is being speculated that after a year or two game developers would update their tool set to use two cores so they can &lt;em&gt;match&lt;/em&gt; the desktop performance. Sony with their Cell processor does even worse with PS3. AnandTech has &lt;a href=&#34;http://www.anandtech.com/video/showdoc.aspx?i=2453&#34; target=&#34;_blank&#34;&gt;cool article on Xbox 360 and PS3 CPU and GPU&lt;/a&gt; with very interesting discussions like collision detection in games. Not surprisingly, Xbox and PS3 hardware costs lot more for Microsoft and Sony to manufacture and they are sold at net loss with the hope to recover price from licenses sold to game developers. Result? It&amp;rsquo;s closed developer environment. Customer pays lot more for game than its actual cost. They buy less numbers of games and they finally get to run them on comparatively less powerful hardware than what they already own. Sony, in my view, is definitely to blame for not promoting PC gaming, make it more versatile with new PC compatible accessories and instead create this whole console mess mania.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simple Sharing Extension</title>
+      <link>http://shital.com/p/simple-sharing-extension/</link>
+      <pubDate>Mon, 21 Nov 2005 21:26:16 +0000</pubDate>
+      <guid>http://shital.com/p/simple-sharing-extension/</guid>
+      <description>&lt;p&gt;Unlike breakthrough ideas in physical sciences, the breakthrough ideas on Internet are in general so simple that they don’t require you to be genius, just not being stupid is often enough. And yet &lt;a href=&#34;http://msdn.microsoft.com/xml/rss/sse/&#34; target=&#34;_blank&#34;&gt;SSE&lt;/a&gt; specs &lt;a href=&#34;http://spaces.msn.com/members/rayozzie/Blog/cns%211pyct_cYtbBtOBPDVAumMEdw%21175.entry&#34; target=&#34;_blank&#34;&gt;from Ray Ozzie&lt;/a&gt; is truly something that I can go crazy about and has definitely reignited my cravings for starting a new project for building a dream version of Groove. As someone who has spent 2 intensive years in turning a real world large scale application in to almost-magic collaboration app despite the &lt;a href=&#34;http://shital.com/p/applications-and-platforms-an-another-face-of-internet-and-why-i-hate-groove/&#34;&gt;frustrating state of Groove&lt;/a&gt;, I can’t over judge the delights and simplifications the SSE can bring to you.&lt;/p&gt;
+
+&lt;p&gt;The SSE could be essentially viewed as lightweight simplified version of Groove dynamics riding on RSS. What can you do with it? For any app that deals with some kind of data, you can enhance that app to publish the modifications to that data, accept modifications from someone else and merge them using well defined rules. For most real world applications, this won’t be enough. You would never want your data to be blindly overwritten by someone else’s changes. You had rather want an ability to view those edits as conflicts and resolve them. This needs more than SSE: You will need to enhance your existing XML/RDBMS schemas to allow for versions, new capabilities for UI elements to display conflict and resolve them and in-between middle tier to incorporate conflict state in to your business logic. Still this simple thing, SSE is a huge start and can essentially turn almost any application in to a collaborative powerhouse instead of something that runs in dark isolation on your local box.&lt;/p&gt;
+
+&lt;p&gt;While I can’t yet comment on finer points until I actually build something that talks using RSE+SSE, my feeling is that we have yet to see SSE specs getting matured. You can easily see the hack for &lt;em&gt;ordered&lt;/em&gt; list to accommodate OPML which otherwise could have been modeled using additional item elements describing relationships between other items and reusing the mechanism developed for ordered item. But that probably would end up in endless discussion than just adding a hack to make DaveW happy. However the major grip is about using RSS as a carrier for sync info. This isn&amp;rsquo;t unusual, as I&amp;rsquo;d noted in &lt;a href=&#34;http://shital.com/p/integrating-rss-and-calendar/&#34;&gt;my essay&lt;/a&gt;, it is often easier to ride on RSS popularity to gain acceptance rather than hopelessly debating technical merits of your ideas in truly useless meetings with everyone you ever knew. The scarifies is that now instead of using structures that may well fit the data structure you have, you gonna stuff your stuff into RSS item tag. Apart from this, each endpoint will have to maintain history to detect conflict when &lt;em&gt;version&lt;/em&gt; attribute is same and also (optionally) maintain list of conflicts along with item which would be republished to other endpoints. I wonder if there exist an algorithm to eliminate/further simplify this.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Linux Is Obsolete</title>
+      <link>http://shital.com/p/linux-is-obsolete/</link>
+      <pubDate>Mon, 24 Oct 2005 16:05:23 +0000</pubDate>
+      <guid>http://shital.com/p/linux-is-obsolete/</guid>
+      <description>&lt;p&gt;So far I&amp;rsquo;ve looked at Linux as something that people accept as religion rather than something with a substance and solid grounds. If you are a purist, you would get hurt to see the way Linux architecture is based on technically outdated 70s operating system and no amount of hype can convince you that this thing won&amp;rsquo;t hit the wall sooner or later. To be precise, Linux essentially functions as stop gap quickly pulled out hack just to keep geeks going who are apparently as much in need of a religion just as most other human beings. This is the type of arguments I have had few years back with a Linux zeolet and it all got fresh when I was reading this 1992 email thread with subject &lt;a href=&#34;http://www.oreilly.com/catalog/opensources/book/appa.html&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Linux Is Obsolete&amp;rdquo;&lt;/a&gt; by Prof. Andrew Tanenbaumn and then replied by Linus Torvalds and later by few others including Ken Thompson! It&amp;rsquo;s fun to read young Linus&amp;rsquo;s fiery email replies to the critic and Tanenbaumn&amp;rsquo;s calm and witty follow ups 🙂&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;your job is being a professor and researcher: That&amp;rsquo;s one hell of a good excuse for some of the brain-damages of Minix [an OS designed by Prof. Tanenbaumn].&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;-Linus Torvalds&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;From a theoretical (and aesthetical) standpoint linux looses. If the GNU kernel had been ready last spring, I&amp;rsquo;d not have bothered to even start my project: the fact is that it wasn&amp;rsquo;t and still isn&amp;rsquo;t.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;-Linus Torvalds&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Of course 5 years from now that will be different, but 5 years from now everyone will be running free GNU on their 200 MIPS, 64M SPARCstation-5.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;-Andrew Tanenbaumn&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;I still maintain the point that designing a monolithic kernel in 1991 is a fundamental error. Be thankful you are not my student. You would not get a high grade for such a design 🙂 &amp;ldquo;&lt;/p&gt;
+
+&lt;p&gt;-Andrew Tanenbaumn&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Writing a new OS only for the 386 in 1991 gets you your second &amp;lsquo;F&amp;rsquo; for this term. But if you do real well on the final exam, you can still pass the course.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;-Andrew Tanenbaumn&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;There are two kinds of researchers: those that have implemented something and those that have not. The latter will tell you that there are 142 ways of doing things and that there isn&amp;rsquo;t consensus on which is best. The former will simply tell you that 141 of them don&amp;rsquo;t work.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;-David Cheriton&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;On other topic, why does discussions threads that got created between 1990-1993 usually have a high quality?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>On The Run</title>
-      <link>http://shitalshah.com/p/on-the-run/</link>
+      <link>http://shital.com/p/on-the-run/</link>
       <pubDate>Fri, 07 Oct 2005 05:37:08 +0000</pubDate>
-      <guid>http://shitalshah.com/p/on-the-run/</guid>
+      <guid>http://shital.com/p/on-the-run/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://astrila.blogspot.com&#34; target=&#34;_blank&#34;&gt;It&amp;rsquo;s easier to run&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Finally Runs Even If Method Returns</title>
-      <link>http://shitalshah.com/p/finally-runs-even-if-method-returns/</link>
+      <link>http://shital.com/p/finally-runs-even-if-method-returns/</link>
       <pubDate>Sat, 16 Jul 2005 03:41:00 +0000</pubDate>
-      <guid>http://shitalshah.com/p/finally-runs-even-if-method-returns/</guid>
+      <guid>http://shital.com/p/finally-runs-even-if-method-returns/</guid>
       <description>&lt;pre class=&#34;code-block&#34;&gt;&lt;code&gt;using (DisTest o = new DisTest())
 {
         return;
@@ -46,9 +113,9 @@ End Try
     
     <item>
       <title>15 Questions On Leadership</title>
-      <link>http://shitalshah.com/p/15-questions-on-leadership/</link>
+      <link>http://shital.com/p/15-questions-on-leadership/</link>
       <pubDate>Tue, 24 May 2005 21:26:55 +0000</pubDate>
-      <guid>http://shitalshah.com/p/15-questions-on-leadership/</guid>
+      <guid>http://shital.com/p/15-questions-on-leadership/</guid>
       <description>&lt;p&gt;These are interesting questions if you were pursuing an acadamy degree on management/leadership. I do have the answers but don&amp;rsquo;t have enough room here to write it down (&lt;a href=&#34;http://mathforum.org/dr.math/faq/faq.fermat.html&#34; target=&#34;_blank&#34;&gt;Fermat&lt;/a&gt; R.I.P.).&lt;/p&gt;
 
 &lt;ol&gt;
@@ -73,9 +140,9 @@ End Try
     
     <item>
       <title>StarWars Weekend Marathon</title>
-      <link>http://shitalshah.com/p/starwars-weekend-marathon-2005/</link>
+      <link>http://shital.com/p/starwars-weekend-marathon-2005/</link>
       <pubDate>Tue, 10 May 2005 13:49:10 +0000</pubDate>
-      <guid>http://shitalshah.com/p/starwars-weekend-marathon-2005/</guid>
+      <guid>http://shital.com/p/starwars-weekend-marathon-2005/</guid>
       <description>&lt;p&gt;We planned back-to-back original StarWars trilogy marathon over the weekend. I got to watch them in sequence for the first time and it made lot of sense and gave me a new perspective about this whole “religion”. Some observations…&lt;/p&gt;
 
 &lt;ul&gt;
@@ -92,10 +159,44 @@ End Try
     </item>
     
     <item>
+      <title>Just Furl It</title>
+      <link>http://shital.com/p/just-furl-it/</link>
+      <pubDate>Sat, 30 Apr 2005 15:44:51 +0000</pubDate>
+      <guid>http://shital.com/p/just-furl-it/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.furl.net&#34; target=&#34;_blank&#34;&gt;Furl&lt;/a&gt; totally rocks. It&amp;rsquo;s almost everything I needed from a bookmarking services. Beats &lt;a href=&#34;http://del.icio.us&#34; target=&#34;_blank&#34;&gt;Delicious&lt;/a&gt; any day. But I guess being usable is one thing and popular quite another.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Furl supports FireFox and IE.&lt;/li&gt;
+&lt;li&gt;One click to bookmark a website.&lt;/li&gt;
+&lt;li&gt;It has a killer feature that most websites miss: An ability for users to provide feedback in almost every corner!&lt;/li&gt;
+&lt;li&gt;You can export your bookmarks out of their system (so you are not locked down with them)&lt;/li&gt;
+&lt;li&gt;You can import your existing bookmarks in to Furl. However they don&amp;rsquo;t tag them using existing folder structure :(.&lt;/li&gt;
+&lt;li&gt;You can &lt;a href=&#34;http://www.furl.net/faq.jsp#rss&#34; target=&#34;_blank&#34;&gt;Publish RSS for your bookmarks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You can create a setup so Furl &lt;a href=&#34;%20http://www.furl.net/faq.jsp#rs&#34; target=&#34;_blank&#34;&gt;automatically sends out email&lt;/a&gt; of your newly added bookmarks to your mailing list or something.&lt;/li&gt;
+&lt;li&gt;Furl saves a copy of page along with bookmark, in case that website goes down :).&lt;/li&gt;
+&lt;li&gt;You can search not just by title of bookmark but also by content of pages in your bookmarks.&lt;/li&gt;
+&lt;li&gt;Gives you recommendations from what you bookmarked so far.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;However it&amp;rsquo;s not ideal. There are few tricks and tips you need to know. To start with, I disabled their default list of topics, set it up for multiple topics mode by default and choose a dummy instead last used topic as a default for new bookmarks. After this, I can now use furl like just delicious but with much better interface. Just click on Furl bookmarklet, enter list of tags separated &amp;ldquo;;&amp;rdquo; in New Topic box and there you go! I guess they could have made things much easier by making it simple: just two text boxes url and tags&lt;/p&gt;
+
+&lt;p&gt;Anyhow,&lt;/p&gt;
+
+&lt;p&gt;You can view &lt;a href=&#34;http://www.furl.net/members/sytelus&#34; target=&#34;_blank&#34;&gt;my collection of bookmarks&lt;/a&gt; there.&lt;/p&gt;
+
+&lt;p&gt;Subscribe to &lt;a href=&#34;http://www.furl.net/members/sytelus/rss.xml&#34; target=&#34;_blank&#34;&gt;RSS feed for my links&lt;/a&gt; as I add them.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://groups.yahoo.com/group/shital/&#34; target=&#34;_blank&#34;&gt;Join my Yahoo group&lt;/a&gt; to receive links I discover in email.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m not bookmarking in my browser any longer. That feels like so yesterday&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Places I Found On Google Maps</title>
-      <link>http://shitalshah.com/p/places-i-found-on-google-maps-2005/</link>
+      <link>http://shital.com/p/places-i-found-on-google-maps-2005/</link>
       <pubDate>Sat, 30 Apr 2005 14:39:05 +0000</pubDate>
-      <guid>http://shitalshah.com/p/places-i-found-on-google-maps-2005/</guid>
+      <guid>http://shital.com/p/places-i-found-on-google-maps-2005/</guid>
       <description>&lt;p&gt;After Google Maps included a link for satellite views, I ended up spending a night in finding all kind of places. Yeah, this is &lt;a href=&#34;http://terraserver.microsoft.com/&#34; target=&#34;_blank&#34;&gt;not new&lt;/a&gt; but not it is so much more cleaner, convenient and faster.&lt;/p&gt;
 
 &lt;p&gt;[Partial List]&lt;/p&gt;
@@ -119,9 +220,9 @@ End Try
     
     <item>
       <title>Buying And Selling Broadway Show Tickets</title>
-      <link>http://shitalshah.com/p/buying-and-selling-broadway-show-tickets-2005/</link>
+      <link>http://shital.com/p/buying-and-selling-broadway-show-tickets-2005/</link>
       <pubDate>Mon, 28 Mar 2005 16:34:02 +0000</pubDate>
-      <guid>http://shitalshah.com/p/buying-and-selling-broadway-show-tickets-2005/</guid>
+      <guid>http://shital.com/p/buying-and-selling-broadway-show-tickets-2005/</guid>
       <description>&lt;p&gt;When it comes to buy Broadway show tickets these days, scene is really the worse. Few years ago, you only had to deal with idiotic Ticketmaster and now the pain is extended to &lt;a href=&#34;http://tech2.nytimes.com/mem/technology/techreview.html?res=9803E3DB133CF934A25750C0A9639C8B63&#34; target=&#34;_blank&#34;&gt;100s of brokers&lt;/a&gt; that have mushroomed to somehow &amp;ldquo;lawfully&amp;rdquo; buying off all the nicest seats and later sells it with the price tag of 2X or more. No wonder shows like Wicked and Lion King are now suddenly sold out for next 8 months or so. These guys even have their &lt;a href=&#34;http://www.natb.org/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;national association&amp;rdquo;&lt;/a&gt; and just makes me wonder what they did to the system so as to make their whole thing a perfectly &amp;ldquo;legal business&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;This entire anomaly could be blamed on &lt;a href=&#34;http://www.ticketmaster.com&#34; target=&#34;_blank&#34;&gt;this worst ticketing website&lt;/a&gt; of the World. Not only they charge &amp;ldquo;convenience fee&amp;rdquo; of $5 per ticket for using their annoying website but unlike anything else on the Net, they have absolutely no returns policy! I think they are the good subjects to study how to force customer to knowingly pay more then they should, how to have no returns policy, worst possible customer service and still maintain almost a monopoly.&lt;/p&gt;
@@ -135,64 +236,128 @@ End Try
     </item>
     
     <item>
+      <title>Few Ideas To Curb Email Phising</title>
+      <link>http://shital.com/p/few-ideas-to-curb-email-phising/</link>
+      <pubDate>Mon, 11 Oct 2004 22:37:19 +0000</pubDate>
+      <guid>http://shital.com/p/few-ideas-to-curb-email-phising/</guid>
+      <description>&lt;p&gt;Chris Sells &lt;a href=&#34;http://www.sellsbrothers.com/news/showTopic.aspx?ixTopic=1541&#34; target=&#34;_blank&#34;&gt;blogs about his experience&lt;/a&gt; and this exponentially growing problem of email &lt;a href=&#34;http://www.cbfa.be/eng/press/html/2004-07-14_phising.asp&#34; target=&#34;_blank&#34;&gt;phishing&lt;/a&gt; and asks if there is any way out.&lt;/p&gt;
+
+&lt;p&gt;Few things to think about:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Enable Explicit Links Only&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In email clients, put an option, which is turned &lt;em&gt;on&lt;/em&gt; by default for this: While rendering HTML hyperlinks, disable them &lt;em&gt;unless&lt;/em&gt; the link text is exactly the same as hyperlink URL it is pointing to. Images in email also can&amp;rsquo;t have hyperlink any longer.&lt;/p&gt;
+
+&lt;p&gt;There are many advantages: This option does not completely block legitimate commercial senders. Also it does not hurt users themselves sending links to each other because when they copy and paste links in their emails, this is how it appears by default.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Use TITLE tag for warning&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The email client can add/override TITLE tag for all &lt;a href=&#34;http://www.dontlink.com/&#34; title=&#34;Unsafe website&#34; target=&#34;_blank&#34;&gt;clickable hyperlinks with a text: &amp;ldquo;Unsafe website&amp;rdquo;&lt;/a&gt;. So these words will appear when user hovers mouse over a link and is about to click on the link.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Ugly Message Box&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If the idea of disabling links could be an overkill. May be email client can just put a message box when you are opening a browser by clicking a link in email: &amp;ldquo;Following website may not be safe: blah.blah.gov. This could be with checkbox &amp;ldquo;Don&amp;rsquo;t warn again&amp;rdquo; or may be as an secret advanced option somewhere.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Auto-refresh email to browser page&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When you click on a link in an email client, the browser first shows a default warning page that URL may not be safe with text of actual URL and then after a while it refreshes itself to that actual URL, puts the focus on address bar and may be change the address bar foreground color as red. Playing the wave file for hazard siren while user browse that page is optional.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Difference Between Local Trains And Express Trains</title>
+      <link>http://shital.com/p/difference-between-local-trains-and-express-trains/</link>
+      <pubDate>Wed, 22 Sep 2004 19:49:47 +0000</pubDate>
+      <guid>http://shital.com/p/difference-between-local-trains-and-express-trains/</guid>
+      <description>&lt;p&gt;Local trains stops at every station, express train stops between the two.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Condomania Wizard Interface</title>
-      <link>http://shitalshah.com/p/condomania-wizard-interface/</link>
+      <link>http://shital.com/p/condomania-wizard-interface/</link>
       <pubDate>Wed, 14 Jul 2004 06:07:33 +0000</pubDate>
-      <guid>http://shitalshah.com/p/condomania-wizard-interface/</guid>
+      <guid>http://shital.com/p/condomania-wizard-interface/</guid>
       <description>&lt;p&gt;&lt;a href=http://www.condomania.com/shopping/wizards/wizardmain.jsp?itemType=CATEGORY&amp;itemID=105 target=&#34;new&#34;&gt;This&lt;/a&gt; is probably the best Wizard User Interface I&amp;rsquo;ve seen so far ;).&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Voyager Is Missing</title>
-      <link>http://shitalshah.com/p/voyager-is-missing/</link>
+      <link>http://shital.com/p/voyager-is-missing/</link>
       <pubDate>Fri, 12 Sep 2003 04:23:18 +0000</pubDate>
-      <guid>http://shitalshah.com/p/voyager-is-missing/</guid>
+      <guid>http://shital.com/p/voyager-is-missing/</guid>
       <description>&lt;p&gt;Star Trek Voyager is off-air since past few months. So I went to Netflix, my DVD subscription, just to find that Paramount hasn&amp;rsquo;t produced DVDs yet. So I went to Amazon to buy VHS version, just to find that the video cassets are one episod per casset (consider having 150+ episodes). So all these have almost ruined my hopes to get back to Voyager, just when I needed the most. As my last resort, I looked up in Kazza and found some of the cool episodes floating around but it gonna take days to get them. Moral of the story: If it is still on-air in your area, watch it while you still can. Don&amp;rsquo;t mess with your luck.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>When I Fall</title>
-      <link>http://shitalshah.com/p/when-i-fall/</link>
+      <link>http://shital.com/p/when-i-fall/</link>
       <pubDate>Fri, 15 Aug 2003 03:56:38 +0000</pubDate>
-      <guid>http://shitalshah.com/p/when-i-fall/</guid>
+      <guid>http://shital.com/p/when-i-fall/</guid>
       <description>&lt;p&gt;In this world of the Greater Being, I feel like I&amp;rsquo;m at play&amp;hellip; like a little kid. With all my sense of wonder and curiosity&amp;hellip; walking on my knees to get close, see and feel everything that has been put around me&amp;hellip; and smile for all those good things that I find. And when I&amp;rsquo;m just moving around, there are moments when things are not the way I would have wanted&amp;hellip; sometime when I would have really wanted. Some of the worst moments of my life constitutes of those when the people I&amp;rsquo;d admired I see falling apart and I can&amp;rsquo;t do anything about it&amp;hellip; when someone you cared is dieing and you can do nothing about it&amp;hellip; Those moments&amp;hellip; when I just want to look up in the sky and pretend that I don&amp;rsquo;t exist&amp;hellip; trying to convince myself that it&amp;rsquo;s ok&amp;hellip; I feel like I&amp;rsquo;m betrayed with anger bursting out every inch of my body&amp;hellip; But then when I&amp;rsquo;m all low and down, there&amp;rsquo;s always something that happens&amp;hellip; like someone struck the new string on the guitar that I&amp;rsquo;d never heard before&amp;hellip; wiping out all my doubts with just that one stroke of note. So I look around to find the one but I can&amp;rsquo;t see. But I know she was there smiling at me&amp;hellip; like I&amp;rsquo;m a little kid&amp;hellip; someone is sure playing with me.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Things With The Rain Drops...</title>
-      <link>http://shitalshah.com/p/things-with-the-rain-drops/</link>
+      <link>http://shital.com/p/things-with-the-rain-drops/</link>
       <pubDate>Wed, 23 Jul 2003 05:16:44 +0000</pubDate>
-      <guid>http://shitalshah.com/p/things-with-the-rain-drops/</guid>
+      <guid>http://shital.com/p/things-with-the-rain-drops/</guid>
       <description>&lt;p&gt;Listening to &lt;a href=&#34;http://launch.yahoo.com/song/default.asp?songID=966065&#34; target=&#34;_blank&#34;&gt;When I Fall&lt;/a&gt; with sound of rain drops from my window&amp;hellip; These days are going good. Haven&amp;rsquo;t missed chance to get myself wet in rain most of the time&amp;hellip; and walking on wet grass with bare feet&amp;hellip; and watching rain drops making curves in cones of street lights&amp;hellip; and taking a long drive in rain with my windows open&amp;hellip; and taking snaps of Sun hiding behind dark clouds&amp;hellip; and taking a deep breath in drizzly air&amp;hellip; and wondering at water dance on my wind-shield&amp;hellip; and following a droplet cloud around wheels of other vehicles&amp;hellip; and making a splash on my way&amp;hellip; These days are going good.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Lost and unfound</title>
-      <link>http://shitalshah.com/p/lost-and-unfound/</link>
+      <link>http://shital.com/p/lost-and-unfound/</link>
       <pubDate>Sun, 06 Jul 2003 05:42:56 +0000</pubDate>
-      <guid>http://shitalshah.com/p/lost-and-unfound/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s frustrating how much difference a little stupidity can make to your life. Yours and others. These days and nights are dedicated to &lt;a href=&#34;http://shitalshah.com/images/posts/2003/07/leave_portrait.jpg&#34;&gt;some meanest of them&lt;/a&gt;. [Listening: &lt;a href=&#34;http://launch.yahoo.com/musicvideos/player/default.asp?videoID=173820&#34; target=&#34;_blank&#34;&gt;Matchbox Twenty - If you&amp;rsquo;re gone&lt;/a&gt;]&lt;/p&gt;
+      <guid>http://shital.com/p/lost-and-unfound/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s frustrating how much difference a little stupidity can make to your life. Yours and others. These days and nights are dedicated to &lt;a href=&#34;http://shital.com/images/posts/2003/07/leave_portrait.jpg&#34;&gt;some meanest of them&lt;/a&gt;. [Listening: &lt;a href=&#34;http://launch.yahoo.com/musicvideos/player/default.asp?videoID=173820&#34; target=&#34;_blank&#34;&gt;Matchbox Twenty - If you&amp;rsquo;re gone&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>To empty people, brighter nights and shorter days</title>
+      <link>http://shital.com/p/to-empty-people-brighter-nights-and-shorter-days/</link>
+      <pubDate>Tue, 24 Jun 2003 05:54:46 +0000</pubDate>
+      <guid>http://shital.com/p/to-empty-people-brighter-nights-and-shorter-days/</guid>
+      <description>&lt;p&gt;[Now Listening: &lt;a href=&#34;http://launch.yahoo.com/musicvideos/player/default.asp?videoID=159186&#34; target=&#34;_blank&#34;&gt;Tom Petty - You don&amp;rsquo;t know how it feels&lt;/a&gt;] Can&amp;rsquo;t beat this clock&amp;hellip; can&amp;rsquo;t stop staring this screen&amp;hellip; can&amp;rsquo;t sleep these nights&amp;hellip; can&amp;rsquo;t leave this place&amp;hellip; can&amp;rsquo;t think&amp;hellip; can&amp;rsquo;t do better things&amp;hellip; can&amp;rsquo;t stop thinking&amp;hellip; can&amp;rsquo;t stop blood in these veins&amp;hellip; can&amp;rsquo;t see world less beautiful&amp;hellip; can&amp;rsquo;t find that piece of heart&amp;hellip; can&amp;rsquo;t contain in to self&amp;hellip; can&amp;rsquo;t hold her hand&amp;hellip; can&amp;rsquo;t breath out&amp;hellip; can&amp;rsquo;t fall in to comma&amp;hellip; can&amp;rsquo;t get closer to my sky&amp;hellip; can&amp;rsquo;t steal colors&amp;hellip; can&amp;rsquo;t get bigger space&amp;hellip; can&amp;rsquo;t stop meaningless talk&amp;hellip; can&amp;rsquo;t get bored with blahs&amp;hellip; can&amp;rsquo;t keep aweful silense&amp;hellip; can&amp;rsquo;t stop reaching out&amp;hellip; can&amp;rsquo;t stay alone&amp;hellip; can&amp;rsquo;t stop cursing&amp;hellip; can&amp;rsquo;t survive people&amp;hellip; can&amp;rsquo;t be bad&amp;hellip; can&amp;rsquo;t become one&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alone Alone All The Way</title>
+      <link>http://shital.com/p/alone-alone-all-the-way/</link>
+      <pubDate>Tue, 05 Nov 2002 07:39:10 +0000</pubDate>
+      <guid>http://shital.com/p/alone-alone-all-the-way/</guid>
+      <description>&lt;p&gt;I like to observe the universe as a cold hearted logic machine&amp;hellip; emotionless like a drone&amp;hellip; trying to find reasoning&amp;hellip; and exploits to build more deterministic world. Perhaps that&amp;rsquo;s why I was swept by the concept of Borgs when I saw them in Star Trek. And so I&amp;rsquo;d thought I&amp;rsquo;m designed to stay alone&amp;hellip; Me, my books, my thoughts - can go long way before there&amp;rsquo;s a need for human contact, touch, feeling or emotions. Loneliness seemed to be blessing which gave you freedom to work your way. That is, till now. I guess I saw it&amp;hellip; saw it in it&amp;rsquo;s entirely&amp;hellip; probably saw it the way God might have create it.. or seen it. And when you do, it passes though each of your hair on skin, racing to make every bit of life meaningless and breaking every bit of your strength you had. It can&amp;rsquo;t be defeated. You either accept it or you seize to exist. It&amp;rsquo;s cold dark endless universe and it&amp;rsquo;s probably the scariest experience or may be just too vast to accommodate in human senses. I watched my cold hearted logic machine breaking down&amp;hellip; May be I&amp;rsquo;ll rebuild but the fact that it can be broken down is annoying&amp;hellip;. unacceptable&amp;hellip; But I guess it did lot of work&amp;hellip; slowly and steadily to bring down all the walls until all that was left were us - from eye to eye - a stare to know each other. A crave to reach out - like wanting to someone pull my hand from quicksand. I felt eternity in the moments that passed before someone would touch my hand. I thought I wanted to give up everything for one touch, one contact. I felt angered and weak&amp;hellip; weak like a sand castle&amp;hellip; trying to put myself together against a blow. But then I think may be I wanted to get defeated. But as in any experiment, I guess I now understand lots of things&amp;hellip; I understand how it feels&amp;hellip; like a point traveling in cold, dark and infinite space, with no hope of destination&amp;hellip;. no destination&amp;hellip;. no purpose. It&amp;rsquo;s scary&amp;hellip; And perhaps that&amp;rsquo;s why God created the universe.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Hallowin Signout</title>
-      <link>http://shitalshah.com/p/hallowin-signout-2002/</link>
+      <link>http://shital.com/p/hallowin-signout-2002/</link>
       <pubDate>Fri, 01 Nov 2002 04:52:21 +0000</pubDate>
-      <guid>http://shitalshah.com/p/hallowin-signout-2002/</guid>
+      <guid>http://shital.com/p/hallowin-signout-2002/</guid>
       <description>&lt;p&gt;Okay&amp;hellip; guess this will be the end of the day - it&amp;rsquo;s hallowing! And Aishwarya Rai&amp;rsquo;s birthday&amp;hellip; 10 mins to midnight&amp;hellip; Since last two years this is the day and time (1st nov between 1 AM to 3 AM) when I always got in to a car accident - a nearly fatal ones. oh&amp;hellip; need to eat something&amp;hellip; should be going to Nanuet for that cool diner I&amp;rsquo;d found&amp;hellip; will keep blogging if am alive tomorrow 🙂&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Favorite Links In Zip File</title>
-      <link>http://shitalshah.com/p/favorite-links-in-zip-file-2002/</link>
+      <link>http://shital.com/p/favorite-links-in-zip-file-2002/</link>
       <pubDate>Tue, 25 Jun 2002 11:35:28 +0000</pubDate>
-      <guid>http://shitalshah.com/p/favorite-links-in-zip-file-2002/</guid>
+      <guid>http://shital.com/p/favorite-links-in-zip-file-2002/</guid>
       <description>&lt;p&gt;&lt;TABLE WIDTH=&#34;93%&#34; ALIGN=&#34;CENTER&#34; VALIGN=&#34;MIDDLE&#34;&gt;
   &lt;br /&gt;&lt;/p&gt;
 
@@ -222,9 +387,9 @@ End Try
     
     <item>
       <title>15&#43; Programmer&#39;s Tools And Utilities</title>
-      <link>http://shitalshah.com/p/15-programmers-tools-and-utilities/</link>
+      <link>http://shital.com/p/15-programmers-tools-and-utilities/</link>
       <pubDate>Mon, 01 Jan 1990 00:00:15 +0000</pubDate>
-      <guid>http://shitalshah.com/p/15-programmers-tools-and-utilities/</guid>
+      <guid>http://shital.com/p/15-programmers-tools-and-utilities/</guid>
       <description>&lt;p&gt;&lt;TABLE WIDTH=&#34;93%&#34; ALIGN=&#34;CENTER&#34; VALIGN=&#34;MIDDLE&#34;&gt;
   &lt;br /&gt;&lt;/p&gt;
 

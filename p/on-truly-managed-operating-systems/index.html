@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Shital Shah">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Anyone who have worked with .Net or Java would have certainly thought about this: Is there a way to extend these runtimes/VMs to build truly managed operating system? As it turns out Longhorn would be &ldquo;mostly&rdquo; managed OS but this is not the kind of &ldquo;managed&rdquo; OS stuff we are talking about. We are talking about truly managed OS, in theory and in imagination, that is.
+If you look at .">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://shital.com/p/on-truly-managed-operating-systems/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.04a87a1cb9027e3c50f566322527c56f.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-3244158-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="http://shital.com/p/on-truly-managed-operating-systems/">
+
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@sytelus">
+  <meta property="twitter:creator" content="@sytelus">
+  
+  <meta property="og:site_name" content="Shital Shah">
+  <meta property="og:url" content="http://shital.com/p/on-truly-managed-operating-systems/">
+  <meta property="og:title" content="On Truly Managed Operating Systems | Shital Shah">
+  <meta property="og:description" content="Anyone who have worked with .Net or Java would have certainly thought about this: Is there a way to extend these runtimes/VMs to build truly managed operating system? As it turns out Longhorn would be &ldquo;mostly&rdquo; managed OS but this is not the kind of &ldquo;managed&rdquo; OS stuff we are talking about. We are talking about truly managed OS, in theory and in imagination, that is.
+If you look at ."><meta property="og:image" content="http://shital.com/img/shitalshah.jepg">
+  <meta property="twitter:image" content="http://shital.com/img/shitalshah.jepg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2005-03-28T19:03:23&#43;00:00">
+    
+    <meta property="article:modified_time" content="2005-03-28T19:03:23&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://shital.com/p/on-truly-managed-operating-systems/"
+  },
+  "headline": "On Truly Managed Operating Systems",
+  
+  "datePublished": "2005-03-28T19:03:23Z",
+  "dateModified": "2005-03-28T19:03:23Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Shital Shah"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Shital Shah",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://shital.com/img/icon-512.png"
+    }
+  },
+  "description": "Anyone who have worked with .Net or Java would have certainly thought about this: Is there a way to extend these runtimes/VMs to build truly managed operating system? As it turns out Longhorn would be \u0026ldquo;mostly\u0026rdquo; managed OS but this is not the kind of \u0026ldquo;managed\u0026rdquo; OS stuff we are talking about. We are talking about truly managed OS, in theory and in imagination, that is.\nIf you look at ."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>On Truly Managed Operating Systems | Shital Shah</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Shital Shah</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>About</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/sytelus" target="_blank" rel="noopener"><span><i title="Twitter" class="fab fa-twitter" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/shitals" target="_blank" rel="noopener"><span><i title="LinkedIn" class="fab fa-linkedin" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/sytelus" target="_blank" rel="noopener"><span><i title="Facebook" class="fab fa-facebook" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.github.com/sytelus" target="_blank" rel="noopener"><span><i title="GitHub" class="fab fa-github" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://scholar.google.com/citations?user=1PEHzesAAAAJ" target="_blank" rel="noopener"><span><i title="Google Scholar" class="ai ai-google-scholar" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://stackoverflow.com/users/207661/shital-shah" target="_blank" rel="noopener"><span><i title="Stack Overflow" class="fab fa-stack-overflow" style="font-size:1rem"></i></span></a>
+        </li>
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>On Truly Managed Operating Systems</h1>
+
+  
+
+  
+    
+
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Mar 28, 2005
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/p/on-truly-managed-operating-systems/#disqus_thread"></a>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/software/">Software</a></span>
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=http://shital.com/p/on-truly-managed-operating-systems/&amp;text=On%20Truly%20Managed%20Operating%20Systems" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=http://shital.com/p/on-truly-managed-operating-systems/&amp;t=On%20Truly%20Managed%20Operating%20Systems" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=On%20Truly%20Managed%20Operating%20Systems&amp;body=http://shital.com/p/on-truly-managed-operating-systems/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=http://shital.com/p/on-truly-managed-operating-systems/&amp;title=On%20Truly%20Managed%20Operating%20Systems" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=On%20Truly%20Managed%20Operating%20Systems%20http://shital.com/p/on-truly-managed-operating-systems/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=http://shital.com/p/on-truly-managed-operating-systems/&amp;title=On%20Truly%20Managed%20Operating%20Systems" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Anyone who have worked with .Net or Java would have certainly thought about this: Is there a way to extend these runtimes/VMs to build truly managed operating system? As it turns out Longhorn would be &ldquo;mostly&rdquo; managed OS but this is not the kind of &ldquo;managed&rdquo; OS stuff we are talking about. We are talking about truly managed OS, in theory and in imagination, that is.</p>
+
+<p>If you look at .Net runtime, it indeed provides several services that should be coming from OS otherwise: threading, security, PE loading and so on. When I was watching the documentary <a href="http://www.imdb.com/title/tt0308808/" target="_blank">Revolution</a>, Richard Stallman was describing similar situation in his days: they wanted to build an OS, they had compilers, all kind of command line utilities, code for various services and so on but they were missing a kernel. So even if they had got lot of functionality working, they still needed some base OS to run off their stuff. I think the .Net runtime/JVM are in the same situation.</p>
+
+<p>So what a managed OS would look like? Who handles all the system calls down the line and how? Say I want to turn on a pixel on the screen, what my lowest level code running on a truly managed OS would look like? Let’s think about it: the lowest level managed code you can write in .Net is IL, which is essentially an assembly language for a virtualized CPU and memory system. The IL essentially has no idea about the world outside its virtualized CPU and memory system. For instance, I can’t write any direct IL instructions to read sector 510 from my hard drive or turn on a pixel on my screen. In its current form, I would have no choice but to extend IL somehow so I can make low level system BIOS calls or embed native instruction for my graphic card inside my IL. That’s not good. If I’m allowed to embed such low level calls in IL, the whole thing isn’t &ldquo;managed&rdquo; anymore and also not independent of the hardware I’m using.</p>
+
+<p>As I thought about this more, I converged to the answer that we need a &ldquo;runtime&rdquo; for each of the subsystem in the computer. If you think about it, a hard-drive controller is a CPU in its own right with its own instruction set and so is your graphics card. Your main CPU and memory are just &ldquo;over hyped&rdquo; subsystems of your computer. Our traditional runtime and IL only virtualizes main CPU and memory, not these other subsystems. Once we have this &ldquo;runtime&rdquo; for video subsystem, hard drive controller and so on, it should be possible to write pure IL instructions to say, draw a bitmap on the screen. Notice that the IL code should work on any graphics card which has been similarly virtualized. Now you see, these &ldquo;runtimes&rdquo; for subsystems are essentially equivalent to drivers in current world but with a twist that they follow exactly the same structure and standards as the main runtime.</p>
+
+<p>So now imagination can go wild: You have several &ldquo;runtimes&rdquo; running and managing each subsystem in your computer. Obviously each of these runtimes needs to discover and talk with other. The traditional runtime only manages main processor and memory but now it needs to send out IL instructions to say, VM controlling hard drive. So we now have a need for a standard protocol to discover virtual machines in the system and talk to them (much like Plug And Play). Also we need a system boot-strapper, which initializes all the runtimes in your system and provides common &ldquo;channel&rdquo; for them to discover and talk with each other. I also speculate a base runtime from which all other runtimes must &ldquo;inherit&rdquo; so as to enforce common infrastructure such as secured access to instructions and inter-VM communication. If you let your imagination wilder, you can think of a runtime/VM as something that consumes bytecode, changes its own memory state and outputs bytecode to another VM or a hardware. So essentially you can have cascading VMs too. You can even pass objects around VMs and even create your own VM (for example, to emulate non-existent hardware or to create a OS level service).</p>
+
+<p>So what is the managed OS again? It’s collection of VMs for each subsystem and a bootstrapper. Good, we got somewhere. Anything you code against it would be (really) 100% pure managed code with potential to be executed on variety of hardware. Infect you could even have a VM which simply delegates call to parent OS instead of real hardware subsystem. That could make it possible to build versions of this managed OS that could run off the host OS that you already have, without forcing you to partition your hard drive or reboot your machine. This would still let all your &ldquo;managed&rdquo; code run as is it but may be without extra-strength security and such stuff.</p>
+
+<p>This all sounds really cool. Now only if I can figure out how performance won&rsquo;t suck&hellip; 😉</p>
+
+    </div>
+
+    
+
+
+    
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hu5d68012a3dc200b6a99700b1a7c5f9c0_44154_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="http://shital.com/">Shital Shah</a></h5>
+      
+      <p class="card-text">A program trying to understand what it&rsquo;s computing.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a href="https://twitter.com/sytelus" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a href="https://www.linkedin.com/in/shitals" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a href="https://www.facebook.com/sytelus" target="_blank" rel="noopener">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a href="https://github.com/sytelus" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a href="https://scholar.google.co.uk/citations?user=1PEHzesAAAAJ" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a href="https://stackoverflow.com/users/207661/shital-shah" target="_blank" rel="noopener">
+              <i class="fab fa-stack-overflow"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+
+    
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "shitalshah" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/cpp.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/cs.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://shitalshah.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.130521ecfc6f534c52c158217bbff718.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; Shital Shah. All rights reserved. &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

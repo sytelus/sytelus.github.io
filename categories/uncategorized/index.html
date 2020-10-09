@@ -31,7 +31,7 @@
   <meta name="description" content="Shital Shah Blog">
 
   
-  <link rel="alternate" hreflang="en-us" href="http://shitalshah.com/categories/uncategorized/">
+  <link rel="alternate" hreflang="en-us" href="http://shital.com/categories/uncategorized/">
 
   
 
@@ -113,7 +113,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="http://shitalshah.com/categories/uncategorized/">
+  <link rel="canonical" href="http://shital.com/categories/uncategorized/">
 
   
   
@@ -128,12 +128,12 @@
   <meta property="twitter:creator" content="@sytelus">
   
   <meta property="og:site_name" content="Shital Shah">
-  <meta property="og:url" content="http://shitalshah.com/categories/uncategorized/">
+  <meta property="og:url" content="http://shital.com/categories/uncategorized/">
   <meta property="og:title" content="Uncategorized | Shital Shah">
-  <meta property="og:description" content="Shital Shah Blog"><meta property="og:image" content="http://shitalshah.com/img/shitalshah.jepg">
-  <meta property="twitter:image" content="http://shitalshah.com/img/shitalshah.jepg"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Shital Shah Blog"><meta property="og:image" content="http://shital.com/img/shitalshah.jepg">
+  <meta property="twitter:image" content="http://shital.com/img/shitalshah.jepg"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2016-06-05T09:24:38&#43;00:00">
+    <meta property="og:updated_time" content="2020-08-06T03:35:56&#43;00:00">
   
 
   
@@ -415,6 +415,33 @@
   
   
   <div>
+    <h2><a href="/p/all-organized-things-coincidences/">All Organized Things Are Set of Coincidences</a></h2>
+    <div class="article-style">
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/debugging-tensorflow-dll-importerror/">Debugging TensorFlow ImportError: DLL load failed Exception</a></h2>
+    <div class="article-style">
+      
+      I have encountered this error at least twice on two different machines and have spent too much time tracking down all different reasons it can occur.
+import tensorflow&lt;br /&gt; Traceback (most recent call last):&lt;br /&gt; File &quot;C:\...\site-packages\tensorflow\python\pywrap_tensorflow.py&quot;, line 18, in swig_import_helper&lt;br /&gt; return importlib.import_module(mname)&lt;br /&gt; File &quot;C:\...\importlib_init_.py&quot;, line 126, in import_module&lt;br /&gt; return _bootstrap._gcd_import(name[level:], package, level)&lt;br /&gt; File &quot;&quot;, line 986, in _gcd_import&lt;br /&gt; File &quot;&quot;, line 969, in _find_and_load&lt;br /&gt; File &quot;&quot;, line 958, in _find_and_load_unlocked&lt;br /&gt; File &quot;&quot;, line 666, in _load_unlocked&lt;br /&gt; File &quot;&quot;, line 577, in module_from_spec&lt;br /&gt; File &quot;&quot;, line 906, in create_module&lt;br /&gt; File &quot;&quot;, line 222, in _call_with_frames_removed&lt;br /&gt; ImportError: DLL load failed: The specified module could not be found.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p/installing-tensorflow-gpu-version-on-windows/">Installing TensorFlow GPU Version on Windows</a></h2>
+    <div class="article-style">
+      
+      TensorFlow 1.4 installation on Windows is still not as straightforward so here are quick steps:
+ Install Anaconda. Grab the version that has Python 3.6. After installation, you will need to downgrade to Python 3.5 as quite a few libraries like OpenCV still aren&rsquo;t compatible with Python 3.6 and also TensorFlow does seem to have few issues with 3.6. So after installing Anaconda run following command to downgrade: conda install python=3.
+      
+    </div>
+  </div>
+  
+  <div>
     <h2><a href="/p/writing-generic-container-function-in-c11/">Writing Generic Container Functions in C&#43;&#43;11</a></h2>
     <div class="article-style">
       
@@ -436,8 +463,234 @@ sudo apt-get install cifs-utils  You can mount Windows shares anywhere but /mnt 
     </div>
   </div>
   
+  <div>
+    <h2><a href="/p1492/">Accessing Linux Drive/Partitions on Windows</a></h2>
+    <div class="article-style">
+      
+      A quick note on how to read Linux formatted drives or partitions in Windows because lot of information appears on web is outdated and probably not tested on Windows 10. Ubuntu uses ext4 file system as default so that&rsquo;s primary concern as well. The two ways you can do it currently is,
+ **Paragone Ext-FS&gt;/a&gt;
+ This is professionally maintained driver + GUI tools. requires free registration.
+ **Paragone Ext-FS&gt;/a&gt;
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p1492/">Accessing Linux Drive/Partitions on Windows</a></h2>
+    <div class="article-style">
+      
+      A quick note on how to read Linux formatted drives or partitions in Windows because lot of information appears on web is outdated and probably not tested on Windows 10. Ubuntu uses ext4 file system as default so that&rsquo;s primary concern as well. The two ways you can do it currently is,
+ **Paragone Ext-FS&gt;/a&gt;
+ This is professionally maintained driver + GUI tools. requires free registration.
+ **Paragone Ext-FS&gt;/a&gt;
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p1452/">Analyzing Post Times of Hacker News Data</a></h2>
+    <div class="article-style">
+      
+      I ran this experiment quite unintentionally on HN: Post a story on Friday evening and then post exact same story again on Monday afternoon with a slight change in URL (all timezones are in PST) . What would be your guess on difference on points in these two scenarios? Well, guess again. The post from Friday evening got 3 upvotes and the post on Monday got whooping 123 upvotes! Why 41X difference for exact same content?
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p1452/">Analyzing Post Times of Hacker News Data</a></h2>
+    <div class="article-style">
+      
+      I ran this experiment quite unintentionally on HN: Post a story on Friday evening and then post exact same story again on Monday afternoon with a slight change in URL (all timezones are in PST) . What would be your guess on difference on points in these two scenarios? Well, guess again. The post from Friday evening got 3 upvotes and the post on Monday got whooping 123 upvotes! Why 41X difference for exact same content?
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p1474/">Cultivated disinterest</a></h2>
+    <div class="article-style">
+      
+      While watching sports, I often end up asking questions like these:
+ If this game was played all over again, would outcome be same again?
+ How much of the game events is purely random chances?
+ Why should I be proud for team X when I really haven&rsquo;t done anything for them to win, may be except offering slice of my lifespan watching them play?
+ If this team loses next time, why should my life and happiness fall apart given that they play completely outside of my control?
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p1474/">Cultivated disinterest</a></h2>
+    <div class="article-style">
+      
+      While watching sports, I often end up asking questions like these:
+ If this game was played all over again, would outcome be same again?
+ How much of the game events is purely random chances?
+ Why should I be proud for team X when I really haven&rsquo;t done anything for them to win, may be except offering slice of my lifespan watching them play?
+ If this team loses next time, why should my life and happiness fall apart given that they play completely outside of my control?
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p1403/">Essentials of Development Processes</a></h2>
+    <div class="article-style">
+      
+      Generalists with specializations Create teams that are� predominantly full-stack developers. You want individuals to own features, be able to work in all parts of the stack and have a culture of doing all the changes required to ship X� as opposed to� own implementation of part of feature in a stack. Team members can� be specialists in an area but everybody needs to own feature, not a portion of stack.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p1403/">Essentials of Development Processes</a></h2>
+    <div class="article-style">
+      
+      Generalists with specializations Create teams that are� predominantly full-stack developers. You want individuals to own features, be able to work in all parts of the stack and have a culture of doing all the changes required to ship X� as opposed to� own implementation of part of feature in a stack. Team members can� be specialists in an area but everybody needs to own feature, not a portion of stack.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p1589/">Mechanics of B Club</a></h2>
+    <div class="article-style">
+      
+      Every business would face competition. The whole process can always be replicated by another person to derive exact same profits. To stay alive business must defend itself. The way a business can do this is by,
+ Prevent replication. This can be done either using trade secrets or patents.
+ Brand pysc. Even though two products are identical, make special connection with customer to prefer yours.
+ Exploration: Produce multiple versions, variants and possible replacements yourself before competition does.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/post/2017-05-09-mechanics_of_b_club/">Mechanics of B Club</a></h2>
+    <div class="article-style">
+      
+      Every business would face competition. The whole process can always be replicated by another person to derive exact same profits. To stay alive business must defend itself. The way a business can do this is by,
+ Prevent replication. This can be done either using trade secrets or patents.
+ Brand pysc. Even though two products are identical, make special connection with customer to prefer yours.
+ Exploration: Produce multiple versions, variants and possible replacements yourself before competition does.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p1484/">New Kind of Management</a></h2>
+    <div class="article-style">
+      
+      Currently line manager&rsquo;s responsibilities seem to include:
+-Hire
+-Fire
+-Promote
+-Identify tasks
+-Prioritize tasks
+-Assign tasks
+-Keep tasks on track
+-Make sure things are tested/validated
+-Feedback to reports
+-Feedback from customers/partners
+-Review designs and architure
+-Review code
+-Setup standards
+-Identify team painpoints
+-Motivate
+-Keep tabs on system health
+-Acquire funding from higher ups
+-Market value to higher ups
+-Stay aligned with values and vision
+-Identify new developments
+-Keep tabs on competition
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p1484/">New Kind of Management</a></h2>
+    <div class="article-style">
+      
+      Currently line manager&rsquo;s responsibilities seem to include:
+-Hire
+-Fire
+-Promote
+-Identify tasks
+-Prioritize tasks
+-Assign tasks
+-Keep tasks on track
+-Make sure things are tested/validated
+-Feedback to reports
+-Feedback from customers/partners
+-Review designs and architure
+-Review code
+-Setup standards
+-Identify team painpoints
+-Motivate
+-Keep tabs on system health
+-Acquire funding from higher ups
+-Market value to higher ups
+-Stay aligned with values and vision
+-Identify new developments
+-Keep tabs on competition
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p1533/">QuadRotor Simulation</a></h2>
+    <div class="article-style">
+      
+       https://github.com/OMARI1988/Quadrotor_MATLAB_simulation
+ Hector quadrotor
+ RotorS
+ QRSim
+ fcu_sim - https://github.com/byu-magicc/fcu_sim
+ USRSim
+ https://github.com/dch33/Quad-Sim
+ Hackflight Sim - https://github.com/simondlevy/hackflight/tree/master/sim
+ JMavSim
+  
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p1533/">QuadRotor Simulation</a></h2>
+    <div class="article-style">
+      
+       https://github.com/OMARI1988/Quadrotor_MATLAB_simulation
+ Hector quadrotor
+ RotorS
+ QRSim
+ fcu_sim - https://github.com/byu-magicc/fcu_sim
+ USRSim
+ https://github.com/dch33/Quad-Sim
+ Hackflight Sim - https://github.com/simondlevy/hackflight/tree/master/sim
+ JMavSim
+  
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/p1477/">Understanding Hopcroft Karp Algorithm</a></h2>
+    <div class="article-style">
+      
+      Visual problem: Shift Clock.
+Applications:� Graduation problem, Parking problem, Rook attack or 9 Queens problem, Hitchcock Transportation Problem, Subtree isomorphism problem.
+&nbsp;
+      
+    </div>
+  </div>
+  
 
   
+<nav>
+  <ul class="pagination justify-content-center">
+    
+    
+    <li class="page-item"><a class="page-link" href="/categories/uncategorized/page/2/">&raquo;</a></li>
+    
+  </ul>
+</nav>
+
 
 </div>
 

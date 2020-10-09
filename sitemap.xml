@@ -3,1157 +3,1597 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://shitalshah.com/categories/</loc>
+    <loc>http://shital.com/p/all-organized-things-coincidences/</loc>
+    <lastmod>2020-08-06T03:35:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/categories/</loc>
+    <lastmod>2020-08-06T03:35:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/post/</loc>
+    <lastmod>2020-08-06T03:35:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/</loc>
+    <lastmod>2020-08-06T03:35:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/categories/uncategorized/</loc>
+    <lastmod>2020-08-06T03:35:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/post/2019-10-30-rl-frameworks/</loc>
+    <lastmod>2019-10-30T21:08:41-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/debugging-tensorflow-dll-importerror/</loc>
+    <lastmod>2017-12-23T07:52:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/installing-tensorflow-gpu-version-on-windows/</loc>
+    <lastmod>2017-12-23T07:21:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/categories/developers/</loc>
     <lastmod>2017-02-26T09:16:43+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/developers/</loc>
+    <loc>http://shital.com/p/git-workflow-branch-rebase-squash-merge/</loc>
     <lastmod>2017-02-26T09:16:43+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/git-workflow-branch-rebase-squash-merge/</loc>
-    <lastmod>2017-02-26T09:16:43+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://shitalshah.com/post/</loc>
-    <lastmod>2017-02-26T09:16:43+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://shitalshah.com/</loc>
-    <lastmod>2017-02-26T09:16:43+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://shitalshah.com/categories/gadgets/</loc>
+    <loc>http://shital.com/categories/gadgets/</loc>
     <lastmod>2016-12-24T00:15:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/playing-with-hololens/</loc>
+    <loc>http://shital.com/p/playing-with-hololens/</loc>
     <lastmod>2016-12-24T00:15:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/uncategorized/</loc>
+    <loc>http://shital.com/p/writing-generic-container-function-in-c11/</loc>
     <lastmod>2016-06-05T09:24:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/writing-generic-container-function-in-c11/</loc>
-    <lastmod>2016-06-05T09:24:38+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://shitalshah.com/p/how-to-use-windows-network-share-from-domain-joined-machine-on-linux/</loc>
+    <loc>http://shital.com/p/how-to-use-windows-network-share-from-domain-joined-machine-on-linux/</loc>
     <lastmod>2016-06-03T21:22:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/how-to-enable-and-use-gcc-strict-mode-compilation/</loc>
+    <loc>http://shital.com/p/how-to-enable-and-use-gcc-strict-mode-compilation/</loc>
     <lastmod>2016-05-24T01:19:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/downloading-all-of-hacker-news-posts-and-comments/</loc>
+    <loc>http://shital.com/p/downloading-all-of-hacker-news-posts-and-comments/</loc>
     <lastmod>2014-05-31T02:54:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/software/</loc>
+    <loc>http://shital.com/categories/software/</loc>
     <lastmod>2014-05-31T02:54:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/astronomy/</loc>
+    <loc>http://shital.com/categories/geekery/</loc>
+    <lastmod>2014-05-29T04:14:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/moving-from-dasblog-to-wordpress/</loc>
+    <lastmod>2014-05-29T04:14:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/categories/site-news/</loc>
+    <lastmod>2014-05-18T08:24:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/welcome-to-shitalshah-com-v4/</loc>
+    <lastmod>2014-05-18T08:24:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/surviving-windows-8-first-encounter/</loc>
+    <lastmod>2012-08-10T20:47:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/categories/astronomy/</loc>
     <lastmod>2012-06-04T23:05:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/viewing-venus-transit-in-seattle-area/</loc>
+    <loc>http://shital.com/p/viewing-venus-transit-in-seattle-area/</loc>
     <lastmod>2012-06-04T23:05:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/geekery/</loc>
+    <loc>http://shital.com/p/groups-places-and-collectives-for-makers-in-seattle-area/</loc>
     <lastmod>2012-06-04T07:14:46+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/groups-places-and-collectives-for-makers-in-seattle-area/</loc>
-    <lastmod>2012-06-04T07:14:46+00:00</lastmod>
+    <loc>http://shital.com/p/badimageformatexception-this-assembly-is-built-by-a-runtime-newer-than-the-currently-loaded/</loc>
+    <lastmod>2012-04-24T05:49:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/burning-man-tips-for-the-first-timers/</loc>
+    <loc>http://shital.com/p/lost-sony-nex-5-camera-at-lincoln-park-west-seattle/</loc>
+    <lastmod>2011-04-24T22:12:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/categories/personal-news/</loc>
+    <lastmod>2011-04-24T22:12:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/burning-man-tips-for-the-first-timers/</loc>
     <lastmod>2010-08-26T23:46:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/events/</loc>
+    <loc>http://shital.com/categories/events/</loc>
     <lastmod>2010-08-26T23:46:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/outside/</loc>
+    <loc>http://shital.com/categories/outside/</loc>
     <lastmod>2010-08-26T23:46:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/mountain-weather-in-washington/</loc>
+    <loc>http://shital.com/p/mountain-weather-in-washington/</loc>
     <lastmod>2010-08-26T06:40:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/tomato-firmware-for-router-and-comcast-cable-modem/</loc>
+    <loc>http://shital.com/p/a-day-in-sql-tuning/</loc>
+    <lastmod>2010-01-27T09:11:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/test-results-windows-and-exception-has-been-thrown-by-the-target-of-an-invocation/</loc>
+    <lastmod>2009-12-31T23:29:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/what-to-do-on-dreaded-error-cs0003-out-of-memory/</loc>
+    <lastmod>2009-12-31T09:36:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/tomato-firmware-for-router-and-comcast-cable-modem/</loc>
     <lastmod>2009-12-17T07:41:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/silencing-exceptions-in-a-little-better-way/</loc>
+    <loc>http://shital.com/p/silencing-exceptions-in-a-little-better-way/</loc>
     <lastmod>2009-12-07T23:54:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/the-best-culture-invariant-format-for-datetime/</loc>
+    <loc>http://shital.com/p/lightweight-datatable-serialization/</loc>
+    <lastmod>2009-12-04T16:32:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/the-best-culture-invariant-format-for-datetime/</loc>
     <lastmod>2009-11-09T01:35:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/find-path-of-a-command-line-tool/</loc>
+    <loc>http://shital.com/p/find-path-of-a-command-line-tool/</loc>
     <lastmod>2009-10-29T23:06:45+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/whats-in-a-name/</loc>
+    <loc>http://shital.com/p/how-to-right-align-address-in-word-document/</loc>
+    <lastmod>2009-10-09T08:33:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/selecting-random-row-from-sql-server-table/</loc>
+    <lastmod>2009-10-06T03:08:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/intel-xeon-the-worse-branding-ever/</loc>
+    <lastmod>2009-08-11T00:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/categories/opinions/</loc>
+    <lastmod>2009-08-11T00:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/whats-in-a-name/</loc>
     <lastmod>2009-08-08T03:32:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/snoqualmie-falls-hike-analysis/</loc>
+    <loc>http://shital.com/p/solving-shared-notebook-sync-issue-with-onenote-2010/</loc>
+    <lastmod>2009-08-07T10:55:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/snoqualmie-falls-hike-analysis/</loc>
     <lastmod>2009-02-20T09:09:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/physics/</loc>
+    <loc>http://shital.com/categories/physics/</loc>
     <lastmod>2009-02-14T08:02:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/treadmill-grade-to-angle-conversion/</loc>
+    <loc>http://shital.com/p/treadmill-grade-to-angle-conversion/</loc>
     <lastmod>2009-02-14T08:02:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/what-is-the-best-time-to-hike-zion-narrows/</loc>
+    <loc>http://shital.com/p/what-is-the-best-time-to-hike-zion-narrows/</loc>
     <lastmod>2009-01-23T12:14:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/mount-si-take-2/</loc>
+    <loc>http://shital.com/p/mount-si-take-2/</loc>
     <lastmod>2009-01-05T02:22:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/space-elevator-conference-2008/</loc>
+    <loc>http://shital.com/p/twitter-dishing-out-417-expectation-failed-to-net-clients/</loc>
+    <lastmod>2008-12-27T12:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/so-which-digital-photo-frame-is-the-best/</loc>
+    <lastmod>2008-11-30T10:18:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/categories/machine-learning/</loc>
+    <lastmod>2008-11-04T00:28:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/making-2d-photos-in-to-3d/</loc>
+    <lastmod>2008-11-04T00:28:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/do-you-really-need-1080i-or-1080p-or-1440p/</loc>
+    <lastmod>2008-11-04T00:03:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/how-much-is-there-to-see/</loc>
+    <lastmod>2008-08-15T23:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/categories/mathematics/</loc>
+    <lastmod>2008-08-15T23:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/space-elevator-conference-2008/</loc>
     <lastmod>2008-06-28T07:10:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/the-four-planet-dance-of-2008/</loc>
+    <loc>http://shital.com/p/the-four-planet-dance-of-2008/</loc>
     <lastmod>2008-06-18T07:39:43+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/kiwi-berries/</loc>
+    <loc>http://shital.com/p/oil-prices-summary-of-4-hours-of-news-bits-in-past-month/</loc>
+    <lastmod>2008-06-09T11:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/why-would-you-still-get-strong-name-validation-failed/</loc>
+    <lastmod>2008-05-01T10:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/a-quicker-way-to-twitter/</loc>
+    <lastmod>2008-04-22T11:25:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/run-as-is-back-in-vista/</loc>
+    <lastmod>2008-04-22T11:09:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/kiwi-berries/</loc>
     <lastmod>2008-04-12T06:17:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/opinions/</loc>
-    <lastmod>2008-04-12T06:17:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://shitalshah.com/p/phun-with-physics-simulations/</loc>
+    <loc>http://shital.com/p/phun-with-physics-simulations/</loc>
     <lastmod>2008-03-09T03:27:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/the-acm-turing-programming-contest-problem-set-archive/</loc>
+    <loc>http://shital.com/p/fast-asymmetric-generalized-hebbian-algorithm/</loc>
+    <lastmod>2007-05-07T03:43:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/sql-insert-script-disk-defuzzer/</loc>
+    <lastmod>2007-05-07T02:38:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/math-in-office-2007/</loc>
+    <lastmod>2006-05-16T23:37:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/the-acm-turing-programming-contest-problem-set-archive/</loc>
     <lastmod>2006-04-13T03:32:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/articles/</loc>
+    <loc>http://shital.com/p/another-pick-at-randomness/</loc>
+    <lastmod>2006-03-08T09:22:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/critticall/</loc>
+    <lastmod>2006-03-08T08:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/categories/articles/</loc>
     <lastmod>2006-02-16T15:04:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/introducing-dss/</loc>
+    <loc>http://shital.com/p/introducing-dss/</loc>
     <lastmod>2006-02-16T15:04:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/heavens-above/</loc>
+    <loc>http://shital.com/p/heavens-above/</loc>
     <lastmod>2005-12-31T00:00:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/life-todo/</loc>
+    <loc>http://shital.com/categories/life-todo/</loc>
     <lastmod>2005-12-31T00:00:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/groove-hacks/</loc>
+    <loc>http://shital.com/p/cpus-and-gpus-of-game-consoles-xbox-2005/</loc>
+    <lastmod>2005-11-22T03:08:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/categories/junk/</loc>
+    <lastmod>2005-11-22T03:08:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/simple-sharing-extension/</loc>
+    <lastmod>2005-11-21T21:26:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/groove-hacks/</loc>
     <lastmod>2005-11-15T05:48:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/junk/</loc>
+    <loc>http://shital.com/p/linux-is-obsolete/</loc>
+    <lastmod>2005-10-24T16:05:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/on-the-run/</loc>
     <lastmod>2005-10-07T05:37:08+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/on-the-run/</loc>
-    <lastmod>2005-10-07T05:37:08+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://shitalshah.com/p/big-move-to-seattle/</loc>
+    <loc>http://shital.com/p/big-move-to-seattle/</loc>
     <lastmod>2005-10-07T03:46:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/personal-news/</loc>
-    <lastmod>2005-10-07T03:46:54+00:00</lastmod>
+    <loc>http://shital.com/p/earth-the-largest-neural-model/</loc>
+    <lastmod>2005-09-30T15:59:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/hurricane-formations/</loc>
+    <loc>http://shital.com/p/why-bn-com-has-to-suck/</loc>
+    <lastmod>2005-09-30T15:51:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/things-behind-the-ebay-deal/</loc>
+    <lastmod>2005-09-12T20:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/exception-code-template-for-coderush/</loc>
+    <lastmod>2005-09-06T17:55:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/hurricane-formations/</loc>
     <lastmod>2005-09-01T05:40:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/my-new-codeproject-article-on-equation-rendering/</loc>
+    <loc>http://shital.com/p/my-new-codeproject-article-on-equation-rendering/</loc>
     <lastmod>2005-08-24T02:31:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/using-windows-explorer-progress-dialog-in-your-application-2/</loc>
+    <loc>http://shital.com/p/using-windows-explorer-progress-dialog-in-your-application-2/</loc>
     <lastmod>2005-08-23T19:31:32+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/enable-your-users-to-write-math-equations-in-your-web-and-desktop-apps/</loc>
+    <loc>http://shital.com/p/enable-your-users-to-write-math-equations-in-your-web-and-desktop-apps/</loc>
     <lastmod>2005-08-23T00:00:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/endless-columns/</loc>
+    <loc>http://shital.com/p/worlds-most-beautiful-equation/</loc>
+    <lastmod>2005-08-08T17:22:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/endless-columns/</loc>
     <lastmod>2005-08-04T18:36:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/music/</loc>
+    <loc>http://shital.com/categories/music/</loc>
     <lastmod>2005-08-04T18:36:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/google-indexing-leg-shitalshahwebv3/</loc>
+    <loc>http://shital.com/p/the-business-experiment/</loc>
+    <lastmod>2005-07-24T03:55:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/google-indexing-leg-shitalshahwebv3/</loc>
     <lastmod>2005-07-18T19:32:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/site-news/</loc>
-    <lastmod>2005-07-18T19:32:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://shitalshah.com/p/finally-runs-even-if-method-returns/</loc>
+    <loc>http://shital.com/p/finally-runs-even-if-method-returns/</loc>
     <lastmod>2005-07-16T03:41:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/google-logo-headers-max-age/</loc>
+    <loc>http://shital.com/p/google-logo-headers-max-age/</loc>
     <lastmod>2005-07-16T02:32:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/database-columns-char-numeric-stats/</loc>
+    <loc>http://shital.com/p/database-columns-char-numeric-stats/</loc>
     <lastmod>2005-07-14T18:35:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/chinese-as-a-second-language-vs-french-spanish/</loc>
+    <loc>http://shital.com/p/chinese-as-a-second-language-vs-french-spanish/</loc>
     <lastmod>2005-07-14T18:05:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/pavlovs-dog/</loc>
+    <loc>http://shital.com/p/pavlovs-dog/</loc>
     <lastmod>2005-07-11T19:03:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/really-slick-screensavers/</loc>
+    <loc>http://shital.com/p/really-slick-screensavers/</loc>
     <lastmod>2005-07-11T17:22:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/we-are-finite-state-machines/</loc>
+    <loc>http://shital.com/p/we-are-finite-state-machines/</loc>
     <lastmod>2005-07-11T17:14:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/some-cool-net-nuggets/</loc>
+    <loc>http://shital.com/p/some-cool-net-nuggets/</loc>
     <lastmod>2005-06-24T22:00:46+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/digits-of-pi/</loc>
+    <loc>http://shital.com/p/digits-of-pi/</loc>
     <lastmod>2005-06-21T20:20:14+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/mathematics/</loc>
-    <lastmod>2005-06-21T20:20:14+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://shitalshah.com/p/on-expression-of-number-as-a-sum-of-primes-and-twin-prime-counting-function-using-sieve-method-without-heuristic-assumption/</loc>
+    <loc>http://shital.com/p/on-expression-of-number-as-a-sum-of-primes-and-twin-prime-counting-function-using-sieve-method-without-heuristic-assumption/</loc>
     <lastmod>2005-06-12T00:00:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/15-questions-on-leadership/</loc>
+    <loc>http://shital.com/p/15-questions-on-leadership/</loc>
     <lastmod>2005-05-24T21:26:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/integrating-rss-and-calendar-essay-available-now/</loc>
+    <loc>http://shital.com/p/integrating-rss-and-calendar-essay-available-now/</loc>
     <lastmod>2005-05-24T02:10:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/reading/</loc>
+    <loc>http://shital.com/categories/reading/</loc>
     <lastmod>2005-05-24T00:00:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/the-illustrated-brief-history-of-time-updated-and-expanded-edition/</loc>
+    <loc>http://shital.com/p/the-illustrated-brief-history-of-time-updated-and-expanded-edition/</loc>
     <lastmod>2005-05-24T00:00:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/moon-lander-how-we-developed-the-apollo-lunar-module/</loc>
+    <loc>http://shital.com/p/moon-lander-how-we-developed-the-apollo-lunar-module/</loc>
     <lastmod>2005-05-24T00:00:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/turn-left-at-orion-a-hundred-night-sky-objects-to-see-in-a-small-telescope-and-how-to-find-them/</loc>
+    <loc>http://shital.com/p/turn-left-at-orion-a-hundred-night-sky-objects-to-see-in-a-small-telescope-and-how-to-find-them/</loc>
     <lastmod>2005-05-24T00:00:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/hals-legacy-2001s-computer-as-dream-and-reality/</loc>
+    <loc>http://shital.com/p/hals-legacy-2001s-computer-as-dream-and-reality/</loc>
     <lastmod>2005-05-24T00:00:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/the-ultimate-book-of-business-breakthroughs-lessons-from-the-20-greatest-business-decisions-ever-made/</loc>
+    <loc>http://shital.com/p/the-ultimate-book-of-business-breakthroughs-lessons-from-the-20-greatest-business-decisions-ever-made/</loc>
     <lastmod>2005-05-24T00:00:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/journey-through-genius-the-great-theorems-of-mathematics/</loc>
+    <loc>http://shital.com/p/journey-through-genius-the-great-theorems-of-mathematics/</loc>
     <lastmod>2005-05-24T00:00:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/integrating-rss-and-calendar/</loc>
+    <loc>http://shital.com/p/integrating-rss-and-calendar/</loc>
     <lastmod>2005-05-23T00:00:46+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/machine-learning/</loc>
+    <loc>http://shital.com/p/trading-geek-dinner-for-self-theories-of-intelligence/</loc>
     <lastmod>2005-05-10T22:18:16+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/trading-geek-dinner-for-self-theories-of-intelligence/</loc>
-    <lastmod>2005-05-10T22:18:16+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://shitalshah.com/p/go-left-handed-for-mouse/</loc>
+    <loc>http://shital.com/p/go-left-handed-for-mouse/</loc>
     <lastmod>2005-05-10T21:10:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/starwars-weekend-marathon-2005/</loc>
+    <loc>http://shital.com/p/starwars-weekend-marathon-2005/</loc>
     <lastmod>2005-05-10T13:49:10+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/mazda-rx-8-review/</loc>
+    <loc>http://shital.com/p/mazda-rx-8-review/</loc>
     <lastmod>2005-04-30T21:19:52+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/places-i-found-on-google-maps-2005/</loc>
+    <loc>http://shital.com/p/just-furl-it/</loc>
+    <lastmod>2005-04-30T15:44:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/places-i-found-on-google-maps-2005/</loc>
     <lastmod>2005-04-30T14:39:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/updates-spring-2005/</loc>
+    <loc>http://shital.com/p/updates-spring-2005/</loc>
     <lastmod>2005-04-21T18:44:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/buying-and-selling-broadway-show-tickets-2005/</loc>
+    <loc>http://shital.com/p/on-truly-managed-operating-systems/</loc>
+    <lastmod>2005-03-28T19:03:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/buying-and-selling-broadway-show-tickets-2005/</loc>
     <lastmod>2005-03-28T16:34:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/electrons-are-out-photons-are-in/</loc>
+    <loc>http://shital.com/p/algorithm-puzzle-syncing-big-lists-and-nodes/</loc>
+    <lastmod>2005-03-15T01:05:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/applications-and-platforms-an-another-face-of-internet-and-why-i-hate-groove/</loc>
+    <lastmod>2005-03-10T02:11:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/electrons-are-out-photons-are-in/</loc>
     <lastmod>2005-03-08T02:42:08+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/using-windows-explorer-progress-dialog-in-your-application/</loc>
+    <loc>http://shital.com/p/jeff-hawkins-on-intelligence/</loc>
+    <lastmod>2005-02-01T23:29:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/using-windows-explorer-progress-dialog-in-your-application/</loc>
     <lastmod>2004-12-26T19:37:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/our-alaska-trip-photos-march-2004/</loc>
+    <loc>http://shital.com/p/algorithms-extract-list-patterns-word-clusters/</loc>
+    <lastmod>2004-12-20T13:59:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/health-diary/</loc>
+    <lastmod>2004-12-16T16:08:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/our-alaska-trip-photos-march-2004/</loc>
     <lastmod>2004-11-30T17:57:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/is-jeff-richter-screwing-up-the-net-versioning/</loc>
+    <loc>http://shital.com/p/virtual-by-default/</loc>
+    <lastmod>2004-11-15T20:33:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/neural-networks-and-learning-bayesian-networks/</loc>
+    <lastmod>2004-11-09T05:13:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/vb-net-resource-kit-saves-the-day/</loc>
+    <lastmod>2004-11-09T04:54:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/is-jeff-richter-screwing-up-the-net-versioning/</loc>
     <lastmod>2004-11-08T21:51:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/dev-os-choice-windows-2003-server-or-xp/</loc>
+    <loc>http://shital.com/p/dev-os-choice-windows-2003-server-or-xp/</loc>
     <lastmod>2004-11-06T00:25:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/coolest-new-york-shows-in-run/</loc>
+    <loc>http://shital.com/p/coolest-new-york-shows-in-run/</loc>
     <lastmod>2004-11-05T22:10:11+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/a-new-newsgator-online-convert/</loc>
+    <loc>http://shital.com/p/a-new-newsgator-online-convert/</loc>
     <lastmod>2004-11-05T21:12:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/google-cheatsheet-and-clusty/</loc>
+    <loc>http://shital.com/p/google-cheatsheet-and-clusty/</loc>
     <lastmod>2004-11-05T20:32:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/music-genres-to-explore-nov-2004/</loc>
+    <loc>http://shital.com/p/music-genres-to-explore-nov-2004/</loc>
     <lastmod>2004-11-01T22:41:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/dvd-audio-format/</loc>
+    <loc>http://shital.com/p/dvd-audio-format/</loc>
     <lastmod>2004-11-01T21:32:23+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/blue-man-group-and-polyphonic-spree/</loc>
+    <loc>http://shital.com/p/blue-man-group-and-polyphonic-spree/</loc>
     <lastmod>2004-11-01T19:54:11+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/my-winforms-library/</loc>
+    <loc>http://shital.com/p/my-winforms-library/</loc>
     <lastmod>2004-10-20T11:09:19+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/autumn-fall-foliage-2004/</loc>
+    <loc>http://shital.com/p/few-ideas-to-curb-email-phising/</loc>
+    <lastmod>2004-10-11T22:37:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/autumn-fall-foliage-2004/</loc>
     <lastmod>2004-10-09T04:32:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/continual-survival-of-sharpreader/</loc>
+    <loc>http://shital.com/p/enox-tms-620-mp3-player/</loc>
+    <lastmod>2004-10-01T18:47:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/would-you-like-some-monopoly-with-that/</loc>
+    <lastmod>2004-09-27T23:09:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/tablet-laptop-acer-travelmate-c303/</loc>
+    <lastmod>2004-09-22T20:18:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/difference-between-local-trains-and-express-trains/</loc>
+    <lastmod>2004-09-22T19:49:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/continual-survival-of-sharpreader/</loc>
     <lastmod>2004-09-17T20:27:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/make-your-windows-more-geekier/</loc>
+    <loc>http://shital.com/p/make-your-windows-more-geekier/</loc>
     <lastmod>2004-09-13T17:45:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/browser-history-analyser/</loc>
+    <loc>http://shital.com/p/browser-history-analyser/</loc>
     <lastmod>2004-09-07T03:16:19+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/dealing-with-dataviews/</loc>
+    <loc>http://shital.com/p/dealing-with-dataviews/</loc>
     <lastmod>2004-08-31T18:50:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/dataset-not-xml/</loc>
+    <loc>http://shital.com/p/dataset-not-xml/</loc>
     <lastmod>2004-08-24T18:09:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/when-net-framework-2-0-beta-messes-you-up/</loc>
+    <loc>http://shital.com/p/when-net-framework-2-0-beta-messes-you-up/</loc>
     <lastmod>2004-08-24T04:02:08+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/i-replaced-my-task-manager-have-you/</loc>
+    <loc>http://shital.com/p/get-yourself-some-bayes/</loc>
+    <lastmod>2004-08-07T01:00:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/i-replaced-my-task-manager-have-you/</loc>
     <lastmod>2004-08-02T19:35:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/a-little-net-puzzle/</loc>
+    <loc>http://shital.com/p/a-little-net-puzzle/</loc>
     <lastmod>2004-07-28T15:14:25+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/cloudscapes-stamps/</loc>
+    <loc>http://shital.com/p/cloudscapes-stamps/</loc>
     <lastmod>2004-07-28T15:00:04+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/condomania-wizard-interface/</loc>
+    <loc>http://shital.com/p/condomania-wizard-interface/</loc>
     <lastmod>2004-07-14T06:07:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/recursion-enabled-task-progress-dialog/</loc>
+    <loc>http://shital.com/p/recursion-enabled-task-progress-dialog/</loc>
     <lastmod>2004-07-12T10:37:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/hackers-conference-nyc-2004/</loc>
+    <loc>http://shital.com/p/hackers-conference-nyc-2004/</loc>
     <lastmod>2004-07-09T16:57:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/that-song-in-american-beauty/</loc>
+    <loc>http://shital.com/p/that-song-in-american-beauty/</loc>
     <lastmod>2004-07-07T23:04:16+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/venus-transit-2004-08-06/</loc>
+    <loc>http://shital.com/p/venus-transit-2004-08-06/</loc>
     <lastmod>2004-06-07T23:45:45+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/notepadx-preview-is-out/</loc>
+    <loc>http://shital.com/p/notepadx-preview-is-out/</loc>
     <lastmod>2004-03-26T21:56:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/notepadx-manage-your-notes-with-power/</loc>
+    <loc>http://shital.com/p/notepadx-manage-your-notes-with-power/</loc>
     <lastmod>2004-03-23T19:15:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/ie-sqaurefree-booklets/</loc>
+    <loc>http://shital.com/p/ie-sqaurefree-booklets/</loc>
     <lastmod>2004-03-16T23:32:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/categories/photos/</loc>
+    <loc>http://shital.com/categories/photos/</loc>
     <lastmod>2004-03-14T00:00:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/photos-alaska-trip-march-2004/</loc>
+    <loc>http://shital.com/p/photos-alaska-trip-march-2004/</loc>
     <lastmod>2004-03-14T00:00:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/windham-hill-sampler-best-of-yanni-maroon/</loc>
+    <loc>http://shital.com/p/windham-hill-sampler-best-of-yanni-maroon/</loc>
     <lastmod>2004-01-23T23:25:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/chinese-new-year-festivities/</loc>
+    <loc>http://shital.com/p/chinese-new-year-festivities/</loc>
     <lastmod>2004-01-21T21:04:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/venus-with-crescent-moon-2004-2-23/</loc>
+    <loc>http://shital.com/p/venus-with-crescent-moon-2004-2-23/</loc>
     <lastmod>2004-01-20T01:07:29+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/leonid-meteor-shower-2003-11-19/</loc>
+    <loc>http://shital.com/p/leonid-meteor-shower-2003-11-19/</loc>
     <lastmod>2003-11-14T17:47:10+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/two-becomes-one/</loc>
+    <loc>http://shital.com/p/two-becomes-one/</loc>
     <lastmod>2003-11-07T08:09:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/yamaha-ez250i-synthesizer/</loc>
+    <loc>http://shital.com/p/yamaha-ez250i-synthesizer/</loc>
     <lastmod>2003-10-02T04:37:52+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/autumn-fall-foliage-long-drives-2003/</loc>
+    <loc>http://shital.com/p/autumn-fall-foliage-long-drives-2003/</loc>
     <lastmod>2003-09-30T04:32:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/barenaked-ladies-live-2003/</loc>
+    <loc>http://shital.com/p/barenaked-ladies-live-2003/</loc>
     <lastmod>2003-09-30T04:14:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/voyager-is-missing/</loc>
+    <loc>http://shital.com/p/will-aiers-ever-stop-being-dumb/</loc>
+    <lastmod>2003-09-12T20:36:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/voyager-is-missing/</loc>
     <lastmod>2003-09-12T04:23:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/evanescence-webster-hall-nyc-2003/</loc>
+    <loc>http://shital.com/p/evanescence-webster-hall-nyc-2003/</loc>
     <lastmod>2003-09-12T02:50:29+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/awesome-destinations-and-times-to-visit-2003/</loc>
+    <loc>http://shital.com/p/awesome-destinations-and-times-to-visit-2003/</loc>
     <lastmod>2003-09-09T06:18:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/custom-pc-checklist-2003/</loc>
+    <loc>http://shital.com/p/custom-pc-checklist-2003/</loc>
     <lastmod>2003-09-06T06:48:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/sunset-and-moonrise-2003-09-06/</loc>
+    <loc>http://shital.com/p/sunset-and-moonrise-2003-09-06/</loc>
     <lastmod>2003-09-06T06:14:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/iskon-temple-west-virginia-2003/</loc>
+    <loc>http://shital.com/p/iskon-temple-west-virginia-2003/</loc>
     <lastmod>2003-09-03T08:09:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/sticky-chapter-brief-history-of-time-2003/</loc>
+    <loc>http://shital.com/p/sticky-chapter-brief-history-of-time-2003/</loc>
     <lastmod>2003-09-03T05:35:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/mtv-vmas-2003/</loc>
+    <loc>http://shital.com/p/mtv-vmas-2003/</loc>
     <lastmod>2003-09-03T02:55:14+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/mars-viewing-aug-2003/</loc>
+    <loc>http://shital.com/p/192/</loc>
+    <lastmod>2003-09-03T02:55:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/mars-viewing-aug-2003/</loc>
     <lastmod>2003-08-27T06:30:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/albums-of-the-season-aug-2003/</loc>
+    <loc>http://shital.com/p/albums-of-the-season-aug-2003/</loc>
     <lastmod>2003-08-26T19:52:25+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/anders-hejlsberg/</loc>
+    <loc>http://shital.com/p/anders-hejlsberg/</loc>
     <lastmod>2003-08-26T06:09:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/when-i-fall/</loc>
+    <loc>http://shital.com/p/when-i-fall/</loc>
     <lastmod>2003-08-15T03:56:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/your-yahoo-group-membership/</loc>
+    <loc>http://shital.com/p/your-yahoo-group-membership/</loc>
     <lastmod>2003-08-07T14:26:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/language-of-flowers/</loc>
+    <loc>http://shital.com/p/language-of-flowers/</loc>
     <lastmod>2003-08-07T14:21:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/astronomy-events-this-month-aug-2003/</loc>
+    <loc>http://shital.com/p/astronomy-events-this-month-aug-2003/</loc>
     <lastmod>2003-08-07T06:06:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/t3-on-dlp-and-matrix-ii-on-imax/</loc>
+    <loc>http://shital.com/p/t3-on-dlp-and-matrix-ii-on-imax/</loc>
     <lastmod>2003-08-07T05:54:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/new-books-july-2003/</loc>
+    <loc>http://shital.com/p/new-books-july-2003/</loc>
     <lastmod>2003-07-23T15:33:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/cool-pocket-pc-stuff/</loc>
+    <loc>http://shital.com/p/cool-pocket-pc-stuff/</loc>
     <lastmod>2003-07-23T06:13:32+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/jun-july-2003-photo-album/</loc>
+    <loc>http://shital.com/p/jun-july-2003-photo-album/</loc>
     <lastmod>2003-07-23T05:25:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/things-with-the-rain-drops/</loc>
+    <loc>http://shital.com/p/things-with-the-rain-drops/</loc>
     <lastmod>2003-07-23T05:16:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/lost-and-unfound/</loc>
+    <loc>http://shital.com/p/lost-and-unfound/</loc>
     <lastmod>2003-07-06T05:42:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/blogger-com-to-dasblog-converter-tool/</loc>
+    <loc>http://shital.com/p/a-marriage-conjecture/</loc>
+    <lastmod>2003-07-02T21:15:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/blogger-com-to-dasblog-converter-tool/</loc>
     <lastmod>2003-07-01T10:40:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/new-google-toolbar-jun-2003/</loc>
+    <loc>http://shital.com/p/new-google-toolbar-jun-2003/</loc>
     <lastmod>2003-06-27T18:10:24+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/yahoo-launch-getting-better/</loc>
+    <loc>http://shital.com/p/yahoo-launch-getting-better/</loc>
     <lastmod>2003-06-26T15:15:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/jersey-starquest-and-other-star-parties/</loc>
+    <loc>http://shital.com/p/jersey-starquest-and-other-star-parties/</loc>
     <lastmod>2003-06-25T17:15:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/bolly-flicks-on-tcm/</loc>
+    <loc>http://shital.com/p/to-empty-people-brighter-nights-and-shorter-days/</loc>
+    <lastmod>2003-06-24T05:54:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/bolly-flicks-on-tcm/</loc>
     <lastmod>2003-06-18T19:18:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/virtual-worlds-with-pov-ray-2003/</loc>
+    <loc>http://shital.com/p/virtual-worlds-with-pov-ray-2003/</loc>
     <lastmod>2003-06-17T04:14:34+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/physlink-store-shopping-2003/</loc>
+    <loc>http://shital.com/p/physlink-store-shopping-2003/</loc>
     <lastmod>2003-06-10T20:44:08+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/shitalshahweb-v3-coming-soon/</loc>
+    <loc>http://shital.com/p/shitalshahweb-v3-coming-soon/</loc>
     <lastmod>2003-06-06T21:36:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/high-point-state-park-nj-2003/</loc>
+    <loc>http://shital.com/p/high-point-state-park-nj-2003/</loc>
     <lastmod>2003-06-06T20:51:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/central-park-summerstage-2003-and-311/</loc>
+    <loc>http://shital.com/p/central-park-summerstage-2003-and-311/</loc>
     <lastmod>2003-06-06T20:15:59+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/jewel-moments-central-park-2003/</loc>
+    <loc>http://shital.com/p/jewel-moments-central-park-2003/</loc>
     <lastmod>2003-06-06T15:58:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/misc-dev-files-project/</loc>
+    <loc>http://shital.com/p/misc-dev-files-project/</loc>
     <lastmod>2003-05-29T12:30:23+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/new-albums-from-my-favorite-artists-2003/</loc>
+    <loc>http://shital.com/p/new-albums-from-my-favorite-artists-2003/</loc>
     <lastmod>2003-05-02T04:50:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/total-lunar-eclipse-may-15-2003/</loc>
+    <loc>http://shital.com/p/total-lunar-eclipse-may-15-2003/</loc>
     <lastmod>2003-05-02T03:50:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/mercury-on-west-apr-2003/</loc>
+    <loc>http://shital.com/p/mercury-on-west-apr-2003/</loc>
     <lastmod>2003-04-22T16:17:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/new-york-shows-2003/</loc>
+    <loc>http://shital.com/p/new-york-shows-2003/</loc>
     <lastmod>2003-04-22T16:13:28+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/best-of-new-york-2003/</loc>
+    <loc>http://shital.com/p/best-of-new-york-2003/</loc>
     <lastmod>2003-03-17T07:42:16+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/picks-movies-concerts-and-art-mar-2003/</loc>
+    <loc>http://shital.com/p/picks-movies-concerts-and-art-mar-2003/</loc>
     <lastmod>2003-03-17T07:24:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/syfastpage-churn-out-those-web-sites-faster/</loc>
+    <loc>http://shital.com/p/syfastpage-churn-out-those-web-sites-faster/</loc>
     <lastmod>2003-03-03T19:15:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/my-new-photo-albums-mar-2003/</loc>
+    <loc>http://shital.com/p/my-new-photo-albums-mar-2003/</loc>
     <lastmod>2003-03-02T09:30:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/sunrise-in-new-york-city-photos/</loc>
+    <loc>http://shital.com/p/sunrise-in-new-york-city-photos/</loc>
     <lastmod>2003-03-01T00:00:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/autumn-fall-foliage-long-drives-2003-photos/</loc>
+    <loc>http://shital.com/p/autumn-fall-foliage-long-drives-2003-photos/</loc>
     <lastmod>2003-03-01T00:00:25+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/scenic-and-others-ii-2003-photos/</loc>
+    <loc>http://shital.com/p/scenic-and-others-ii-2003-photos/</loc>
     <lastmod>2003-03-01T00:00:21+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/exploring-the-undergrounds/</loc>
+    <loc>http://shital.com/p/exploring-the-undergrounds/</loc>
     <lastmod>2003-02-22T04:43:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/verrazano-bridge-photos/</loc>
+    <loc>http://shital.com/p/verrazano-bridge-photos/</loc>
     <lastmod>2003-02-01T00:00:59+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/story-reading-at-symphony-space-2003/</loc>
+    <loc>http://shital.com/p/story-reading-at-symphony-space-2003/</loc>
     <lastmod>2003-01-27T07:22:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/music-finds-7-ethnic-tracks-jan-2003/</loc>
+    <loc>http://shital.com/p/music-finds-7-ethnic-tracks-jan-2003/</loc>
     <lastmod>2003-01-27T07:13:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/moving-around-mumbai-jan-2003/</loc>
+    <loc>http://shital.com/p/moving-around-mumbai-jan-2003/</loc>
     <lastmod>2003-01-27T06:33:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/fly-high/</loc>
+    <loc>http://shital.com/p/unethics-of-cloning/</loc>
+    <lastmod>2003-01-21T06:05:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/fly-high/</loc>
     <lastmod>2002-12-31T00:00:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/five-good-books-on-microsoft-net-framework/</loc>
+    <loc>http://shital.com/p/lonely-places/</loc>
+    <lastmod>2002-12-31T00:00:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/why-vb-net-is-better-than-c/</loc>
+    <lastmod>2002-12-26T22:31:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/five-good-books-on-microsoft-net-framework/</loc>
     <lastmod>2002-12-26T20:05:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/sunsets-from-india-2002-photos/</loc>
+    <loc>http://shital.com/p/sunsets-from-india-2002-photos/</loc>
     <lastmod>2002-12-26T00:00:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/book-find-complications-by-atul-gowande/</loc>
+    <loc>http://shital.com/p/book-find-complications-by-atul-gowande/</loc>
     <lastmod>2002-12-16T07:33:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/the-better-giving-for-relatives-abroad-2002/</loc>
+    <loc>http://shital.com/p/the-better-giving-for-relatives-abroad-2002/</loc>
     <lastmod>2002-12-16T07:09:19+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/shooting-stars-getting-ready-to-fall-2002/</loc>
+    <loc>http://shital.com/p/surviving-the-thanksgivings-2002/</loc>
+    <lastmod>2002-11-27T08:29:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/look-whats-time-has-done/</loc>
+    <lastmod>2002-11-27T07:05:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/shooting-stars-getting-ready-to-fall-2002/</loc>
     <lastmod>2002-11-16T05:14:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/space-station-3d-starwars-epi-1/</loc>
+    <loc>http://shital.com/p/space-station-3d-starwars-epi-1/</loc>
     <lastmod>2002-11-14T04:54:25+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/how-to-get-to-sleep-faster/</loc>
+    <loc>http://shital.com/p/how-to-get-to-sleep-faster/</loc>
     <lastmod>2002-11-11T06:40:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/some-books-about-programmers-2002/</loc>
+    <loc>http://shital.com/p/some-books-about-programmers-2002/</loc>
     <lastmod>2002-11-10T18:54:04+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/new-music-finds-nov-2002/</loc>
+    <loc>http://shital.com/p/new-music-finds-nov-2002/</loc>
     <lastmod>2002-11-06T06:03:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/outdoor-clubs-on-east-coast-2002/</loc>
+    <loc>http://shital.com/p/alone-alone-all-the-way/</loc>
+    <lastmod>2002-11-05T07:39:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/outdoor-clubs-on-east-coast-2002/</loc>
     <lastmod>2002-11-01T20:39:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/hallowin-signout-2002/</loc>
+    <loc>http://shital.com/p/hallowin-signout-2002/</loc>
     <lastmod>2002-11-01T04:52:21+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/how-to-blog-on-blogger-com-2002/</loc>
+    <loc>http://shital.com/p/how-to-blog-on-blogger-com-2002/</loc>
     <lastmod>2002-11-01T04:34:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/autumn-fall-foliage-long-drives-2002/</loc>
+    <loc>http://shital.com/p/autumn-fall-foliage-long-drives-2002/</loc>
     <lastmod>2002-11-01T00:50:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/quicktionary-the-pen-with-dictionary-and-voice/</loc>
+    <loc>http://shital.com/p/quicktionary-the-pen-with-dictionary-and-voice/</loc>
     <lastmod>2002-11-01T00:26:10+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/gizmos-backup-drive-usb-tv-external-dolby-sound-card/</loc>
+    <loc>http://shital.com/p/gizmos-backup-drive-usb-tv-external-dolby-sound-card/</loc>
     <lastmod>2002-11-01T00:13:11+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/first-of-blog-how-to-carry-10000-cds-with-you/</loc>
+    <loc>http://shital.com/p/first-of-blog-how-to-carry-10000-cds-with-you/</loc>
     <lastmod>2002-10-31T23:51:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/scienic-and-others-2002-photos/</loc>
+    <loc>http://shital.com/p/scienic-and-others-2002-photos/</loc>
     <lastmod>2002-10-03T00:00:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/spring-blooms-2002-photos/</loc>
+    <loc>http://shital.com/p/spring-blooms-2002-photos/</loc>
     <lastmod>2002-10-03T00:00:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/cst-2002-photos/</loc>
+    <loc>http://shital.com/p/cst-2002-photos/</loc>
     <lastmod>2002-10-03T00:00:25+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/in-to-the-bloom/</loc>
+    <loc>http://shital.com/p/in-to-the-bloom/</loc>
     <lastmod>2002-10-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/sunset-at-lbi-2002-photos/</loc>
+    <loc>http://shital.com/p/sunset-at-lbi-2002-photos/</loc>
     <lastmod>2002-08-10T00:00:04+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/new-hampshire-foliage-2002-photos/</loc>
+    <loc>http://shital.com/p/new-hampshire-foliage-2002-photos/</loc>
     <lastmod>2002-07-20T00:00:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/london-2002-photos/</loc>
+    <loc>http://shital.com/p/london-2002-photos/</loc>
     <lastmod>2002-07-20T00:00:14+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/wizaddin-test-program-dev-manual-beta-version/</loc>
+    <loc>http://shital.com/p/wizaddin-test-program-dev-manual-beta-version/</loc>
     <lastmod>2002-07-18T15:00:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/boston-4th-of-july-2002-photos/</loc>
+    <loc>http://shital.com/p/boston-4th-of-july-2002-photos/</loc>
     <lastmod>2002-07-04T00:00:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/harriman-state-park-southern-region-2002-photos/</loc>
+    <loc>http://shital.com/p/harriman-state-park-southern-region-2002-photos/</loc>
     <lastmod>2002-07-02T00:00:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/garmin-emap-gps-system/</loc>
+    <loc>http://shital.com/p/garmin-emap-gps-system/</loc>
     <lastmod>2002-06-25T21:35:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/favorite-links-in-zip-file-2002/</loc>
+    <loc>http://shital.com/p/favorite-links-in-zip-file-2002/</loc>
     <lastmod>2002-06-25T11:35:28+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/memorex-personal-cdmp3-player-mpd8505cp/</loc>
+    <loc>http://shital.com/p/memorex-personal-cdmp3-player-mpd8505cp/</loc>
     <lastmod>2002-06-25T09:35:11+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/wiz-addin-add-line-numbers-error-handlers-fix-mru/</loc>
+    <loc>http://shital.com/p/wiz-addin-add-line-numbers-error-handlers-fix-mru/</loc>
     <lastmod>2002-01-14T11:29:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/source-code-for-shitalshah-com-v3/</loc>
+    <loc>http://shital.com/p/source-code-for-shitalshah-com-v3/</loc>
     <lastmod>2002-01-01T00:00:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/behind-the-notes/</loc>
+    <loc>http://shital.com/p/behind-the-notes/</loc>
     <lastmod>2001-12-31T00:00:39+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/outlook-quote/</loc>
+    <loc>http://shital.com/p/outlook-quote/</loc>
     <lastmod>2001-11-29T10:06:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/diffanalyzer-see-the-differences-between-branched-sourcesafe-projects/</loc>
+    <loc>http://shital.com/p/diffanalyzer-see-the-differences-between-branched-sourcesafe-projects/</loc>
     <lastmod>2001-11-19T13:24:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/fix-mscom-ocx-class-ids-in-vb-projects/</loc>
+    <loc>http://shital.com/p/think-ai/</loc>
+    <lastmod>2001-10-17T11:06:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p/fix-mscom-ocx-class-ids-in-vb-projects/</loc>
     <lastmod>2000-03-04T16:13:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/how-to-read-music-reading-music-made-simple/</loc>
+    <loc>http://shital.com/p/how-to-read-music-reading-music-made-simple/</loc>
     <lastmod>2000-01-01T00:00:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/cheltenham-uk-1999-photos/</loc>
+    <loc>http://shital.com/p/cheltenham-uk-1999-photos/</loc>
     <lastmod>1999-12-25T00:00:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/sorten-your-file-names-before-cd-writing/</loc>
+    <loc>http://shital.com/p/sorten-your-file-names-before-cd-writing/</loc>
     <lastmod>1999-12-24T17:22:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/snow-at-cheltenham-uk-1999-photos/</loc>
+    <loc>http://shital.com/p/snow-at-cheltenham-uk-1999-photos/</loc>
     <lastmod>1999-12-19T00:00:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/pittvile-park-1999-photos/</loc>
+    <loc>http://shital.com/p/pittvile-park-1999-photos/</loc>
     <lastmod>1999-12-05T00:00:29+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/one-wet-day-cheltenham-photos-1999-photos/</loc>
+    <loc>http://shital.com/p/one-wet-day-cheltenham-photos-1999-photos/</loc>
     <lastmod>1999-12-05T00:00:04+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/refcontroller-vb-add-in-to-automatically-correct-references/</loc>
+    <loc>http://shital.com/p/refcontroller-vb-add-in-to-automatically-correct-references/</loc>
     <lastmod>1999-10-15T12:51:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/scriptgen-generate-insert-scripts-for-ms-sql-server-data/</loc>
+    <loc>http://shital.com/p/scriptgen-generate-insert-scripts-for-ms-sql-server-data/</loc>
     <lastmod>1999-09-13T07:34:21+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/brighton-uk-1999-photos/</loc>
+    <loc>http://shital.com/p/brighton-uk-1999-photos/</loc>
     <lastmod>1999-09-13T00:00:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/messanger-send-windows-nt-messages-to-users/</loc>
+    <loc>http://shital.com/p/messanger-send-windows-nt-messages-to-users/</loc>
     <lastmod>1999-08-19T12:24:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/relations-between-your-vb-components/</loc>
+    <loc>http://shital.com/p/relations-between-your-vb-components/</loc>
     <lastmod>1999-08-10T07:50:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/text-in-file-search-all-terms/</loc>
+    <loc>http://shital.com/p/text-in-file-search-all-terms/</loc>
     <lastmod>1999-06-17T20:58:24+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/visual-music-play-128-musical-instruments/</loc>
+    <loc>http://shital.com/p/visual-music-play-128-musical-instruments/</loc>
     <lastmod>1999-06-07T22:01:19+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/planet-source-code-downloader/</loc>
+    <loc>http://shital.com/p/planet-source-code-downloader/</loc>
     <lastmod>1999-03-12T17:28:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/rea2-take-the-control/</loc>
+    <loc>http://shital.com/p/rea2-take-the-control/</loc>
     <lastmod>1998-07-03T16:59:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/auto-actuals-0-9-beta-track-your-time/</loc>
+    <loc>http://shital.com/p/auto-actuals-0-9-beta-track-your-time/</loc>
     <lastmod>1998-06-14T13:32:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/porttalk-talk-to-tcpip-servers/</loc>
+    <loc>http://shital.com/p/porttalk-talk-to-tcpip-servers/</loc>
     <lastmod>1998-05-25T15:39:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/p/15-programmers-tools-and-utilities/</loc>
+    <loc>http://shital.com/p/15-programmers-tools-and-utilities/</loc>
     <lastmod>1990-01-01T00:00:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/authors/admin/</loc>
+    <loc>http://shital.com/p1492/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/authors/</loc>
+    <loc>http://shital.com/p1492/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/publication_types/</loc>
+    <loc>http://shital.com/p1452/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/publication/</loc>
+    <loc>http://shital.com/p1452/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/talk/</loc>
+    <loc>http://shital.com/p1474/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://shitalshah.com/tags/</loc>
+    <loc>http://shital.com/p1474/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p1403/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p1403/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p1589/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/post/2017-05-09-mechanics_of_b_club/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p1484/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p1484/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p1533/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p1533/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p1469/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p1469/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p1477/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p1477/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p1489/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/p1489/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/post/2020-08-26-webcam-attributes/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/authors/</loc>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/publication/</loc>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>http://shital.com/tags/</loc>
   </url>
   
 </urlset>
