@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Physics | Shital Shah</title>
+    <link>http://shital.com/category/physics/</link>
+      <atom:link href="http://shital.com/category/physics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Physics</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Sat, 14 Feb 2009 08:02:00 +0000</lastBuildDate>
+    <image>
+      <url>http://shital.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Physics</title>
+      <link>http://shital.com/category/physics/</link>
+    </image>
+    
+    <item>
+      <title>Treadmill Grade to Angle Conversion</title>
+      <link>http://shital.com/p/treadmill-grade-to-angle-conversion/</link>
+      <pubDate>Sat, 14 Feb 2009 08:02:00 +0000</pubDate>
+      <guid>http://shital.com/p/treadmill-grade-to-angle-conversion/</guid>
+      <description>&lt;p&gt;Gym machines like treadmills and even some roads express the slop as &amp;ldquo;grade&amp;rdquo; in percentage. For example, most gym treadmills allow up to 15% grade. I&amp;rsquo;ve left going to gym since last few months and instead I&amp;rsquo;m doing this Snoqualmie Falls hike almost every other day (which is 0.5 miles one way and 300ft elevation). But occasionally I have to go to gym because of early sunsets. I usually put max grade (15%) and speed walk for one mile burning 350 cal. So naturally the question is how many feet I climbed?&lt;/p&gt;
+&lt;p&gt;For this I need to convert grade in % to angle. But what is &amp;ldquo;grade%&amp;rdquo;? Turns out it&amp;rsquo;s ration of rise/run or in other words,&lt;/p&gt;
+
+
+
+$$
+grade=\frac{tan(\theta)}{100}
+$$
+
+&lt;p&gt;So your vertical climb in feet is given by,&lt;/p&gt;
+
+
+
+$$
+\sin(\tan^{-1}(grade*100))*5280 miles
+$$
+
+&lt;p&gt;So by that calculation, at maximum grade on gym treadmill I climb 783.2 feet for each mile I walk. Not too bad.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Via conversation &lt;a href=&#34;http://forum.onlineconversion.com/showthread.php?t=7377&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

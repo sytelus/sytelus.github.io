@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: http://shital.com/sitemap.xml
