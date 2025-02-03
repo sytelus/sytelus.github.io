@@ -2,115 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome! :tada: on Shital Shah&#39;s Chain of Thought</title>
-    <link>http://shital.com/</link>
+    <link>https://shital.com/</link>
     <description>Recent content in Welcome! :tada: on Shital Shah&#39;s Chain of Thought</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 26 Feb 2017 09:16:43 +0000</lastBuildDate>
-    <atom:link href="http://shital.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://shital.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Workflow: Branch - Rebase - Squash - Merge</title>
-      <link>http://shital.com/blog/git-workflow-branch-rebase-squash-merge/</link>
+      <link>https://shital.com/blog/git-workflow-branch-rebase-squash-merge/</link>
       <pubDate>Sun, 26 Feb 2017 09:16:43 +0000</pubDate>
-      <guid>http://shital.com/blog/git-workflow-branch-rebase-squash-merge/</guid>
+      <guid>https://shital.com/blog/git-workflow-branch-rebase-squash-merge/</guid>
       <description></description>
     </item>
     <item>
       <title>Playing with HoloLens</title>
-      <link>http://shital.com/blog/playing-with-hololens/</link>
+      <link>https://shital.com/blog/playing-with-hololens/</link>
       <pubDate>Sat, 24 Dec 2016 00:15:13 +0000</pubDate>
-      <guid>http://shital.com/blog/playing-with-hololens/</guid>
+      <guid>https://shital.com/blog/playing-with-hololens/</guid>
       <description></description>
     </item>
     <item>
       <title>Writing Generic Container Functions in C&#43;&#43;11</title>
-      <link>http://shital.com/blog/writing-generic-container-function-in-c11/</link>
+      <link>https://shital.com/blog/writing-generic-container-function-in-c11/</link>
       <pubDate>Sun, 05 Jun 2016 09:24:38 +0000</pubDate>
-      <guid>http://shital.com/blog/writing-generic-container-function-in-c11/</guid>
+      <guid>https://shital.com/blog/writing-generic-container-function-in-c11/</guid>
       <description></description>
     </item>
     <item>
       <title>How to Enable and Use GCC Strict Mode Compilation</title>
-      <link>http://shital.com/blog/how-to-enable-and-use-gcc-strict-mode-compilation/</link>
+      <link>https://shital.com/blog/how-to-enable-and-use-gcc-strict-mode-compilation/</link>
       <pubDate>Tue, 24 May 2016 01:19:51 +0000</pubDate>
-      <guid>http://shital.com/blog/how-to-enable-and-use-gcc-strict-mode-compilation/</guid>
+      <guid>https://shital.com/blog/how-to-enable-and-use-gcc-strict-mode-compilation/</guid>
       <description></description>
     </item>
     <item>
       <title>Viewing Venus Transit in Seattle Area</title>
-      <link>http://shital.com/blog/viewing-venus-transit-in-seattle-area/</link>
+      <link>https://shital.com/blog/viewing-venus-transit-in-seattle-area/</link>
       <pubDate>Mon, 04 Jun 2012 23:05:54 +0000</pubDate>
-      <guid>http://shital.com/blog/viewing-venus-transit-in-seattle-area/</guid>
+      <guid>https://shital.com/blog/viewing-venus-transit-in-seattle-area/</guid>
       <description></description>
     </item>
     <item>
       <title>Groups, Places and Collectives for Makers in Seattle Area</title>
-      <link>http://shital.com/blog/groups-places-and-collectives-for-makers-in-seattle-area/</link>
+      <link>https://shital.com/blog/groups-places-and-collectives-for-makers-in-seattle-area/</link>
       <pubDate>Mon, 04 Jun 2012 07:14:46 +0000</pubDate>
-      <guid>http://shital.com/blog/groups-places-and-collectives-for-makers-in-seattle-area/</guid>
+      <guid>https://shital.com/blog/groups-places-and-collectives-for-makers-in-seattle-area/</guid>
       <description></description>
     </item>
     <item>
       <title>Burning Man Tips for the First Timers</title>
-      <link>http://shital.com/blog/burning-man-tips-for-the-first-timers/</link>
+      <link>https://shital.com/blog/burning-man-tips-for-the-first-timers/</link>
       <pubDate>Thu, 26 Aug 2010 23:46:07 +0000</pubDate>
-      <guid>http://shital.com/blog/burning-man-tips-for-the-first-timers/</guid>
+      <guid>https://shital.com/blog/burning-man-tips-for-the-first-timers/</guid>
       <description></description>
     </item>
     <item>
       <title>Mountain Weather in Washington</title>
-      <link>http://shital.com/blog/mountain-weather-in-washington/</link>
+      <link>https://shital.com/blog/mountain-weather-in-washington/</link>
       <pubDate>Thu, 26 Aug 2010 06:40:00 +0000</pubDate>
-      <guid>http://shital.com/blog/mountain-weather-in-washington/</guid>
+      <guid>https://shital.com/blog/mountain-weather-in-washington/</guid>
       <description></description>
     </item>
     <item>
       <title>A Day in SQL Tuning</title>
-      <link>http://shital.com/blog/a-day-in-sql-tuning/</link>
+      <link>https://shital.com/blog/a-day-in-sql-tuning/</link>
       <pubDate>Wed, 27 Jan 2010 09:11:27 +0000</pubDate>
-      <guid>http://shital.com/blog/a-day-in-sql-tuning/</guid>
+      <guid>https://shital.com/blog/a-day-in-sql-tuning/</guid>
       <description></description>
     </item>
     <item>
       <title>Treadmill Grade to Angle Conversion</title>
-      <link>http://shital.com/blog/treadmill-grade-to-angle-conversion/</link>
+      <link>https://shital.com/blog/treadmill-grade-to-angle-conversion/</link>
       <pubDate>Sat, 14 Feb 2009 08:02:00 +0000</pubDate>
-      <guid>http://shital.com/blog/treadmill-grade-to-angle-conversion/</guid>
+      <guid>https://shital.com/blog/treadmill-grade-to-angle-conversion/</guid>
       <description></description>
     </item>
     <item>
       <title>What is the best time to hike Zion Narrows?</title>
-      <link>http://shital.com/blog/what-is-the-best-time-to-hike-zion-narrows/</link>
+      <link>https://shital.com/blog/what-is-the-best-time-to-hike-zion-narrows/</link>
       <pubDate>Fri, 23 Jan 2009 12:14:00 +0000</pubDate>
-      <guid>http://shital.com/blog/what-is-the-best-time-to-hike-zion-narrows/</guid>
+      <guid>https://shital.com/blog/what-is-the-best-time-to-hike-zion-narrows/</guid>
       <description></description>
     </item>
     <item>
       <title>Mount Si - Take #2</title>
-      <link>http://shital.com/blog/mount-si-take-2/</link>
+      <link>https://shital.com/blog/mount-si-take-2/</link>
       <pubDate>Mon, 05 Jan 2009 02:22:00 +0000</pubDate>
-      <guid>http://shital.com/blog/mount-si-take-2/</guid>
+      <guid>https://shital.com/blog/mount-si-take-2/</guid>
       <description></description>
     </item>
     <item>
       <title>The ACM Turing Programming Contest Problem Set Archive</title>
-      <link>http://shital.com/blog/the-acm-turing-programming-contest-problem-set-archive/</link>
+      <link>https://shital.com/blog/the-acm-turing-programming-contest-problem-set-archive/</link>
       <pubDate>Thu, 13 Apr 2006 03:32:00 +0000</pubDate>
-      <guid>http://shital.com/blog/the-acm-turing-programming-contest-problem-set-archive/</guid>
+      <guid>https://shital.com/blog/the-acm-turing-programming-contest-problem-set-archive/</guid>
       <description></description>
     </item>
     <item>
       <title>Earth: The Largest Neural Model</title>
-      <link>http://shital.com/blog/earth-the-largest-neural-model/</link>
+      <link>https://shital.com/blog/earth-the-largest-neural-model/</link>
       <pubDate>Fri, 30 Sep 2005 15:59:00 +0000</pubDate>
-      <guid>http://shital.com/blog/earth-the-largest-neural-model/</guid>
+      <guid>https://shital.com/blog/earth-the-largest-neural-model/</guid>
       <description></description>
     </item>
     <item>
       <title>About</title>
-      <link>http://shital.com/misc/about/</link>
+      <link>https://shital.com/misc/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://shital.com/misc/about/</guid>
+      <guid>https://shital.com/misc/about/</guid>
       <description></description>
     </item>
   </channel>
