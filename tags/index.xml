@@ -1,16 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags | Shital Shah</title>
-    <link>http://shital.com/tags/</link>
-      <atom:link href="http://shital.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <description>Tags</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>http://shital.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Tags</title>
-      <link>http://shital.com/tags/</link>
-    </image>
-    
+    <title>Tags on Shital Shah&#39;s Chain of Thought</title>
+    <link>https://shital.com/tags/</link>
+    <description>Recent content in Tags on Shital Shah&#39;s Chain of Thought</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Feb 2017 09:16:43 +0000</lastBuildDate>
+    <atom:link href="https://shital.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developers</title>
+      <link>https://shital.com/tags/developers/</link>
+      <pubDate>Sun, 26 Feb 2017 09:16:43 +0000</pubDate>
+      <guid>https://shital.com/tags/developers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gadgets</title>
+      <link>https://shital.com/tags/gadgets/</link>
+      <pubDate>Sat, 24 Dec 2016 00:15:13 +0000</pubDate>
+      <guid>https://shital.com/tags/gadgets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Uncategorized</title>
+      <link>https://shital.com/tags/uncategorized/</link>
+      <pubDate>Sun, 05 Jun 2016 09:24:38 +0000</pubDate>
+      <guid>https://shital.com/tags/uncategorized/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Astronomy</title>
+      <link>https://shital.com/tags/astronomy/</link>
+      <pubDate>Mon, 04 Jun 2012 23:05:54 +0000</pubDate>
+      <guid>https://shital.com/tags/astronomy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geekery</title>
+      <link>https://shital.com/tags/geekery/</link>
+      <pubDate>Mon, 04 Jun 2012 07:14:46 +0000</pubDate>
+      <guid>https://shital.com/tags/geekery/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Events</title>
+      <link>https://shital.com/tags/events/</link>
+      <pubDate>Thu, 26 Aug 2010 23:46:07 +0000</pubDate>
+      <guid>https://shital.com/tags/events/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Outside</title>
+      <link>https://shital.com/tags/outside/</link>
+      <pubDate>Thu, 26 Aug 2010 23:46:07 +0000</pubDate>
+      <guid>https://shital.com/tags/outside/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Physics</title>
+      <link>https://shital.com/tags/physics/</link>
+      <pubDate>Sat, 14 Feb 2009 08:02:00 +0000</pubDate>
+      <guid>https://shital.com/tags/physics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>https://shital.com/tags/machine-learning/</link>
+      <pubDate>Fri, 30 Sep 2005 15:59:00 +0000</pubDate>
+      <guid>https://shital.com/tags/machine-learning/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

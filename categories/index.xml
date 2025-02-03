@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories | Shital Shah</title>
-    <link>http://shital.com/categories/</link>
-      <atom:link href="http://shital.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    <description>Categories</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>(C) Shital Shah. All rights reserved.</copyright><lastBuildDate>Sun, 26 Feb 2017 09:16:43 +0000</lastBuildDate>
-    <image>
-      <url>http://shital.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Categories</title>
-      <link>http://shital.com/categories/</link>
-    </image>
-    
+    <title>Categories on Shital Shah&#39;s Chain of Thought</title>
+    <link>https://shital.com/categories/</link>
+    <description>Recent content in Categories on Shital Shah&#39;s Chain of Thought</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://shital.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

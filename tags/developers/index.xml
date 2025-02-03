@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Developers on Shital Shah&#39;s Chain of Thought</title>
+    <link>https://shital.com/tags/developers/</link>
+    <description>Recent content in Developers on Shital Shah&#39;s Chain of Thought</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Feb 2017 09:16:43 +0000</lastBuildDate>
+    <atom:link href="https://shital.com/tags/developers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Workflow: Branch - Rebase - Squash - Merge</title>
+      <link>https://shital.com/blog/git-workflow-branch-rebase-squash-merge/</link>
+      <pubDate>Sun, 26 Feb 2017 09:16:43 +0000</pubDate>
+      <guid>https://shital.com/blog/git-workflow-branch-rebase-squash-merge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How to Enable and Use GCC Strict Mode Compilation</title>
+      <link>https://shital.com/blog/how-to-enable-and-use-gcc-strict-mode-compilation/</link>
+      <pubDate>Tue, 24 May 2016 01:19:51 +0000</pubDate>
+      <guid>https://shital.com/blog/how-to-enable-and-use-gcc-strict-mode-compilation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A Day in SQL Tuning</title>
+      <link>https://shital.com/blog/a-day-in-sql-tuning/</link>
+      <pubDate>Wed, 27 Jan 2010 09:11:27 +0000</pubDate>
+      <guid>https://shital.com/blog/a-day-in-sql-tuning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The ACM Turing Programming Contest Problem Set Archive</title>
+      <link>https://shital.com/blog/the-acm-turing-programming-contest-problem-set-archive/</link>
+      <pubDate>Thu, 13 Apr 2006 03:32:00 +0000</pubDate>
+      <guid>https://shital.com/blog/the-acm-turing-programming-contest-problem-set-archive/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
