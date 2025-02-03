@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine Learning on Shital Shah&#39;s Chain of Thought</title>
-    <link>https://shital.com/tags/machine-learning/</link>
+    <link>http://shital.com/tags/machine-learning/</link>
     <description>Recent content in Machine Learning on Shital Shah&#39;s Chain of Thought</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 30 Sep 2005 15:59:00 +0000</lastBuildDate>
-    <atom:link href="https://shital.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://shital.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Earth: The Largest Neural Model</title>
-      <link>https://shital.com/blog/earth-the-largest-neural-model/</link>
+      <link>http://shital.com/blog/earth-the-largest-neural-model/</link>
       <pubDate>Fri, 30 Sep 2005 15:59:00 +0000</pubDate>
-      <guid>https://shital.com/blog/earth-the-largest-neural-model/</guid>
+      <guid>http://shital.com/blog/earth-the-largest-neural-model/</guid>
       <description></description>
     </item>
   </channel>
