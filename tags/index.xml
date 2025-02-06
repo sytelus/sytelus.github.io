@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Shital Shah &amp;#x1F16D; CC BY-NC-SA</copyright>
-    <lastBuildDate>Sun, 26 Feb 2017 09:16:43 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2025 10:36:40 +0000</lastBuildDate>
     <atom:link href="https://shital.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tweets</title>
+      <link>https://shital.com/tags/tweets/</link>
+      <pubDate>Sat, 01 Feb 2025 10:36:40 +0000</pubDate>
+      <guid>https://shital.com/tags/tweets/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Developers</title>
       <link>https://shital.com/tags/developers/</link>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tweets on Shital Shah&#39;s Chain of Thought</title>
+    <link>https://shital.com/blog/tweets/</link>
+    <description>Recent content in Tweets on Shital Shah&#39;s Chain of Thought</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Shital Shah &amp;#x1F16D; CC BY-NC-SA</copyright>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://shital.com/blog/tweets/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
