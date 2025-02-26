@@ -59,133 +59,35 @@
       <description></description>
     </item>
     <item>
-      <title>Entropy Envy: ML Researchers Eye Physics Nobel</title>
-      <link>https://shital.com/blog/tweets/post/202410090134-entropy-envy-ml-nobel/</link>
-      <pubDate>Wed, 09 Oct 2024 01:34:02 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202410090134-entropy-envy-ml-nobel/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>The AI That Swallowed a Galaxy Cluster to Absorb Entropy</title>
-      <link>https://shital.com/blog/tweets/post/202410081421-ai-swallowed-galaxy-cluster/</link>
-      <pubDate>Tue, 08 Oct 2024 14:21:30 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202410081421-ai-swallowed-galaxy-cluster/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Encoder-Only Models: Expressive but Attention-Hungry</title>
-      <link>https://shital.com/blog/tweets/post/202410051539-encoder-only-models-expressive-attention-hungry/</link>
-      <pubDate>Sat, 05 Oct 2024 15:39:00 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202410051539-encoder-only-models-expressive-attention-hungry/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>The Transformer Paradox: Overtrained but Not Overfit</title>
-      <link>https://shital.com/blog/tweets/post/202410040457-transformer-paradox-overtrained-not-overfit/</link>
-      <pubDate>Fri, 04 Oct 2024 04:57:26 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202410040457-transformer-paradox-overtrained-not-overfit/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI Upgrade: 97% Accurate, Doctors 100% Confused</title>
-      <link>https://shital.com/blog/tweets/post/202410031156-ai-upgrade-doctors-confused/</link>
-      <pubDate>Thu, 03 Oct 2024 11:56:19 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202410031156-ai-upgrade-doctors-confused/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mini Model, Major Proof: o1-mini Solves It</title>
-      <link>https://shital.com/blog/tweets/post/202410031142-o1-mini-solves-proof/</link>
-      <pubDate>Thu, 03 Oct 2024 11:42:07 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202410031142-o1-mini-solves-proof/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Oversized Model, Undersized Vocab</title>
+      <title>Vocab Scaling</title>
       <link>https://shital.com/blog/tweets/post/202410011628-oversized-model-undersized-vocab/</link>
       <pubDate>Tue, 01 Oct 2024 16:28:40 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/post/202410011628-oversized-model-undersized-vocab/</guid>
       <description></description>
     </item>
     <item>
-      <title>Shh... Let&#39;s Keep AI Our Little Secret</title>
-      <link>https://shital.com/blog/tweets/post/202409301023-keep-ai-secret/</link>
-      <pubDate>Mon, 30 Sep 2024 10:23:59 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202409301023-keep-ai-secret/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>VR and AI: Great Minds Tech Alike</title>
-      <link>https://shital.com/blog/tweets/post/202409261309-vr-and-ai-great-minds/</link>
-      <pubDate>Thu, 26 Sep 2024 13:09:44 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202409261309-vr-and-ai-great-minds/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Reinforcement Learning Strikes Back</title>
-      <link>https://shital.com/blog/tweets/post/202409200007-reinforcement-learning-strikes-back/</link>
-      <pubDate>Fri, 20 Sep 2024 00:07:13 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202409200007-reinforcement-learning-strikes-back/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>OpenAI&#39;s o1 Outshines GPT-4o in Length and Coherence</title>
+      <title>Notes from OpenAI&#39;s o1 Developers AMA</title>
       <link>https://shital.com/blog/tweets/post/202409160439-openai-o1-outshines-gpt4o/</link>
       <pubDate>Mon, 16 Sep 2024 04:39:49 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/post/202409160439-openai-o1-outshines-gpt4o/</guid>
       <description></description>
     </item>
     <item>
-      <title>Terence Tao Grades AI: From Incompetent to Mediocre</title>
+      <title>Terence Tao Grades o1</title>
       <link>https://shital.com/blog/tweets/post/202409140853-terence-tao-ai-grading/</link>
       <pubDate>Sat, 14 Sep 2024 08:53:49 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/post/202409140853-terence-tao-ai-grading/</guid>
       <description></description>
     </item>
     <item>
-      <title>From Zero to Hero: ChatGPT o1 Scores 80%!</title>
-      <link>https://shital.com/blog/tweets/post/202409130504-from-zero-to-hero-chatgpt-o1/</link>
-      <pubDate>Fri, 13 Sep 2024 05:04:59 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202409130504-from-zero-to-hero-chatgpt-o1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Full Stack Overflow: Why AI Code Generators Aren&#39;t There Yet</title>
-      <link>https://shital.com/blog/tweets/post/202409111250-full-stack-overflow-ai-code/</link>
-      <pubDate>Wed, 11 Sep 2024 12:50:34 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202409111250-full-stack-overflow-ai-code/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>The &#39;Slop&#39; of the Line: Pre-Training Divided by Post-Training</title>
-      <link>https://shital.com/blog/tweets/post/202408300428-the-slop-of-the-line/</link>
-      <pubDate>Fri, 30 Aug 2024 04:28:44 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202408300428-the-slop-of-the-line/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI Flunks SimpleBench, Teens Triumph</title>
-      <link>https://shital.com/blog/tweets/post/202408272010-ai-flunks-simplebench-teens-triumph/</link>
-      <pubDate>Tue, 27 Aug 2024 20:10:58 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202408272010-ai-flunks-simplebench-teens-triumph/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>When 100X Larger Models Aren&#39;t Enough</title>
+      <title>Inference Scaling</title>
       <link>https://shital.com/blog/tweets/post/202408020413-100x-larger-models-not-enough/</link>
       <pubDate>Fri, 02 Aug 2024 04:13:08 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/post/202408020413-100x-larger-models-not-enough/</guid>
       <description></description>
     </item>
     <item>
-      <title>Twice the FLOPs, Half the Sense: The 405B Dense Model</title>
-      <link>https://shital.com/blog/tweets/post/202407241518-twice-flops-half-sense-405b-dense/</link>
-      <pubDate>Wed, 24 Jul 2024 15:18:29 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202407241518-twice-flops-half-sense-405b-dense/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>LLM Judges Prefer Fluff—Just Like Humans!</title>
+      <title>LLM Judges Prefers Fluff?</title>
       <link>https://shital.com/blog/tweets/post/202407200414-llm-judges-prefer-fluff-just-like-humans/</link>
       <pubDate>Sat, 20 Jul 2024 04:14:49 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/post/202407200414-llm-judges-prefer-fluff-just-like-humans/</guid>
