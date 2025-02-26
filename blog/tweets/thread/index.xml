@@ -7,17 +7,10 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Shital Shah &amp;#x1F16D; CC BY-NC-SA</copyright>
-    <lastBuildDate>Wed, 15 Jan 2025 02:48:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2025 23:32:21 +0000</lastBuildDate>
     <atom:link href="https://shital.com/blog/tweets/thread/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AutoGen Unleashed: Microsoft Supercharges Agentic Framework</title>
-      <link>https://shital.com/blog/tweets/thread/202501150248-autogen-unleashed/</link>
-      <pubDate>Wed, 15 Jan 2025 02:48:45 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/thread/202501150248-autogen-unleashed/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Phi-4 Goes Official: No More Bootlegs!</title>
+      <title>Phi-4 Now On HuggingFace with MIT Licence!</title>
       <link>https://shital.com/blog/tweets/thread/202501082332-phi-4-official-release/</link>
       <pubDate>Wed, 08 Jan 2025 23:32:21 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/thread/202501082332-phi-4-official-release/</guid>
@@ -45,14 +38,14 @@
       <description></description>
     </item>
     <item>
-      <title>Erdős has A Great Benchmark for ASI</title>
+      <title>Erdős Open Problems as ASI Benchmark</title>
       <link>https://shital.com/blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/</link>
       <pubDate>Fri, 29 Nov 2024 10:40:57 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/</guid>
       <description></description>
     </item>
     <item>
-      <title>Transformer Weak Links: Tokenization and Decoding</title>
+      <title>Tokenization and Decoding</title>
       <link>https://shital.com/blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/</link>
       <pubDate>Thu, 21 Nov 2024 20:10:22 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/</guid>
@@ -66,7 +59,7 @@
       <description></description>
     </item>
     <item>
-      <title>OpenCoder Uses 3X Less Data</title>
+      <title>OpenCoder</title>
       <link>https://shital.com/blog/tweets/thread/202411110738-opencoder-outsmarts-stackv2/</link>
       <pubDate>Mon, 11 Nov 2024 07:38:36 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/thread/202411110738-opencoder-outsmarts-stackv2/</guid>
