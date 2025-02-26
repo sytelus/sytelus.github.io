@@ -241,7 +241,7 @@
       <description></description>
     </item>
     <item>
-      <title>ENIAC</title>
+      <title>Marvels of ENIAC</title>
       <link>https://shital.com/blog/tweets/thread/202404151959-eniac-tubular-triumph/</link>
       <pubDate>Mon, 15 Apr 2024 19:59:24 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/thread/202404151959-eniac-tubular-triumph/</guid>
@@ -290,13 +290,6 @@
       <description></description>
     </item>
     <item>
-      <title>Big Grok, Small Gains: Grok-1 Code Release Underwhelms</title>
-      <link>https://shital.com/blog/tweets/post/202403180318-big-grok-small-gains/</link>
-      <pubDate>Mon, 18 Mar 2024 03:18:22 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202403180318-big-grok-small-gains/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>When Machines Clock In, Scarcity Clocks Out</title>
       <link>https://shital.com/blog/tweets/post/202403170650-machines-clock-in-scarcity-out/</link>
       <pubDate>Sun, 17 Mar 2024 06:50:23 +0000</pubDate>
@@ -304,94 +297,38 @@
       <description></description>
     </item>
     <item>
-      <title>Phased and Confused: Devin&#39;s Video Sparks Technical Thoughts</title>
-      <link>https://shital.com/blog/tweets/thread/202403141818-phased-and-confused-devin-video/</link>
-      <pubDate>Thu, 14 Mar 2024 18:18:40 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/thread/202403141818-phased-and-confused-devin-video/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>RAG vs Long Context: Who Remembers Better?</title>
-      <link>https://shital.com/blog/tweets/post/202403110631-rag-vs-long-context/</link>
-      <pubDate>Mon, 11 Mar 2024 06:31:37 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202403110631-rag-vs-long-context/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GPT-4V Turns Screenshots into Better Websites</title>
-      <link>https://shital.com/blog/tweets/post/202403081118-gpt4v-better-html/</link>
-      <pubDate>Fri, 08 Mar 2024 11:18:10 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202403081118-gpt4v-better-html/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Minor Tweaks, Major Leaps: Glimpsing Frontier Models</title>
-      <link>https://shital.com/blog/tweets/thread/202403060013-minor-tweaks-major-leaps/</link>
-      <pubDate>Wed, 06 Mar 2024 00:13:13 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/thread/202403060013-minor-tweaks-major-leaps/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Challenging Claude 3: Extinct Codes, Maps, and Puzzles</title>
-      <link>https://shital.com/blog/tweets/thread/202403051104-challenging-claude3/</link>
-      <pubDate>Tue, 05 Mar 2024 11:04:13 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/thread/202403051104-challenging-claude3/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>A Lifetime in 1T Tokens: AI&#39;s Human Experience</title>
+      <title>A Lifetime in 1T Tokens</title>
       <link>https://shital.com/blog/tweets/post/202402221235-lifetime-in-1t-tokens/</link>
       <pubDate>Thu, 22 Feb 2024 12:35:39 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/post/202402221235-lifetime-in-1t-tokens/</guid>
       <description></description>
     </item>
     <item>
-      <title>Byte Feeding Frenzy: Spiky Training with Token Overdose</title>
-      <link>https://shital.com/blog/tweets/post/202402161554-byte-feeding-frenzy/</link>
-      <pubDate>Fri, 16 Feb 2024 15:54:39 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202402161554-byte-feeding-frenzy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>When Random Sampling Packs a Punch: The Balls-in-Bins Problem</title>
+      <title>Power of Two Choices</title>
       <link>https://shital.com/blog/tweets/thread/202402081658-balls-in-bins-problem/</link>
       <pubDate>Thu, 08 Feb 2024 16:58:00 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/thread/202402081658-balls-in-bins-problem/</guid>
       <description></description>
     </item>
     <item>
-      <title>PyTorch Gold Rush: Unearthing Distributed Debugging Tips</title>
+      <title>PyTorch Distributed Debugging Tips</title>
       <link>https://shital.com/blog/tweets/post/202401221918-pytorch-gold-rush-debugging-tips/</link>
       <pubDate>Mon, 22 Jan 2024 19:18:53 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/post/202401221918-pytorch-gold-rush-debugging-tips/</guid>
       <description></description>
     </item>
     <item>
-      <title>Paperception: Unveiling Post-Hoc EMA Tuning</title>
+      <title>EMA Tuning</title>
       <link>https://shital.com/blog/tweets/post/202401192120-paperception-post-hoc-ema-tuning/</link>
       <pubDate>Fri, 19 Jan 2024 21:20:35 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/post/202401192120-paperception-post-hoc-ema-tuning/</guid>
       <description></description>
     </item>
     <item>
-      <title>Phixtral Fusion: Phi-2 and Pre-trained Experts Smash the Leaderboard</title>
+      <title>Phixtral Fusion</title>
       <link>https://shital.com/blog/tweets/thread/202401151722-phixtral-fusion/</link>
       <pubDate>Mon, 15 Jan 2024 17:22:19 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/thread/202401151722-phixtral-fusion/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Searching &#39;I Cannot Fulfill&#39; Opens AI Spam Floodgates</title>
-      <link>https://shital.com/blog/tweets/post/202401141835-ai_spam_i_cannot_fulfill/</link>
-      <pubDate>Sun, 14 Jan 2024 18:35:58 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202401141835-ai_spam_i_cannot_fulfill/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ChatGPT-4 is Statistically Human</title>
-      <link>https://shital.com/blog/tweets/post/202401110904-chatgpt4-statistically-human/</link>
-      <pubDate>Thu, 11 Jan 2024 09:04:03 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202401110904-chatgpt4-statistically-human/</guid>
       <description></description>
     </item>
     <item>
@@ -444,7 +381,7 @@
       <description></description>
     </item>
     <item>
-      <title>One Instruction to Rule Them All: Looped Transformers</title>
+      <title>Looped Transformers</title>
       <link>https://shital.com/blog/tweets/thread/202312121802-one-instruction-looped-transformers/</link>
       <pubDate>Tue, 12 Dec 2023 18:02:12 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/thread/202312121802-one-instruction-looped-transformers/</guid>
