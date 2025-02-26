@@ -87,63 +87,42 @@
       <description></description>
     </item>
     <item>
-      <title>Phi-3 14B: Small Model, Big MMLU—Rivaling Llama3 70B!</title>
+      <title>Announcement: Phi-3 14B Rivaling Llama3 70B</title>
       <link>https://shital.com/blog/tweets/post/202405221045-phi3-14b-challenges-llama3-70b/</link>
       <pubDate>Wed, 22 May 2024 10:45:21 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/post/202405221045-phi3-14b-challenges-llama3-70b/</guid>
       <description></description>
     </item>
     <item>
-      <title>AI: &#39;Complex&#39; and &#39;Unique&#39;? Challenge Accepted</title>
-      <link>https://shital.com/blog/tweets/post/202405141353-ai-challenge-accepted/</link>
-      <pubDate>Tue, 14 May 2024 13:53:03 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202405141353-ai-challenge-accepted/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Go Big or Go Home: Scaling Up Go Models by 100,000X</title>
+      <title>Power of Inference Scaling</title>
       <link>https://shital.com/blog/tweets/post/202405080950-go-big-or-go-home-scaling-up-go-models/</link>
       <pubDate>Wed, 08 May 2024 09:50:22 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/post/202405080950-go-big-or-go-home-scaling-up-go-models/</guid>
       <description></description>
     </item>
     <item>
-      <title>Text Leaderboards? So Passé—Enter Multimodal AI with Planning</title>
-      <link>https://shital.com/blog/tweets/post/202405071129-text-leaderboards-so-passe/</link>
-      <pubDate>Tue, 07 May 2024 11:29:38 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202405071129-text-leaderboards-so-passe/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Paying Attention to Sample Efficiency</title>
+      <title>Sample Efficiency</title>
       <link>https://shital.com/blog/tweets/post/202404291142-paying-attention-sample-efficiency/</link>
       <pubDate>Mon, 29 Apr 2024 11:42:20 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/post/202404291142-paying-attention-sample-efficiency/</guid>
       <description></description>
     </item>
     <item>
-      <title>Tiny but Mighty: Microsoft AI&#39;s Upcoming Release</title>
-      <link>https://shital.com/blog/tweets/post/202404231153-tiny-but-mighty-microsoft-ai/</link>
-      <pubDate>Tue, 23 Apr 2024 11:53:11 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/post/202404231153-tiny-but-mighty-microsoft-ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>LLM Training Hits Hyperdrive: 10x Faster in a Year!</title>
+      <title>Pretraining has Gotten 10x Faster in Past Year!</title>
       <link>https://shital.com/blog/tweets/post/202404171019-llm-training-10x-faster/</link>
       <pubDate>Wed, 17 Apr 2024 10:19:14 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/post/202404171019-llm-training-10x-faster/</guid>
       <description></description>
     </item>
     <item>
-      <title>SOTA Schmota—Does Your Paper Inspire?</title>
+      <title>Great Papers</title>
       <link>https://shital.com/blog/tweets/post/202404152027-does-your-paper-inspire/</link>
       <pubDate>Mon, 15 Apr 2024 20:27:15 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/post/202404152027-does-your-paper-inspire/</guid>
       <description></description>
     </item>
     <item>
-      <title>Blazing Fast CIFAR-10 Training: 94% Accuracy in 3.29s</title>
+      <title>CIFAR-10 Training to 94% Accuracy in 3.29s</title>
       <link>https://shital.com/blog/tweets/post/202404051413-blazing-fast-cifar10-training/</link>
       <pubDate>Fri, 05 Apr 2024 14:13:15 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/post/202404051413-blazing-fast-cifar10-training/</guid>
