@@ -407,13 +407,6 @@
   
     
       <url>
-            <loc>https://shital.com/blog/tweets/post/202312222019-amd-mi300x-outflops-h100/</loc>
-            <lastmod>2023-12-22T20:19:12+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://shital.com/blog/tweets/post/202312171919-one-percent-one-week/</loc>
             <lastmod>2023-12-17T19:19:30+00:00</lastmod>
           </url>
@@ -437,20 +430,6 @@
       <url>
             <loc>https://shital.com/blog/tweets/thread/202312092042-mamba-vs-attention/</loc>
             <lastmod>2023-12-09T20:42:55+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://shital.com/blog/tweets/post/202312081521-grok-it-all-ai-knows-no-bounds/</loc>
-            <lastmod>2023-12-08T15:21:46+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://shital.com/blog/tweets/thread/202312070637-gemini-outsmarts-gpt4/</loc>
-            <lastmod>2023-12-07T06:37:49+00:00</lastmod>
           </url>
     
   
@@ -484,29 +463,8 @@
   
     
       <url>
-            <loc>https://shital.com/blog/tweets/post/202311231423-gpt4-turbo-64k-triumph/</loc>
-            <lastmod>2023-11-23T14:23:49+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://shital.com/blog/tweets/post/202311221218-phd-internship-unbearable-lightness-of-evaluation/</loc>
             <lastmod>2023-11-22T12:18:38+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://shital.com/blog/tweets/post/202311201931-gpt4-2weeks-100kgpus/</loc>
-            <lastmod>2023-11-20T19:31:04+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://shital.com/blog/tweets/post/202311200539-skip-the-soap-why-long-context-fails-in-icl/</loc>
-            <lastmod>2023-11-20T05:39:13+00:00</lastmod>
           </url>
     
   
@@ -519,29 +477,8 @@
   
     
       <url>
-            <loc>https://shital.com/blog/tweets/post/202311091133-deepspeed-please-automate-pipelines/</loc>
-            <lastmod>2023-11-09T11:33:03+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://shital.com/blog/tweets/post/202311090324-gobble-n-roll-thankuritto/</loc>
             <lastmod>2023-11-09T03:24:40+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://shital.com/blog/tweets/post/202311040909-wimbd-sweet-16-big-data/</loc>
-            <lastmod>2023-11-04T09:09:05+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://shital.com/blog/tweets/post/202310280322-gpt4-lost-in-translation/</loc>
-            <lastmod>2023-10-28T03:22:07+00:00</lastmod>
           </url>
     
   
@@ -554,20 +491,6 @@
   
     
       <url>
-            <loc>https://shital.com/blog/tweets/post/202310180053-robots-speak-human/</loc>
-            <lastmod>2023-10-18T00:53:35+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://shital.com/blog/tweets/post/202310171216-build-ai-foundations-msr/</loc>
-            <lastmod>2023-10-17T12:16:23+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://shital.com/blog/tweets/thread/202310151451-gradients-gone-wild/</loc>
             <lastmod>2023-10-15T14:51:51+00:00</lastmod>
           </url>
@@ -575,36 +498,8 @@
   
     
       <url>
-            <loc>https://shital.com/blog/tweets/post/202310111004-openwebmath-14b-tokens-that-add-up/</loc>
-            <lastmod>2023-10-11T10:04:22+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://shital.com/blog/tweets/post/202310020548-stability-3b-model-wandb/</loc>
             <lastmod>2023-10-02T05:48:56+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://shital.com/blog/tweets/post/202309301455-strange-pytorch-bug-foils-debugging-hack/</loc>
-            <lastmod>2023-09-30T14:55:50+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://shital.com/blog/tweets/thread/202309260608-bards-unfiltered-image-chats/</loc>
-            <lastmod>2023-09-26T06:08:48+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://shital.com/blog/tweets/thread/202309221427-triple-llm-training-speed/</loc>
-            <lastmod>2023-09-22T14:27:43+00:00</lastmod>
           </url>
     
   

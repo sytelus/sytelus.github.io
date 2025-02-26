@@ -136,14 +136,14 @@
       <description></description>
     </item>
     <item>
-      <title>Chess Engines in Slow Motion: Time for a Rematch?</title>
+      <title>Intelligence and FLOPs Efficiency</title>
       <link>https://shital.com/blog/tweets/thread/202404141641-chess-engines-slow-motion-rematch/</link>
       <pubDate>Sun, 14 Apr 2024 16:41:59 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/thread/202404141641-chess-engines-slow-motion-rematch/</guid>
       <description></description>
     </item>
     <item>
-      <title>ge Unveils Llama.cpp&#39;s Memory Secrets</title>
+      <title>Using rusage</title>
       <link>https://shital.com/blog/tweets/thread/202403271630-rusage-llama-memory/</link>
       <pubDate>Wed, 27 Mar 2024 16:30:55 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/thread/202403271630-rusage-llama-memory/</guid>
@@ -157,7 +157,7 @@
       <description></description>
     </item>
     <item>
-      <title>GPT-4&#39;s New Fitness Plan: From 25K to 2K GPUs</title>
+      <title>GPT-4 Training Time</title>
       <link>https://shital.com/blog/tweets/thread/202403190400-gpt4-fitness-plan/</link>
       <pubDate>Tue, 19 Mar 2024 04:00:02 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/thread/202403190400-gpt4-fitness-plan/</guid>
@@ -178,28 +178,28 @@
       <description></description>
     </item>
     <item>
-      <title>Robot on a Budget: Co-training with Cheap Hardware</title>
+      <title>Amazing Robotics Demo with Cheap Hardware</title>
       <link>https://shital.com/blog/tweets/thread/202401041635-robot-on-a-budget/</link>
       <pubDate>Thu, 04 Jan 2024 16:35:45 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/thread/202401041635-robot-on-a-budget/</guid>
       <description></description>
     </item>
     <item>
-      <title>Model Mayhem: 23 Architectures Under the Microscope</title>
+      <title>Hyperparams for 23 Architectures</title>
       <link>https://shital.com/blog/tweets/thread/202312301641-model-mayhem-23-architectures/</link>
       <pubDate>Sat, 30 Dec 2023 16:41:32 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/thread/202312301641-model-mayhem-23-architectures/</guid>
       <description></description>
     </item>
     <item>
-      <title>LLM Outliers: Not So Emergent After All!</title>
+      <title>Large Activation Outliers</title>
       <link>https://shital.com/blog/tweets/thread/202312251915-llm-outliers-not-emergent/</link>
       <pubDate>Mon, 25 Dec 2023 19:15:37 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/thread/202312251915-llm-outliers-not-emergent/</guid>
       <description></description>
     </item>
     <item>
-      <title>Phi-2: When Less Is More Powerful</title>
+      <title>Phi-2: Smol Is More Powerful</title>
       <link>https://shital.com/blog/tweets/thread/202312131822-phi-2-when-less-is-more-powerful/</link>
       <pubDate>Wed, 13 Dec 2023 18:22:51 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/thread/202312131822-phi-2-when-less-is-more-powerful/</guid>
@@ -213,45 +213,24 @@
       <description></description>
     </item>
     <item>
-      <title>Mamba vs. Attention: A Snake in the Throne Room</title>
+      <title>Mamba Paper</title>
       <link>https://shital.com/blog/tweets/thread/202312092042-mamba-vs-attention/</link>
       <pubDate>Sat, 09 Dec 2023 20:42:55 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/thread/202312092042-mamba-vs-attention/</guid>
       <description></description>
     </item>
     <item>
-      <title>Gemini Outsmarts GPT-4 When Prompted Right</title>
-      <link>https://shital.com/blog/tweets/thread/202312070637-gemini-outsmarts-gpt4/</link>
-      <pubDate>Thu, 07 Dec 2023 06:37:49 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/thread/202312070637-gemini-outsmarts-gpt4/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>What&#39;s the Universe Computing? Exploring the Thermodynamics of Prediction</title>
+      <title>Thermodynamics of Prediction</title>
       <link>https://shital.com/blog/tweets/thread/202312062303-whats-the-universe-computing/</link>
       <pubDate>Wed, 06 Dec 2023 23:03:46 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/thread/202312062303-whats-the-universe-computing/</guid>
       <description></description>
     </item>
     <item>
-      <title>Gradients Gone Wild: Loss Scaling in FP16 Training</title>
+      <title>Loss Scaling in FP16 Training</title>
       <link>https://shital.com/blog/tweets/thread/202310151451-gradients-gone-wild/</link>
       <pubDate>Sun, 15 Oct 2023 14:51:51 +0000</pubDate>
       <guid>https://shital.com/blog/tweets/thread/202310151451-gradients-gone-wild/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bard&#39;s Unfiltered Image Chats: No Cherry-Picking!</title>
-      <link>https://shital.com/blog/tweets/thread/202309260608-bards-unfiltered-image-chats/</link>
-      <pubDate>Tue, 26 Sep 2023 06:08:48 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/thread/202309260608-bards-unfiltered-image-chats/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>No Excuses: Triple Your LLM Training Speed with SwiGLU, ALiBi &amp; μP</title>
-      <link>https://shital.com/blog/tweets/thread/202309221427-triple-llm-training-speed/</link>
-      <pubDate>Fri, 22 Sep 2023 14:27:43 +0000</pubDate>
-      <guid>https://shital.com/blog/tweets/thread/202309221427-triple-llm-training-speed/</guid>
       <description></description>
     </item>
     <item>
