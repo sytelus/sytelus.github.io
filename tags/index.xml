@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Shital Shah &amp;#x1F16D; CC BY-NC-SA</copyright>
-    <lastBuildDate>Sat, 01 Feb 2025 10:36:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Dec 2025 15:17:55 -0800</lastBuildDate>
     <atom:link href="https://shital.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine Learning</title>
+      <link>https://shital.com/tags/machine-learning/</link>
+      <pubDate>Sat, 06 Dec 2025 15:17:55 -0800</pubDate>
+      <guid>https://shital.com/tags/machine-learning/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Tweets</title>
       <link>https://shital.com/tags/tweets/</link>
@@ -70,13 +77,6 @@
       <link>https://shital.com/tags/physics/</link>
       <pubDate>Sat, 14 Feb 2009 08:02:00 +0000</pubDate>
       <guid>https://shital.com/tags/physics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Machine Learning</title>
-      <link>https://shital.com/tags/machine-learning/</link>
-      <pubDate>Fri, 30 Sep 2005 15:59:00 +0000</pubDate>
-      <guid>https://shital.com/tags/machine-learning/</guid>
       <description></description>
     </item>
   </channel>

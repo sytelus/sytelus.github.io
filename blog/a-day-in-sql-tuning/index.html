@@ -522,37 +522,37 @@
 <li>If you have temp tables, it’s usually better to create index after you have inserted data instead of before.</li>
 <li>If you have complex sproc, SQL Server Profiler will spit out thousands of trace lines during the run. A quick way to pin point the SQL statements needing performance tuning is to use File &gt; Save As to put the trace results in to a table. You can use then following query that immediately surfaces culprits. Notice that statements which run in WHILE loop might take less time individually but collectively their duration sum may be higher. Below query would reveal this culprits immediately.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">select</span><span class="w"> </span><span class="k">SUBSTRING</span><span class="p">(</span><span class="n">TextData</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">4000</span><span class="p">),</span><span class="w"> </span><span class="k">SUM</span><span class="p">(</span><span class="n">duration</span><span class="p">),</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">from</span><span class="w"> </span><span class="p">[</span><span class="n">SavedTrace</span><span class="p">]</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">group</span><span class="w"> </span><span class="k">by</span><span class="w"> </span><span class="k">SUBSTRING</span><span class="p">(</span><span class="n">TextData</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">4000</span><span class="p">)</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">order</span><span class="w"> </span><span class="k">by</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="k">desc</span><span class="w">
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#ff7b72">select</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">SUBSTRING</span>(TextData,<span style="color:#6e7681"> </span><span style="color:#a5d6ff">1</span>,<span style="color:#6e7681"> </span><span style="color:#a5d6ff">4000</span>),<span style="color:#6e7681"> </span><span style="color:#ff7b72">SUM</span>(duration),<span style="color:#6e7681"> </span><span style="color:#ff7b72">COUNT</span>(<span style="color:#a5d6ff">1</span>)<span style="color:#6e7681">
+</span></span></span><span style="display:flex;"><span><span style="color:#6e7681"></span><span style="color:#ff7b72">from</span><span style="color:#6e7681"> </span>[SavedTrace]<span style="color:#6e7681">
+</span></span></span><span style="display:flex;"><span><span style="color:#6e7681"></span><span style="color:#ff7b72">group</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">by</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">SUBSTRING</span>(TextData,<span style="color:#6e7681"> </span><span style="color:#a5d6ff">1</span>,<span style="color:#6e7681"> </span><span style="color:#a5d6ff">4000</span>)<span style="color:#6e7681">
+</span></span></span><span style="display:flex;"><span><span style="color:#6e7681"></span><span style="color:#ff7b72">order</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">by</span><span style="color:#6e7681"> </span><span style="color:#a5d6ff">2</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">desc</span><span style="color:#6e7681">
 </span></span></span></code></pre></div><p>One of the big performance hits occur when you must process individual rows one at a time instead of in set. For instance, let’s say you have a table with a column that has comma delimited values. Now you want to split these values in each cell and create a new table which would have N rows for each row in original table – one for each spitted value. The Internet is littered with dozen ways to split strings in TSQL, some even uses CTEs (not a good idea because there are lots of gotchas like max recursion limit). So far the best way is to use SQL CLR with code like below. Its as fast as any native TSQL juggling, if not faster. However most important thing here is not SQL CLR but how you use this table valued function and here’s the secret: The best bang for the performance you would get is using CROSS APPLY (or OUTER APPLY) with table valued UDF.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">partial</span> <span class="k">class</span> <span class="nc">UtilityFunctions</span>
-</span></span><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl"><span class="na">    [Microsoft.SqlServer.Server.SqlFunction(FillRowMethodName = &amp;lt;span class=&#34;c10&#34;&gt;&#34;FillRow&#34;, TableDefinition=&amp;lt;span class=&#34;c10&#34;&gt;&#34;StringPart nvarchar(max)&#34;,
-</span></span></span><span class="line"><span class="cl"><span class="na">        IsDeterministic=true, IsPrecise=true, SystemDataAccess=SystemDataAccessKind.None)]</span>
-</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="n">IEnumerable</span> <span class="n">ClrSplitString</span><span class="p">(</span><span class="n">SqlString</span> <span class="n">sqlStringToSplit</span><span class="p">,</span> <span class="n">SqlChars</span> <span class="n">delimiter</span><span class="p">,</span> <span class="n">SqlBoolean</span> <span class="n">removeEmptyEntries</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(!</span><span class="kt">string</span><span class="p">.</span><span class="n">IsNullOrEmpty</span><span class="p">(</span><span class="n">sqlStringToSplit</span><span class="p">.</span><span class="n">Value</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">sqlStringToSplit</span><span class="p">.</span><span class="n">Value</span><span class="p">.</span><span class="n">Split</span><span class="p">(</span><span class="n">delimiter</span><span class="p">.</span><span class="n">Value</span>
-</span></span><span class="line"><span class="cl">                <span class="p">,</span> <span class="p">(</span><span class="n">StringSplitOptions</span><span class="p">)(</span><span class="n">removeEmptyEntries</span> <span class="p">?</span>
-</span></span><span class="line"><span class="cl">                        <span class="n">StringSplitOptions</span><span class="p">.</span><span class="n">RemoveEmptyEntries</span> <span class="p">:</span> <span class="n">StringSplitOptions</span><span class="p">.</span><span class="n">None</span><span class="p">));</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="k">else</span>
-</span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="kc">null</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="k">void</span> <span class="n">FillRow</span><span class="p">(</span><span class="kt">object</span> <span class="n">obj</span><span class="p">,</span> <span class="k">out</span> <span class="n">SqlString</span> <span class="n">splittedString</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">obj</span> <span class="p">!=</span> <span class="kc">null</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">            <span class="n">splittedString</span> <span class="p">=</span> <span class="k">new</span> <span class="n">SqlString</span><span class="p">((</span><span class="kt">string</span><span class="p">)</span><span class="n">obj</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="k">else</span>
-</span></span><span class="line"><span class="cl">            <span class="n">splittedString</span> <span class="p">=</span> <span class="n">SqlString</span><span class="p">.</span><span class="n">Null</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#ff7b72">public</span> <span style="color:#ff7b72">partial</span> <span style="color:#ff7b72">class</span> <span style="color:#f0883e;font-weight:bold">UtilityFunctions</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    [Microsoft.SqlServer.Server.SqlFunction(FillRowMethodName = &amp;lt;span class=&#34;c10&#34;&gt;&#34;FillRow&#34;, TableDefinition=&amp;lt;span class=&#34;c10&#34;&gt;&#34;StringPart nvarchar(max)&#34;,
+</span></span><span style="display:flex;"><span>        IsDeterministic=true, IsPrecise=true, SystemDataAccess=SystemDataAccessKind.None)]
+</span></span><span style="display:flex;"><span>    <span style="color:#ff7b72">public</span> <span style="color:#ff7b72">static</span> IEnumerable ClrSplitString(SqlString sqlStringToSplit, SqlChars delimiter, SqlBoolean removeEmptyEntries)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#ff7b72">if</span> (!<span style="color:#ff7b72">string</span>.IsNullOrEmpty(sqlStringToSplit.Value))
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#ff7b72">return</span> sqlStringToSplit.Value.Split(delimiter.Value
+</span></span><span style="display:flex;"><span>                , (StringSplitOptions)(removeEmptyEntries ?
+</span></span><span style="display:flex;"><span>                        StringSplitOptions.RemoveEmptyEntries : StringSplitOptions.None));
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#ff7b72">else</span>
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#ff7b72">return</span> <span style="color:#79c0ff">null</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff7b72">public</span> <span style="color:#ff7b72">static</span> <span style="color:#ff7b72">void</span> FillRow(<span style="color:#ff7b72">object</span> obj, <span style="color:#ff7b72">out</span> SqlString splittedString)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#ff7b72">if</span> (obj != <span style="color:#79c0ff">null</span>)
+</span></span><span style="display:flex;"><span>            splittedString = <span style="color:#ff7b72">new</span> SqlString((<span style="color:#ff7b72">string</span>)obj);
+</span></span><span style="display:flex;"><span>        <span style="color:#ff7b72">else</span>
+</span></span><span style="display:flex;"><span>            splittedString = SqlString.Null;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div>
       </div>
     </section>

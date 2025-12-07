@@ -517,63 +517,63 @@
         <p>So you want to make a change to your git repo while other people may also be simultaneously working on the same repo. As it takes you longer to make your changes, there is a greater chance that your local repo might already be out of date as other people have pushed their changes. In this setting, you don&rsquo;t want to make your changes directly in master because otherwise you might end up creating large merge commits which makes your repo&rsquo;s history convoluted and not very nice.</p>
 <p>Here&rsquo;s the better git workflow you might want to use in any team of size &gt; 1.</p>
 <p>Before you make changes, create a branch.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout -b MyFeature
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout -b MyFeature
 </span></span></code></pre></div><p>Next make changes, do commits as usual.</p>
 <p>If you don&rsquo;t want to rely on your hard drive, you can also keep pushing the changes in your branch on the server every once in a while,</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push -u origin MyFeature
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push -u origin MyFeature
 </span></span></code></pre></div><p>Once you are done with all your changes, first you want to rebase your branch to master. If master has no new changes since you had created your branch, this will be essentially be no-op. But otherwise, git will take all your commits and play them back on the top of master. This way your commits will look like as if they happened on latest version of master instead of the version you branched out from. This will make commit history of your repo clean and easy to reason about. If you were the only developer, this might not be very important but if there is more than just you then it makes easy to see for other people changes every one is making.</p>
 <p>To do rebase, first get latest master.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout master
-</span></span><span class="line"><span class="cl">git pull origin master
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout master
+</span></span><span style="display:flex;"><span>git pull origin master
 </span></span></code></pre></div><p>Then go back to your branch and rebase, i.e.,</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout Myfeature
-</span></span><span class="line"><span class="cl">git rebase master
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout Myfeature
+</span></span><span style="display:flex;"><span>git rebase master
 </span></span></code></pre></div><p>If you are lucky, you won&rsquo;t see the word &ldquo;conflict&rdquo; in git messages but otherwise there is more work for you! If someone already changed file sections you have also changed then you might see list of conflicts. If you get lost in too many messages, use this command to see pending conflicts:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git diff --name-only --diff-filter<span class="o">=</span>U
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git diff --name-only --diff-filter<span style="color:#ff7b72;font-weight:bold">=</span>U
 </span></span></code></pre></div><p>Now about resolving conflicts&hellip; there are lots of tools out there and most unfortunately have some problem/confusion installing or using. If you absolutely want GUI tool, install <a href="https://sourcegear.com/diffmerge/" target="_blank" rel="noreferrer">DiffMerge</a>, make sure its in your path and invoke it like,</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git mergetool -t diffmerge .
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git mergetool -t diffmerge .
 </span></span></code></pre></div><p>However my preferred method is to simply open up conflicted file in editor, search for &ldquo;&raquo;&gt;&rdquo; and review sections that looks like:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">&lt;&lt;&lt;&lt;&lt;&lt;</span>&lt; HEAD
-</span></span><span class="line"><span class="cl">This is change in <span class="nv">master</span>
-</span></span><span class="line"><span class="cl"><span class="o">=======</span>
-</span></span><span class="line"><span class="cl">This is change in your branch
-</span></span><span class="line"><span class="cl">&gt;&gt;&gt;&gt;&gt;&gt;&gt; branch-a
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#ff7b72;font-weight:bold">&lt;&lt;&lt;&lt;&lt;&lt;</span>&lt; HEAD
+</span></span><span style="display:flex;"><span>This is change in <span style="color:#79c0ff">master</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72;font-weight:bold">=======</span>
+</span></span><span style="display:flex;"><span>This is change in your branch
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt;&gt;&gt;&gt;&gt; branch-a
 </span></span></code></pre></div><p>Now keep the change you want, delete the markers and you are done with that conflict. Another shortcut is to just tell git to take master&rsquo;s version (&ldquo;ours&rdquo;) or your branch&rsquo;s version(&ldquo;theirs&rdquo;). For example, to resolve all conflicts by overriding using your changes:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout . --theirs
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout . --theirs
 </span></span></code></pre></div><p>Another tricky conflict is when file gets deleted by one person and simultaneously changed by you or vice versa. In this case, git will put a deleted file back in your repo and you have to decide either keep that one and/or remove/update your version. You won&rsquo;t have markers this time like above. I tend to use tool like Beyond Compare to compare two files and make edits as needed.</p>
 <p>To tell git that you have resolved all conflict,</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add .
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
 </span></span></code></pre></div><p>Now you can continue with your rebase,</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git rebase --continue
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git rebase --continue
 </span></span></code></pre></div><p>If you don&rsquo;t want to continue because of whatever reason,</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git rebase --abort
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git rebase --abort
 </span></span></code></pre></div><p>Sometime git might error out while doing continue because there is nothing to commit (may be it detected that the change already exists upstream). In that case you can do,</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git rebase --skip
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git rebase --skip
 </span></span></code></pre></div><p>At this point, your changes are now on the top of latest master. You can verify this by looking at quick history of latest 10 commits,</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git log --pretty<span class="o">=</span>oneline -n <span class="m">10</span>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git log --pretty<span style="color:#ff7b72;font-weight:bold">=</span>oneline -n <span style="color:#a5d6ff">10</span>
 </span></span></code></pre></div><p>Note that everything still reside in your own branch. If you are not yet ready to push to master, keep working in your branch doing more commits as you go. After rebase if you want to save your branch on server, you must do &ndash;force because you are rewriting history.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push --force origin Myfeature
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push --force origin Myfeature
 </span></span></code></pre></div><p>This is perfectly fine as long as you are the only one working on the branch.</p>
 <p>Once you are ready to push, first merge your branch with master,</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout master
-</span></span><span class="line"><span class="cl">git merge --squash MyFeature
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout master
+</span></span><span style="display:flex;"><span>git merge --squash MyFeature
 </span></span></code></pre></div><p>This shouldn&rsquo;t give any errors or conflict messages because your branch was already synced up to latest master. The &ndash;squash tells git to combine all your commit in to single commit. This is good idea most of the time if you have done lots of commits like &ldquo;added forgotten file&rdquo;, &ldquo;fixed minor typo&rdquo; and so on. It&rsquo;s too much noise and not nice to other people for having to scroll through tons of minor commits to figure out your higher level goals. However its also ok if you don&rsquo;t want &ndash;squash option.</p>
 <p>Finally do the commit after the merge,</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git commit -m <span class="s2">&#34;MyFeature does X&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git commit -m <span style="color:#a5d6ff">&#34;MyFeature does X&#34;</span>
 </span></span></code></pre></div><p>If you did &ndash;squash above then you will see only one commit in your history at the top of previous commits with above message.</p>
 <p>At this point, you can decide to push your changes to master OR move your changes to new branch and keep working. To move to new branch and revert master to original state,</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout -b MyFeature2
-</span></span><span class="line"><span class="cl">git checkout master
-</span></span><span class="line"><span class="cl">git reset --hard origin/master
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout -b MyFeature2
+</span></span><span style="display:flex;"><span>git checkout master
+</span></span><span style="display:flex;"><span>git reset --hard origin/master
 </span></span></code></pre></div><p>OR if you are happy, go ahead and</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push
 </span></span></code></pre></div><p>In either case you can delete the old branch,</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push origin -delete MyFeature
-</span></span><span class="line"><span class="cl">git branch -d MyFeature
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push origin -delete MyFeature
+</span></span><span style="display:flex;"><span>git branch -d MyFeature
 </span></span></code></pre></div><p>And you are done!</p>
 <p>As usual, there are many ways to do things in git. There is another quicker and simpler way to achieve goal of clean history but its bit limited.</p>
 <p>Make your changes in master, do commits as usual - but don&rsquo;t push. Once in a while you want to sync up with master. To do this use,</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git pull --rebase
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git pull --rebase
 </span></span></code></pre></div><p>This will get all changes from master and then play back your unpushed commits on the top of them. This may generate conflicts as described above so resolve them in same way. Once you are done with your changes, you can push your commits and they should appear on the top without extra merge commits. An obvious problem here is that you can&rsquo;t push until you are really done with changes so this might be ok for quick short changes. If you want to &ldquo;save&rdquo; your commits on server or work from multiple machines for multiple days without pushing to master then above workflow would work better.</p>
 
       </div>
@@ -684,6 +684,25 @@
           
         </span>
         <span>
+          
+            <a class="group flex text-right" href="/blog/gpu-memory-profiling/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >How to Get and Interpret GPU Memory Profiling</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2025-12-06 15:17:55 -0800 PST">6 December 2025</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[-2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
           
         </span>
       </div>

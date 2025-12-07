@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Shital Shah &amp;#x1F16D; CC BY-NC-SA</copyright>
-    <lastBuildDate>Sat, 01 Feb 2025 10:36:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Dec 2025 15:17:55 -0800</lastBuildDate>
     <atom:link href="https://shital.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Get and Interpret GPU Memory Profiling</title>
+      <link>https://shital.com/blog/gpu-memory-profiling/</link>
+      <pubDate>Sat, 06 Dec 2025 15:17:55 -0800</pubDate>
+      <guid>https://shital.com/blog/gpu-memory-profiling/</guid>
+      <description></description>
+    </item>
     <item>
       <title>o3-mini Level Hard Problem</title>
       <link>https://shital.com/blog/tweets/post/202502011036-o3-mini-prevails/</link>
