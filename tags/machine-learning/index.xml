@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Shital Shah &amp;#x1F16D; CC BY-NC-SA</copyright>
-    <lastBuildDate>Sat, 06 Dec 2025 15:17:55 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 12 Dec 2025 21:30:07 -0800</lastBuildDate>
     <atom:link href="https://shital.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Releasing StreamHope - Merge Duplicate Playlists in YouTube Music, transfer from Spotify</title>
+      <link>https://shital.com/blog/streamhop-release/</link>
+      <pubDate>Fri, 12 Dec 2025 21:30:07 -0800</pubDate>
+      <guid>https://shital.com/blog/streamhop-release/</guid>
+      <description></description>
+    </item>
     <item>
       <title>How to Get and Interpret GPU Memory Profiling</title>
       <link>https://shital.com/blog/gpu-memory-profiling/</link>
