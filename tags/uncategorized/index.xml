@@ -1,20 +1,139 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>Uncategorized on Shital Shah&#39;s Chain of Thought</title>
+    <title>Uncategorized · Shital Shah&#39;s Chain of Thought</title>
     <link>https://shital.com/tags/uncategorized/</link>
-    <description>Recent content in Uncategorized on Shital Shah&#39;s Chain of Thought</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>Shital Shah &amp;#x1F16D; CC BY-NC-SA</copyright>
-    <lastBuildDate>Sun, 05 Jun 2016 09:24:38 +0000</lastBuildDate>
-    <atom:link href="https://shital.com/tags/uncategorized/index.xml" rel="self" type="application/rss+xml" />
+    <description>Uncategorized — Shital Shah&#39;s personal website and blog. Research Engineer at Microsoft Research with interests in deep learning and reinforcement learning.…</description>
+    <generator>Hugo 0.166.0</generator>
+    <language>en</language><copyright>Shital Shah &#x1F16D; CC BY-NC-SA</copyright><lastBuildDate>Sun, 05 Jun 2016 09:24:38 &#43;0000</lastBuildDate><atom:link href="https://shital.com/tags/uncategorized/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Writing Generic Container Functions in C&#43;&#43;11</title>
       <link>https://shital.com/blog/writing-generic-container-function-in-c11/</link>
-      <pubDate>Sun, 05 Jun 2016 09:24:38 +0000</pubDate>
-      <guid>https://shital.com/blog/writing-generic-container-function-in-c11/</guid>
-      <description></description>
+      <guid isPermaLink="true">https://shital.com/blog/writing-generic-container-function-in-c11/</guid>
+      <pubDate>Sun, 05 Jun 2016 09:24:38 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Uncategorized</category>
+      <description>Let’s say we want to write function to append one vector to another. It can be done like,
+cppcopy template&lt;typename T&gt; void append(Vector&lt;T&gt;&amp; to, const Vector&lt;T&gt;&amp; from) { to.insert(to.end(), from.begin(), from.end()); } One problem with this approach is that we can only use this function with Vector. So what about all other container types? In languages such as C#, we have IEnumerable that simplifies lot of things but with C++ templates are duck typed and it takes bit more to make above function generic for various container types. Another quick and dirty route is this:
+</description>
+      <content:encoded><![CDATA[<p>Let&rsquo;s say we want to write function to append one vector to another. It can be done like,</p>
+<figure class="code">
+  <figcaption class="mono"><span><span class="lang">cpp</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="k">template</span><span class="o">&lt;</span><span class="k">typename</span> <span class="n">T</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="n">append</span><span class="p">(</span><span class="n">Vector</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <span class="n">to</span><span class="p">,</span> <span class="k">const</span> <span class="n">Vector</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <span class="n">from</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">to</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">to</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span> <span class="n">from</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">from</span><span class="p">.</span><span class="n">end</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div>
+</figure>
+<p>One problem with this approach is that we can only use this function with Vector. So what about all other container types? In languages such as C#, we have IEnumerable<T> that simplifies lot of things but with C++ templates are duck typed and it takes bit more to make above function generic for various container types. Another quick and dirty route is this:</p>
+<figure class="code">
+  <figcaption class="mono"><span><span class="lang">cpp</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="k">template</span><span class="o">&lt;</span><span class="k">typename</span> <span class="n">Container</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="n">append</span><span class="p">(</span><span class="n">Container</span><span class="o">&amp;</span> <span class="n">to</span><span class="p">,</span> <span class="k">const</span> <span class="n">Container</span><span class="o">&amp;</span> <span class="n">from</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">to</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">to</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span> <span class="n">from</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">from</span><span class="p">.</span><span class="n">end</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div>
+</figure>
+<p>The problem with this approach is that any class with begin() and end() will now qualify for this call. In fact, just in case someone has class with these methods which actually isn&rsquo;t implemented as iterator, you can get some nasty surprises. A simple modification is to make sure we call begin() and end() from std namespace instead of the ones defined on class:</p>
+<figure class="code">
+  <figcaption class="mono"><span><span class="lang">cpp</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="k">template</span><span class="o">&lt;</span><span class="k">typename</span> <span class="n">Container</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="n">append</span><span class="p">(</span><span class="n">Container</span><span class="o">&amp;</span> <span class="n">to</span><span class="p">,</span> <span class="k">const</span> <span class="n">Container</span><span class="o">&amp;</span> <span class="n">from</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">using</span> <span class="n">std</span><span class="o">::</span><span class="n">begin</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">using</span> <span class="n">std</span><span class="o">::</span><span class="n">end</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">to</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">end</span><span class="p">(</span><span class="n">to</span><span class="p">),</span> <span class="n">begin</span><span class="p">(</span><span class="n">from</span><span class="p">),</span> <span class="n">end</span><span class="p">(</span><span class="n">from</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div>
+</figure>
+<p>Sure, this is better but wouldn&rsquo;t it be nice if can we restrict the types passed on to this function to only those which strictly behaves like STL containers? Enter type traits! First, we need to define SFINAE type trait for containers. Fortunately Louis Delacroix who developed <a href="http://louisdx.github.io/cxx-prettyprint/" class="ext" rel="noopener">prettyprint library</a> has already fine tuned this code extensively. Below is mostly his code with a my slight modification that allows to pass it through GCC strict mode compilation. This is lot of code so I would usually put this in a separate file, say, type_utils.hpp, so you can use it for many generic container methods:</p>
+<figure class="code">
+  <figcaption class="mono"><span><span class="lang">cpp</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#ifndef commn_utils_type_utils_hpp
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define commn_utils_type_utils_hpp
+</span></span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;type_traits&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;valarray&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="n">common_utils</span> <span class="p">{</span> <span class="k">namespace</span> <span class="n">type_utils</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">//from: https://raw.githubusercontent.com/louisdx/cxx-prettyprint/master/prettyprint.hpp
+</span></span></span><span class="line"><span class="cl">	<span class="c1">//also see https://gist.github.com/louisdx/1076849
+</span></span></span><span class="line"><span class="cl">    <span class="k">namespace</span> <span class="n">detail</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// SFINAE type trait to detect whether T::const_iterator exists.
+</span></span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">struct</span> <span class="nc">sfinae_base</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">using</span> <span class="n">yes</span> <span class="o">=</span> <span class="kt">char</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">using</span> <span class="n">no</span>  <span class="o">=</span> <span class="n">yes</span><span class="p">[</span><span class="mi">2</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">T</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">struct</span> <span class="nc">has_const_iterator</span> <span class="o">:</span> <span class="k">private</span> <span class="n">sfinae_base</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">private</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">            <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">C</span><span class="o">&gt;</span> <span class="k">static</span> <span class="n">yes</span> <span class="o">&amp;</span> <span class="n">test</span><span class="p">(</span><span class="k">typename</span> <span class="n">C</span><span class="o">::</span><span class="n">const_iterator</span><span class="o">*</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">C</span><span class="o">&gt;</span> <span class="k">static</span> <span class="n">no</span>  <span class="o">&amp;</span> <span class="n">test</span><span class="p">(...);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">public</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">            <span class="k">static</span> <span class="k">const</span> <span class="kt">bool</span> <span class="n">value</span> <span class="o">=</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">test</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="p">(</span><span class="k">nullptr</span><span class="p">))</span> <span class="o">==</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">yes</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">using</span> <span class="n">type</span> <span class="o">=</span>  <span class="n">T</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="kt">void</span> <span class="nf">dummy</span><span class="p">();</span> <span class="c1">//for GCC to supress -Wctor-dtor-privacy
+</span></span></span><span class="line"><span class="cl">        <span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">T</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">struct</span> <span class="nc">has_begin_end</span> <span class="o">:</span> <span class="k">private</span> <span class="n">sfinae_base</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">private</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">            <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">C</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">static</span> <span class="n">yes</span> <span class="o">&amp;</span> <span class="n">f</span><span class="p">(</span><span class="k">typename</span> <span class="n">std</span><span class="o">::</span><span class="n">enable_if</span><span class="o">&lt;</span>
+</span></span><span class="line"><span class="cl">                <span class="n">std</span><span class="o">::</span><span class="n">is_same</span><span class="o">&lt;</span><span class="k">decltype</span><span class="p">(</span><span class="k">static_cast</span><span class="o">&lt;</span><span class="k">typename</span> <span class="n">C</span><span class="o">::</span><span class="n">const_iterator</span><span class="p">(</span><span class="n">C</span><span class="o">::*</span><span class="p">)()</span> <span class="k">const</span><span class="o">&gt;</span><span class="p">(</span><span class="o">&amp;</span><span class="n">C</span><span class="o">::</span><span class="n">begin</span><span class="p">)),</span>
+</span></span><span class="line"><span class="cl">                             <span class="k">typename</span> <span class="n">C</span><span class="o">::</span><span class="n">const_iterator</span><span class="p">(</span><span class="n">C</span><span class="o">::*</span><span class="p">)()</span> <span class="k">const</span><span class="o">&gt;::</span><span class="n">value</span><span class="o">&gt;::</span><span class="n">type</span> <span class="o">*</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">C</span><span class="o">&gt;</span> <span class="k">static</span> <span class="n">no</span> <span class="o">&amp;</span> <span class="n">f</span><span class="p">(...);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">C</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">static</span> <span class="n">yes</span> <span class="o">&amp;</span> <span class="n">g</span><span class="p">(</span><span class="k">typename</span> <span class="n">std</span><span class="o">::</span><span class="n">enable_if</span><span class="o">&lt;</span>
+</span></span><span class="line"><span class="cl">                <span class="n">std</span><span class="o">::</span><span class="n">is_same</span><span class="o">&lt;</span><span class="k">decltype</span><span class="p">(</span><span class="k">static_cast</span><span class="o">&lt;</span><span class="k">typename</span> <span class="n">C</span><span class="o">::</span><span class="n">const_iterator</span><span class="p">(</span><span class="n">C</span><span class="o">::*</span><span class="p">)()</span> <span class="k">const</span><span class="o">&gt;</span><span class="p">(</span><span class="o">&amp;</span><span class="n">C</span><span class="o">::</span><span class="n">end</span><span class="p">)),</span>
+</span></span><span class="line"><span class="cl">                             <span class="k">typename</span> <span class="n">C</span><span class="o">::</span><span class="n">const_iterator</span><span class="p">(</span><span class="n">C</span><span class="o">::*</span><span class="p">)()</span> <span class="k">const</span><span class="o">&gt;::</span><span class="n">value</span><span class="p">,</span> <span class="kt">void</span><span class="o">&gt;::</span><span class="n">type</span><span class="o">*</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">C</span><span class="o">&gt;</span> <span class="k">static</span> <span class="n">no</span> <span class="o">&amp;</span> <span class="n">g</span><span class="p">(...);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">public</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">            <span class="k">static</span> <span class="kt">bool</span> <span class="k">const</span> <span class="n">beg_value</span> <span class="o">=</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">f</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="p">(</span><span class="k">nullptr</span><span class="p">))</span> <span class="o">==</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">yes</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">static</span> <span class="kt">bool</span> <span class="k">const</span> <span class="n">end_value</span> <span class="o">=</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">g</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="p">(</span><span class="k">nullptr</span><span class="p">))</span> <span class="o">==</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">yes</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="kt">void</span> <span class="nf">dummy</span><span class="p">();</span> <span class="c1">//for GCC to supress -Wctor-dtor-privacy
+</span></span></span><span class="line"><span class="cl">        <span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>  <span class="c1">// namespace detail
+</span></span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">// Basic is_container template; specialize to derive from std::true_type for all desired container types
+</span></span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">T</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">struct</span> <span class="nc">is_container</span> <span class="o">:</span> <span class="k">public</span> <span class="n">std</span><span class="o">::</span><span class="n">integral_constant</span><span class="o">&lt;</span><span class="kt">bool</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                                                        <span class="n">detail</span><span class="o">::</span><span class="n">has_const_iterator</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">value</span> <span class="o">&amp;&amp;</span>
+</span></span><span class="line"><span class="cl">                                                        <span class="n">detail</span><span class="o">::</span><span class="n">has_begin_end</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">beg_value</span>  <span class="o">&amp;&amp;</span>
+</span></span><span class="line"><span class="cl">                                                        <span class="n">detail</span><span class="o">::</span><span class="n">has_begin_end</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">end_value</span><span class="o">&gt;</span> <span class="p">{</span> <span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">T</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">size_t</span> <span class="n">N</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">struct</span> <span class="nc">is_container</span><span class="o">&lt;</span><span class="n">T</span><span class="p">[</span><span class="n">N</span><span class="p">]</span><span class="o">&gt;</span> <span class="o">:</span> <span class="n">std</span><span class="o">::</span><span class="n">true_type</span> <span class="p">{</span> <span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">template</span> <span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">size_t</span> <span class="n">N</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">struct</span> <span class="nc">is_container</span><span class="o">&lt;</span><span class="kt">char</span><span class="p">[</span><span class="n">N</span><span class="p">]</span><span class="o">&gt;</span> <span class="o">:</span> <span class="n">std</span><span class="o">::</span><span class="n">false_type</span> <span class="p">{</span> <span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">T</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">struct</span> <span class="nc">is_container</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">valarray</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&gt;</span> <span class="o">:</span> <span class="n">std</span><span class="o">::</span><span class="n">true_type</span> <span class="p">{</span> <span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">T1</span><span class="p">,</span> <span class="k">typename</span> <span class="n">T2</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">struct</span> <span class="nc">is_container</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">pair</span><span class="o">&lt;</span><span class="n">T1</span><span class="p">,</span> <span class="n">T2</span><span class="o">&gt;&gt;</span> <span class="o">:</span> <span class="n">std</span><span class="o">::</span><span class="n">true_type</span> <span class="p">{</span> <span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="p">...</span><span class="n">Args</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">struct</span> <span class="nc">is_container</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">tuple</span><span class="o">&lt;</span><span class="n">Args</span><span class="p">...</span><span class="o">&gt;&gt;</span> <span class="o">:</span> <span class="n">std</span><span class="o">::</span><span class="n">true_type</span> <span class="p">{</span> <span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">}}</span>	<span class="c1">//namespace
+</span></span></span><span class="line"><span class="cl"><span class="cp">#endif</span></span></span></code></pre></div>
+</figure>
+<p>Much better!</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

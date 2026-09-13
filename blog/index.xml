@@ -1,125 +1,817 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>Blog on Shital Shah&#39;s Chain of Thought</title>
+    <title>Blog · Shital Shah&#39;s Chain of Thought</title>
     <link>https://shital.com/blog/</link>
-    <description>Recent content in Blog on Shital Shah&#39;s Chain of Thought</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>Shital Shah &amp;#x1F16D; CC BY-NC-SA</copyright>
-    <lastBuildDate>Fri, 12 Dec 2025 21:30:07 -0800</lastBuildDate>
-    <atom:link href="https://shital.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <description>Blog — Shital Shah&#39;s personal website and blog. Research Engineer at Microsoft Research with interests in deep learning and reinforcement learning. Created…</description>
+    <generator>Hugo 0.166.0</generator>
+    <language>en</language><copyright>Shital Shah &#x1F16D; CC BY-NC-SA</copyright><lastBuildDate>Fri, 12 Dec 2025 21:30:07 -0800</lastBuildDate><atom:link href="https://shital.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Releasing StreamHope - Merge Duplicate Playlists in YouTube Music, transfer from Spotify</title>
       <link>https://shital.com/blog/streamhop-release/</link>
+      <guid isPermaLink="true">https://shital.com/blog/streamhop-release/</guid>
       <pubDate>Fri, 12 Dec 2025 21:30:07 -0800</pubDate>
-      <guid>https://shital.com/blog/streamhop-release/</guid>
-      <description></description>
+      <dc:creator>Shital Shah</dc:creator><category>Machine Learning</category>
+      <description>Since past week, I have been finishing off several of side projects that were on my mind. The thing is that I haven’t written any code for these projects, they are all 100% done by AI (in this case Claude Code/Opus 4.5). While doing other things, I just ran Claude Code on the side, casually tossing it prompts whenever I had a spare moment.
+</description>
+      <content:encoded><![CDATA[<p>Since past week, I have been finishing off several of side projects that were on my mind. The thing is that I haven&rsquo;t written any code for these projects, they are all 100% done by AI (in this case Claude Code/Opus 4.5). While doing other things, I just ran Claude Code on the side, casually tossing it prompts whenever I had a spare moment.</p>
+<p>Today, I am releasing one of those side project: <strong>StreamHop</strong>!</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/streamhop-release/banner_hu_38d64c0eb9672f72.webp 480w, /blog/streamhop-release/banner_hu_3aabe27893cd7eca.webp 800w, /blog/streamhop-release/banner_hu_5041c50bfa57ae3d.webp 1200w, /blog/streamhop-release/banner_hu_7721b1f038fd35a4.webp 1600w, /blog/streamhop-release/banner_hu_741a3546139debe8.webp 3584w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/streamhop-release/banner_hu_e990d18ad202b078.jpg" srcset="/blog/streamhop-release/banner_hu_e9d834ad673a3d3b.jpg 480w, /blog/streamhop-release/banner_hu_321d5b139cb2f296.jpg 800w, /blog/streamhop-release/banner_hu_e990d18ad202b078.jpg 1200w, /blog/streamhop-release/banner_hu_78ab9e6fa39d6dca.jpg 1600w, /blog/streamhop-release/banner.jpg 3584w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="396" alt="StreamHop Banner Image" loading="eager" decoding="async" data-full="/blog/streamhop-release/banner.jpg"></picture></figure><p>This is a CLI-based tool to migrate Spotify playlists to YTMusic. It has many other features I wanted for myself, most importantly, merging duplicate playlists which are often created by other music transfer services. It also does metadata transfer, allows to save playlists as YAML and, the best of all, its all open source and completely free (MIT licensed)!</p>
+<p>Folks have been talking about AI writing 90% code. Well, I think we&rsquo;ve moved past that. For my these side projects, I&rsquo;m hitting 100%. It&rsquo;s still not trivial and simple as I am probably making out here and it does require bunch of techniques so you can do over 20 iterations in a single session in terminal without creating a mess. I will write a post on that some other time.</p>
+<p>The reason I wanted this was very poor shuffling algo in Spotify. Even if you have thousands of hand picked tracks, Spotify keeps playing same 100 over and over. I was hoping someone at Spotify would fix this but I finally ran out patience. All the companies which are ignoring customer feedback and experience are in grave danger of getting quickly replaced because of how fast AI can change things.</p>
+<p>According to <code>git-fame</code> this repo would have cost 12.9 months of human effort. Instead it was casually done with about ~40 sequential prompts over matter of days on the side while Claude waited for me when I had some time. All this is quite surreal to me.</p>
+<p>Here&rsquo;s repo:</p>
+<p><a href="https://github.com/sytelus/streamhop" class="ext" rel="noopener">SteamHop: Merge Duplicate Playlists, Backup, Transfer from Spotify to YouTube Music</a></p>
+<p>It might be enlightening to see how these 100% AI generated code (including ALL of the docs) looks like.</p>
+<p>Have fun! 🐸🎧</p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to Get and Interpret GPU Memory Profiling</title>
       <link>https://shital.com/blog/gpu-memory-profiling/</link>
+      <guid isPermaLink="true">https://shital.com/blog/gpu-memory-profiling/</guid>
       <pubDate>Sat, 06 Dec 2025 15:17:55 -0800</pubDate>
-      <guid>https://shital.com/blog/gpu-memory-profiling/</guid>
-      <description></description>
+      <dc:creator>Shital Shah</dc:creator><category>Machine Learning</category>
+      <description>The torch.OutOfMemoryError is one of the most dreaded errors where many folks descend into making guesses until something works. A much better, faster, and disciplined approach is to profile memory utilization. Like radiologists, developing intuition about profile images can immensely help you find anomalies and mistakes in training or inferencing code. Especially in the age of RL, where tight memory management is critical, memory profiling skills are extremely valuable.
+</description>
+      <content:encoded><![CDATA[<p>The <code>torch.OutOfMemoryError</code> is one of the most dreaded errors where many folks descend into making guesses until something works. A much better, faster, and disciplined approach is to profile memory utilization. Like radiologists, developing intuition about profile images can immensely help you find anomalies and mistakes in training or inferencing code. Especially in the age of RL, where tight memory management is critical, memory profiling skills are extremely valuable.</p>
+<h2 id="getting-memory-profile-data">Getting Memory Profile Data<a class="anchor" href="#getting-memory-profile-data" aria-label="Link to this section">#</a></h2>
+<p>To keep things simple, I (well, mostly Claude) have created a <a href="https://github.com/sytelus/nanugpt/blob/main/nanugpt/acc_mem_profiler.py" class="ext" rel="noopener">standalone Python module</a> that you can drop into any project and start profiling with just a few lines of code:</p>
+<figure class="code">
+  <figcaption class="mono"><span><span class="lang">python</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">  <span class="k">with</span> <span class="n">AccMemProfiler</span><span class="p">()</span> <span class="k">as</span> <span class="n">prof</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">      <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">          <span class="n">training_step</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">input_ids</span><span class="p">,</span> <span class="n">labels</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">prof</span><span class="o">.</span><span class="n">save_html</span><span class="p">(</span><span class="s1">&#39;path/to/profile.html&#39;</span><span class="p">)</span></span></span></code></pre></div>
+</figure>
+<p>Open the saved <code>profile.html</code> to see the profile results. To follow along with this tutorial, you can use the <a href="https://github.com/sytelus/nanugpt/blob/b33d17c96f045eb60318209dcb4b520d5cbe5be3/scripts/profiling/model_memory.py" class="ext" rel="noopener">code example</a> that profiles a Qwen 2.5 1.5B model-type architecture for 3 training steps. I also threw in activation checkpointing just for fun. To run this code on GPUs with &lt; 48GB RAM, reduce batch size as needed.</p>
+<h2 id="interpreting-memory-profile-data">Interpreting Memory Profile Data<a class="anchor" href="#interpreting-memory-profile-data" aria-label="Link to this section">#</a></h2>
+<p>There are strange shapes in <code>profile.html</code>, but we can already see 3 repeating patterns corresponding to 3 training steps:</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/gpu-memory-profiling/overall_profile_hu_7a60ab822d427723.webp 480w, /blog/gpu-memory-profiling/overall_profile_hu_fd5b65ddb3068f28.webp 800w, /blog/gpu-memory-profiling/overall_profile_hu_c9288f36f6b421f7.webp 1200w, /blog/gpu-memory-profiling/overall_profile_hu_f01803642239092a.webp 1600w, /blog/gpu-memory-profiling/overall_profile_hu_b24b29e50dfbf4cd.webp 2758w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/gpu-memory-profiling/overall_profile_hu_85c46ba306276093.png" srcset="/blog/gpu-memory-profiling/overall_profile_hu_5fa45e3e992d3600.png 480w, /blog/gpu-memory-profiling/overall_profile_hu_73dadddd7e146a39.png 800w, /blog/gpu-memory-profiling/overall_profile_hu_85c46ba306276093.png 1200w, /blog/gpu-memory-profiling/overall_profile_hu_58b5cc3807d99fab.png 1600w, /blog/gpu-memory-profiling/overall_profile.png 2758w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="456" alt="Overall memory profile" loading="eager" decoding="async" data-full="/blog/gpu-memory-profiling/overall_profile.png"></picture></figure><p>Each color in the profile is selected using a hash of the call stack. The alternating layers of colors indicate memory operations happening layer by layer. An increasing slope with stripes means layers are allocating something one after another, while a decreasing slope means they are freeing something in sequence.</p>
+<p>You can move your cursor over each color to see the corresponding call stack. An important thing to remember is that the memory operation happened during that call, not where your cursor is positioned. You may typically see forward, backward, or zero_grad calls on the call stack. You may even see a forward call in the backward call stack due to activation checkpointing. One tip is that frontier LLMs are good at interpreting these call stacks about 50% of the time &#x1f603;.</p>
+<p>Notice that there is a fixed band at the bottom that stays constant throughout the entire step. These are the allocations for model parameters and optimizer states. In our case, model parameters are 6GB, and the Adam optimizer has 2 states for each parameter, adding another 12GB. So the fixed memory is about 18GB, which checks out.</p>
+<h2 id="phases-in-a-training-step">Phases in a Training Step<a class="anchor" href="#phases-in-a-training-step" aria-label="Link to this section">#</a></h2>
+<p>Let&rsquo;s take the first training step and break it down.</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/gpu-memory-profiling/one_step_hu_a659463f90537c61.webp 480w, /blog/gpu-memory-profiling/one_step_hu_86ed757458280eed.webp 800w, /blog/gpu-memory-profiling/one_step_hu_28f5d7c74e14a808.webp 1200w, /blog/gpu-memory-profiling/one_step_hu_abb621574b7da8ee.webp 1600w, /blog/gpu-memory-profiling/one_step_hu_20ce43eed5fb9f38.webp 2241w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/gpu-memory-profiling/one_step_hu_4eced13e7e33f820.png" srcset="/blog/gpu-memory-profiling/one_step_hu_5bad82747e033da4.png 480w, /blog/gpu-memory-profiling/one_step_hu_9085e760914bd56e.png 800w, /blog/gpu-memory-profiling/one_step_hu_4eced13e7e33f820.png 1200w, /blog/gpu-memory-profiling/one_step_hu_301fdabdfe69bcf0.png 1600w, /blog/gpu-memory-profiling/one_step.png 2241w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="580" alt="Memory profile for one training step" loading="lazy" decoding="async" data-full="/blog/gpu-memory-profiling/one_step.png"></picture></figure><p>First, notice the many stripes in various places. Each stripe corresponds to memory operations in a layer. Multiple stacked stripes indicate something happening layer by layer.</p>
+<h3 id="forward-pass">Forward Pass<a class="anchor" href="#forward-pass" aria-label="Link to this section">#</a></h3>
+<p>When we execute the forward pass, each layer saves its input because we are using activation checkpointing. Later, these inputs will be used to recompute activations during the backward pass. This is what the rising stripes in the first half of the profile represent.</p>
+<p>The critical part of the forward pass from a memory perspective is what happens in the final layer where we compute the logits. Due to the large vocab size (151k), logits are huge, and you can see their relative size in memory compared to everything else.</p>
+<h3 id="zeroing-grads">Zeroing Grads<a class="anchor" href="#zeroing-grads" aria-label="Link to this section">#</a></h3>
+<p>After loss computation, we call <code>optimizer.zero_grad()</code>. Notice that at this point, the logits tensor has gone out of Python scope, but miraculously it&rsquo;s still alive! This is because autograd holds a reference to it in the computational graph since we still need to do backprop. During <code>zero_grad()</code>, memory consumption does go down as the previous <code>.grad</code> values get freed up layer by layer, causing the downward slope in the stripes beneath the red logits block.</p>
+<h3 id="backward-pass">Backward Pass<a class="anchor" href="#backward-pass" aria-label="Link to this section">#</a></h3>
+<p>When the <code>.backward()</code> call starts, we see a spike at the end of the red parallelogram.</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/gpu-memory-profiling/after_zero_grad_hu_32ea168780890296.webp 480w, /blog/gpu-memory-profiling/after_zero_grad_hu_aedd8e6deb4b3183.webp 800w, /blog/gpu-memory-profiling/after_zero_grad_hu_e2d17a823dc76cc1.webp 1200w, /blog/gpu-memory-profiling/after_zero_grad_hu_9122e2e49c63ad3b.webp 1600w, /blog/gpu-memory-profiling/after_zero_grad_hu_bd98d6cf0f4b801e.webp 1614w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/gpu-memory-profiling/after_zero_grad_hu_ae133a44ec7def86.png" srcset="/blog/gpu-memory-profiling/after_zero_grad_hu_81877bed422d7a76.png 480w, /blog/gpu-memory-profiling/after_zero_grad_hu_27f0f9c051996603.png 800w, /blog/gpu-memory-profiling/after_zero_grad_hu_ae133a44ec7def86.png 1200w, /blog/gpu-memory-profiling/after_zero_grad_hu_e7c26f5c359ef24f.png 1600w, /blog/gpu-memory-profiling/after_zero_grad.png 1614w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="854" alt="Backward Pass Start" loading="lazy" decoding="async" data-full="/blog/gpu-memory-profiling/after_zero_grad.png"></picture></figure><p>This big spike is immediately followed by a straight cliff. The spike occurs because significant memory is needed for computing the softmax during the cross-entropy gradient calculation. Once this is done, we no longer need the logits, so they get freed, forming the straight cliff down.</p>
+<p>Then we go through each layer performing the backward pass. Notice there is a tiny spike at each layer, forming little waves. This is because we have enabled activation checkpointing, so at the start of the backward pass for each layer, there are temporary allocations due to activation recomputation.</p>
+<p>Also, notice that the LM head generates large gradients, which form a solid green stripe that will stay in memory until we call <code>zero_grad()</code> again.</p>
+<p>During activation recomputation, we use the saved input to each layer to recompute activations. After that, we don&rsquo;t need them, so they get freed one by one, causing the descending stripes.</p>
+<h3 id="optimizer-step">Optimizer Step<a class="anchor" href="#optimizer-step" aria-label="Link to this section">#</a></h3>
+<p>Finally, my favorite part of the profile: <code>optimizer.step()</code>!</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/gpu-memory-profiling/adam_profile_hu_4fa9b49fb1693aac.webp 480w, /blog/gpu-memory-profiling/adam_profile_hu_b9162043fa2a6a66.webp 800w, /blog/gpu-memory-profiling/adam_profile_hu_e49520e3a096946f.webp 1200w, /blog/gpu-memory-profiling/adam_profile_hu_90667395505089ce.webp 1600w, /blog/gpu-memory-profiling/adam_profile_hu_2a3fa6e6d4d92056.webp 1822w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/gpu-memory-profiling/adam_profile_hu_f9604e408eb5ba62.png" srcset="/blog/gpu-memory-profiling/adam_profile_hu_3a2b1ffe281129bd.png 480w, /blog/gpu-memory-profiling/adam_profile_hu_c781d26a512f4072.png 800w, /blog/gpu-memory-profiling/adam_profile_hu_f9604e408eb5ba62.png 1200w, /blog/gpu-memory-profiling/adam_profile_hu_3803693be07ec004.png 1600w, /blog/gpu-memory-profiling/adam_profile.png 1822w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="814" alt="Optimizer step profile" loading="lazy" decoding="async" data-full="/blog/gpu-memory-profiling/adam_profile.png"></picture></figure><p>It has a peculiar triangle shape and, if you look closely, it has a little flagpole on top, forming a sort of temple or pyramid. It sits on two bases of solid stripes, which adds to its phenomenal beauty!</p>
+<p>Notice that the orange base starts a bit early — that is actually the embedding layer gradient formed at the end of the backward pass. It also stays around until we call the next <code>zero_grad()</code>. The rest of the <code>.step()</code> profile shape is a tribute to how the Adam optimizer works.</p>
+<p>Let&rsquo;s recall that the Adam optimizer has two moments: $\beta_1$, which operates to smooth out gradients, and $\beta_2$, which operates on squared gradients. We later take the square root of the $\beta_2$ trajectory to normalize updates, so we need additional space for these values — that&rsquo;s what the green band represents. The stripes in the triangle again indicate layer-by-layer operations where the Adam algorithm gradually computes the update for each parameter.</p>
+<p>The spike at the top is where the parameter update actually happens. The cause of the spike appears to be a temporary allocation for the division operation in the Adam update formula, computed for all parameters at once in the fused implementation. Once the update is complete, the temporary values get freed, forming the downward slope of the triangle.</p>
+<h2 id="what-can-you-learn">What Can You Learn<a class="anchor" href="#what-can-you-learn" aria-label="Link to this section">#</a></h2>
+<p>You can stare at these plots all day and keep finding new insights. We can immediately learn many things. For example, if you use <code>optimizer.zero_grad(set_to_none=False)</code>, you will not see the downward slope in the gradient stripes, as gradients are zeroed in-place rather than deallocated.</p>
+<p>We often focus too much on parameter count for small models and not enough on logit size. As the above plot reveals, logits dominate memory utilization for small models with large vocabularies. Large vocabularies for small models also cause the <a href="https://arxiv.org/abs/2404.07647" class="ext" rel="noopener">softmax bottleneck</a>. Unfortunately, many small modern models still use tokenizers created for large models and suffer the consequences.</p>
+<p>Large logits are also the reason why we want to fuse loss with logit computation! You can simply do this by including loss computation within the <code>forward()</code> call so that <code>model.compile()</code> can fuse them. This significantly reduces compute time by avoiding unnecessary transfers of logits back and forth in memory for small models (sometimes by 20-30%).</p>
+]]></content:encoded>
     </item>
     <item>
-      <title>Git Workflow: Branch - Rebase - Squash - Merge</title>
-      <link>https://shital.com/blog/git-workflow-branch-rebase-squash-merge/</link>
-      <pubDate>Sun, 26 Feb 2017 09:16:43 +0000</pubDate>
-      <guid>https://shital.com/blog/git-workflow-branch-rebase-squash-merge/</guid>
-      <description></description>
+      <title>o3-mini Level Hard Problem</title>
+      <link>https://shital.com/blog/tweets/post/202502011036-o3-mini-prevails/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/post/202502011036-o3-mini-prevails/</guid>
+      <pubDate>Sat, 01 Feb 2025 10:36:40 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>Deepseek R1 and o1 both failed on below question. In fact, o1 even said the question was too hard 😂. But now o3-mini did it. I am impressed!
+Discussion
+</description>
+      <content:encoded><![CDATA[<p>Deepseek R1 and o1 both failed on below question. In fact, o1 even said the question was too hard 😂. But now o3-mini did it. I am impressed!</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/post/202502011036-o3-mini-prevails/VstXi7H2Rn_hu_c530a981fa08228f.webp 480w, /blog/tweets/post/202502011036-o3-mini-prevails/VstXi7H2Rn_hu_4dee63782dd1ee19.webp 800w, /blog/tweets/post/202502011036-o3-mini-prevails/VstXi7H2Rn_hu_4318ebfa5379ff27.webp 1099w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/post/202502011036-o3-mini-prevails/VstXi7H2Rn.jpg" srcset="/blog/tweets/post/202502011036-o3-mini-prevails/VstXi7H2Rn_hu_1f02d823d42f60bb.jpg 480w, /blog/tweets/post/202502011036-o3-mini-prevails/VstXi7H2Rn_hu_2842217f99e88c7e.jpg 800w, /blog/tweets/post/202502011036-o3-mini-prevails/VstXi7H2Rn.jpg 1099w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1099" height="540" alt="https://pbs.twimg.com/media/Giq0QmnbYAQaiMQ.jpg" loading="eager" decoding="async" data-full="/blog/tweets/post/202502011036-o3-mini-prevails/VstXi7H2Rn.jpg"></picture></figure><p><a href="https://x.com/sytelus/status/1885517594268229822" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
     </item>
     <item>
-      <title>Playing with HoloLens</title>
-      <link>https://shital.com/blog/playing-with-hololens/</link>
-      <pubDate>Sat, 24 Dec 2016 00:15:13 +0000</pubDate>
-      <guid>https://shital.com/blog/playing-with-hololens/</guid>
-      <description></description>
+      <title>DeepSeek&#39;s Recipe Evolution</title>
+      <link>https://shital.com/blog/tweets/post/202501272301-deepseek-recipe-cot-2line/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/post/202501272301-deepseek-recipe-cot-2line/</guid>
+      <pubDate>Mon, 27 Jan 2025 23:01:25 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>Interestingly DeepSeek has been using RL for reasoning with GRPO all the way since early 2024 but results weren’t as impressive.
+So what changed?
+They asked model to generate CoT before answering. They used 2 line rule as reward instead of complicated model. And boom!
+</description>
+      <content:encoded><![CDATA[<p>Interestingly DeepSeek has been using RL for reasoning with GRPO all the way since early 2024 but results weren’t as impressive.</p>
+<p>So what changed?</p>
+<ol>
+<li>They asked model to generate CoT before answering.</li>
+<li>They used 2 line rule as reward instead of complicated model.</li>
+</ol>
+<p>And boom!</p>
+<p><a href="https://x.com/sytelus/status/1883893077213143292" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
     </item>
     <item>
-      <title>Writing Generic Container Functions in C&#43;&#43;11</title>
-      <link>https://shital.com/blog/writing-generic-container-function-in-c11/</link>
-      <pubDate>Sun, 05 Jun 2016 09:24:38 +0000</pubDate>
-      <guid>https://shital.com/blog/writing-generic-container-function-in-c11/</guid>
-      <description></description>
+      <title>Can You Spot Error Proving 1 = -1?</title>
+      <link>https://shital.com/blog/tweets/post/202501120513-11yo-proof-1-equals-minus-1/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/post/202501120513-11yo-proof-1-equals-minus-1/</guid>
+      <pubDate>Sun, 12 Jan 2025 05:13:47 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>My 11yo came up with below proof for 1 = -1 and it really threw me off.
+See if you can spot the error without help.
+Discussion
+</description>
+      <content:encoded><![CDATA[<p>My 11yo came up with below proof for 1 = -1 and it really threw me off.</p>
+<p>See if you can spot the error without help.</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/post/202501120513-11yo-proof-1-equals-minus-1/GFSnHEixxP_hu_a0155867a1bb45f5.webp 480w, /blog/tweets/post/202501120513-11yo-proof-1-equals-minus-1/GFSnHEixxP_hu_e5c358559d36c796.webp 800w, /blog/tweets/post/202501120513-11yo-proof-1-equals-minus-1/GFSnHEixxP_hu_c02b676ab279262c.webp 900w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/post/202501120513-11yo-proof-1-equals-minus-1/GFSnHEixxP.jpg" srcset="/blog/tweets/post/202501120513-11yo-proof-1-equals-minus-1/GFSnHEixxP_hu_17c43c3b94ddec36.jpg 480w, /blog/tweets/post/202501120513-11yo-proof-1-equals-minus-1/GFSnHEixxP_hu_52bee13df2f3b928.jpg 800w, /blog/tweets/post/202501120513-11yo-proof-1-equals-minus-1/GFSnHEixxP.jpg 900w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="900" height="1200" alt="https://pbs.twimg.com/media/GhCqj7LbEAAJ3zT.jpg" loading="eager" decoding="async" data-full="/blog/tweets/post/202501120513-11yo-proof-1-equals-minus-1/GFSnHEixxP.jpg"></picture></figure><p><a href="https://x.com/sytelus/status/1878188582541660644" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
     </item>
     <item>
-      <title>How to Enable and Use GCC Strict Mode Compilation</title>
-      <link>https://shital.com/blog/how-to-enable-and-use-gcc-strict-mode-compilation/</link>
-      <pubDate>Tue, 24 May 2016 01:19:51 +0000</pubDate>
-      <guid>https://shital.com/blog/how-to-enable-and-use-gcc-strict-mode-compilation/</guid>
-      <description></description>
+      <title>Phi-4 Now On HuggingFace with MIT Licence!</title>
+      <link>https://shital.com/blog/tweets/thread/202501082332-phi-4-official-release/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202501082332-phi-4-official-release/</guid>
+      <pubDate>Wed, 08 Jan 2025 23:32:21 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>We have been completely amazed by the response to phi-4 release. A lot of folks had been asking us for weight release. Few even uploaded bootlegged phi-4 weights on HuggingFace😬.
+Well, wait no more. We are releasing today official phi-4 model on HuggingFace!
+</description>
+      <content:encoded><![CDATA[<p>We have been completely amazed by the response to phi-4 release. A lot of folks had been asking us for weight release. Few even uploaded bootlegged phi-4 weights on HuggingFace😬.</p>
+<p>Well, wait no more. We are releasing today official phi-4 model on HuggingFace!</p>
+<p>With MIT licence!!</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202501082332-phi-4-official-release/rcugWBPU4r_hu_51a432e754bab7f3.webp 480w, /blog/tweets/thread/202501082332-phi-4-official-release/rcugWBPU4r_hu_ab23730d4cd75137.webp 800w, /blog/tweets/thread/202501082332-phi-4-official-release/rcugWBPU4r_hu_3958661e974ed369.webp 956w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202501082332-phi-4-official-release/rcugWBPU4r.jpg" srcset="/blog/tweets/thread/202501082332-phi-4-official-release/rcugWBPU4r_hu_456e98001801e6d2.jpg 480w, /blog/tweets/thread/202501082332-phi-4-official-release/rcugWBPU4r_hu_23f28f7835684d8a.jpg 800w, /blog/tweets/thread/202501082332-phi-4-official-release/rcugWBPU4r.jpg 956w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="956" height="1020" alt="https://pbs.twimg.com/media/Ggx96kba8AA9Wsv.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202501082332-phi-4-official-release/rcugWBPU4r.jpg"></picture></figure><p>HuggingFace link: <a href="https://huggingface.co/microsoft/phi-4" class="ext" rel="noopener">https://huggingface.co/microsoft/phi-4</a></p>
+<p>More about phi-4:
+<a href="https://x.com/sytelus/status/1867405273255796968" class="ext" rel="noopener">https://x.com/sytelus/status/1867405273255796968</a></p>
+<p><a href="https://x.com/sytelus/status/1877015492126220594" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
     </item>
     <item>
-      <title>Viewing Venus Transit in Seattle Area</title>
-      <link>https://shital.com/blog/viewing-venus-transit-in-seattle-area/</link>
-      <pubDate>Mon, 04 Jun 2012 23:05:54 +0000</pubDate>
-      <guid>https://shital.com/blog/viewing-venus-transit-in-seattle-area/</guid>
-      <description></description>
+      <title>Phi-4: The Most Powerful smol Model!</title>
+      <link>https://shital.com/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/</guid>
+      <pubDate>Fri, 13 Dec 2024 11:04:46 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>Are you ready for an early Christmas present from our team at Microsoft Research?
+Introducing the most powerful smol model ever built in the world!
+Welcome to Phi-4! 👇
+Personally, since I started working on Phi project at its inception, this is my most favorite model that we have ever shipped.
+</description>
+      <content:encoded><![CDATA[<p>Are you ready for an early Christmas present from our team at Microsoft Research?</p>
+<p>Introducing the most powerful smol model ever built in the world!</p>
+<p>Welcome to Phi-4! 👇</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/uOK423N8s0_hu_f50f77130fdc13a9.webp 480w, /blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/uOK423N8s0_hu_9b80f8683e0fc072.webp 800w, /blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/uOK423N8s0_hu_cb6af44d7bd6f2d1.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/uOK423N8s0.jpg" srcset="/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/uOK423N8s0_hu_ec56d0c4c4acb7c9.jpg 480w, /blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/uOK423N8s0_hu_92c252f484ba8110.jpg 800w, /blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/uOK423N8s0.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="847" alt="https://pbs.twimg.com/media/GepUASxbsAA8lwm.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/uOK423N8s0.jpg"></picture></figure><p>Personally, since I started working on Phi project at its inception, this is my most favorite model that we have ever shipped.</p>
+<p>Remember prompts that many frontier models including o1-preview struggled with? Phi-4 gave correct answer super fast!</p>
+<p><a href="https://x.com/sytelus/status/1853188232219128220" class="ext" rel="noopener">https://x.com/sytelus/status/1853188232219128220</a></p>
+<p>Phi-4 achieves this by pushing the art of synthetic data even further to induce reasoning abilities along with new advancements in post-training.</p>
+<p>If you have been using Llama 3.x etc for reasoning tasks, you owe it to yourself to try out Phi-4!</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/ErFjwKU65l_hu_d49b81a249557985.webp 480w, /blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/ErFjwKU65l_hu_3a14fead260231f4.webp 800w, /blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/ErFjwKU65l_hu_aacb96c3b66b146a.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/ErFjwKU65l.jpg" srcset="/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/ErFjwKU65l_hu_ff96f6d94bc9a467.jpg 480w, /blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/ErFjwKU65l_hu_81504d6fc0a4b44f.jpg 800w, /blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/ErFjwKU65l.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="497" alt="https://pbs.twimg.com/media/GepVzFEbsAUE-rL.jpg" loading="lazy" decoding="async" data-full="/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/ErFjwKU65l.jpg"></picture></figure><p>This is the work of super hard working team including <a href="https://x.com/EldanRonen" class="ext" rel="noopener">@EldanRonen</a> <a href="https://x.com/BehlHarkirat" class="ext" rel="noopener">@BehlHarkirat</a> <a href="https://x.com/mojan_jp" class="ext" rel="noopener">@mojan_jp</a> <a href="https://x.com/marah" class="ext" rel="noopener">@marah</a> <a href="https://x.com/marah_i_abdin" class="ext" rel="noopener">@marah_i_abdin</a> <a href="https://x.com/weishliu" class="ext" rel="noopener">@weishliu</a> <a href="https://x.com/rosaguga" class="ext" rel="noopener">@rosaguga</a> <a href="https://x.com/OlliSaarikivi" class="ext" rel="noopener">@OlliSaarikivi</a> <a href="https://x.com/suriyagnskr" class="ext" rel="noopener">@suriyagnskr</a> <a href="https://x.com/SebastienBubeck" class="ext" rel="noopener">@SebastienBubeck</a> and many others.</p>
+<p>Of course, none of this would have been possible without  support from our amazing…</p>
+<p>Paper: <a href="https://arxiv.org/abs/2412.08905" class="ext" rel="noopener">https://arxiv.org/abs/2412.08905</a></p>
+<p>Model is available now to try in Azure: <a href="https://ai.azure.com/explore/models/Phi-4/version/1/registry/azureml" class="ext" rel="noopener">https://ai.azure.com/explore/models/Phi-4/version/1/registry/azureml</a></p>
+<p>What&rsquo;s better than tokens? Tokens with logits!!</p>
+<p>We hope you will have as much fun playing and creating with this tiny beast of a model as we had building it.</p>
+<p>Happy holiday chilln&rsquo; for ya all🎄🎁.</p>
+<p>Oh&hellip; and one more thing! if you love to push model capabilities and want to work with us, check out our summer internship position. I am at #NeurIPS and let me know if you had like to chat more about this position.</p>
+<p><a href="https://x.com/sytelus/status/1866639121097298372" class="ext" rel="noopener">https://x.com/sytelus/status/1866639121097298372</a></p>
+<p>Tagging more people!
+<a href="https://x.com/NguynTu24128917" class="ext" rel="noopener">@NguynTu24128917</a> <a href="https://x.com/dingli_yu" class="ext" rel="noopener">@dingli_yu</a> <a href="https://x.com/xinw_ai" class="ext" rel="noopener">@xinw_ai</a> <a href="https://x.com/yw_yuewu" class="ext" rel="noopener">@yw_yuewu</a> <a href="https://x.com/YiZhangZZZ" class="ext" rel="noopener">@YiZhangZZZ</a> <a href="https://x.com/AdilSlm" class="ext" rel="noopener">@AdilSlm</a> <a href="https://x.com/_cyrilzhang" class="ext" rel="noopener">@_cyrilzhang</a></p>
+<p>Also, check out our blog post at <a href="https://aka.ms/phi4blog" class="ext" rel="noopener">https://aka.ms/phi4blog</a> for some great examples of reasoning tasks where Phi-4 excels!</p>
+<p>Way better summary than I can do by one and only <a href="https://x.com/rohanpaul_ai" class="ext" rel="noopener">@rohanpaul_ai</a>. <a href="https://x.com/rohanpaul_ai/status/1867426966305222929" class="ext" rel="noopener">https://x.com/rohanpaul_ai/status/1867426966305222929</a></p>
+<p><a href="https://x.com/sytelus/status/1867405273255796968" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
     </item>
     <item>
-      <title>Groups, Places and Collectives for Makers in Seattle Area</title>
-      <link>https://shital.com/blog/groups-places-and-collectives-for-makers-in-seattle-area/</link>
-      <pubDate>Mon, 04 Jun 2012 07:14:46 +0000</pubDate>
-      <guid>https://shital.com/blog/groups-places-and-collectives-for-makers-in-seattle-area/</guid>
-      <description></description>
+      <title>Announcement: PhD Internship for AI for Reasoning</title>
+      <link>https://shital.com/blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/</guid>
+      <pubDate>Wed, 11 Dec 2024 08:20:21 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>Do you want to work on exciting AI and reasoning problems this summer?
+We have an intern position just for you!
+The internships for PhD students at Microsoft Research is one amazing experience and opportunity to work with world class researchers and engineers! 👇
+</description>
+      <content:encoded><![CDATA[<p>Do you want to work on exciting AI and reasoning problems this summer?</p>
+<p>We have an intern position just for you!</p>
+<p>The internships for PhD students at Microsoft Research is one amazing experience and opportunity to work with world class researchers and engineers! 👇</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/16Q677slVY_hu_c423af5202ee3edc.webp 480w, /blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/16Q677slVY_hu_de3d4110c4080bd0.webp 800w, /blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/16Q677slVY_hu_990da938f2e8f8d2.webp 897w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/16Q677slVY.jpg" srcset="/blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/16Q677slVY_hu_6858993713f96605.jpg 480w, /blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/16Q677slVY_hu_e5aa7d725c43a220.jpg 800w, /blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/16Q677slVY.jpg 897w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="897" height="1200" alt="https://pbs.twimg.com/media/GeeiYhBaEAAFpmR.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/16Q677slVY.jpg"></picture></figure><p>Apply here today:</p>
+<p><a href="https://jobs.careers.microsoft.com/global/en/job/1789417/Research-Intern---AI-Reasoning" class="ext" rel="noopener">https://jobs.careers.microsoft.com/global/en/job/1789417/Research-Intern---AI-Reasoning</a></p>
+<p>This is a rare and unique opportunity to work on some very rewarding reasoning problems along side the members of Phi team and our product group partners.</p>
+<p>Excited? Apply TODAY!!</p>
+<p>We look forward to talk with you soon!</p>
+<p>CC: <a href="https://x.com/ylongqi" class="ext" rel="noopener">@ylongqi</a> <a href="https://x.com/soshsihao" class="ext" rel="noopener">@soshsihao</a> <a href="https://x.com/HJiao" class="ext" rel="noopener">@HJiao</a></p>
+<p>I am at NeurIPS and if you had like to chat about this internship, my DMs are open!</p>
+<p><a href="https://x.com/sytelus/status/1866639121097298372" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
     </item>
     <item>
-      <title>Burning Man Tips for the First Timers</title>
-      <link>https://shital.com/blog/burning-man-tips-for-the-first-timers/</link>
-      <pubDate>Thu, 26 Aug 2010 23:46:07 +0000</pubDate>
-      <guid>https://shital.com/blog/burning-man-tips-for-the-first-timers/</guid>
-      <description></description>
+      <title>Some Hand Wavy Estimates on FLOPs and Computational Reducibility</title>
+      <link>https://shital.com/blog/tweets/thread/202412091102-ai-speed-limit-putnam/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202412091102-ai-speed-limit-putnam/</guid>
+      <pubDate>Mon, 09 Dec 2024 11:02:57 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>This is quite facilitating…
+My estimate for the ratio (Model Time/Human Time) was in the order of 10000 for medium complexity tasks.
+It reduces to ~1000 as complexity goes up to competition level.
+Now it’s merely ~12 for Putnam!
+Some thoughts on limits of AI 🧵 https://x.com/DanHendrycks/status/1865858756040704335
+</description>
+      <content:encoded><![CDATA[<p>This is quite facilitating…</p>
+<p>My estimate for the ratio (Model Time/Human Time) was in the order of 10000 for medium complexity tasks.</p>
+<p>It reduces to ~1000 as complexity goes up to competition level.</p>
+<p>Now it’s merely ~12 for Putnam!</p>
+<p>Some thoughts on limits of AI 🧵 <a href="https://x.com/DanHendrycks/status/1865858756040704335" class="ext" rel="noopener">https://x.com/DanHendrycks/status/1865858756040704335</a></p>
+<p>I feel there is general trend that as complexity of problem increases, computational reducibility (as popularized by <a href="https://x.com/stephen_wolfram" class="ext" rel="noopener">@stephen_wolfram</a>) seems to be decreasing.</p>
+<p>Problems have lower bound on amount of FLOPs you must spend with maximum computational reducibility.</p>
+<p>It also appears that,  for highly complex problems, top humans are able to get to pretty close to optimal computational reducibility.</p>
+<p>If this remains true, the performance difference may entirely just come down to simply who can spend FLOPs faster and for how long.</p>
+<p>The consequence: ASI might not have that amazing magic wand.</p>
+<p>ASI can have O(1) FLOPs/sec advantage and being able to run without sleep/distractions.</p>
+<p>We can also spin up  trillion instances but I suspect there is limit on distributed bound as well.</p>
+<p>Take for example, solving Riemann Hypothesis.</p>
+<p>I would estimate about 10M Human-hours spent on this problem so far. Let’s assume that ~30M still needed.</p>
+<p>If ASI is 1000X more faster, it will still need 3.5 years of continuous run to solve it!</p>
+<p>This also points to long context short coming of our current architectures.</p>
+<p>With our current long context schemes, we can barely manage perhaps up to 10 mins of “thinking”.</p>
+<p>To solve something like Riemann Hypothesis we need 5-6 orders of improvement!</p>
+<p><a href="https://x.com/sytelus/status/1865955265067323659" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
     </item>
     <item>
-      <title>Mountain Weather in Washington</title>
-      <link>https://shital.com/blog/mountain-weather-in-washington/</link>
-      <pubDate>Thu, 26 Aug 2010 06:40:00 +0000</pubDate>
-      <guid>https://shital.com/blog/mountain-weather-in-washington/</guid>
-      <description></description>
+      <title>Erdős Open Problems as ASI Benchmark</title>
+      <link>https://shital.com/blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/</guid>
+      <pubDate>Fri, 29 Nov 2024 10:40:57 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>I would like to define super human AI at math as the one which solves each of 652 open Erdos problems.
+I think this sets the difficulty bar and dataset size just right.
+Erdos problems: http://www.erdosproblems.com
+</description>
+      <content:encoded><![CDATA[<p>I would like to define super human AI at math as the one which solves each of 652 open Erdos problems.</p>
+<p>I think this sets the difficulty bar and dataset size just right.</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/xRY0cU6Ae6_hu_387a9ef7b7407027.webp 480w, /blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/xRY0cU6Ae6_hu_ac10d6d990c34274.webp 800w, /blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/xRY0cU6Ae6_hu_8e20855589865390.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/xRY0cU6Ae6.jpg" srcset="/blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/xRY0cU6Ae6_hu_700977230c793906.jpg 480w, /blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/xRY0cU6Ae6_hu_542758f25370fa48.jpg 800w, /blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/xRY0cU6Ae6.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="666" alt="https://pbs.twimg.com/media/GdhPfOrW8AAsKUh.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/xRY0cU6Ae6.jpg"></picture></figure><p>Erdos problems: <a href="http://www.erdosproblems.com" class="ext" rel="noopener">http://www.erdosproblems.com</a></p>
+<p>Related thread: <a href="https://x.com/ChrSzegedy/status/1862322895340675237" class="ext" rel="noopener">https://x.com/ChrSzegedy/status/1862322895340675237</a></p>
+<p><a href="https://x.com/sytelus/status/1862325849573507262" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
     </item>
     <item>
-      <title>A Day in SQL Tuning</title>
-      <link>https://shital.com/blog/a-day-in-sql-tuning/</link>
-      <pubDate>Wed, 27 Jan 2010 09:11:27 +0000</pubDate>
-      <guid>https://shital.com/blog/a-day-in-sql-tuning/</guid>
-      <description></description>
+      <title>Tokenization and Decoding</title>
+      <link>https://shital.com/blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/</guid>
+      <pubDate>Thu, 21 Nov 2024 20:10:22 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>Tokenization and decoding are two weak links in current setup with transformer based models. You often hear things like “oh well, greedy decoding is good enough” but in reality we have too many bandaids that makes it work.
+The CoT decoding paper illustrates this beautifully. 🧵
+</description>
+      <content:encoded><![CDATA[<p>Tokenization and decoding are two weak links in current setup with transformer based models. You often hear things like “oh well, greedy decoding is good enough” but in reality we have too many bandaids that makes it work.</p>
+<p>The CoT decoding paper illustrates this beautifully. 🧵</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/l0fSzIH7V0_hu_1a9f78c9a38b1d81.webp 480w, /blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/l0fSzIH7V0_hu_4f2e12aa47adeb1.webp 800w, /blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/l0fSzIH7V0_hu_f7aa04e7f946de11.webp 934w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/l0fSzIH7V0.jpg" srcset="/blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/l0fSzIH7V0_hu_3139bdaa0fb69a6c.jpg 480w, /blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/l0fSzIH7V0_hu_362b7902372e3c34.jpg 800w, /blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/l0fSzIH7V0.jpg 934w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="934" height="428" alt="https://pbs.twimg.com/media/Gc6FGaGWAAA74dE.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/l0fSzIH7V0.jpg"></picture></figure><p>The assertion in CoT decoding paper is that the probability distribution out of model is misleading. There often exist a decoding trajectory with CoT+answer even when prompt doesn’t have CoT and even when model isn’t instruction-tuned!</p>
+<p>How do we lock-in on this trajectory?</p>
+<p>Authors find cool trick that sometimes doubles the GSM8K perf just by modifying decoding! The main observation is that the probability disparity between top 1st and 2nd token is largest when model is more confident. So, what if we sum up that delta for each trajectory?</p>
+<p>Then generate candidate trajectories by trying first k top tokens for 1st decoding step and generating the rest by greedy approach. The winner is one with max sum of deltas.</p>
+<p>This might feel like crude approach but it seems to work well, at least on models without instruction…</p>
+<p>The intuition behind why it doesn’t work as well for instruction tuned models is CoTs are automatically induced by IT. In other words, IT makes greedy decoding much more tolerable by inducing CoT more often.</p>
+<p>Paper: <a href="https://arxiv.org/abs/2402.10200" class="ext" rel="noopener">https://arxiv.org/abs/2402.10200</a></p>
+<p>Via amazing <a href="https://x.com/rohanpaul_ai" class="ext" rel="noopener">@rohanpaul_ai</a></p>
+<p><a href="https://x.com/sytelus/status/1859570043538862159" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
     </item>
     <item>
-      <title>Treadmill Grade to Angle Conversion</title>
-      <link>https://shital.com/blog/treadmill-grade-to-angle-conversion/</link>
-      <pubDate>Sat, 14 Feb 2009 08:02:00 +0000</pubDate>
-      <guid>https://shital.com/blog/treadmill-grade-to-angle-conversion/</guid>
-      <description></description>
+      <title>Scaling Laws and Data Wall</title>
+      <link>https://shital.com/blog/tweets/thread/202411150043-scaling-token-quality/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202411150043-scaling-token-quality/</guid>
+      <pubDate>Fri, 15 Nov 2024 00:43:32 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>Scaling laws have an assumption that quality of tokens remains mostly the same as you scale. However, in real world large scale datasets, this is not true.
+When there is upper bound on quality training tokens, there is upper bound on scaling.
+</description>
+      <content:encoded><![CDATA[<p>Scaling laws have an assumption that quality of tokens remains mostly the same as you scale. However, in real world large scale datasets, this is not true.</p>
+<p>When there is upper bound on quality training tokens, there is upper bound on scaling.</p>
+<p>But what about synthetic data? 🧵</p>
+<p>With current synthetic data techniques, one issue is they don’t add ton of new entropy to original pre-training data.</p>
+<p>Remember, pre-training data is synthesized from spending centuries of human-FLOPs. Prompt based synth gen can generate data in neighborhood of existing data.</p>
+<p>This is entropy bottleneck: There is simply not enough entropy/tok to gain as you move to down the tail of organic data or from prompt-based synthetic data.</p>
+<p>Possible solution is to spend more test time compute to generate synthetic data that is of higher entropy content.</p>
+<p>The entropy/tok in a given dataset seems to be related to FLOPs spent on generating that data. Human data is generated from a lot of compute spent by humans over many millennia. Our pre-training data is equivalent of fossil fuel.</p>
+<p>That data is running out.</p>
+<p>Human-FLOPs are in limited supply but GPU-FLOPs through ttc can allow generating synthetic data with high entropy and that’s one way to overcome this bottleneck.</p>
+<p>The bad news is that we will need more compute than predicted by scaling laws.</p>
+<p>But can’t we just only use ttc?</p>
+<p>I think merely scaling inference compute won’t be sufficient. A weak model can spend inordinate amount of inference compute and still may not solve a hard problem.</p>
+<p>There seems to be intricate intertwined dance of training and inference compute, one improving another.</p>
+<p>So, imagine cycle of training a model, generating high entropy synthetic data by scaling inference compute and then using it to continue training.</p>
+<p>This is the self-improving recipe.</p>
+<p>We humans operate in similar way: consume previously generated data and get new data for next gen. One critical element is embodiment which enables transferring entropy from our environment.</p>
+<p>Spend thousands of years of human-FLOPs like this and you get current pre-training data!</p>
+<p><a href="https://x.com/sytelus/status/1857102074070352290" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
     </item>
     <item>
-      <title>What is the best time to hike Zion Narrows?</title>
-      <link>https://shital.com/blog/what-is-the-best-time-to-hike-zion-narrows/</link>
-      <pubDate>Fri, 23 Jan 2009 12:14:00 +0000</pubDate>
-      <guid>https://shital.com/blog/what-is-the-best-time-to-hike-zion-narrows/</guid>
-      <description></description>
+      <title>OpenCoder</title>
+      <link>https://shital.com/blog/tweets/thread/202411110738-opencoder-outsmarts-stackv2/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202411110738-opencoder-outsmarts-stackv2/</guid>
+      <pubDate>Mon, 11 Nov 2024 07:38:36 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>OpenCoder is an amazing work! It’s 100% open that comes with new 960B tokens dataset RefineCode spanning 600+ programming languages. This dataset outperforms StackV2 to achieve same perf in 3X less tokens!
+But that’s not it. 🧵 https://x.com/sivil_taram/status/1855301760770056246
+They also use new WSD schedule that I wrote about last year (studied and published independently this year). In cooldown phase, they also use high quality synthetic data inspired by Phi models from my team. All these truly pushes OpenCoder to reach new heights.
+</description>
+      <content:encoded><![CDATA[<p>OpenCoder is an amazing work!  It’s 100% open that comes with new 960B tokens dataset RefineCode spanning 600+ programming languages. This dataset outperforms  StackV2 to achieve same perf in 3X less tokens!</p>
+<p>But that’s not it. 🧵 <a href="https://x.com/sivil_taram/status/1855301760770056246" class="ext" rel="noopener">https://x.com/sivil_taram/status/1855301760770056246</a></p>
+<p>They also use new WSD schedule that I wrote about last year (studied and published independently this year). In cooldown phase, they also use high quality synthetic data inspired by Phi models from my team. All these truly pushes OpenCoder to reach new heights.</p>
+<p>The amazing part is that everything is reproducible with open code and data!</p>
+<p>It comes from a team at InfTech in China that you may not heard of.</p>
+<p>In a strange twist of events, Chinese startups are the ones practicing and advancing open science in AI.</p>
+<p>They deserve huge kudos.</p>
+<p><a href="https://x.com/sytelus/status/1855756978917986627" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
     </item>
     <item>
-      <title>Mount Si - Take #2</title>
-      <link>https://shital.com/blog/mount-si-take-2/</link>
-      <pubDate>Mon, 05 Jan 2009 02:22:00 +0000</pubDate>
-      <guid>https://shital.com/blog/mount-si-take-2/</guid>
-      <description></description>
+      <title>The WSD Learning Rate Schedule</title>
+      <link>https://shital.com/blog/tweets/post/202411061656-cooling-down-learning-rate-wsd-schedule/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/post/202411061656-cooling-down-learning-rate-wsd-schedule/</guid>
+      <pubDate>Wed, 06 Nov 2024 16:56:20 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>Elections are (hopefully) over and we all can use some cooling down. But you know what else can use some cooldown? Your LR schedule!
+I wrote note about this last year and now things are becoming very real. Some people are calling it “WSD schedule” while others are calling it… https://x.com/sytelus/status/1688119658266890240
+</description>
+      <content:encoded><![CDATA[<p>Elections are (hopefully) over and we all can use some cooling down. But you know what else can use some cooldown? Your LR schedule!</p>
+<p>I wrote note about this last year and now things are becoming very real. Some people are calling it &ldquo;WSD schedule&rdquo; while others are calling it… <a href="https://x.com/sytelus/status/1688119658266890240" class="ext" rel="noopener">https://x.com/sytelus/status/1688119658266890240</a></p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/post/202411061656-cooling-down-learning-rate-wsd-schedule/FVcHBX5JGA_hu_fcb5edbc9cfcf6c9.webp 480w, /blog/tweets/post/202411061656-cooling-down-learning-rate-wsd-schedule/FVcHBX5JGA_hu_2b38d4052f56ab4a.webp 800w, /blog/tweets/post/202411061656-cooling-down-learning-rate-wsd-schedule/FVcHBX5JGA_hu_670e1ac7d505d793.webp 819w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/post/202411061656-cooling-down-learning-rate-wsd-schedule/FVcHBX5JGA.png" srcset="/blog/tweets/post/202411061656-cooling-down-learning-rate-wsd-schedule/FVcHBX5JGA_hu_dbbd086fe9b26c34.png 480w, /blog/tweets/post/202411061656-cooling-down-learning-rate-wsd-schedule/FVcHBX5JGA_hu_c9736499384e0906.png 800w, /blog/tweets/post/202411061656-cooling-down-learning-rate-wsd-schedule/FVcHBX5JGA.png 819w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="819" height="413" alt="https://pbs.twimg.com/media/GbsITHbawAEAWYr.png" loading="eager" decoding="async" data-full="/blog/tweets/post/202411061656-cooling-down-learning-rate-wsd-schedule/FVcHBX5JGA.png"></picture></figure><p><a href="https://x.com/sytelus/status/1854085397124718892" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
     </item>
     <item>
-      <title>The ACM Turing Programming Contest Problem Set Archive</title>
-      <link>https://shital.com/blog/the-acm-turing-programming-contest-problem-set-archive/</link>
-      <pubDate>Thu, 13 Apr 2006 03:32:00 +0000</pubDate>
-      <guid>https://shital.com/blog/the-acm-turing-programming-contest-problem-set-archive/</guid>
-      <description></description>
+      <title>Healthier Flossing with Silk!</title>
+      <link>https://shital.com/blog/tweets/post/202411031601-switch-to-silk/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/post/202411031601-switch-to-silk/</guid>
+      <pubDate>Sun, 03 Nov 2024 16:01:35 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>PSA: Flossing strings from popular in-store brands contains plastics and other forever-chemicals! The solution is silk based biodegradable products.
+Discussion
+</description>
+      <content:encoded><![CDATA[<p>PSA: Flossing strings from popular in-store brands contains plastics and other forever-chemicals! The solution is silk based biodegradable products.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/V-8oKejN9EE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
+
+<p><a href="https://x.com/sytelus/status/1852984453066621419" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
     </item>
     <item>
-      <title>Earth: The Largest Neural Model</title>
-      <link>https://shital.com/blog/earth-the-largest-neural-model/</link>
-      <pubDate>Fri, 30 Sep 2005 15:59:00 +0000</pubDate>
-      <guid>https://shital.com/blog/earth-the-largest-neural-model/</guid>
-      <description></description>
+      <title>Tricky Validation Plot</title>
+      <link>https://shital.com/blog/tweets/post/202410271015-lost-in-validation/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/post/202410271015-lost-in-validation/</guid>
+      <pubDate>Sun, 27 Oct 2024 10:15:07 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>I think this can serve as good interview question ;)
+You measure loss and accuracy over some validation set:
+And you end up with plots like below. What’s going on?
+Discussion
+</description>
+      <content:encoded><![CDATA[<p>I think this can serve as good interview question ;)</p>
+<p>You measure loss and accuracy over some validation set:</p>
+<p>And you end up with plots like below. What&rsquo;s going on?</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/post/202410271015-lost-in-validation/VTeaCXn6dK_hu_88ebb698bdd3299e.webp 480w, /blog/tweets/post/202410271015-lost-in-validation/VTeaCXn6dK_hu_720ff562df7c9058.webp 800w, /blog/tweets/post/202410271015-lost-in-validation/VTeaCXn6dK_hu_d77794376985549e.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/post/202410271015-lost-in-validation/VTeaCXn6dK.jpg" srcset="/blog/tweets/post/202410271015-lost-in-validation/VTeaCXn6dK_hu_b6cc0fd35a9bbba6.jpg 480w, /blog/tweets/post/202410271015-lost-in-validation/VTeaCXn6dK_hu_89aa808ac2992fa9.jpg 800w, /blog/tweets/post/202410271015-lost-in-validation/VTeaCXn6dK.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="464" alt="https://pbs.twimg.com/media/Ga3Y-gpaYAEvS-N.jpg" loading="eager" decoding="async" data-full="/blog/tweets/post/202410271015-lost-in-validation/VTeaCXn6dK.jpg"></picture></figure><p><a href="https://x.com/sytelus/status/1850375646373196113" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>DeepMind&#39;s Chess Model</title>
+      <link>https://shital.com/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/</guid>
+      <pubDate>Mon, 21 Oct 2024 07:31:29 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>DeepMind’s chess paper has sharply divided AI community:
+Some are pointing to it as evidence that LLMs can do reasoning and planning while others say it’s just lookup table/memorization.
+In reality, I think the paper uncovers something else if you look into details! 🧵
+</description>
+      <content:encoded><![CDATA[<p>DeepMind&rsquo;s chess paper has sharply divided AI community:</p>
+<p>Some are pointing to it as evidence that LLMs can do reasoning and planning while others say it&rsquo;s just lookup table/memorization.</p>
+<p>In reality, I think the paper uncovers something else if you look into details! 🧵</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/Cm2pJTlHyh_hu_159ddea232256b0f.webp 480w, /blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/Cm2pJTlHyh_hu_9c3a490cf57b28ad.webp 800w, /blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/Cm2pJTlHyh_hu_8a172d67c85cf7cf.webp 962w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/Cm2pJTlHyh.jpg" srcset="/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/Cm2pJTlHyh_hu_9e415ce4ebcb273f.jpg 480w, /blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/Cm2pJTlHyh_hu_e71c70819ac59b18.jpg 800w, /blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/Cm2pJTlHyh.jpg 962w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="962" height="1200" alt="https://pbs.twimg.com/media/GaXumBDXUAAKasK.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/Cm2pJTlHyh.jpg"></picture></figure><p>First, the authors are trying to distill Stockfish engine into a model. One would think student wouldn&rsquo;t do better than the teacher but the teacher Elo is 2713 while student gets 2895.</p>
+<p>So student is doing better than teacher!</p>
+<p>But this is still not the most  interesting part!!</p>
+<p>The Elo ratings at this level are unreliable so let&rsquo;s not put too much weight into these differences.</p>
+<p>A more important question is:</p>
+<p>Are the FLOPs spent by Stockfish 16 to compute the next move same as the FLOPs spent by the model?</p>
+<p>There are interesting consequences of this.</p>
+<p>The details are buried in appendix and scant but for the 50ms limit and hardware used (Intel Xeon W-2135 CPU @ 3.70GHz), my estimate of FLOPs used by Stockfish 16 to compute next move is between 8 to 16 GFLOPs.</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/kLlBFfg889_hu_dd665d97eb1b199e.webp 480w, /blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/kLlBFfg889_hu_57cdc80f488fc04d.webp 800w, /blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/kLlBFfg889_hu_e4146edf9da04ab7.webp 1137w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/kLlBFfg889.jpg" srcset="/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/kLlBFfg889_hu_2b73f962de6eecc7.jpg 480w, /blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/kLlBFfg889_hu_d050ed73de7ef581.jpg 800w, /blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/kLlBFfg889.jpg 1137w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1137" height="696" alt="https://pbs.twimg.com/media/GaX7xsEXQAAvsJ0.jpg" loading="lazy" decoding="async" data-full="/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/kLlBFfg889.jpg"></picture></figure><p>Using the details in the paper, I tried to compute the FLOPs used by the forward pass of the model and it comes out to be between 49-98 GFLOPs.</p>
+<p>In other words, the model is spending at least 4X more  FLOPs to do the same computation!</p>
+<p>So, what are the takeaways?</p>
+<p>For problems like chess, it&rsquo;s all eventually come down to how many FLOPs can you spend? It turns out ~16 GLOPs is quite enough to beat humans!</p>
+<p>The most interesting thing for me in DeepMind paper is more or less general recipe of distilling possibly an arbitrary probabilistic algorithm into a neural model.</p>
+<p>Sure, it&rsquo;s 4X less efficient at the moment but it&rsquo;s compositionally enormously powerful paradigm.</p>
+<p>Now the time for that bigger insight:</p>
+<p>Stockfish engine is littered with all kind of complexities built with traditional computational primitives of conditionals, branching, data movements and so on.</p>
+<p>What DeepMind paper points to is that all of these can potentially be distilled… <a href="https://x.com/sytelus/status/1848160140278555049" class="ext" rel="noopener">continue reading</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Solving Chicken-Egg Dilemma</title>
+      <link>https://shital.com/blog/tweets/post/202410210434-cracking-chicken-egg-dilemma/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/post/202410210434-cracking-chicken-egg-dilemma/</guid>
+      <pubDate>Mon, 21 Oct 2024 04:34:27 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>All solved chicken and egg problems are solved by producing egg out of thin air by just sheer determination.
+Discussion
+</description>
+      <content:encoded><![CDATA[<p>All solved chicken and egg problems are solved by producing egg out of thin air by just sheer determination.</p>
+<p><a href="https://x.com/sytelus/status/1848115590827069650" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>New Optimizer: Muon</title>
+      <link>https://shital.com/blog/tweets/thread/202410131001-adamw-who-new-optimizer/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202410131001-adamw-who-new-optimizer/</guid>
+      <pubDate>Sun, 13 Oct 2024 10:01:24 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>There is something beautiful and amazing happening right now. A new optimizer that is almost twice as efficient than AdamW is being born right in front of our eyes!
+Many people are probably rolling their eyes just reading this but this time it feels different! 🧵
+</description>
+      <content:encoded><![CDATA[<p>There is something beautiful and amazing happening right now. A new optimizer that is almost twice as efficient than AdamW is being born right in front of our eyes!</p>
+<p>Many people are probably rolling their eyes just reading this but this time it feels different! 🧵</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202410131001-adamw-who-new-optimizer/lIDxSWqsq2_hu_d993be6fa8f09d8e.webp 480w, /blog/tweets/thread/202410131001-adamw-who-new-optimizer/lIDxSWqsq2_hu_ef72bbc56240f905.webp 800w, /blog/tweets/thread/202410131001-adamw-who-new-optimizer/lIDxSWqsq2_hu_b81277448aad5688.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202410131001-adamw-who-new-optimizer/lIDxSWqsq2.jpg" srcset="/blog/tweets/thread/202410131001-adamw-who-new-optimizer/lIDxSWqsq2_hu_9507835150c6d24d.jpg 480w, /blog/tweets/thread/202410131001-adamw-who-new-optimizer/lIDxSWqsq2_hu_74b94f283cda1eb9.jpg 800w, /blog/tweets/thread/202410131001-adamw-who-new-optimizer/lIDxSWqsq2.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="858" alt="https://pbs.twimg.com/media/GZu9vzUaAAIcwkL.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202410131001-adamw-who-new-optimizer/lIDxSWqsq2.jpg"></picture></figure><p>We have a mini cottage industry which has tradition for putting out papers claiming to beat Adam annually that just never seems to pan out. There seems to be always some hidden catch, if things are reproducible at all. So, rightfully, many have became numb to these announcements.</p>
+<p>So, here&rsquo;s the twist! If you are into sport of speed training CIFAR-10, you aren&rsquo;t stranger to <a href="https://x.com/kellerjordan0" class="ext" rel="noopener">@kellerjordan0</a>. I left the sport couple of years ago but he eventually broke jaw-dropping 3s barrier!</p>
+<p>Still, there was growing sarcasm for still using CIFAR-10. It was time for change.</p>
+<p>So, recently <a href="https://x.com/kellerjordan0" class="ext" rel="noopener">@kellerjordan0</a> took upon speed training transformers! Instead of keeping everything secret, he recorded his progress in public. Community started parallel experimentation, reported results and soon things were shaping up to be really good!</p>
+<p><a href="https://x.com/kellerjordan0/status/1844820924195106850" class="ext" rel="noopener">https://x.com/kellerjordan0/status/1844820924195106850</a></p>
+<p>The reason I am ecstatic about this is because I have always felt this is how the research should be done.</p>
+<p>Even in &ldquo;open&rdquo; research labs, you will see too many researchers jealously guarding early ideas. The sharing only happens with close friends. There is obsession on…</p>
+<p>The result of above rituals and deeply ingrained culture is that it takes months to get any idea out through published paper. When it does get out, it often gets lost in sea of other papers. If someone does notices, improving upon it takes yet another same long arduous cycle.</p>
+<p>Keller and others have taken different approach. They released initial ideas as public GitHub repos, not as paper. People can immediately play and improve. Everything can be validated by anyone at anytime. As everything is open, there is no room for cheating and overclaiming.</p>
+<p>This is truly distributed real time AI research! Within days Keller and others were able to improve on ideas. Folks who saw promise, jumped in and help parallelize.</p>
+<p>In traditional AI research landscape, this feedback cycle would have taken 6+ months instead of just 6 days.</p>
+<p>Funny thing is that the optimizer wasn&rsquo;t even named just couple of days ago so people kept calling it &ldquo;Proposed Optimizer&rdquo; 😂. Finally, its named as Muon and Keller might get around to write paper some day.</p>
+<p>It&rsquo;s such as fun to see all this happen in real time.</p>
+<p>Another important development for achieving o1 like test-time compute scaling is Entropix by <a href="https://x.com/_xjdr" class="ext" rel="noopener">@_xjdr</a>. Both of these ideas coincidentally shaping up at same time!</p>
+<p>Very hopeful that this distributed real-time research ideas will replace our current arcane arxiv based culture.</p>
+<p><a href="https://x.com/sytelus/status/1845298766863270159" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Vocab Scaling</title>
+      <link>https://shital.com/blog/tweets/post/202410011628-oversized-model-undersized-vocab/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/post/202410011628-oversized-model-undersized-vocab/</guid>
+      <pubDate>Tue, 01 Oct 2024 16:28:40 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>Scaling laws for vocab size: https://arxiv.org/abs/2407.13623
+This paper asserts that as model gets larger, vocab size should be getting larger. Specifically, Llama2-70B vocab size is way below optimal (32K vs 216K).
+However, E2E benchmark perf improvement seems underwhelming even…
+Discussion
+</description>
+      <content:encoded><![CDATA[<p>Scaling laws for vocab size: <a href="https://arxiv.org/abs/2407.13623" class="ext" rel="noopener">https://arxiv.org/abs/2407.13623</a></p>
+<p>This paper asserts that as model gets larger, vocab size should be getting larger. Specifically, Llama2-70B vocab size is way below optimal (32K vs 216K).</p>
+<p>However, E2E benchmark perf improvement seems underwhelming even…</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/post/202410011628-oversized-model-undersized-vocab/afyR0AY2r5_hu_3c88d61a89c179db.webp 480w, /blog/tweets/post/202410011628-oversized-model-undersized-vocab/afyR0AY2r5_hu_2907deaf9b5735bc.webp 800w, /blog/tweets/post/202410011628-oversized-model-undersized-vocab/afyR0AY2r5_hu_5c6ab3d3a3935177.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/post/202410011628-oversized-model-undersized-vocab/afyR0AY2r5.jpg" srcset="/blog/tweets/post/202410011628-oversized-model-undersized-vocab/afyR0AY2r5_hu_4c455299845d6986.jpg 480w, /blog/tweets/post/202410011628-oversized-model-undersized-vocab/afyR0AY2r5_hu_68856236195dad24.jpg 800w, /blog/tweets/post/202410011628-oversized-model-undersized-vocab/afyR0AY2r5.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="510" alt="https://pbs.twimg.com/media/GYy3AhwbQAQdQJ3.jpg" loading="eager" decoding="async" data-full="/blog/tweets/post/202410011628-oversized-model-undersized-vocab/afyR0AY2r5.jpg"></picture></figure><p><a href="https://x.com/sytelus/status/1841047571122569502" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Using Cursor</title>
+      <link>https://shital.com/blog/tweets/thread/202409271839-cracking-the-cursor-code/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202409271839-cracking-the-cursor-code/</guid>
+      <pubDate>Fri, 27 Sep 2024 18:39:34 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>I’ve been using Cursor for a while and am fairly impressed. @amanrsanger and team has done good thinking towards building AI-first code editor that goes well beyond auto-complete. However, admittedly everything is not quite obvious. Here’s short thread to quickly get started! 🧵
+</description>
+      <content:encoded><![CDATA[<p>I&rsquo;ve been using Cursor for a while and am fairly impressed.  <a href="https://x.com/amanrsanger" class="ext" rel="noopener">@amanrsanger</a> and team has done good thinking towards building AI-first code editor that goes well beyond auto-complete. However, admittedly everything is not quite obvious. Here&rsquo;s short thread to quickly get started! 🧵</p>
+<p>When you open Cursor for the first time it doesn&rsquo;t feel too different until you press Cmd+L for chat window! Now you can tell AI to make changes in your file and you will get the diff which you can apply. You can select code and ask AI to work on only selected code as well.</p>
+<p>You can now just write one line comment and press tab to generate the code!</p>
+<p>Or press Cmd+K to write instruction and generate code.</p>
+<p>If you want generated code only upto some point, press Cmd+right arrow to accept word-by-word.</p>
+<p>In chat, type @ followed by file, folder or URL to add them in your prompt. You can add whole codebase using <a href="https://x.com/codebase" class="ext" rel="noopener">@codebase</a> and ask question. You can also select text and press Cmd+L to add it in context.</p>
+<p>One of the best feature is iterating on code via diffs! You ask AI to make some change and it generates diff for you. You apply it, run it, copy/past any errors back in chat, ask AI to fix it and keep repeating this process until you get to desired code.</p>
+<p>Another cool thing you can do is to drag and drop image in the chat and generate UX for you!</p>
+<p>Or use @ to reference URL and ask AI to use that web page for example, documentation or whatever.</p>
+<p>One other cool thing is that lot of above features works in Terminal! For example, you can press Cmd+K in terminal and ask it to write complex bash command.</p>
+<p>Composer is perhaps the most interesting feature. It&rsquo;s a way to do multi-file changes. So, instead of operating on a single file or code selection, here you can make changes to multiple files or create new ones with just one prompt.</p>
+<p>Use Cmd+Shift+I to open Composer window. Add…</p>
+<p>I often maintain <code>TODO.md</code> in my projects. Now, I can add this in composer, ask AI to implement all TODOs. The best part is that you can even ask AI to update the <code>TODO.md</code> itself with summary of what it did! You get the diff for each file and you can… <a href="https://x.com/sytelus/status/1839630961572749451" class="ext" rel="noopener">continue reading</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Terence Tao Grades o1</title>
+      <link>https://shital.com/blog/tweets/post/202409140853-terence-tao-ai-grading/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/post/202409140853-terence-tao-ai-grading/</guid>
+      <pubDate>Sat, 14 Sep 2024 08:53:49 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>Terence Tao’s grading:
+GPT-4o: Completely incompetent graduate student
+o1-preview: Mediocre but not completely incompetent graduate student
+A step change.
+Discussion
+</description>
+      <content:encoded><![CDATA[<p>Terence Tao’s grading:</p>
+<p>GPT-4o: Completely incompetent graduate student</p>
+<p>o1-preview: Mediocre but not completely incompetent graduate student</p>
+<p>A step change.</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/post/202409140853-terence-tao-ai-grading/EH8kot5jiU_hu_9f81a8ea867a90ab.webp 480w, /blog/tweets/post/202409140853-terence-tao-ai-grading/EH8kot5jiU_hu_f54fe43334dcec92.webp 800w, /blog/tweets/post/202409140853-terence-tao-ai-grading/EH8kot5jiU_hu_8fb9a89ee9e441c5.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/post/202409140853-terence-tao-ai-grading/EH8kot5jiU.jpg" srcset="/blog/tweets/post/202409140853-terence-tao-ai-grading/EH8kot5jiU_hu_6c57249dd9aed49.jpg 480w, /blog/tweets/post/202409140853-terence-tao-ai-grading/EH8kot5jiU_hu_21a70612cc67db50.jpg 800w, /blog/tweets/post/202409140853-terence-tao-ai-grading/EH8kot5jiU.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="689" alt="https://pbs.twimg.com/media/GXZr32ZbwAINSuy.jpg" loading="eager" decoding="async" data-full="/blog/tweets/post/202409140853-terence-tao-ai-grading/EH8kot5jiU.jpg"></picture></figure><p><a href="https://x.com/sytelus/status/1834772510698881231" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Things on Big Bang Theory Writer&#39;s Table</title>
+      <link>https://shital.com/blog/tweets/thread/202408042009-big-bang-clutter-challenge/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202408042009-big-bang-clutter-challenge/</guid>
+      <pubDate>Sun, 04 Aug 2024 20:09:05 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>This is famous “writers’ table” where Big Bang Theory episodes were written. How many types of objects can GPT-4o and Claude identify with name? But before looking up answer in the thread, give it a try yourself 🧐
+GPT-4o identified only 26 objects vs Claude 3.5 Sonnet did 45 which includes rubber band, paper clip, lip balm and USB drive! My own score was mere 37.
+</description>
+      <content:encoded><![CDATA[<p>This is famous “writers’ table” where Big Bang Theory episodes were written. How many types of objects can GPT-4o and Claude identify with name? But before looking up answer in the thread, give it a try yourself 🧐</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202408042009-big-bang-clutter-challenge/7DbmQyZehb_hu_6137456f18a4f76.webp 480w, /blog/tweets/thread/202408042009-big-bang-clutter-challenge/7DbmQyZehb_hu_ac3d98b05849d89.webp 800w, /blog/tweets/thread/202408042009-big-bang-clutter-challenge/7DbmQyZehb_hu_ce70fe4fd66a9825.webp 900w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202408042009-big-bang-clutter-challenge/7DbmQyZehb.jpg" srcset="/blog/tweets/thread/202408042009-big-bang-clutter-challenge/7DbmQyZehb_hu_e38830a46fff5753.jpg 480w, /blog/tweets/thread/202408042009-big-bang-clutter-challenge/7DbmQyZehb_hu_eb4acc0a7c66e9ea.jpg 800w, /blog/tweets/thread/202408042009-big-bang-clutter-challenge/7DbmQyZehb.jpg 900w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="900" height="1200" alt="https://pbs.twimg.com/media/GUI9PxXa0AAYz9b.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202408042009-big-bang-clutter-challenge/7DbmQyZehb.jpg"></picture></figure><p>GPT-4o identified only 26 objects vs Claude 3.5 Sonnet did 45 which includes rubber band, paper clip, lip balm and USB drive! My own score was mere 37.</p>
+<p><a href="https://x.com/sytelus/status/1820084546114904207" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Inference Scaling</title>
+      <link>https://shital.com/blog/tweets/post/202408020413-100x-larger-models-not-enough/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/post/202408020413-100x-larger-models-not-enough/</guid>
+      <pubDate>Fri, 02 Aug 2024 04:13:08 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>Inference compute scaling is the most fertile and rewarding area of research. The hard problems require too many FLOPS than are not possible from just a single/few forward pass on even 100X larger models. https://x.com/Azaliamirh/status/1819077194385445302
+Discussion
+</description>
+      <content:encoded><![CDATA[<p>Inference compute scaling is the most fertile and rewarding area of research. The hard problems require too many FLOPS than are not possible from just a single/few forward pass on even 100X larger models. <a href="https://x.com/Azaliamirh/status/1819077194385445302" class="ext" rel="noopener">https://x.com/Azaliamirh/status/1819077194385445302</a></p>
+<p><a href="https://x.com/sytelus/status/1819119195675939120" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>IMO 2024 Test</title>
+      <link>https://shital.com/blog/tweets/thread/202407220853-frontier-models-vs-mathletes/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202407220853-frontier-models-vs-mathletes/</guid>
+      <pubDate>Mon, 22 Jul 2024 08:53:37 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>International Math Olympiad 2024 gives us good test set for frontier models :). IMO questions only need high school level math knowledge and first one is the easiest so best humans can solve it in &lt;60 mins. Here’s that question.
+</description>
+      <content:encoded><![CDATA[<p>International Math Olympiad 2024 gives us good test set for frontier models :). IMO questions only need high school level math knowledge and first one is the easiest so best humans can solve it in &lt;60 mins. Here’s that question.</p>
+<p>Any guesses how frontier models would do?</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202407220853-frontier-models-vs-mathletes/YrIacIWVnO_hu_9fbef356e4ce2e36.webp 480w, /blog/tweets/thread/202407220853-frontier-models-vs-mathletes/YrIacIWVnO_hu_ec92590afd0aae9.webp 800w, /blog/tweets/thread/202407220853-frontier-models-vs-mathletes/YrIacIWVnO_hu_9f288d563c6ffb6d.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202407220853-frontier-models-vs-mathletes/YrIacIWVnO.jpg" srcset="/blog/tweets/thread/202407220853-frontier-models-vs-mathletes/YrIacIWVnO_hu_97f22c836ae98292.jpg 480w, /blog/tweets/thread/202407220853-frontier-models-vs-mathletes/YrIacIWVnO_hu_86536c8d741e2d0c.jpg 800w, /blog/tweets/thread/202407220853-frontier-models-vs-mathletes/YrIacIWVnO.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="141" alt="https://pbs.twimg.com/media/GTDl-noboAAorbC.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202407220853-frontier-models-vs-mathletes/YrIacIWVnO.jpg"></picture></figure><p>GPT 4: Failed. Pointing out incorrect cases didn’t help.</p>
+<p>GPT 4o: Failed. Pointing out incorrect cases didn’t help.</p>
+<p>Claude 3.5 Sonnet: Failed. Pointing out incorrect cases did helped giving right answer briefly but then continued on wrong path anyway.</p>
+<p>So, yes, long way to go.</p>
+<p>As benchmarks gets more and more contaminated, only the newly released test questions such as IMO, IIT-JEE etc will be the only real tests which humans also have to go through themselves.</p>
+<p><a href="https://x.com/sytelus/status/1815203516941766757" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>LLM Judges Prefers Fluff?</title>
+      <link>https://shital.com/blog/tweets/post/202407200414-llm-judges-prefer-fluff-just-like-humans/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/post/202407200414-llm-judges-prefer-fluff-just-like-humans/</guid>
+      <pubDate>Sat, 20 Jul 2024 04:14:49 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>LLM-as-judge will give you a higher score if you throw in a lot of relevant information that doesn’t actually answer the question vs the models that does answer the question but are concise :).
+To think of it, that often works with humans as well! https://x.com/corbtt/status/1814056457626862035
+</description>
+      <content:encoded><![CDATA[<p>LLM-as-judge will give you a higher score if you throw in a lot of relevant information that doesn’t actually answer the question vs the models that does answer the question but are concise :).</p>
+<p>To think of it, that often works with humans as well! <a href="https://x.com/corbtt/status/1814056457626862035" class="ext" rel="noopener">https://x.com/corbtt/status/1814056457626862035</a></p>
+<p><a href="https://x.com/sytelus/status/1814408578951983105" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Announcement: Phi-3 14B Rivaling Llama3 70B</title>
+      <link>https://shital.com/blog/tweets/post/202405221045-phi3-14b-challenges-llama3-70b/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/post/202405221045-phi3-14b-challenges-llama3-70b/</guid>
+      <pubDate>Wed, 22 May 2024 10:45:21 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>Phi-3 14B model from our team is available now! This was trained with 512 H100s on 4.8T tokens achieving MMLU of 78 (comparable with Llama3 70B!!).
+https://huggingface.co/microsoft/Phi-3-medium-4k-instruct
+Discussion
+</description>
+      <content:encoded><![CDATA[<p>Phi-3 14B model from our team is available now! This was trained with 512 H100s on 4.8T tokens achieving MMLU of 78 (comparable with Llama3 70B!!).</p>
+<p><a href="https://huggingface.co/microsoft/Phi-3-medium-4k-instruct" class="ext" rel="noopener">https://huggingface.co/microsoft/Phi-3-medium-4k-instruct</a></p>
+<p><a href="https://x.com/sytelus/status/1793125973090832765" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Power of Inference Scaling</title>
+      <link>https://shital.com/blog/tweets/post/202405080950-go-big-or-go-home-scaling-up-go-models/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/post/202405080950-go-big-or-go-home-scaling-up-go-models/</guid>
+      <pubDate>Wed, 08 May 2024 09:50:22 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>By how much do you need to scale up a single end-to-end model for Go that matches the performance of a smaller model with MCTS?
+Ans: By ~100000X.
+This was a super interesting insight from @polynoamial.
+Noam Brown knew early on that winning poker was about scaling up training… continue reading
+</description>
+      <content:encoded><![CDATA[<p>By how much do you need to scale up a single end-to-end model for Go that matches the performance of a smaller model with MCTS?</p>
+<p>Ans: By ~100000X.</p>
+<p>This was a super interesting insight from <a href="https://x.com/polynoamial" class="ext" rel="noopener">@polynoamial</a>.</p>
+<p>Noam Brown knew early on that winning poker was about scaling up training… <a href="https://x.com/sytelus/status/1788038708714942627" class="ext" rel="noopener">continue reading</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Human Hours to FLOPs</title>
+      <link>https://shital.com/blog/tweets/thread/202405050823-100-tflops-vs-2-hours/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202405050823-100-tflops-vs-2-hours/</guid>
+      <pubDate>Sun, 05 May 2024 08:23:04 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>Current 70B models spends ~100 TFLOPs to produce output that might take an expert human ~2hr of work in many cases.
+If you start measuring amount of work done by humans and machines in FLOPs, you get some very interesting consequences!🧵
+</description>
+      <content:encoded><![CDATA[<p>Current 70B models spends ~100 TFLOPs to produce output that might take an expert human ~2hr of work in many cases.</p>
+<p>If you start measuring amount of work done by humans and machines in FLOPs, you get some very interesting consequences!🧵</p>
+<p>One can argue that problems takes more <em>time</em> to solve as they get more harder. Einstein spent 10 intense years to find the field equation. It took many generations of mathematicians building on each others work for over 350 years to prove Fermat&rsquo;s Last Theorem.</p>
+<p>A homework problem, a Kaggle challenge, a major research breakthrough - all might lie on some continuous FLOPs expenditure curve. While a big breakthrough might appear non-linear, it is continuation of FLOPs spent over long period of time by many people building on each other.</p>
+<p>Current frontier models are great at homework problems, mediocre at Kaggle challenges and cannot produce real legitimate research paper.</p>
+<p>Could this be because of limited FLOPs available in a forward pass aka thinking &ldquo;bandwidth&rdquo; of LLMs? Scaling increases this bandwidth.</p>
+<p>The big issue: The forward pass FLOPs increases  ~linearly for model size BUT training cost increases in ~square of model size  (for some compute optimality).</p>
+<p>This in fact prohibits scaling as the way to make models smart enough to achieve big scientific breakthroughs!!</p>
+<p>For example, if you ask how big my model have to be which will prove a math theorem that took 1M hours of work by expert mathematicians over 350 years, the answer would be a model that is ~100,00 times bigger than GPT4 because otherwise forward pass won&rsquo;t have needed FLOPs!</p>
+<p>We will surely soon get 10X larger model and it will be able to generate output for a prompt that takes 20 hours of work by human expert instead of 2. It would be super awesome but still far and away from solving Riemann Hypothesis. That won&rsquo;t be happen even at 100X larger model!</p>
+<p>All these points to the possibility that scaling is likely not an answer to everything. In fact, it has very stringent limitations.</p>
+<p>Instead of expecting answer in one forward pass for a given prompt, LLMs needs to be able to create plan, review and re-plan.</p>
+<p>I think agentic AI is where the next biggest breakthroughs might happen, not the scaling. In essence, agentic AI trades model size for time by accumulating FLOPs.</p>
+<p>For many examples, LLMs are ~50,000 times faster than humans. Imagine, proving FLT in &lt; 1 day instead of 358 years!</p>
+<p><a href="https://x.com/sytelus/status/1786929575366471695" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Sample Efficiency</title>
+      <link>https://shital.com/blog/tweets/post/202404291142-paying-attention-sample-efficiency/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/post/202404291142-paying-attention-sample-efficiency/</guid>
+      <pubDate>Mon, 29 Apr 2024 11:42:20 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>While many architectures can reach performance of Transformer, the right question to ask is at what sample efficiency.
+Attention+backprop is the most sample efficient setting we have discovered so far but my guess is that we are orders of magnitudes away from what’s possible. https://x.com/jxmnop/status/1784696357892063565
+</description>
+      <content:encoded><![CDATA[<p>While many architectures can reach performance of Transformer, the right question to ask is at what sample efficiency.</p>
+<p>Attention+backprop is the most sample efficient setting we have discovered so far but my guess is that we are orders of magnitudes away from what’s possible. <a href="https://x.com/jxmnop/status/1784696357892063565" class="ext" rel="noopener">https://x.com/jxmnop/status/1784696357892063565</a></p>
+<p><a href="https://x.com/sytelus/status/1784805391614009745" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Phi-3: &#34;ChatGPT&#34; Natively on Your Phone</title>
+      <link>https://shital.com/blog/tweets/thread/202404240042-phi3-chatgpt-phone/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202404240042-phi3-chatgpt-phone/</guid>
+      <pubDate>Wed, 24 Apr 2024 00:42:47 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>Welcome to Phi-3!
+Our team at Microsoft AI has worked hard to bring you this little wonder and it’s open as in MIT Licensed!!
+We started this journey almost exactly a year ago and 3 releases later now you can have ChatGPT running on your phone natively :). 🧵
+</description>
+      <content:encoded><![CDATA[<p>Welcome to Phi-3!</p>
+<p>Our team at Microsoft AI has worked hard to bring you this little wonder and it&rsquo;s open as in MIT Licensed!!</p>
+<p>We started this journey almost exactly a year ago and 3 releases later now you can have ChatGPT running on your phone natively :). 🧵</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202404240042-phi3-chatgpt-phone/ZTPAHC9Ilu_hu_57383d145108d483.webp 480w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/ZTPAHC9Ilu_hu_edd5a3fe72633c1f.webp 800w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/ZTPAHC9Ilu_hu_46e1af650f5621fd.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202404240042-phi3-chatgpt-phone/ZTPAHC9Ilu.jpg" srcset="/blog/tweets/thread/202404240042-phi3-chatgpt-phone/ZTPAHC9Ilu_hu_3c8466bf6f057f06.jpg 480w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/ZTPAHC9Ilu_hu_3dd5f71a96a13cd.jpg 800w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/ZTPAHC9Ilu.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="812" alt="https://pbs.twimg.com/media/GL3U1PfacAEZL_-.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202404240042-phi3-chatgpt-phone/ZTPAHC9Ilu.jpg"></picture></figure><p>Phi-3 punches way above its weight beating way larger models!</p>
+<p>So, how does this magic happen? It&rsquo;s all in data because not all flops are created equal! Meticulous filtering and reasoning dense synthetic data can push models way beyond.</p>
+<p>Tech Report: <a href="https://arxiv.org/abs/2404.14219" class="ext" rel="noopener">https://arxiv.org/abs/2404.14219</a></p>
+<p>The most important part of our technical report is the below plot.</p>
+<p>Remember, we are fighting against exponentials when it comes to the scaling laws as in below log-linear plot. The primary insight here is that this line can be <em>tilted</em> and we shouldn&rsquo;t assume otherwise!</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202404240042-phi3-chatgpt-phone/QrlAnn3eOr_hu_d080bbc6ad9a9f41.webp 480w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/QrlAnn3eOr_hu_867d8b667c5825b8.webp 800w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/QrlAnn3eOr_hu_6a519d521ad71c1e.webp 1105w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202404240042-phi3-chatgpt-phone/QrlAnn3eOr.jpg" srcset="/blog/tweets/thread/202404240042-phi3-chatgpt-phone/QrlAnn3eOr_hu_66412e2b837ed994.jpg 480w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/QrlAnn3eOr_hu_96ba4b473c8ea033.jpg 800w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/QrlAnn3eOr.jpg 1105w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1105" height="495" alt="https://pbs.twimg.com/media/GL3ZaYWbgAAv8LZ.jpg" loading="lazy" decoding="async" data-full="/blog/tweets/thread/202404240042-phi3-chatgpt-phone/QrlAnn3eOr.jpg"></picture></figure><p>This is something I&rsquo;d believed in and posted just a little more than a year ago:
+<a href="https://x.com/sytelus/status/1637407901466886144" class="ext" rel="noopener">https://x.com/sytelus/status/1637407901466886144</a></p>
+<p>It&rsquo;s all about tilting the line!</p>
+<p>Data turns out to be our greatest leverage so far but there are other levers, perhaps as powerful, showing up on the horizon.</p>
+<p>Try out our models and give us the feedback!
+<a href="https://huggingface.co/collections/microsoft/phi-3-6626e15e9585a200d2d761e3" class="ext" rel="noopener">https://huggingface.co/collections/microsoft/phi-3-6626e15e9585a200d2d761e3</a></p>
+<p>We even have ready to use onnx and quantized gguf versions ready to go!</p>
+<p>You can also try out phi-3 quickly using ollama running 100% locally on your machine even if you don&rsquo;t have GPU 😎.</p>
+<p>Have fun!</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202404240042-phi3-chatgpt-phone/1WTvxWD1XE_hu_39a58c822ceab383.webp 480w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/1WTvxWD1XE_hu_c30296b6984d0ccb.webp 800w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/1WTvxWD1XE_hu_aa433f01b4927ba0.webp 1138w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202404240042-phi3-chatgpt-phone/1WTvxWD1XE.jpg" srcset="/blog/tweets/thread/202404240042-phi3-chatgpt-phone/1WTvxWD1XE_hu_ec5dd5e4699d5c78.jpg 480w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/1WTvxWD1XE_hu_b53d4276bee495bb.jpg 800w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/1WTvxWD1XE.jpg 1138w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1138" height="534" alt="https://pbs.twimg.com/media/GL3dCD3asAAHHOD.jpg" loading="lazy" decoding="async" data-full="/blog/tweets/thread/202404240042-phi3-chatgpt-phone/1WTvxWD1XE.jpg"></picture></figure><p>Here&rsquo;s quick demo by <a href="https://x.com/SebastienBubeck" class="ext" rel="noopener">@SebastienBubeck</a> just in case you missed it:</p>
+<p><a href="https://x.com/SebastienBubeck/status/1782627991874678809" class="ext" rel="noopener">https://x.com/SebastienBubeck/status/1782627991874678809</a></p>
+<p><a href="https://x.com/sytelus/status/1782827470686925211" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Inference Memory</title>
+      <link>https://shital.com/blog/tweets/thread/202404220422-inference-gradient-free-diet/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202404220422-inference-gradient-free-diet/</guid>
+      <pubDate>Mon, 22 Apr 2024 04:22:02 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>Inference is different than training because you don’t need to worry about grads, optimizer states, activations etc. For example, you can run just one layer and while it gets computed you load another in parallel so you never need more than 2 layers worth of accelerator RAM. https://x.com/teortaxesTex/status/1781894128424386953
+</description>
+      <content:encoded><![CDATA[<p>Inference is different than training because you don’t need to worry about grads, optimizer states, activations etc. For example, you can run just one layer and while it gets computed you load another in parallel so you never need more than 2 layers worth of accelerator RAM. <a href="https://x.com/teortaxesTex/status/1781894128424386953" class="ext" rel="noopener">https://x.com/teortaxesTex/status/1781894128424386953</a></p>
+<p>A lot of people still get shocked when they find out that frameworks like llama.cpp can run 70B models even on machines with mere 4GB RAM because they don’t understand above (and a little magical thing called memory mapped files) 😇.</p>
+<p><a href="https://x.com/sytelus/status/1782157873365328134" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Llama3 Leaps Ahead with Data Alone</title>
+      <link>https://shital.com/blog/tweets/thread/202404191425-llama3-leaps-ahead/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202404191425-llama3-leaps-ahead/</guid>
+      <pubDate>Fri, 19 Apr 2024 14:25:10 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>Llama3 architecture seems to have remain unchanged from Llama2 which makes it a perfect experiment for measuring performance improvement solely through data (and better tokenizer + 8k context, sure)!
+Just look at the massive bump from Llama2 -&gt; Llama3:
+Another thing to notice is how increased model size achieves better performance when data is kept constant. This is way more pronounced for Llama3 then Llama2. This scaling behavior is actually an essential indicator of better data quality:
+</description>
+      <content:encoded><![CDATA[<p>Llama3 architecture seems to have remain unchanged from Llama2 which makes it a perfect experiment for measuring performance improvement solely through data (and better tokenizer + 8k context, sure)!</p>
+<p>Just look at the massive bump from Llama2 -&gt; Llama3:</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202404191425-llama3-leaps-ahead/7tEyUIyppM_hu_3879132d70ddcac2.webp 480w, /blog/tweets/thread/202404191425-llama3-leaps-ahead/7tEyUIyppM_hu_11e86f09af76e6b2.webp 799w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202404191425-llama3-leaps-ahead/7tEyUIyppM.png" srcset="/blog/tweets/thread/202404191425-llama3-leaps-ahead/7tEyUIyppM_hu_3484cbd5a54c18dc.png 480w, /blog/tweets/thread/202404191425-llama3-leaps-ahead/7tEyUIyppM.png 799w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="799" height="896" alt="https://pbs.twimg.com/media/GLgobdfbgAA1rKQ.png" loading="eager" decoding="async" data-full="/blog/tweets/thread/202404191425-llama3-leaps-ahead/7tEyUIyppM.png"></picture></figure><p>Another thing to notice is how increased model size achieves better performance when data is kept constant. This is way more pronounced for Llama3 then Llama2. This scaling behavior is actually an essential indicator of better data quality:</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202404191425-llama3-leaps-ahead/mjI5njrqlp_hu_e7d244c60aa465c8.webp 480w, /blog/tweets/thread/202404191425-llama3-leaps-ahead/mjI5njrqlp_hu_aed18ff9b096a7f9.webp 800w, /blog/tweets/thread/202404191425-llama3-leaps-ahead/mjI5njrqlp_hu_a127695167dab5cb.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202404191425-llama3-leaps-ahead/mjI5njrqlp.png" srcset="/blog/tweets/thread/202404191425-llama3-leaps-ahead/mjI5njrqlp_hu_808f2d76109c2044.png 480w, /blog/tweets/thread/202404191425-llama3-leaps-ahead/mjI5njrqlp_hu_4a359172cfdb2538.png 800w, /blog/tweets/thread/202404191425-llama3-leaps-ahead/mjI5njrqlp.png 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="132" alt="https://pbs.twimg.com/media/GLgrkO7bcAA0r9J.png" loading="lazy" decoding="async" data-full="/blog/tweets/thread/202404191425-llama3-leaps-ahead/mjI5njrqlp.png"></picture></figure><p><a href="https://x.com/sytelus/status/1781222492910346479" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Pretraining has Gotten 10x Faster in Past Year!</title>
+      <link>https://shital.com/blog/tweets/post/202404171019-llm-training-10x-faster/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/post/202404171019-llm-training-10x-faster/</guid>
+      <pubDate>Wed, 17 Apr 2024 10:19:14 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>While digging up some historical numbers, it hit me that LLM training is now ~10X faster than same time last year from tons of improvements like H100 availability, Flash Attention2, new kernels, torch.compile, CUDA graphs, FP8 etc!
+That’s just past 12 months!!
+</description>
+      <content:encoded><![CDATA[<p>While digging up some historical numbers, it hit me that LLM training is now ~10X faster than same time last year from tons of improvements like H100 availability, Flash Attention2, new kernels, torch.compile, CUDA graphs, FP8 etc!</p>
+<p>That&rsquo;s just past 12 months!!</p>
+<p><a href="https://x.com/sytelus/status/1780435825941160212" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Great Papers</title>
+      <link>https://shital.com/blog/tweets/post/202404152027-does-your-paper-inspire/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/post/202404152027-does-your-paper-inspire/</guid>
+      <pubDate>Mon, 15 Apr 2024 20:27:15 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>A great test that I’d learned for whether a paper is worthwhile was from @erichorvitz : Would it inspire the new work in the community?
+To this day I find it deeply insightful that good papers are rarely about big breakthrough or SOTA and much more about inspiring the next work. https://x.com/ylecun/status/1483583471343783948
+</description>
+      <content:encoded><![CDATA[<p>A great test that I’d learned for whether a paper is worthwhile was from <a href="https://x.com/erichorvitz" class="ext" rel="noopener">@erichorvitz</a> : Would it inspire the new work in the community?</p>
+<p>To this day I find it deeply insightful that good papers are rarely about big breakthrough or SOTA and much more about inspiring the next work. <a href="https://x.com/ylecun/status/1483583471343783948" class="ext" rel="noopener">https://x.com/ylecun/status/1483583471343783948</a></p>
+<p><a href="https://x.com/sytelus/status/1779864062161223722" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Marvels of ENIAC</title>
+      <link>https://shital.com/blog/tweets/thread/202404151959-eniac-tubular-triumph/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202404151959-eniac-tubular-triumph/</guid>
+      <pubDate>Mon, 15 Apr 2024 19:59:24 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>Some very cool facts about ENIAC, the first general purpose electronic computer from the book by Scott McCartney:
+Experts in 1940s believed ENIAC was impossible because vacuum tubes cannot be scaled to about 10000 needed for the circuits. Max tubes used at the time was ~200. 🧵
+</description>
+      <content:encoded><![CDATA[<p>Some very cool facts about ENIAC, the first general purpose electronic computer from the book by Scott McCartney:</p>
+<p>Experts in 1940s believed ENIAC was impossible because vacuum tubes cannot be scaled to about 10000 needed for the circuits. Max tubes used at the time was ~200. 🧵</p>
+<p>Vacuum tubes were super unreliable and the idea that thousands of them can work together was considered ludicrous. Fortunately, the lead engineer Eckert was rather young, talented and naive. How did he solved this key issue?</p>
+<p>Eckert figured out that he can use tubes in on/off mode which allowed to reduce voltage by 10X, increasing life span. Eventually, ENIAC ran ~8 hr at a time before a tube blew. It took month to design program, day to dial in code in 3000 knobs and about week to debug the program.</p>
+<p>Even though Eckert knew about binary system, he decided to use decimal arithmetic to reduce number of tubes but complicating the ALU. The programming team of very first computer were all women! They were selected from “human computer” team, people gifted with doing arithmetic.</p>
+<p>ENIAC took 2 years to build. It was secret project but too small for army to care too much. In one of the most shocking coincidences,  John von Neumann and ENIAC’s project member Goldstein happen to travel in same train and bumped into each other.</p>
+<p>This is when John von Neumann first learned about general purpose computer. He immediately inserted himself into the project and wrote a paper describing stored program architecture. The problem? He only put himself as author even though these ideas were not his own!</p>
+<p>The paper became popular and people started calling it “John von Neumann Architecture” even though it wasn’t his idea. Neumann never corrected anyone, took the credit and just stayed silent. However, Neumann was still a visionary and it is astonishing how far he could see.</p>
+<p>While everyone looked at ENIAC as fancy programmable calculator, Neumann was the first to describe computer as machine to build neural network, artificial brain and journey towards intelligence even in that very first paper!</p>
+<p>Remember, ENIAC had mere 500 FLOPS.</p>
+<p>Another coincidence: Writing of this first paper on general purpose computer and the first nuclear explosion Trinity happened around at the same time and at the same place (Los Alamos)! Neumann abstracted away all the concepts so it can be published without divulging…</p>
+<p>It was Neumann’s ambitious vision for AI and his stature that ultimately spurred off race across US and the world to build ever powerful computers. Companies and governments started pouring money even though initial applications remained sketchy.</p>
+<p>This is how journey began from 500 FLOPS to today’s 5000 PFLOPS in just 80 years.</p>
+<p>So, why did I suddenly read this book? Well, on a loong 6hr drive, this was the only audiobook I could find that kids were willing to sit through and listen to the story 😂.</p>
+<p><a href="https://x.com/sytelus/status/1779857054498521278" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Intelligence and FLOPs Efficiency</title>
+      <link>https://shital.com/blog/tweets/thread/202404141641-chess-engines-slow-motion-rematch/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202404141641-chess-engines-slow-motion-rematch/</guid>
+      <pubDate>Sun, 14 Apr 2024 16:41:59 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>IBM DeepBlue ran at ~11 BFLOPS while current CPUs can do 80X more FLOPS. If we consider DeepBlue ELO (2853) approximately same as modern human grandmaster ELO then I would guess that human can still beat modern chess engines if we slow them down by 80X. That’s the question raised here: https://x.com/DavidDeutschOxf/status/1778324747853389909.
+</description>
+      <content:encoded><![CDATA[<p>IBM DeepBlue ran at ~11 BFLOPS while current CPUs can do 80X more FLOPS. If we consider DeepBlue ELO (2853) approximately same as modern human grandmaster ELO then I would guess that human can still beat modern chess engines if we slow them down by 80X. That&rsquo;s the question raised here: <a href="https://x.com/DavidDeutschOxf/status/1778324747853389909" class="ext" rel="noopener">https://x.com/DavidDeutschOxf/status/1778324747853389909</a>.</p>
+<p>I love above question because it highlights the importance of time as it relates to “better” reasoning. We often confuse better/more powerful reasoning with simply faster computation or computation with access to larger memory/scratch pad.</p>
+<p>The existential question of our times is to figure out what is reasoning, or more concretely, how do we precisely measure it in purely computational sense. A mental model I have in my mind is as follows:</p>
+<p>Start with set A and seed it using some axioms and operations. Now one can… <a href="https://x.com/sytelus/status/1779444983826985105" class="ext" rel="noopener">continue reading</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>CIFAR-10 Training to 94% Accuracy in 3.29s</title>
+      <link>https://shital.com/blog/tweets/post/202404051413-blazing-fast-cifar10-training/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/post/202404051413-blazing-fast-cifar10-training/</guid>
+      <pubDate>Fri, 05 Apr 2024 14:13:15 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>Training CIFAR-10 to 94% in shortest time is my beloved “ML sport”. For those who are keeping track, last year @hi_tysam crushed it with &lt;7 sec on single A100. The new record of 3.29s is totally insane.
+Here’s my very playable fork of tysam’s code: https://github.com/sytelus/hlb-CIFAR10 https://x.com/kellerjordan0/status/1775980602732548177
+</description>
+      <content:encoded><![CDATA[<p>Training CIFAR-10 to 94% in shortest time is my beloved &ldquo;ML sport&rdquo;. For those who are keeping track, last year <a href="https://x.com/hi_tysam" class="ext" rel="noopener">@hi_tysam</a> crushed it with &lt;7 sec on single A100. The new record of 3.29s is totally insane.</p>
+<p>Here&rsquo;s my very playable fork of tysam&rsquo;s code: <a href="https://github.com/sytelus/hlb-CIFAR10" class="ext" rel="noopener">https://github.com/sytelus/hlb-CIFAR10</a> <a href="https://x.com/kellerjordan0/status/1775980602732548177" class="ext" rel="noopener">https://x.com/kellerjordan0/status/1775980602732548177</a></p>
+<p><a href="https://x.com/sytelus/status/1776146062350090443" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Matmul on CPUs</title>
+      <link>https://shital.com/blog/tweets/post/202404011521-from-flop-to-flops/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/post/202404011521-from-flop-to-flops/</guid>
+      <pubDate>Mon, 01 Apr 2024 15:21:13 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>How many flops below matmul would use on i9 CPU?
+Just 0.042 gigaflops!
+Your CPU has 20000X more flops though. So, how do you matmul and drive flops truly to its limits?
+This fantastic article by Justine shows how (and she even beats Intel MLK!). https://x.com/JustineTunney/status/1774621341473489024
+</description>
+      <content:encoded><![CDATA[<p>How many flops below matmul would use on i9 CPU?</p>
+<p>Just 0.042 gigaflops!</p>
+<p>Your CPU has 20000X more flops though. So, how do you matmul and drive flops truly to its limits?</p>
+<p>This fantastic article by Justine shows how (and she even beats Intel MLK!). <a href="https://x.com/JustineTunney/status/1774621341473489024" class="ext" rel="noopener">https://x.com/JustineTunney/status/1774621341473489024</a></p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/post/202404011521-from-flop-to-flops/MWyJmUNPmM_hu_782b6cbf2bb1f381.webp 480w, /blog/tweets/post/202404011521-from-flop-to-flops/MWyJmUNPmM_hu_caaa16d0c8fa2d7e.webp 539w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/post/202404011521-from-flop-to-flops/MWyJmUNPmM.jpg" srcset="/blog/tweets/post/202404011521-from-flop-to-flops/MWyJmUNPmM_hu_c34fbedeb82b6a0c.jpg 480w, /blog/tweets/post/202404011521-from-flop-to-flops/MWyJmUNPmM.jpg 539w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="539" height="198" alt="https://pbs.twimg.com/media/GKEMoPNbgAAS8iP.jpg" loading="eager" decoding="async" data-full="/blog/tweets/post/202404011521-from-flop-to-flops/MWyJmUNPmM.jpg"></picture></figure><p><a href="https://x.com/sytelus/status/1774713616090202537" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Using rusage</title>
+      <link>https://shital.com/blog/tweets/thread/202403271630-rusage-llama-memory/</link>
+      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202403271630-rusage-llama-memory/</guid>
+      <pubDate>Wed, 27 Mar 2024 16:30:55 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
+      <description>The rusage is one handy tool for debugging LLMs!
+You prefix any command with it and you get memory usage, page faults, I/O info.
+For example, below shows what happens when you load model using llama.cpp. Notice page faults with 100% memcpy which means they didn’t hit disk!
+</description>
+      <content:encoded><![CDATA[<p>The <code>rusage</code> is one handy tool for debugging LLMs!</p>
+<p>You prefix any command with it and you get memory usage, page faults, I/O info.</p>
+<p>For example, below shows what happens when you load model using llama.cpp. Notice page faults with 100% memcpy which means they didn&rsquo;t hit disk!</p>
+<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202403271630-rusage-llama-memory/tDTkMz5Dig_hu_a15addc15e4ea505.webp 480w, /blog/tweets/thread/202403271630-rusage-llama-memory/tDTkMz5Dig_hu_4272f11e42d95ba1.webp 800w, /blog/tweets/thread/202403271630-rusage-llama-memory/tDTkMz5Dig_hu_816cf2455314edce.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202403271630-rusage-llama-memory/tDTkMz5Dig.png" srcset="/blog/tweets/thread/202403271630-rusage-llama-memory/tDTkMz5Dig_hu_348601b0925c3597.png 480w, /blog/tweets/thread/202403271630-rusage-llama-memory/tDTkMz5Dig_hu_41bfb7295c481c5.png 800w, /blog/tweets/thread/202403271630-rusage-llama-memory/tDTkMz5Dig.png 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="250" alt="https://pbs.twimg.com/media/GJqsKAIaUAA1LIn.png" loading="eager" decoding="async" data-full="/blog/tweets/thread/202403271630-rusage-llama-memory/tDTkMz5Dig.png"></picture></figure><p>Get it here: <a href="https://justine.lol/rusage/" class="ext" rel="noopener">https://justine.lol/rusage/</a></p>
+<p><a href="https://x.com/sytelus/status/1772919220180779401" class="ext" rel="noopener">Discussion</a></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

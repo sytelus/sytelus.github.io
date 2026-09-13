@@ -1,20 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>Geekery on Shital Shah&#39;s Chain of Thought</title>
+    <title>Geekery · Shital Shah&#39;s Chain of Thought</title>
     <link>https://shital.com/tags/geekery/</link>
-    <description>Recent content in Geekery on Shital Shah&#39;s Chain of Thought</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>Shital Shah &amp;#x1F16D; CC BY-NC-SA</copyright>
-    <lastBuildDate>Mon, 04 Jun 2012 07:14:46 +0000</lastBuildDate>
-    <atom:link href="https://shital.com/tags/geekery/index.xml" rel="self" type="application/rss+xml" />
+    <description>Geekery — Shital Shah&#39;s personal website and blog. Research Engineer at Microsoft Research with interests in deep learning and reinforcement learning. Created…</description>
+    <generator>Hugo 0.166.0</generator>
+    <language>en</language><copyright>Shital Shah &#x1F16D; CC BY-NC-SA</copyright><lastBuildDate>Mon, 04 Jun 2012 07:14:46 &#43;0000</lastBuildDate><atom:link href="https://shital.com/tags/geekery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Groups, Places and Collectives for Makers in Seattle Area</title>
       <link>https://shital.com/blog/groups-places-and-collectives-for-makers-in-seattle-area/</link>
-      <pubDate>Mon, 04 Jun 2012 07:14:46 +0000</pubDate>
-      <guid>https://shital.com/blog/groups-places-and-collectives-for-makers-in-seattle-area/</guid>
-      <description></description>
+      <guid isPermaLink="true">https://shital.com/blog/groups-places-and-collectives-for-makers-in-seattle-area/</guid>
+      <pubDate>Mon, 04 Jun 2012 07:14:46 &#43;0000</pubDate>
+      <dc:creator>Shital Shah</dc:creator><category>Geekery</category>
+      <description>We went to Mini Makers Faire in Seattle today and one of most surprising thing I learned was how abundant are the local
+resources for hackers and makers! Reminded me of geek fairy tales of Homebrew Computer Club that you often hear. Here are some of the things
+</description>
+      <content:encoded><![CDATA[<p>We went to Mini Makers Faire in Seattle today and one of most surprising thing I learned was how abundant are the local</p>
+<p>resources for hackers and makers! Reminded me of geek fairy tales of <a href= "http://en.wikipedia.org/wiki/Homebrew\_Computer\_Club">Homebrew Computer Club</a> that you often hear. Here are some of the things</p>
+<p>you want to check out if you are interested in making stuff and live in Seattle area:</p>
+<ul>
+<li>
+<p><a href="http://metrixcreatespace.com" class="ext" rel="noopener">Metrix Create: Space</a> – I think this was the coolest thing I came to know about.</p>
+<p>They have a shop with everything from sewing machine to electronics. They run lots of interesting <a href= "http://wiki.metrixcreatespace.com/workshops">workshops &amp; classes</a>. It’s your neighborhood fab lab!</p>
+</li>
+<li>
+<p><a href="http://www.makeseattle.net" class="ext" rel="noopener">Make Seattle Meetup Group</a> – Regular meet ups for Arduino/electronics makers and</p>
+<p>learners to exchange ideas and get help on your projects</p>
+</li>
+<li>
+<p><a href="http://wstoollibrary.org/" class="ext" rel="noopener">West Seattle Tools Library</a> – I thought this was the coolest concept. They have a</p>
+<p>collection of 1500 tools that you can checkout for your projects. Just look at their <a href= "http://wstoollibrary.org/category/education/tool-of-the-week/">tool of the week</a> series. There is also <a href= "http://wsfixers.org/">Fixers Collective</a> who meet up at Tools Library and would be happy to fix your broken stuff or just</p>
+<p>tinker around.</p>
+</li>
+<li>
+<p>[Xbot Robotics</p>
+<p>Workshop Space]<a href="http://xbotrobotics.org/index.php?option=com_content&amp;view=article&amp;id=51&amp;Itemid=58" class="ext" rel="noopener">4</a> – They provide you space to work on your projects along with access to almost everything you need such as</p>
+<p>power tools, soldering stations, oscilloscopes, electronics components, drill presses, sand blasters, table saws, sanders,</p>
+<p>grinders!</p>
+</li>
+</ul>
+<p>There were quite a few of cool things we saw there everything from [The</p>
+<p>Brain Machine]<a href="http://ladyada.net/make/brain/index.html" class="ext" rel="noopener">5</a>, <a href="http://www.logos-electro.com/zigduino/" class="ext" rel="noopener">Zigduino</a>, <a href= "http://weekendamerica.publicradio.org/display/web/2008/06/11/montys_robot/">Lifesuit</a>, <a href= "http://www.marginallyclever.com/category/drawbot-my-creations/">Drawbots</a>, to <a href= "http://www.instructables.com/id/The-Most-Useless-Machine/">The Most Useless Machine Ever</a>.</p>
+<p>I also jotted down the next classes I want to do at <a href="http://www.pratt.org/classes.html" class="ext" rel="noopener">Pratt</a> and <a href= "http://www.allmetalarts.org/classes/">All Metal Arts</a>.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>
