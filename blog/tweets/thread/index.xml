@@ -1,919 +1,804 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Twitter Thread · Shital Shah&#39;s Chain of Thought</title>
+    <title>Twitter Thread on Shital Shah&#39;s Chain of Thought</title>
     <link>https://shital.com/blog/tweets/thread/</link>
-    <description>Twitter Thread — Shital Shah&#39;s personal website and blog. Research Engineer at Microsoft Research with interests in deep learning and reinforcement learning.…</description>
-    <generator>Hugo 0.166.0</generator>
-    <language>en</language><copyright>Shital Shah &#x1F16D; CC BY-NC-SA</copyright><lastBuildDate>Wed, 08 Jan 2025 23:32:21 &#43;0000</lastBuildDate><atom:link href="https://shital.com/blog/tweets/thread/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Twitter Thread on Shital Shah&#39;s Chain of Thought</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Shital Shah &amp;#x1F16D; CC BY-NC-SA</copyright>
+    <lastBuildDate>Wed, 08 Jan 2025 23:32:21 +0000</lastBuildDate>
+    <atom:link href="https://shital.com/blog/tweets/thread/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Phi-4 Now On HuggingFace with MIT Licence!</title>
       <link>https://shital.com/blog/tweets/thread/202501082332-phi-4-official-release/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202501082332-phi-4-official-release/</guid>
-      <pubDate>Wed, 08 Jan 2025 23:32:21 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>We have been completely amazed by the response to phi-4 release. A lot of folks had been asking us for weight release. Few even uploaded bootlegged phi-4 weights on HuggingFace😬.
-Well, wait no more. We are releasing today official phi-4 model on HuggingFace!
-</description>
-      <content:encoded><![CDATA[<p>We have been completely amazed by the response to phi-4 release. A lot of folks had been asking us for weight release. Few even uploaded bootlegged phi-4 weights on HuggingFace😬.</p>
-<p>Well, wait no more. We are releasing today official phi-4 model on HuggingFace!</p>
-<p>With MIT licence!!</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202501082332-phi-4-official-release/rcugWBPU4r_hu_51a432e754bab7f3.webp 480w, /blog/tweets/thread/202501082332-phi-4-official-release/rcugWBPU4r_hu_ab23730d4cd75137.webp 800w, /blog/tweets/thread/202501082332-phi-4-official-release/rcugWBPU4r_hu_3958661e974ed369.webp 956w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202501082332-phi-4-official-release/rcugWBPU4r.jpg" srcset="/blog/tweets/thread/202501082332-phi-4-official-release/rcugWBPU4r_hu_456e98001801e6d2.jpg 480w, /blog/tweets/thread/202501082332-phi-4-official-release/rcugWBPU4r_hu_23f28f7835684d8a.jpg 800w, /blog/tweets/thread/202501082332-phi-4-official-release/rcugWBPU4r.jpg 956w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="956" height="1020" alt="https://pbs.twimg.com/media/Ggx96kba8AA9Wsv.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202501082332-phi-4-official-release/rcugWBPU4r.jpg"></picture></figure><p>HuggingFace link: <a href="https://huggingface.co/microsoft/phi-4" class="ext" rel="noopener">https://huggingface.co/microsoft/phi-4</a></p>
-<p>More about phi-4:
-<a href="https://x.com/sytelus/status/1867405273255796968" class="ext" rel="noopener">https://x.com/sytelus/status/1867405273255796968</a></p>
-<p><a href="https://x.com/sytelus/status/1877015492126220594" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Wed, 08 Jan 2025 23:32:21 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202501082332-phi-4-official-release/</guid>
+      <description></description>
     </item>
     <item>
       <title>Phi-4: The Most Powerful smol Model!</title>
       <link>https://shital.com/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/</guid>
-      <pubDate>Fri, 13 Dec 2024 11:04:46 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>Are you ready for an early Christmas present from our team at Microsoft Research?
-Introducing the most powerful smol model ever built in the world!
-Welcome to Phi-4! 👇
-Personally, since I started working on Phi project at its inception, this is my most favorite model that we have ever shipped.
-</description>
-      <content:encoded><![CDATA[<p>Are you ready for an early Christmas present from our team at Microsoft Research?</p>
-<p>Introducing the most powerful smol model ever built in the world!</p>
-<p>Welcome to Phi-4! 👇</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/uOK423N8s0_hu_f50f77130fdc13a9.webp 480w, /blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/uOK423N8s0_hu_9b80f8683e0fc072.webp 800w, /blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/uOK423N8s0_hu_cb6af44d7bd6f2d1.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/uOK423N8s0.jpg" srcset="/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/uOK423N8s0_hu_ec56d0c4c4acb7c9.jpg 480w, /blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/uOK423N8s0_hu_92c252f484ba8110.jpg 800w, /blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/uOK423N8s0.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="847" alt="https://pbs.twimg.com/media/GepUASxbsAA8lwm.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/uOK423N8s0.jpg"></picture></figure><p>Personally, since I started working on Phi project at its inception, this is my most favorite model that we have ever shipped.</p>
-<p>Remember prompts that many frontier models including o1-preview struggled with? Phi-4 gave correct answer super fast!</p>
-<p><a href="https://x.com/sytelus/status/1853188232219128220" class="ext" rel="noopener">https://x.com/sytelus/status/1853188232219128220</a></p>
-<p>Phi-4 achieves this by pushing the art of synthetic data even further to induce reasoning abilities along with new advancements in post-training.</p>
-<p>If you have been using Llama 3.x etc for reasoning tasks, you owe it to yourself to try out Phi-4!</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/ErFjwKU65l_hu_d49b81a249557985.webp 480w, /blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/ErFjwKU65l_hu_3a14fead260231f4.webp 800w, /blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/ErFjwKU65l_hu_aacb96c3b66b146a.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/ErFjwKU65l.jpg" srcset="/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/ErFjwKU65l_hu_ff96f6d94bc9a467.jpg 480w, /blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/ErFjwKU65l_hu_81504d6fc0a4b44f.jpg 800w, /blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/ErFjwKU65l.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="497" alt="https://pbs.twimg.com/media/GepVzFEbsAUE-rL.jpg" loading="lazy" decoding="async" data-full="/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/ErFjwKU65l.jpg"></picture></figure><p>This is the work of super hard working team including <a href="https://x.com/EldanRonen" class="ext" rel="noopener">@EldanRonen</a> <a href="https://x.com/BehlHarkirat" class="ext" rel="noopener">@BehlHarkirat</a> <a href="https://x.com/mojan_jp" class="ext" rel="noopener">@mojan_jp</a> <a href="https://x.com/marah" class="ext" rel="noopener">@marah</a> <a href="https://x.com/marah_i_abdin" class="ext" rel="noopener">@marah_i_abdin</a> <a href="https://x.com/weishliu" class="ext" rel="noopener">@weishliu</a> <a href="https://x.com/rosaguga" class="ext" rel="noopener">@rosaguga</a> <a href="https://x.com/OlliSaarikivi" class="ext" rel="noopener">@OlliSaarikivi</a> <a href="https://x.com/suriyagnskr" class="ext" rel="noopener">@suriyagnskr</a> <a href="https://x.com/SebastienBubeck" class="ext" rel="noopener">@SebastienBubeck</a> and many others.</p>
-<p>Of course, none of this would have been possible without  support from our amazing…</p>
-<p>Paper: <a href="https://arxiv.org/abs/2412.08905" class="ext" rel="noopener">https://arxiv.org/abs/2412.08905</a></p>
-<p>Model is available now to try in Azure: <a href="https://ai.azure.com/explore/models/Phi-4/version/1/registry/azureml" class="ext" rel="noopener">https://ai.azure.com/explore/models/Phi-4/version/1/registry/azureml</a></p>
-<p>What&rsquo;s better than tokens? Tokens with logits!!</p>
-<p>We hope you will have as much fun playing and creating with this tiny beast of a model as we had building it.</p>
-<p>Happy holiday chilln&rsquo; for ya all🎄🎁.</p>
-<p>Oh&hellip; and one more thing! if you love to push model capabilities and want to work with us, check out our summer internship position. I am at #NeurIPS and let me know if you had like to chat more about this position.</p>
-<p><a href="https://x.com/sytelus/status/1866639121097298372" class="ext" rel="noopener">https://x.com/sytelus/status/1866639121097298372</a></p>
-<p>Tagging more people!
-<a href="https://x.com/NguynTu24128917" class="ext" rel="noopener">@NguynTu24128917</a> <a href="https://x.com/dingli_yu" class="ext" rel="noopener">@dingli_yu</a> <a href="https://x.com/xinw_ai" class="ext" rel="noopener">@xinw_ai</a> <a href="https://x.com/yw_yuewu" class="ext" rel="noopener">@yw_yuewu</a> <a href="https://x.com/YiZhangZZZ" class="ext" rel="noopener">@YiZhangZZZ</a> <a href="https://x.com/AdilSlm" class="ext" rel="noopener">@AdilSlm</a> <a href="https://x.com/_cyrilzhang" class="ext" rel="noopener">@_cyrilzhang</a></p>
-<p>Also, check out our blog post at <a href="https://aka.ms/phi4blog" class="ext" rel="noopener">https://aka.ms/phi4blog</a> for some great examples of reasoning tasks where Phi-4 excels!</p>
-<p>Way better summary than I can do by one and only <a href="https://x.com/rohanpaul_ai" class="ext" rel="noopener">@rohanpaul_ai</a>. <a href="https://x.com/rohanpaul_ai/status/1867426966305222929" class="ext" rel="noopener">https://x.com/rohanpaul_ai/status/1867426966305222929</a></p>
-<p><a href="https://x.com/sytelus/status/1867405273255796968" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Fri, 13 Dec 2024 11:04:46 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202412131104-microsoft-phi-4-smol-marvel/</guid>
+      <description></description>
     </item>
     <item>
       <title>Announcement: PhD Internship for AI for Reasoning</title>
       <link>https://shital.com/blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/</guid>
-      <pubDate>Wed, 11 Dec 2024 08:20:21 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>Do you want to work on exciting AI and reasoning problems this summer?
-We have an intern position just for you!
-The internships for PhD students at Microsoft Research is one amazing experience and opportunity to work with world class researchers and engineers! 👇
-</description>
-      <content:encoded><![CDATA[<p>Do you want to work on exciting AI and reasoning problems this summer?</p>
-<p>We have an intern position just for you!</p>
-<p>The internships for PhD students at Microsoft Research is one amazing experience and opportunity to work with world class researchers and engineers! 👇</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/16Q677slVY_hu_c423af5202ee3edc.webp 480w, /blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/16Q677slVY_hu_de3d4110c4080bd0.webp 800w, /blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/16Q677slVY_hu_990da938f2e8f8d2.webp 897w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/16Q677slVY.jpg" srcset="/blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/16Q677slVY_hu_6858993713f96605.jpg 480w, /blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/16Q677slVY_hu_e5aa7d725c43a220.jpg 800w, /blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/16Q677slVY.jpg 897w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="897" height="1200" alt="https://pbs.twimg.com/media/GeeiYhBaEAAFpmR.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/16Q677slVY.jpg"></picture></figure><p>Apply here today:</p>
-<p><a href="https://jobs.careers.microsoft.com/global/en/job/1789417/Research-Intern---AI-Reasoning" class="ext" rel="noopener">https://jobs.careers.microsoft.com/global/en/job/1789417/Research-Intern---AI-Reasoning</a></p>
-<p>This is a rare and unique opportunity to work on some very rewarding reasoning problems along side the members of Phi team and our product group partners.</p>
-<p>Excited? Apply TODAY!!</p>
-<p>We look forward to talk with you soon!</p>
-<p>CC: <a href="https://x.com/ylongqi" class="ext" rel="noopener">@ylongqi</a> <a href="https://x.com/soshsihao" class="ext" rel="noopener">@soshsihao</a> <a href="https://x.com/HJiao" class="ext" rel="noopener">@HJiao</a></p>
-<p>I am at NeurIPS and if you had like to chat about this internship, my DMs are open!</p>
-<p><a href="https://x.com/sytelus/status/1866639121097298372" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Wed, 11 Dec 2024 08:20:21 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202412110820-summer-of-ai-microsoft-phd-interns/</guid>
+      <description></description>
     </item>
     <item>
       <title>Some Hand Wavy Estimates on FLOPs and Computational Reducibility</title>
       <link>https://shital.com/blog/tweets/thread/202412091102-ai-speed-limit-putnam/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202412091102-ai-speed-limit-putnam/</guid>
-      <pubDate>Mon, 09 Dec 2024 11:02:57 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>This is quite facilitating…
-My estimate for the ratio (Model Time/Human Time) was in the order of 10000 for medium complexity tasks.
-It reduces to ~1000 as complexity goes up to competition level.
-Now it’s merely ~12 for Putnam!
-Some thoughts on limits of AI 🧵 https://x.com/DanHendrycks/status/1865858756040704335
-</description>
-      <content:encoded><![CDATA[<p>This is quite facilitating…</p>
-<p>My estimate for the ratio (Model Time/Human Time) was in the order of 10000 for medium complexity tasks.</p>
-<p>It reduces to ~1000 as complexity goes up to competition level.</p>
-<p>Now it’s merely ~12 for Putnam!</p>
-<p>Some thoughts on limits of AI 🧵 <a href="https://x.com/DanHendrycks/status/1865858756040704335" class="ext" rel="noopener">https://x.com/DanHendrycks/status/1865858756040704335</a></p>
-<p>I feel there is general trend that as complexity of problem increases, computational reducibility (as popularized by <a href="https://x.com/stephen_wolfram" class="ext" rel="noopener">@stephen_wolfram</a>) seems to be decreasing.</p>
-<p>Problems have lower bound on amount of FLOPs you must spend with maximum computational reducibility.</p>
-<p>It also appears that,  for highly complex problems, top humans are able to get to pretty close to optimal computational reducibility.</p>
-<p>If this remains true, the performance difference may entirely just come down to simply who can spend FLOPs faster and for how long.</p>
-<p>The consequence: ASI might not have that amazing magic wand.</p>
-<p>ASI can have O(1) FLOPs/sec advantage and being able to run without sleep/distractions.</p>
-<p>We can also spin up  trillion instances but I suspect there is limit on distributed bound as well.</p>
-<p>Take for example, solving Riemann Hypothesis.</p>
-<p>I would estimate about 10M Human-hours spent on this problem so far. Let’s assume that ~30M still needed.</p>
-<p>If ASI is 1000X more faster, it will still need 3.5 years of continuous run to solve it!</p>
-<p>This also points to long context short coming of our current architectures.</p>
-<p>With our current long context schemes, we can barely manage perhaps up to 10 mins of “thinking”.</p>
-<p>To solve something like Riemann Hypothesis we need 5-6 orders of improvement!</p>
-<p><a href="https://x.com/sytelus/status/1865955265067323659" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Mon, 09 Dec 2024 11:02:57 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202412091102-ai-speed-limit-putnam/</guid>
+      <description></description>
     </item>
     <item>
       <title>Erdős Open Problems as ASI Benchmark</title>
       <link>https://shital.com/blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/</guid>
-      <pubDate>Fri, 29 Nov 2024 10:40:57 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>I would like to define super human AI at math as the one which solves each of 652 open Erdos problems.
-I think this sets the difficulty bar and dataset size just right.
-Erdos problems: http://www.erdosproblems.com
-</description>
-      <content:encoded><![CDATA[<p>I would like to define super human AI at math as the one which solves each of 652 open Erdos problems.</p>
-<p>I think this sets the difficulty bar and dataset size just right.</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/xRY0cU6Ae6_hu_387a9ef7b7407027.webp 480w, /blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/xRY0cU6Ae6_hu_ac10d6d990c34274.webp 800w, /blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/xRY0cU6Ae6_hu_8e20855589865390.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/xRY0cU6Ae6.jpg" srcset="/blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/xRY0cU6Ae6_hu_700977230c793906.jpg 480w, /blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/xRY0cU6Ae6_hu_542758f25370fa48.jpg 800w, /blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/xRY0cU6Ae6.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="666" alt="https://pbs.twimg.com/media/GdhPfOrW8AAsKUh.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/xRY0cU6Ae6.jpg"></picture></figure><p>Erdos problems: <a href="http://www.erdosproblems.com" class="ext" rel="noopener">http://www.erdosproblems.com</a></p>
-<p>Related thread: <a href="https://x.com/ChrSzegedy/status/1862322895340675237" class="ext" rel="noopener">https://x.com/ChrSzegedy/status/1862322895340675237</a></p>
-<p><a href="https://x.com/sytelus/status/1862325849573507262" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Fri, 29 Nov 2024 10:40:57 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202411291040-ai-vs-erdos-ultimate-math-showdown/</guid>
+      <description></description>
     </item>
     <item>
       <title>Tokenization and Decoding</title>
       <link>https://shital.com/blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/</guid>
-      <pubDate>Thu, 21 Nov 2024 20:10:22 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>Tokenization and decoding are two weak links in current setup with transformer based models. You often hear things like “oh well, greedy decoding is good enough” but in reality we have too many bandaids that makes it work.
-The CoT decoding paper illustrates this beautifully. 🧵
-</description>
-      <content:encoded><![CDATA[<p>Tokenization and decoding are two weak links in current setup with transformer based models. You often hear things like “oh well, greedy decoding is good enough” but in reality we have too many bandaids that makes it work.</p>
-<p>The CoT decoding paper illustrates this beautifully. 🧵</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/l0fSzIH7V0_hu_1a9f78c9a38b1d81.webp 480w, /blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/l0fSzIH7V0_hu_4f2e12aa47adeb1.webp 800w, /blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/l0fSzIH7V0_hu_f7aa04e7f946de11.webp 934w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/l0fSzIH7V0.jpg" srcset="/blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/l0fSzIH7V0_hu_3139bdaa0fb69a6c.jpg 480w, /blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/l0fSzIH7V0_hu_362b7902372e3c34.jpg 800w, /blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/l0fSzIH7V0.jpg 934w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="934" height="428" alt="https://pbs.twimg.com/media/Gc6FGaGWAAA74dE.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/l0fSzIH7V0.jpg"></picture></figure><p>The assertion in CoT decoding paper is that the probability distribution out of model is misleading. There often exist a decoding trajectory with CoT+answer even when prompt doesn’t have CoT and even when model isn’t instruction-tuned!</p>
-<p>How do we lock-in on this trajectory?</p>
-<p>Authors find cool trick that sometimes doubles the GSM8K perf just by modifying decoding! The main observation is that the probability disparity between top 1st and 2nd token is largest when model is more confident. So, what if we sum up that delta for each trajectory?</p>
-<p>Then generate candidate trajectories by trying first k top tokens for 1st decoding step and generating the rest by greedy approach. The winner is one with max sum of deltas.</p>
-<p>This might feel like crude approach but it seems to work well, at least on models without instruction…</p>
-<p>The intuition behind why it doesn’t work as well for instruction tuned models is CoTs are automatically induced by IT. In other words, IT makes greedy decoding much more tolerable by inducing CoT more often.</p>
-<p>Paper: <a href="https://arxiv.org/abs/2402.10200" class="ext" rel="noopener">https://arxiv.org/abs/2402.10200</a></p>
-<p>Via amazing <a href="https://x.com/rohanpaul_ai" class="ext" rel="noopener">@rohanpaul_ai</a></p>
-<p><a href="https://x.com/sytelus/status/1859570043538862159" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Thu, 21 Nov 2024 20:10:22 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202411212010-bandaids-cant-fix-transformers/</guid>
+      <description></description>
     </item>
     <item>
       <title>Scaling Laws and Data Wall</title>
       <link>https://shital.com/blog/tweets/thread/202411150043-scaling-token-quality/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202411150043-scaling-token-quality/</guid>
-      <pubDate>Fri, 15 Nov 2024 00:43:32 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>Scaling laws have an assumption that quality of tokens remains mostly the same as you scale. However, in real world large scale datasets, this is not true.
-When there is upper bound on quality training tokens, there is upper bound on scaling.
-</description>
-      <content:encoded><![CDATA[<p>Scaling laws have an assumption that quality of tokens remains mostly the same as you scale. However, in real world large scale datasets, this is not true.</p>
-<p>When there is upper bound on quality training tokens, there is upper bound on scaling.</p>
-<p>But what about synthetic data? 🧵</p>
-<p>With current synthetic data techniques, one issue is they don’t add ton of new entropy to original pre-training data.</p>
-<p>Remember, pre-training data is synthesized from spending centuries of human-FLOPs. Prompt based synth gen can generate data in neighborhood of existing data.</p>
-<p>This is entropy bottleneck: There is simply not enough entropy/tok to gain as you move to down the tail of organic data or from prompt-based synthetic data.</p>
-<p>Possible solution is to spend more test time compute to generate synthetic data that is of higher entropy content.</p>
-<p>The entropy/tok in a given dataset seems to be related to FLOPs spent on generating that data. Human data is generated from a lot of compute spent by humans over many millennia. Our pre-training data is equivalent of fossil fuel.</p>
-<p>That data is running out.</p>
-<p>Human-FLOPs are in limited supply but GPU-FLOPs through ttc can allow generating synthetic data with high entropy and that’s one way to overcome this bottleneck.</p>
-<p>The bad news is that we will need more compute than predicted by scaling laws.</p>
-<p>But can’t we just only use ttc?</p>
-<p>I think merely scaling inference compute won’t be sufficient. A weak model can spend inordinate amount of inference compute and still may not solve a hard problem.</p>
-<p>There seems to be intricate intertwined dance of training and inference compute, one improving another.</p>
-<p>So, imagine cycle of training a model, generating high entropy synthetic data by scaling inference compute and then using it to continue training.</p>
-<p>This is the self-improving recipe.</p>
-<p>We humans operate in similar way: consume previously generated data and get new data for next gen. One critical element is embodiment which enables transferring entropy from our environment.</p>
-<p>Spend thousands of years of human-FLOPs like this and you get current pre-training data!</p>
-<p><a href="https://x.com/sytelus/status/1857102074070352290" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Fri, 15 Nov 2024 00:43:32 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202411150043-scaling-token-quality/</guid>
+      <description></description>
     </item>
     <item>
       <title>OpenCoder</title>
       <link>https://shital.com/blog/tweets/thread/202411110738-opencoder-outsmarts-stackv2/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202411110738-opencoder-outsmarts-stackv2/</guid>
-      <pubDate>Mon, 11 Nov 2024 07:38:36 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>OpenCoder is an amazing work! It’s 100% open that comes with new 960B tokens dataset RefineCode spanning 600+ programming languages. This dataset outperforms StackV2 to achieve same perf in 3X less tokens!
-But that’s not it. 🧵 https://x.com/sivil_taram/status/1855301760770056246
-They also use new WSD schedule that I wrote about last year (studied and published independently this year). In cooldown phase, they also use high quality synthetic data inspired by Phi models from my team. All these truly pushes OpenCoder to reach new heights.
-</description>
-      <content:encoded><![CDATA[<p>OpenCoder is an amazing work!  It’s 100% open that comes with new 960B tokens dataset RefineCode spanning 600+ programming languages. This dataset outperforms  StackV2 to achieve same perf in 3X less tokens!</p>
-<p>But that’s not it. 🧵 <a href="https://x.com/sivil_taram/status/1855301760770056246" class="ext" rel="noopener">https://x.com/sivil_taram/status/1855301760770056246</a></p>
-<p>They also use new WSD schedule that I wrote about last year (studied and published independently this year). In cooldown phase, they also use high quality synthetic data inspired by Phi models from my team. All these truly pushes OpenCoder to reach new heights.</p>
-<p>The amazing part is that everything is reproducible with open code and data!</p>
-<p>It comes from a team at InfTech in China that you may not heard of.</p>
-<p>In a strange twist of events, Chinese startups are the ones practicing and advancing open science in AI.</p>
-<p>They deserve huge kudos.</p>
-<p><a href="https://x.com/sytelus/status/1855756978917986627" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Mon, 11 Nov 2024 07:38:36 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202411110738-opencoder-outsmarts-stackv2/</guid>
+      <description></description>
     </item>
     <item>
       <title>DeepMind&#39;s Chess Model</title>
       <link>https://shital.com/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/</guid>
-      <pubDate>Mon, 21 Oct 2024 07:31:29 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>DeepMind’s chess paper has sharply divided AI community:
-Some are pointing to it as evidence that LLMs can do reasoning and planning while others say it’s just lookup table/memorization.
-In reality, I think the paper uncovers something else if you look into details! 🧵
-</description>
-      <content:encoded><![CDATA[<p>DeepMind&rsquo;s chess paper has sharply divided AI community:</p>
-<p>Some are pointing to it as evidence that LLMs can do reasoning and planning while others say it&rsquo;s just lookup table/memorization.</p>
-<p>In reality, I think the paper uncovers something else if you look into details! 🧵</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/Cm2pJTlHyh_hu_159ddea232256b0f.webp 480w, /blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/Cm2pJTlHyh_hu_9c3a490cf57b28ad.webp 800w, /blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/Cm2pJTlHyh_hu_8a172d67c85cf7cf.webp 962w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/Cm2pJTlHyh.jpg" srcset="/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/Cm2pJTlHyh_hu_9e415ce4ebcb273f.jpg 480w, /blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/Cm2pJTlHyh_hu_e71c70819ac59b18.jpg 800w, /blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/Cm2pJTlHyh.jpg 962w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="962" height="1200" alt="https://pbs.twimg.com/media/GaXumBDXUAAKasK.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/Cm2pJTlHyh.jpg"></picture></figure><p>First, the authors are trying to distill Stockfish engine into a model. One would think student wouldn&rsquo;t do better than the teacher but the teacher Elo is 2713 while student gets 2895.</p>
-<p>So student is doing better than teacher!</p>
-<p>But this is still not the most  interesting part!!</p>
-<p>The Elo ratings at this level are unreliable so let&rsquo;s not put too much weight into these differences.</p>
-<p>A more important question is:</p>
-<p>Are the FLOPs spent by Stockfish 16 to compute the next move same as the FLOPs spent by the model?</p>
-<p>There are interesting consequences of this.</p>
-<p>The details are buried in appendix and scant but for the 50ms limit and hardware used (Intel Xeon W-2135 CPU @ 3.70GHz), my estimate of FLOPs used by Stockfish 16 to compute next move is between 8 to 16 GFLOPs.</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/kLlBFfg889_hu_dd665d97eb1b199e.webp 480w, /blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/kLlBFfg889_hu_57cdc80f488fc04d.webp 800w, /blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/kLlBFfg889_hu_e4146edf9da04ab7.webp 1137w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/kLlBFfg889.jpg" srcset="/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/kLlBFfg889_hu_2b73f962de6eecc7.jpg 480w, /blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/kLlBFfg889_hu_d050ed73de7ef581.jpg 800w, /blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/kLlBFfg889.jpg 1137w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1137" height="696" alt="https://pbs.twimg.com/media/GaX7xsEXQAAvsJ0.jpg" loading="lazy" decoding="async" data-full="/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/kLlBFfg889.jpg"></picture></figure><p>Using the details in the paper, I tried to compute the FLOPs used by the forward pass of the model and it comes out to be between 49-98 GFLOPs.</p>
-<p>In other words, the model is spending at least 4X more  FLOPs to do the same computation!</p>
-<p>So, what are the takeaways?</p>
-<p>For problems like chess, it&rsquo;s all eventually come down to how many FLOPs can you spend? It turns out ~16 GLOPs is quite enough to beat humans!</p>
-<p>The most interesting thing for me in DeepMind paper is more or less general recipe of distilling possibly an arbitrary probabilistic algorithm into a neural model.</p>
-<p>Sure, it&rsquo;s 4X less efficient at the moment but it&rsquo;s compositionally enormously powerful paradigm.</p>
-<p>Now the time for that bigger insight:</p>
-<p>Stockfish engine is littered with all kind of complexities built with traditional computational primitives of conditionals, branching, data movements and so on.</p>
-<p>What DeepMind paper points to is that all of these can potentially be distilled… <a href="https://x.com/sytelus/status/1848160140278555049" class="ext" rel="noopener">continue reading</a></p>
-]]></content:encoded>
+      <pubDate>Mon, 21 Oct 2024 07:31:29 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202410210731-chess-not-checkers-deepmind-ai/</guid>
+      <description></description>
     </item>
     <item>
       <title>New Optimizer: Muon</title>
       <link>https://shital.com/blog/tweets/thread/202410131001-adamw-who-new-optimizer/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202410131001-adamw-who-new-optimizer/</guid>
-      <pubDate>Sun, 13 Oct 2024 10:01:24 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>There is something beautiful and amazing happening right now. A new optimizer that is almost twice as efficient than AdamW is being born right in front of our eyes!
-Many people are probably rolling their eyes just reading this but this time it feels different! 🧵
-</description>
-      <content:encoded><![CDATA[<p>There is something beautiful and amazing happening right now. A new optimizer that is almost twice as efficient than AdamW is being born right in front of our eyes!</p>
-<p>Many people are probably rolling their eyes just reading this but this time it feels different! 🧵</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202410131001-adamw-who-new-optimizer/lIDxSWqsq2_hu_d993be6fa8f09d8e.webp 480w, /blog/tweets/thread/202410131001-adamw-who-new-optimizer/lIDxSWqsq2_hu_ef72bbc56240f905.webp 800w, /blog/tweets/thread/202410131001-adamw-who-new-optimizer/lIDxSWqsq2_hu_b81277448aad5688.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202410131001-adamw-who-new-optimizer/lIDxSWqsq2.jpg" srcset="/blog/tweets/thread/202410131001-adamw-who-new-optimizer/lIDxSWqsq2_hu_9507835150c6d24d.jpg 480w, /blog/tweets/thread/202410131001-adamw-who-new-optimizer/lIDxSWqsq2_hu_74b94f283cda1eb9.jpg 800w, /blog/tweets/thread/202410131001-adamw-who-new-optimizer/lIDxSWqsq2.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="858" alt="https://pbs.twimg.com/media/GZu9vzUaAAIcwkL.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202410131001-adamw-who-new-optimizer/lIDxSWqsq2.jpg"></picture></figure><p>We have a mini cottage industry which has tradition for putting out papers claiming to beat Adam annually that just never seems to pan out. There seems to be always some hidden catch, if things are reproducible at all. So, rightfully, many have became numb to these announcements.</p>
-<p>So, here&rsquo;s the twist! If you are into sport of speed training CIFAR-10, you aren&rsquo;t stranger to <a href="https://x.com/kellerjordan0" class="ext" rel="noopener">@kellerjordan0</a>. I left the sport couple of years ago but he eventually broke jaw-dropping 3s barrier!</p>
-<p>Still, there was growing sarcasm for still using CIFAR-10. It was time for change.</p>
-<p>So, recently <a href="https://x.com/kellerjordan0" class="ext" rel="noopener">@kellerjordan0</a> took upon speed training transformers! Instead of keeping everything secret, he recorded his progress in public. Community started parallel experimentation, reported results and soon things were shaping up to be really good!</p>
-<p><a href="https://x.com/kellerjordan0/status/1844820924195106850" class="ext" rel="noopener">https://x.com/kellerjordan0/status/1844820924195106850</a></p>
-<p>The reason I am ecstatic about this is because I have always felt this is how the research should be done.</p>
-<p>Even in &ldquo;open&rdquo; research labs, you will see too many researchers jealously guarding early ideas. The sharing only happens with close friends. There is obsession on…</p>
-<p>The result of above rituals and deeply ingrained culture is that it takes months to get any idea out through published paper. When it does get out, it often gets lost in sea of other papers. If someone does notices, improving upon it takes yet another same long arduous cycle.</p>
-<p>Keller and others have taken different approach. They released initial ideas as public GitHub repos, not as paper. People can immediately play and improve. Everything can be validated by anyone at anytime. As everything is open, there is no room for cheating and overclaiming.</p>
-<p>This is truly distributed real time AI research! Within days Keller and others were able to improve on ideas. Folks who saw promise, jumped in and help parallelize.</p>
-<p>In traditional AI research landscape, this feedback cycle would have taken 6+ months instead of just 6 days.</p>
-<p>Funny thing is that the optimizer wasn&rsquo;t even named just couple of days ago so people kept calling it &ldquo;Proposed Optimizer&rdquo; 😂. Finally, its named as Muon and Keller might get around to write paper some day.</p>
-<p>It&rsquo;s such as fun to see all this happen in real time.</p>
-<p>Another important development for achieving o1 like test-time compute scaling is Entropix by <a href="https://x.com/_xjdr" class="ext" rel="noopener">@_xjdr</a>. Both of these ideas coincidentally shaping up at same time!</p>
-<p>Very hopeful that this distributed real-time research ideas will replace our current arcane arxiv based culture.</p>
-<p><a href="https://x.com/sytelus/status/1845298766863270159" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Sun, 13 Oct 2024 10:01:24 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202410131001-adamw-who-new-optimizer/</guid>
+      <description></description>
     </item>
     <item>
       <title>Using Cursor</title>
       <link>https://shital.com/blog/tweets/thread/202409271839-cracking-the-cursor-code/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202409271839-cracking-the-cursor-code/</guid>
-      <pubDate>Fri, 27 Sep 2024 18:39:34 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>I’ve been using Cursor for a while and am fairly impressed. @amanrsanger and team has done good thinking towards building AI-first code editor that goes well beyond auto-complete. However, admittedly everything is not quite obvious. Here’s short thread to quickly get started! 🧵
-</description>
-      <content:encoded><![CDATA[<p>I&rsquo;ve been using Cursor for a while and am fairly impressed.  <a href="https://x.com/amanrsanger" class="ext" rel="noopener">@amanrsanger</a> and team has done good thinking towards building AI-first code editor that goes well beyond auto-complete. However, admittedly everything is not quite obvious. Here&rsquo;s short thread to quickly get started! 🧵</p>
-<p>When you open Cursor for the first time it doesn&rsquo;t feel too different until you press Cmd+L for chat window! Now you can tell AI to make changes in your file and you will get the diff which you can apply. You can select code and ask AI to work on only selected code as well.</p>
-<p>You can now just write one line comment and press tab to generate the code!</p>
-<p>Or press Cmd+K to write instruction and generate code.</p>
-<p>If you want generated code only upto some point, press Cmd+right arrow to accept word-by-word.</p>
-<p>In chat, type @ followed by file, folder or URL to add them in your prompt. You can add whole codebase using <a href="https://x.com/codebase" class="ext" rel="noopener">@codebase</a> and ask question. You can also select text and press Cmd+L to add it in context.</p>
-<p>One of the best feature is iterating on code via diffs! You ask AI to make some change and it generates diff for you. You apply it, run it, copy/past any errors back in chat, ask AI to fix it and keep repeating this process until you get to desired code.</p>
-<p>Another cool thing you can do is to drag and drop image in the chat and generate UX for you!</p>
-<p>Or use @ to reference URL and ask AI to use that web page for example, documentation or whatever.</p>
-<p>One other cool thing is that lot of above features works in Terminal! For example, you can press Cmd+K in terminal and ask it to write complex bash command.</p>
-<p>Composer is perhaps the most interesting feature. It&rsquo;s a way to do multi-file changes. So, instead of operating on a single file or code selection, here you can make changes to multiple files or create new ones with just one prompt.</p>
-<p>Use Cmd+Shift+I to open Composer window. Add…</p>
-<p>I often maintain <code>TODO.md</code> in my projects. Now, I can add this in composer, ask AI to implement all TODOs. The best part is that you can even ask AI to update the <code>TODO.md</code> itself with summary of what it did! You get the diff for each file and you can… <a href="https://x.com/sytelus/status/1839630961572749451" class="ext" rel="noopener">continue reading</a></p>
-]]></content:encoded>
+      <pubDate>Fri, 27 Sep 2024 18:39:34 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202409271839-cracking-the-cursor-code/</guid>
+      <description></description>
     </item>
     <item>
       <title>Things on Big Bang Theory Writer&#39;s Table</title>
       <link>https://shital.com/blog/tweets/thread/202408042009-big-bang-clutter-challenge/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202408042009-big-bang-clutter-challenge/</guid>
-      <pubDate>Sun, 04 Aug 2024 20:09:05 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>This is famous “writers’ table” where Big Bang Theory episodes were written. How many types of objects can GPT-4o and Claude identify with name? But before looking up answer in the thread, give it a try yourself 🧐
-GPT-4o identified only 26 objects vs Claude 3.5 Sonnet did 45 which includes rubber band, paper clip, lip balm and USB drive! My own score was mere 37.
-</description>
-      <content:encoded><![CDATA[<p>This is famous “writers’ table” where Big Bang Theory episodes were written. How many types of objects can GPT-4o and Claude identify with name? But before looking up answer in the thread, give it a try yourself 🧐</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202408042009-big-bang-clutter-challenge/7DbmQyZehb_hu_6137456f18a4f76.webp 480w, /blog/tweets/thread/202408042009-big-bang-clutter-challenge/7DbmQyZehb_hu_ac3d98b05849d89.webp 800w, /blog/tweets/thread/202408042009-big-bang-clutter-challenge/7DbmQyZehb_hu_ce70fe4fd66a9825.webp 900w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202408042009-big-bang-clutter-challenge/7DbmQyZehb.jpg" srcset="/blog/tweets/thread/202408042009-big-bang-clutter-challenge/7DbmQyZehb_hu_e38830a46fff5753.jpg 480w, /blog/tweets/thread/202408042009-big-bang-clutter-challenge/7DbmQyZehb_hu_eb4acc0a7c66e9ea.jpg 800w, /blog/tweets/thread/202408042009-big-bang-clutter-challenge/7DbmQyZehb.jpg 900w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="900" height="1200" alt="https://pbs.twimg.com/media/GUI9PxXa0AAYz9b.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202408042009-big-bang-clutter-challenge/7DbmQyZehb.jpg"></picture></figure><p>GPT-4o identified only 26 objects vs Claude 3.5 Sonnet did 45 which includes rubber band, paper clip, lip balm and USB drive! My own score was mere 37.</p>
-<p><a href="https://x.com/sytelus/status/1820084546114904207" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Sun, 04 Aug 2024 20:09:05 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202408042009-big-bang-clutter-challenge/</guid>
+      <description></description>
     </item>
     <item>
       <title>IMO 2024 Test</title>
       <link>https://shital.com/blog/tweets/thread/202407220853-frontier-models-vs-mathletes/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202407220853-frontier-models-vs-mathletes/</guid>
-      <pubDate>Mon, 22 Jul 2024 08:53:37 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>International Math Olympiad 2024 gives us good test set for frontier models :). IMO questions only need high school level math knowledge and first one is the easiest so best humans can solve it in &lt;60 mins. Here’s that question.
-</description>
-      <content:encoded><![CDATA[<p>International Math Olympiad 2024 gives us good test set for frontier models :). IMO questions only need high school level math knowledge and first one is the easiest so best humans can solve it in &lt;60 mins. Here’s that question.</p>
-<p>Any guesses how frontier models would do?</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202407220853-frontier-models-vs-mathletes/YrIacIWVnO_hu_9fbef356e4ce2e36.webp 480w, /blog/tweets/thread/202407220853-frontier-models-vs-mathletes/YrIacIWVnO_hu_ec92590afd0aae9.webp 800w, /blog/tweets/thread/202407220853-frontier-models-vs-mathletes/YrIacIWVnO_hu_9f288d563c6ffb6d.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202407220853-frontier-models-vs-mathletes/YrIacIWVnO.jpg" srcset="/blog/tweets/thread/202407220853-frontier-models-vs-mathletes/YrIacIWVnO_hu_97f22c836ae98292.jpg 480w, /blog/tweets/thread/202407220853-frontier-models-vs-mathletes/YrIacIWVnO_hu_86536c8d741e2d0c.jpg 800w, /blog/tweets/thread/202407220853-frontier-models-vs-mathletes/YrIacIWVnO.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="141" alt="https://pbs.twimg.com/media/GTDl-noboAAorbC.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202407220853-frontier-models-vs-mathletes/YrIacIWVnO.jpg"></picture></figure><p>GPT 4: Failed. Pointing out incorrect cases didn’t help.</p>
-<p>GPT 4o: Failed. Pointing out incorrect cases didn’t help.</p>
-<p>Claude 3.5 Sonnet: Failed. Pointing out incorrect cases did helped giving right answer briefly but then continued on wrong path anyway.</p>
-<p>So, yes, long way to go.</p>
-<p>As benchmarks gets more and more contaminated, only the newly released test questions such as IMO, IIT-JEE etc will be the only real tests which humans also have to go through themselves.</p>
-<p><a href="https://x.com/sytelus/status/1815203516941766757" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Mon, 22 Jul 2024 08:53:37 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202407220853-frontier-models-vs-mathletes/</guid>
+      <description></description>
     </item>
     <item>
       <title>Human Hours to FLOPs</title>
       <link>https://shital.com/blog/tweets/thread/202405050823-100-tflops-vs-2-hours/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202405050823-100-tflops-vs-2-hours/</guid>
-      <pubDate>Sun, 05 May 2024 08:23:04 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>Current 70B models spends ~100 TFLOPs to produce output that might take an expert human ~2hr of work in many cases.
-If you start measuring amount of work done by humans and machines in FLOPs, you get some very interesting consequences!🧵
-</description>
-      <content:encoded><![CDATA[<p>Current 70B models spends ~100 TFLOPs to produce output that might take an expert human ~2hr of work in many cases.</p>
-<p>If you start measuring amount of work done by humans and machines in FLOPs, you get some very interesting consequences!🧵</p>
-<p>One can argue that problems takes more <em>time</em> to solve as they get more harder. Einstein spent 10 intense years to find the field equation. It took many generations of mathematicians building on each others work for over 350 years to prove Fermat&rsquo;s Last Theorem.</p>
-<p>A homework problem, a Kaggle challenge, a major research breakthrough - all might lie on some continuous FLOPs expenditure curve. While a big breakthrough might appear non-linear, it is continuation of FLOPs spent over long period of time by many people building on each other.</p>
-<p>Current frontier models are great at homework problems, mediocre at Kaggle challenges and cannot produce real legitimate research paper.</p>
-<p>Could this be because of limited FLOPs available in a forward pass aka thinking &ldquo;bandwidth&rdquo; of LLMs? Scaling increases this bandwidth.</p>
-<p>The big issue: The forward pass FLOPs increases  ~linearly for model size BUT training cost increases in ~square of model size  (for some compute optimality).</p>
-<p>This in fact prohibits scaling as the way to make models smart enough to achieve big scientific breakthroughs!!</p>
-<p>For example, if you ask how big my model have to be which will prove a math theorem that took 1M hours of work by expert mathematicians over 350 years, the answer would be a model that is ~100,00 times bigger than GPT4 because otherwise forward pass won&rsquo;t have needed FLOPs!</p>
-<p>We will surely soon get 10X larger model and it will be able to generate output for a prompt that takes 20 hours of work by human expert instead of 2. It would be super awesome but still far and away from solving Riemann Hypothesis. That won&rsquo;t be happen even at 100X larger model!</p>
-<p>All these points to the possibility that scaling is likely not an answer to everything. In fact, it has very stringent limitations.</p>
-<p>Instead of expecting answer in one forward pass for a given prompt, LLMs needs to be able to create plan, review and re-plan.</p>
-<p>I think agentic AI is where the next biggest breakthroughs might happen, not the scaling. In essence, agentic AI trades model size for time by accumulating FLOPs.</p>
-<p>For many examples, LLMs are ~50,000 times faster than humans. Imagine, proving FLT in &lt; 1 day instead of 358 years!</p>
-<p><a href="https://x.com/sytelus/status/1786929575366471695" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Sun, 05 May 2024 08:23:04 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202405050823-100-tflops-vs-2-hours/</guid>
+      <description></description>
     </item>
     <item>
       <title>Phi-3: &#34;ChatGPT&#34; Natively on Your Phone</title>
       <link>https://shital.com/blog/tweets/thread/202404240042-phi3-chatgpt-phone/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202404240042-phi3-chatgpt-phone/</guid>
-      <pubDate>Wed, 24 Apr 2024 00:42:47 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>Welcome to Phi-3!
-Our team at Microsoft AI has worked hard to bring you this little wonder and it’s open as in MIT Licensed!!
-We started this journey almost exactly a year ago and 3 releases later now you can have ChatGPT running on your phone natively :). 🧵
-</description>
-      <content:encoded><![CDATA[<p>Welcome to Phi-3!</p>
-<p>Our team at Microsoft AI has worked hard to bring you this little wonder and it&rsquo;s open as in MIT Licensed!!</p>
-<p>We started this journey almost exactly a year ago and 3 releases later now you can have ChatGPT running on your phone natively :). 🧵</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202404240042-phi3-chatgpt-phone/ZTPAHC9Ilu_hu_57383d145108d483.webp 480w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/ZTPAHC9Ilu_hu_edd5a3fe72633c1f.webp 800w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/ZTPAHC9Ilu_hu_46e1af650f5621fd.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202404240042-phi3-chatgpt-phone/ZTPAHC9Ilu.jpg" srcset="/blog/tweets/thread/202404240042-phi3-chatgpt-phone/ZTPAHC9Ilu_hu_3c8466bf6f057f06.jpg 480w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/ZTPAHC9Ilu_hu_3dd5f71a96a13cd.jpg 800w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/ZTPAHC9Ilu.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="812" alt="https://pbs.twimg.com/media/GL3U1PfacAEZL_-.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202404240042-phi3-chatgpt-phone/ZTPAHC9Ilu.jpg"></picture></figure><p>Phi-3 punches way above its weight beating way larger models!</p>
-<p>So, how does this magic happen? It&rsquo;s all in data because not all flops are created equal! Meticulous filtering and reasoning dense synthetic data can push models way beyond.</p>
-<p>Tech Report: <a href="https://arxiv.org/abs/2404.14219" class="ext" rel="noopener">https://arxiv.org/abs/2404.14219</a></p>
-<p>The most important part of our technical report is the below plot.</p>
-<p>Remember, we are fighting against exponentials when it comes to the scaling laws as in below log-linear plot. The primary insight here is that this line can be <em>tilted</em> and we shouldn&rsquo;t assume otherwise!</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202404240042-phi3-chatgpt-phone/QrlAnn3eOr_hu_d080bbc6ad9a9f41.webp 480w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/QrlAnn3eOr_hu_867d8b667c5825b8.webp 800w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/QrlAnn3eOr_hu_6a519d521ad71c1e.webp 1105w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202404240042-phi3-chatgpt-phone/QrlAnn3eOr.jpg" srcset="/blog/tweets/thread/202404240042-phi3-chatgpt-phone/QrlAnn3eOr_hu_66412e2b837ed994.jpg 480w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/QrlAnn3eOr_hu_96ba4b473c8ea033.jpg 800w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/QrlAnn3eOr.jpg 1105w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1105" height="495" alt="https://pbs.twimg.com/media/GL3ZaYWbgAAv8LZ.jpg" loading="lazy" decoding="async" data-full="/blog/tweets/thread/202404240042-phi3-chatgpt-phone/QrlAnn3eOr.jpg"></picture></figure><p>This is something I&rsquo;d believed in and posted just a little more than a year ago:
-<a href="https://x.com/sytelus/status/1637407901466886144" class="ext" rel="noopener">https://x.com/sytelus/status/1637407901466886144</a></p>
-<p>It&rsquo;s all about tilting the line!</p>
-<p>Data turns out to be our greatest leverage so far but there are other levers, perhaps as powerful, showing up on the horizon.</p>
-<p>Try out our models and give us the feedback!
-<a href="https://huggingface.co/collections/microsoft/phi-3-6626e15e9585a200d2d761e3" class="ext" rel="noopener">https://huggingface.co/collections/microsoft/phi-3-6626e15e9585a200d2d761e3</a></p>
-<p>We even have ready to use onnx and quantized gguf versions ready to go!</p>
-<p>You can also try out phi-3 quickly using ollama running 100% locally on your machine even if you don&rsquo;t have GPU 😎.</p>
-<p>Have fun!</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202404240042-phi3-chatgpt-phone/1WTvxWD1XE_hu_39a58c822ceab383.webp 480w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/1WTvxWD1XE_hu_c30296b6984d0ccb.webp 800w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/1WTvxWD1XE_hu_aa433f01b4927ba0.webp 1138w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202404240042-phi3-chatgpt-phone/1WTvxWD1XE.jpg" srcset="/blog/tweets/thread/202404240042-phi3-chatgpt-phone/1WTvxWD1XE_hu_ec5dd5e4699d5c78.jpg 480w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/1WTvxWD1XE_hu_b53d4276bee495bb.jpg 800w, /blog/tweets/thread/202404240042-phi3-chatgpt-phone/1WTvxWD1XE.jpg 1138w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1138" height="534" alt="https://pbs.twimg.com/media/GL3dCD3asAAHHOD.jpg" loading="lazy" decoding="async" data-full="/blog/tweets/thread/202404240042-phi3-chatgpt-phone/1WTvxWD1XE.jpg"></picture></figure><p>Here&rsquo;s quick demo by <a href="https://x.com/SebastienBubeck" class="ext" rel="noopener">@SebastienBubeck</a> just in case you missed it:</p>
-<p><a href="https://x.com/SebastienBubeck/status/1782627991874678809" class="ext" rel="noopener">https://x.com/SebastienBubeck/status/1782627991874678809</a></p>
-<p><a href="https://x.com/sytelus/status/1782827470686925211" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Wed, 24 Apr 2024 00:42:47 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202404240042-phi3-chatgpt-phone/</guid>
+      <description></description>
     </item>
     <item>
       <title>Inference Memory</title>
       <link>https://shital.com/blog/tweets/thread/202404220422-inference-gradient-free-diet/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202404220422-inference-gradient-free-diet/</guid>
-      <pubDate>Mon, 22 Apr 2024 04:22:02 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>Inference is different than training because you don’t need to worry about grads, optimizer states, activations etc. For example, you can run just one layer and while it gets computed you load another in parallel so you never need more than 2 layers worth of accelerator RAM. https://x.com/teortaxesTex/status/1781894128424386953
-</description>
-      <content:encoded><![CDATA[<p>Inference is different than training because you don’t need to worry about grads, optimizer states, activations etc. For example, you can run just one layer and while it gets computed you load another in parallel so you never need more than 2 layers worth of accelerator RAM. <a href="https://x.com/teortaxesTex/status/1781894128424386953" class="ext" rel="noopener">https://x.com/teortaxesTex/status/1781894128424386953</a></p>
-<p>A lot of people still get shocked when they find out that frameworks like llama.cpp can run 70B models even on machines with mere 4GB RAM because they don’t understand above (and a little magical thing called memory mapped files) 😇.</p>
-<p><a href="https://x.com/sytelus/status/1782157873365328134" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Mon, 22 Apr 2024 04:22:02 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202404220422-inference-gradient-free-diet/</guid>
+      <description></description>
     </item>
     <item>
       <title>Llama3 Leaps Ahead with Data Alone</title>
       <link>https://shital.com/blog/tweets/thread/202404191425-llama3-leaps-ahead/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202404191425-llama3-leaps-ahead/</guid>
-      <pubDate>Fri, 19 Apr 2024 14:25:10 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>Llama3 architecture seems to have remain unchanged from Llama2 which makes it a perfect experiment for measuring performance improvement solely through data (and better tokenizer + 8k context, sure)!
-Just look at the massive bump from Llama2 -&gt; Llama3:
-Another thing to notice is how increased model size achieves better performance when data is kept constant. This is way more pronounced for Llama3 then Llama2. This scaling behavior is actually an essential indicator of better data quality:
-</description>
-      <content:encoded><![CDATA[<p>Llama3 architecture seems to have remain unchanged from Llama2 which makes it a perfect experiment for measuring performance improvement solely through data (and better tokenizer + 8k context, sure)!</p>
-<p>Just look at the massive bump from Llama2 -&gt; Llama3:</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202404191425-llama3-leaps-ahead/7tEyUIyppM_hu_3879132d70ddcac2.webp 480w, /blog/tweets/thread/202404191425-llama3-leaps-ahead/7tEyUIyppM_hu_11e86f09af76e6b2.webp 799w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202404191425-llama3-leaps-ahead/7tEyUIyppM.png" srcset="/blog/tweets/thread/202404191425-llama3-leaps-ahead/7tEyUIyppM_hu_3484cbd5a54c18dc.png 480w, /blog/tweets/thread/202404191425-llama3-leaps-ahead/7tEyUIyppM.png 799w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="799" height="896" alt="https://pbs.twimg.com/media/GLgobdfbgAA1rKQ.png" loading="eager" decoding="async" data-full="/blog/tweets/thread/202404191425-llama3-leaps-ahead/7tEyUIyppM.png"></picture></figure><p>Another thing to notice is how increased model size achieves better performance when data is kept constant. This is way more pronounced for Llama3 then Llama2. This scaling behavior is actually an essential indicator of better data quality:</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202404191425-llama3-leaps-ahead/mjI5njrqlp_hu_e7d244c60aa465c8.webp 480w, /blog/tweets/thread/202404191425-llama3-leaps-ahead/mjI5njrqlp_hu_aed18ff9b096a7f9.webp 800w, /blog/tweets/thread/202404191425-llama3-leaps-ahead/mjI5njrqlp_hu_a127695167dab5cb.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202404191425-llama3-leaps-ahead/mjI5njrqlp.png" srcset="/blog/tweets/thread/202404191425-llama3-leaps-ahead/mjI5njrqlp_hu_808f2d76109c2044.png 480w, /blog/tweets/thread/202404191425-llama3-leaps-ahead/mjI5njrqlp_hu_4a359172cfdb2538.png 800w, /blog/tweets/thread/202404191425-llama3-leaps-ahead/mjI5njrqlp.png 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="132" alt="https://pbs.twimg.com/media/GLgrkO7bcAA0r9J.png" loading="lazy" decoding="async" data-full="/blog/tweets/thread/202404191425-llama3-leaps-ahead/mjI5njrqlp.png"></picture></figure><p><a href="https://x.com/sytelus/status/1781222492910346479" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Fri, 19 Apr 2024 14:25:10 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202404191425-llama3-leaps-ahead/</guid>
+      <description></description>
     </item>
     <item>
       <title>Marvels of ENIAC</title>
       <link>https://shital.com/blog/tweets/thread/202404151959-eniac-tubular-triumph/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202404151959-eniac-tubular-triumph/</guid>
-      <pubDate>Mon, 15 Apr 2024 19:59:24 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>Some very cool facts about ENIAC, the first general purpose electronic computer from the book by Scott McCartney:
-Experts in 1940s believed ENIAC was impossible because vacuum tubes cannot be scaled to about 10000 needed for the circuits. Max tubes used at the time was ~200. 🧵
-</description>
-      <content:encoded><![CDATA[<p>Some very cool facts about ENIAC, the first general purpose electronic computer from the book by Scott McCartney:</p>
-<p>Experts in 1940s believed ENIAC was impossible because vacuum tubes cannot be scaled to about 10000 needed for the circuits. Max tubes used at the time was ~200. 🧵</p>
-<p>Vacuum tubes were super unreliable and the idea that thousands of them can work together was considered ludicrous. Fortunately, the lead engineer Eckert was rather young, talented and naive. How did he solved this key issue?</p>
-<p>Eckert figured out that he can use tubes in on/off mode which allowed to reduce voltage by 10X, increasing life span. Eventually, ENIAC ran ~8 hr at a time before a tube blew. It took month to design program, day to dial in code in 3000 knobs and about week to debug the program.</p>
-<p>Even though Eckert knew about binary system, he decided to use decimal arithmetic to reduce number of tubes but complicating the ALU. The programming team of very first computer were all women! They were selected from “human computer” team, people gifted with doing arithmetic.</p>
-<p>ENIAC took 2 years to build. It was secret project but too small for army to care too much. In one of the most shocking coincidences,  John von Neumann and ENIAC’s project member Goldstein happen to travel in same train and bumped into each other.</p>
-<p>This is when John von Neumann first learned about general purpose computer. He immediately inserted himself into the project and wrote a paper describing stored program architecture. The problem? He only put himself as author even though these ideas were not his own!</p>
-<p>The paper became popular and people started calling it “John von Neumann Architecture” even though it wasn’t his idea. Neumann never corrected anyone, took the credit and just stayed silent. However, Neumann was still a visionary and it is astonishing how far he could see.</p>
-<p>While everyone looked at ENIAC as fancy programmable calculator, Neumann was the first to describe computer as machine to build neural network, artificial brain and journey towards intelligence even in that very first paper!</p>
-<p>Remember, ENIAC had mere 500 FLOPS.</p>
-<p>Another coincidence: Writing of this first paper on general purpose computer and the first nuclear explosion Trinity happened around at the same time and at the same place (Los Alamos)! Neumann abstracted away all the concepts so it can be published without divulging…</p>
-<p>It was Neumann’s ambitious vision for AI and his stature that ultimately spurred off race across US and the world to build ever powerful computers. Companies and governments started pouring money even though initial applications remained sketchy.</p>
-<p>This is how journey began from 500 FLOPS to today’s 5000 PFLOPS in just 80 years.</p>
-<p>So, why did I suddenly read this book? Well, on a loong 6hr drive, this was the only audiobook I could find that kids were willing to sit through and listen to the story 😂.</p>
-<p><a href="https://x.com/sytelus/status/1779857054498521278" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Mon, 15 Apr 2024 19:59:24 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202404151959-eniac-tubular-triumph/</guid>
+      <description></description>
     </item>
     <item>
       <title>Intelligence and FLOPs Efficiency</title>
       <link>https://shital.com/blog/tweets/thread/202404141641-chess-engines-slow-motion-rematch/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202404141641-chess-engines-slow-motion-rematch/</guid>
-      <pubDate>Sun, 14 Apr 2024 16:41:59 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>IBM DeepBlue ran at ~11 BFLOPS while current CPUs can do 80X more FLOPS. If we consider DeepBlue ELO (2853) approximately same as modern human grandmaster ELO then I would guess that human can still beat modern chess engines if we slow them down by 80X. That’s the question raised here: https://x.com/DavidDeutschOxf/status/1778324747853389909.
-</description>
-      <content:encoded><![CDATA[<p>IBM DeepBlue ran at ~11 BFLOPS while current CPUs can do 80X more FLOPS. If we consider DeepBlue ELO (2853) approximately same as modern human grandmaster ELO then I would guess that human can still beat modern chess engines if we slow them down by 80X. That&rsquo;s the question raised here: <a href="https://x.com/DavidDeutschOxf/status/1778324747853389909" class="ext" rel="noopener">https://x.com/DavidDeutschOxf/status/1778324747853389909</a>.</p>
-<p>I love above question because it highlights the importance of time as it relates to “better” reasoning. We often confuse better/more powerful reasoning with simply faster computation or computation with access to larger memory/scratch pad.</p>
-<p>The existential question of our times is to figure out what is reasoning, or more concretely, how do we precisely measure it in purely computational sense. A mental model I have in my mind is as follows:</p>
-<p>Start with set A and seed it using some axioms and operations. Now one can… <a href="https://x.com/sytelus/status/1779444983826985105" class="ext" rel="noopener">continue reading</a></p>
-]]></content:encoded>
+      <pubDate>Sun, 14 Apr 2024 16:41:59 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202404141641-chess-engines-slow-motion-rematch/</guid>
+      <description></description>
     </item>
     <item>
       <title>Using rusage</title>
       <link>https://shital.com/blog/tweets/thread/202403271630-rusage-llama-memory/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202403271630-rusage-llama-memory/</guid>
-      <pubDate>Wed, 27 Mar 2024 16:30:55 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>The rusage is one handy tool for debugging LLMs!
-You prefix any command with it and you get memory usage, page faults, I/O info.
-For example, below shows what happens when you load model using llama.cpp. Notice page faults with 100% memcpy which means they didn’t hit disk!
-</description>
-      <content:encoded><![CDATA[<p>The <code>rusage</code> is one handy tool for debugging LLMs!</p>
-<p>You prefix any command with it and you get memory usage, page faults, I/O info.</p>
-<p>For example, below shows what happens when you load model using llama.cpp. Notice page faults with 100% memcpy which means they didn&rsquo;t hit disk!</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202403271630-rusage-llama-memory/tDTkMz5Dig_hu_a15addc15e4ea505.webp 480w, /blog/tweets/thread/202403271630-rusage-llama-memory/tDTkMz5Dig_hu_4272f11e42d95ba1.webp 800w, /blog/tweets/thread/202403271630-rusage-llama-memory/tDTkMz5Dig_hu_816cf2455314edce.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202403271630-rusage-llama-memory/tDTkMz5Dig.png" srcset="/blog/tweets/thread/202403271630-rusage-llama-memory/tDTkMz5Dig_hu_348601b0925c3597.png 480w, /blog/tweets/thread/202403271630-rusage-llama-memory/tDTkMz5Dig_hu_41bfb7295c481c5.png 800w, /blog/tweets/thread/202403271630-rusage-llama-memory/tDTkMz5Dig.png 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="250" alt="https://pbs.twimg.com/media/GJqsKAIaUAA1LIn.png" loading="eager" decoding="async" data-full="/blog/tweets/thread/202403271630-rusage-llama-memory/tDTkMz5Dig.png"></picture></figure><p>Get it here: <a href="https://justine.lol/rusage/" class="ext" rel="noopener">https://justine.lol/rusage/</a></p>
-<p><a href="https://x.com/sytelus/status/1772919220180779401" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Wed, 27 Mar 2024 16:30:55 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202403271630-rusage-llama-memory/</guid>
+      <description></description>
     </item>
     <item>
       <title>When Uniform Isn&#39;t Uniform: A Bug Hunt Tale</title>
       <link>https://shital.com/blog/tweets/thread/202403221524-non-uniform-bug-hunt/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202403221524-non-uniform-bug-hunt/</guid>
-      <pubDate>Fri, 22 Mar 2024 15:24:20 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>If you like a challenge, this is a very cute one. This bug was driving us crazy and finally hunted down after few hours of chase.
-See if you can figure it out 😉.
-The output of this code should be uniform distribution:
-</description>
-      <content:encoded><![CDATA[<p>If you like a challenge, this is a very cute one. This bug was driving us crazy and finally hunted down after few hours of chase.</p>
-<p>See if you can figure it out 😉.</p>
-<p>The output of this code should be uniform distribution:</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202403221524-non-uniform-bug-hunt/7p14vz0qAg_hu_3709b9c47ecef637.webp 480w, /blog/tweets/thread/202403221524-non-uniform-bug-hunt/7p14vz0qAg_hu_5b3895e0fe1f49f4.webp 800w, /blog/tweets/thread/202403221524-non-uniform-bug-hunt/7p14vz0qAg_hu_c3a28ada3e6f8ddc.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202403221524-non-uniform-bug-hunt/7p14vz0qAg.jpg" srcset="/blog/tweets/thread/202403221524-non-uniform-bug-hunt/7p14vz0qAg_hu_30e78a39426cd4ce.jpg 480w, /blog/tweets/thread/202403221524-non-uniform-bug-hunt/7p14vz0qAg_hu_419291a125f7fb8d.jpg 800w, /blog/tweets/thread/202403221524-non-uniform-bug-hunt/7p14vz0qAg.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="558" alt="https://pbs.twimg.com/media/GJQtMGfaQAALt6Q.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202403221524-non-uniform-bug-hunt/7p14vz0qAg.jpg"></picture></figure><p>&hellip;but instead it looks like this stange distribution. WHY?</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202403221524-non-uniform-bug-hunt/3yi2MaflEf_hu_4390307305c5b9c4.webp 480w, /blog/tweets/thread/202403221524-non-uniform-bug-hunt/3yi2MaflEf_hu_10287e2b7fc7355d.webp 800w, /blog/tweets/thread/202403221524-non-uniform-bug-hunt/3yi2MaflEf_hu_16fbf54fb01c0a73.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202403221524-non-uniform-bug-hunt/3yi2MaflEf.jpg" srcset="/blog/tweets/thread/202403221524-non-uniform-bug-hunt/3yi2MaflEf_hu_e58de7196b35dc58.jpg 480w, /blog/tweets/thread/202403221524-non-uniform-bug-hunt/3yi2MaflEf_hu_b667860dc61310c6.jpg 800w, /blog/tweets/thread/202403221524-non-uniform-bug-hunt/3yi2MaflEf.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="884" alt="https://pbs.twimg.com/media/GJQrCxHb0AA3mpb.jpg" loading="lazy" decoding="async" data-full="/blog/tweets/thread/202403221524-non-uniform-bug-hunt/3yi2MaflEf.jpg"></picture></figure><p><a href="https://x.com/sytelus/status/1771090523324862552" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Fri, 22 Mar 2024 15:24:20 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202403221524-non-uniform-bug-hunt/</guid>
+      <description></description>
     </item>
     <item>
       <title>GPT-4 Training Time</title>
       <link>https://shital.com/blog/tweets/thread/202403190400-gpt4-fitness-plan/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202403190400-gpt4-fitness-plan/</guid>
-      <pubDate>Tue, 19 Mar 2024 04:00:02 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>If you were to train GPT-4, 1.8T params model,
-On A100, it will take 25k A100s and take 3-5 months.
-On H100, it will take 8k GPUs and take ~3 months.
-On B100, it will take 2k GPUs and take ~ 3 months.
-</description>
-      <content:encoded><![CDATA[<p>If you were to train GPT-4, 1.8T params model,</p>
-<p>On A100, it will take 25k A100s and take 3-5 months.</p>
-<p>On H100, it will take 8k GPUs and take ~3 months.</p>
-<p>On B100, it will take 2k GPUs and take ~ 3 months.</p>
-<ul>
-<li>Jenson at GTC.</li>
-</ul>
-<p>One of the big consequence here is that you don’t have span multiple colos to train GPT-4 class models. This significantly reduces complexity and puts this class of models right in to hands of many startups.</p>
-<p><a href="https://x.com/sytelus/status/1769831148694225350" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Tue, 19 Mar 2024 04:00:02 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202403190400-gpt4-fitness-plan/</guid>
+      <description></description>
     </item>
     <item>
       <title>Power of Two Choices</title>
       <link>https://shital.com/blog/tweets/thread/202402081658-balls-in-bins-problem/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202402081658-balls-in-bins-problem/</guid>
-      <pubDate>Thu, 08 Feb 2024 16:58:00 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>Uniform random sampling often causes hidden issue. For example, we may choose k tokens starting at random index to add in a batch. Or choose a server at random to load balance incoming requests.
-But what’s the issue?
-Random sampling can be modeled as packing balls in bins. 🧵
-</description>
-      <content:encoded><![CDATA[<p>Uniform random sampling often causes hidden issue. For example, we may choose k tokens starting at random index to add in a batch. Or choose a server at random to load balance incoming requests.</p>
-<p>But what’s the issue?</p>
-<p>Random sampling can be modeled as packing balls in bins. 🧵</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202402081658-balls-in-bins-problem/4CHL6H1fCK_hu_d7bdcc2cdc504174.webp 480w, /blog/tweets/thread/202402081658-balls-in-bins-problem/4CHL6H1fCK_hu_692765c0e6454df7.webp 800w, /blog/tweets/thread/202402081658-balls-in-bins-problem/4CHL6H1fCK_hu_859e104e453ed3b4.webp 805w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202402081658-balls-in-bins-problem/4CHL6H1fCK.jpg" srcset="/blog/tweets/thread/202402081658-balls-in-bins-problem/4CHL6H1fCK_hu_344b07276c26b8c7.jpg 480w, /blog/tweets/thread/202402081658-balls-in-bins-problem/4CHL6H1fCK_hu_2b229973fc872ec1.jpg 800w, /blog/tweets/thread/202402081658-balls-in-bins-problem/4CHL6H1fCK.jpg 805w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="805" height="521" alt="https://pbs.twimg.com/media/GFzYyPXbEAAeuKU.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202402081658-balls-in-bins-problem/4CHL6H1fCK.jpg"></picture></figure><p>The problem here is that some bins invariably will end up with more balls while others might end up even empty. In fact, the “max load” here is given by log n/log log n. I</p>
-<p>s it possible to improve this without making things too complicated? It turns out we can!</p>
-<p>This fascinating simple idea is known as “power of two choices”! <a href="http://www.eecs.harvard.edu/~michaelm/postscripts/handbook2001.pdf" class="ext" rel="noopener">http://www.eecs.harvard.edu/~michaelm/postscripts/handbook2001.pdf</a>.</p>
-<p>All you do is this: instead of choosing one thing at random, choose two things at random and decide on one or the other based on your desired criteria.</p>
-<p>For example, when load balancing, choose two servers at random and route request to the one which has the least load at the moment. This decreases “max load” all the way to log log n.</p>
-<p>It turns out you can apply this idea almost anywhere where you are making some random choice!</p>
-<p><a href="https://x.com/sytelus/status/1755516315044102505" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Thu, 08 Feb 2024 16:58:00 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202402081658-balls-in-bins-problem/</guid>
+      <description></description>
     </item>
     <item>
       <title>Phixtral Fusion</title>
       <link>https://shital.com/blog/tweets/thread/202401151722-phixtral-fusion/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202401151722-phixtral-fusion/</guid>
-      <pubDate>Mon, 15 Jan 2024 17:22:19 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>It’s simply amazing how OSS community is using Phi-2. Goddard figured out that you can just slap in pre-trained models as “experts’ in Mixtral. For routing, directly compute gate matrix using hidden state for expert’s prompt.
-Phixtral smashes the leaderboard. No extra training!! https://x.com/maximelabonne/status/1744867841436700850
-</description>
-      <content:encoded><![CDATA[<p>It’s simply amazing how OSS community is using Phi-2. Goddard figured out that you can just slap in pre-trained models as “experts’ in Mixtral. For routing, directly compute gate matrix using hidden state for expert’s prompt.</p>
-<p>Phixtral smashes the leaderboard. No extra training!! <a href="https://x.com/maximelabonne/status/1744867841436700850" class="ext" rel="noopener">https://x.com/maximelabonne/status/1744867841436700850</a></p>
-<p>Shout out to fun article by Charles Goddard on how this strange “MoE” works.</p>
-<p>Most folks will immediately realize this as ensembles with one weird trick :).</p>
-<p><a href="https://goddard.blog/posts/clown-moe/#moe-gates-without-training" class="ext" rel="noopener">https://goddard.blog/posts/clown-moe/#moe-gates-without-training</a></p>
-<p><a href="https://x.com/sytelus/status/1746825125767585838" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Mon, 15 Jan 2024 17:22:19 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202401151722-phixtral-fusion/</guid>
+      <description></description>
     </item>
     <item>
       <title>Amazing Robotics Demo with Cheap Hardware</title>
       <link>https://shital.com/blog/tweets/thread/202401041635-robot-on-a-budget/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202401041635-robot-on-a-budget/</guid>
-      <pubDate>Thu, 04 Jan 2024 16:35:45 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>So, this robot was made under $32k. It’s driven by a cheap laptop with a mobile 3070ti. It has 2 low res cameras on wrist and one front facing (+ proprioception from arms). Models are tiny ResNet18 backbones. The key insight is that co-training improves performance!
-</description>
-      <content:encoded><![CDATA[<p>So, this robot was made under $32k. It’s driven by a cheap laptop with a mobile 3070ti. It has 2 low res cameras on wrist and one front facing (+ proprioception from arms). Models are tiny ResNet18 backbones. The key insight is that co-training improves performance!</p>
-<div class="tweet-embed">
-  <blockquote class="twitter-tweet" data-dnt="true" data-conversation="none"><a href="https://twitter.com/zipengfu/status/1742602881390477771">Post by @zipengfu on X</a></blockquote>
-</div>
-
-<p>According to paper, imitation learning seems to be robust against randomization, for ex, different locations/attire of person. However, I am sure there are obvious and more often failure cases (for example, what if person refuses to do hi-fi or pan is turned upside down).</p>
-<p>Fun fact: I was talking with someone about similar demo being 3-5 years out just last year :). I still don’t think we are quite there but it feels a lot more closer with recent progress in multimodal models with much deeper understanding of the world and sim2real  (ex, swift).</p>
-<p>Authors just added the bloopers reel. This is my primary litmus test of a great work, BTW. <a href="https://x.com/tonyzzhao/status/1743378437174366715" class="ext" rel="noopener">https://x.com/tonyzzhao/status/1743378437174366715</a></p>
-<p><a href="https://x.com/sytelus/status/1742827143183343882" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Thu, 04 Jan 2024 16:35:45 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202401041635-robot-on-a-budget/</guid>
+      <description></description>
     </item>
     <item>
       <title>Hyperparams for 23 Architectures</title>
       <link>https://shital.com/blog/tweets/thread/202312301641-model-mayhem-23-architectures/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202312301641-model-mayhem-23-architectures/</guid>
-      <pubDate>Sat, 30 Dec 2023 16:41:32 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>Nice collection of architecture and training parameters for 23 models in one place!
-Some observations and rant :) 🧵
-Post by @BlancheMinerva on X As someone who has spent ton of time in NAS, what bugs me the most is how little effort is spent on principled approach to find these parameters. Current sentiment that only number of params matters and arch is irrelevant has blocked the progress and done a significant damage.
-</description>
-      <content:encoded><![CDATA[<p>Nice collection of architecture and training parameters for 23 models in one place!</p>
-<p>Some observations and rant :) 🧵</p>
-<div class="tweet-embed">
-  <blockquote class="twitter-tweet" data-dnt="true" data-conversation="none"><a href="https://twitter.com/BlancheMinerva/status/1740365334467756267">Post by @BlancheMinerva on X</a></blockquote>
-</div>
-
-<p>As someone who has spent ton of time in NAS, what bugs me the most is how little effort is spent on principled approach to find these parameters. Current sentiment that only number of params matters and arch is irrelevant has blocked the progress and done a significant damage.</p>
-<p>For instance, Llama model config for 6.7B is straight copy of  GPT3 with few architecture changes. No one is asking why d_model=4096 is the good choice with n_layer=32. And why the hack number of layers is so often kept same as number of heads?</p>
-<p>GPT3 folks put out above numbers more than 3.5 years ago with zero justification and explanation of any kind. Yet so many newer models still use them with almost a religious faith in OpenAI!</p>
-<p>Same goes for cosine schedule. In recent paper there is pretty strong evidence that cosine schedules are sub optimal than linear but so many training procedure including llama series still use them with justification that is nothing more than faith. <a href="https://arxiv.org/abs/2310.07831" class="ext" rel="noopener">https://arxiv.org/abs/2310.07831</a></p>
-<p>One reason for this is, of course, scarcity of compute and the fact that traditional methods don’t scale. My own experiments with methods like LRRT yielded rather weird results for large models. I think muP is promising but unused by all but likely just 1 out of 23 models!</p>
-<p>Another funny thing is so many models using exact same LR as Llama or even old GPT papers! LR can be significantly different based on data complexity for exact same architecture. If your datasets are not same as OpenAI/Meta, you are already starting off with a performance hit.</p>
-<p><a href="https://x.com/sytelus/status/1741016657013973412" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Sat, 30 Dec 2023 16:41:32 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202312301641-model-mayhem-23-architectures/</guid>
+      <description></description>
     </item>
     <item>
       <title>Large Activation Outliers</title>
       <link>https://shital.com/blog/tweets/thread/202312251915-llm-outliers-not-emergent/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202312251915-llm-outliers-not-emergent/</guid>
-      <pubDate>Mon, 25 Dec 2023 19:15:37 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>One surprising phenomenon for LLMs has been the large activation outliers in certain dimensions which made quantization hard but were believed to be correlated with emergent properties.
-Well, this paper points out that they might in fact artifacts of training choices!
-</description>
-      <content:encoded><![CDATA[<p>One surprising phenomenon for LLMs has been the large activation outliers in certain dimensions which made quantization hard but were believed to be correlated with emergent properties.</p>
-<p>Well, this paper points out that they might in fact artifacts of training choices!</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202312251915-llm-outliers-not-emergent/lhdbvHPxr4_hu_e92af2d0bd25aa3e.webp 480w, /blog/tweets/thread/202312251915-llm-outliers-not-emergent/lhdbvHPxr4_hu_8c6eebb14d7045e6.webp 800w, /blog/tweets/thread/202312251915-llm-outliers-not-emergent/lhdbvHPxr4_hu_78e7b102642c02ae.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202312251915-llm-outliers-not-emergent/lhdbvHPxr4.jpg" srcset="/blog/tweets/thread/202312251915-llm-outliers-not-emergent/lhdbvHPxr4_hu_639fe9e26875f772.jpg 480w, /blog/tweets/thread/202312251915-llm-outliers-not-emergent/lhdbvHPxr4_hu_4a6a1b728ea23482.jpg 800w, /blog/tweets/thread/202312251915-llm-outliers-not-emergent/lhdbvHPxr4.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="352" alt="https://pbs.twimg.com/media/GCMIvisasAA2IFi.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202312251915-llm-outliers-not-emergent/lhdbvHPxr4.jpg"></picture></figure><p>Meanwhile, if you are practitioner, the takeaway message seems to be: use bf16, weight_decay = 0.1, dropout=0, grad_clip=1 if you want your model to be more quantization friendly.</p>
-<p><a href="https://arxiv.org/abs/2305.19268" class="ext" rel="noopener">https://arxiv.org/abs/2305.19268</a></p>
-<p><a href="https://x.com/sytelus/status/1739243496916349209" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Mon, 25 Dec 2023 19:15:37 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202312251915-llm-outliers-not-emergent/</guid>
+      <description></description>
     </item>
     <item>
       <title>Phi-2: Smol Is More Powerful</title>
       <link>https://shital.com/blog/tweets/thread/202312131822-phi-2-when-less-is-more-powerful/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202312131822-phi-2-when-less-is-more-powerful/</guid>
-      <pubDate>Wed, 13 Dec 2023 18:22:51 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>Mistral-7B is cool but you know what’s cooler? A more powerful model in just 1/3rd of the size!
-Welcome to Phi-2.
-This is something our team at Microsoft Research had been tirelessly working on and now we have more numbers comparing with Llama-7B, 13B, 70B and Gemini Nano. 👇
-</description>
-      <content:encoded><![CDATA[<p>Mistral-7B is cool but you know what&rsquo;s cooler? A more powerful model in just 1/3rd of the size!</p>
-<p>Welcome to Phi-2.</p>
-<p>This is something our team at Microsoft Research had been tirelessly working on and now we have more numbers comparing with Llama-7B, 13B, 70B and Gemini Nano. 👇</p>
-<p>Phi-2 is best in the class model beating models 3X of it&rsquo;s size and in many cases even much much larger. Phi-2 especially shines in Math and Coding:</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202312131822-phi-2-when-less-is-more-powerful/hDTHNG61w1_hu_22c896f34f11a063.webp 480w, /blog/tweets/thread/202312131822-phi-2-when-less-is-more-powerful/hDTHNG61w1_hu_916a69eefd29afc4.webp 800w, /blog/tweets/thread/202312131822-phi-2-when-less-is-more-powerful/hDTHNG61w1_hu_892bdaa05441bd9e.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202312131822-phi-2-when-less-is-more-powerful/hDTHNG61w1.png" srcset="/blog/tweets/thread/202312131822-phi-2-when-less-is-more-powerful/hDTHNG61w1_hu_3867a9ec1333384a.png 480w, /blog/tweets/thread/202312131822-phi-2-when-less-is-more-powerful/hDTHNG61w1_hu_ac60ba237b379ae8.png 800w, /blog/tweets/thread/202312131822-phi-2-when-less-is-more-powerful/hDTHNG61w1.png 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="583" alt="https://pbs.twimg.com/media/GBODsdIa8AA7Zox.png" loading="eager" decoding="async" data-full="/blog/tweets/thread/202312131822-phi-2-when-less-is-more-powerful/hDTHNG61w1.png"></picture></figure><p>Want to give Phi-2 a try? Here is how:</p>
-<ol>
-<li>
-<p>Go to <a href="http://portal.azure.com" class="ext" rel="noopener">http://portal.azure.com</a>, create an account if you don&rsquo;t have one</p>
-</li>
-<li>
-<p>Go here: <a href="http://aka.ms/phi2az" class="ext" rel="noopener">http://aka.ms/phi2az</a></p>
-</li>
-</ol>
-<p>Our Phi-2 efforts proves that we had been wasting enormous amount of compute on rather ineffective training data. Throwing a kitchen sink at model has a big price tag and lower quality.</p>
-<p>More examples and discussions:  <a href="https://x.com/SebastienBubeck/status/1734612826176794958" class="ext" rel="noopener">https://x.com/SebastienBubeck/status/1734612826176794958</a></p>
-<p>Blog Post:  <a href="https://microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/" class="ext" rel="noopener">https://microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/</a></p>
-<p>By popular demand, Phi-2 is now directly available on Hugging Face!!</p>
-<p><a href="https://x.com/SebastienBubeck/status/1735050282210615431" class="ext" rel="noopener">https://x.com/SebastienBubeck/status/1735050282210615431</a></p>
-<p><a href="https://x.com/sytelus/status/1734881560271454525" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Wed, 13 Dec 2023 18:22:51 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202312131822-phi-2-when-less-is-more-powerful/</guid>
+      <description></description>
     </item>
     <item>
       <title>Looped Transformers</title>
       <link>https://shital.com/blog/tweets/thread/202312121802-one-instruction-looped-transformers/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202312121802-one-instruction-looped-transformers/</guid>
-      <pubDate>Tue, 12 Dec 2023 18:02:12 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>Looped transformers is amazing work that has kept me up tonight! Basic idea: You can construct Turing-complete computer using just a one instruction. Authors directly compute weights for a small transformer so it is able to execute this instruction and then add a huge kicker. 🧵 https://x.com/DimitrisPapail/status/1620834409275609088
-</description>
-      <content:encoded><![CDATA[<p>Looped transformers is amazing work that has kept me up tonight! Basic idea: You can construct Turing-complete computer using just a one instruction. Authors directly compute weights for a small transformer so it is able to execute this instruction and then add a huge kicker. 🧵 <a href="https://x.com/DimitrisPapail/status/1620834409275609088" class="ext" rel="noopener">https://x.com/DimitrisPapail/status/1620834409275609088</a></p>
-<p>Executing just one instruction isn’t much fun, is it? How do we execute long general programs instead? Well, you can just run this transformer in loop! The idea is that each instruction also spits out state needed for the next instructions so loop is akin to recursion.</p>
-<p>The end result is that now this tiny 13-layer transformer can run long programs just like a regular computer will! You just feed program and it spits out the output. Authors implement programs like, for example, calculating square root and transformer will compute the value.</p>
-<p>As a punchline, authors implement the program for SGD itself. So, now you have <em>literally</em> real SGD training running at inference time in-context!! 🤯</p>
-<p>A single tiny transformer is now able to run arbitrarily long programs, only limited by how much state can fits in the context.</p>
-<p>There is obviously lot to think about. For me, here are the main takeaways:</p>
-<p>First, transformers can perform universal computation in-context.</p>
-<p>Second, it’s not just pattern matching/statistical parroting. It’s universal computation on provided and stored information.</p>
-<p>Finally, the most important one:</p>
-<p>The missing “planning module” can be very simple: just add loop! Transformers can maintain state in output, so just keep feeding it back to emulate arbitrarily planner that is only limited by the size of state that fits in the context window.</p>
-<p><a href="https://x.com/sytelus/status/1734513978976661768" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Tue, 12 Dec 2023 18:02:12 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202312121802-one-instruction-looped-transformers/</guid>
+      <description></description>
     </item>
     <item>
       <title>Mamba Paper</title>
       <link>https://shital.com/blog/tweets/thread/202312092042-mamba-vs-attention/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202312092042-mamba-vs-attention/</guid>
-      <pubDate>Sat, 09 Dec 2023 20:42:55 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>I think we haven’t fully grasped the impact of Mamba paper that was just dropped this week. From the results so far, it is very likely that Mamba might just be the architecture that finally unseats the attention from its long held grip on the throne.🧵
-</description>
-      <content:encoded><![CDATA[<p>I think we haven’t fully grasped the impact of Mamba paper that was just dropped this week. From the results so far, it is very likely that Mamba might just be the architecture that finally unseats the attention from its long held grip on the throne.🧵</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202312092042-mamba-vs-attention/mMP8RPQNEM_hu_ab509d1948b9b0e4.webp 480w, /blog/tweets/thread/202312092042-mamba-vs-attention/mMP8RPQNEM_hu_9e346d57c4cb15a7.webp 578w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202312092042-mamba-vs-attention/mMP8RPQNEM.jpg" srcset="/blog/tweets/thread/202312092042-mamba-vs-attention/mMP8RPQNEM_hu_40df81775381da7d.jpg 480w, /blog/tweets/thread/202312092042-mamba-vs-attention/mMP8RPQNEM.jpg 578w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="578" height="911" alt="https://pbs.twimg.com/media/GA6DSO6bwAAdcDI.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202312092042-mamba-vs-attention/mMP8RPQNEM.jpg"></picture></figure><p>So far, state space models were largely academic curiosity. Sure, results were great in Long Range Arena but things sucked in language modeling for regular context lengths. More importantly, Flash Attention basically steam rolled all sub-quadratic attention cottage industry.</p>
-<p>SSMs required whole box of complicated tools but all we really have is just accelerated matmul. How can you turn everything into nail when you just have a hammer?</p>
-<p>Enter <a href="https://x.com/tri_dao" class="ext" rel="noopener">@tri_dao</a> and <a href="https://x.com/_albertgu" class="ext" rel="noopener">@_albertgu</a> . They have managed to accomplish something that was illusive and seemingly impossible: hardware accelerated input-dependent selection! This finally allows for capabilities that attention provides but on a compressed finite state!</p>
-<p>Mamba architecture has inherent beauty. There is no more attention bad-aided with FFN without explanation. Instead there is just one uniform block that repeats with an architecture that has mathematical backing. The compute <em>and</em> memory scales linearly to the sequence length.</p>
-<p>Training and inference is much faster. No more ugly caching hacks. A lot of papers have claimed linear time attention replacement but none have confirmed it with as extensive experiments as Mamba or have been as performant and eventually haven’t stood the test of time.</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202312092042-mamba-vs-attention/39qOqqRySc_hu_d9256be1f09d8eae.webp 480w, /blog/tweets/thread/202312092042-mamba-vs-attention/39qOqqRySc_hu_91dab253be1d5c4d.webp 800w, /blog/tweets/thread/202312092042-mamba-vs-attention/39qOqqRySc_hu_44fe16570fde762f.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202312092042-mamba-vs-attention/39qOqqRySc.jpg" srcset="/blog/tweets/thread/202312092042-mamba-vs-attention/39qOqqRySc_hu_3b4aa6867a94e2dd.jpg 480w, /blog/tweets/thread/202312092042-mamba-vs-attention/39qOqqRySc_hu_5132e23bc27d0f96.jpg 800w, /blog/tweets/thread/202312092042-mamba-vs-attention/39qOqqRySc.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="557" alt="https://pbs.twimg.com/media/GA6DTevawAAbPf9.jpg" loading="lazy" decoding="async" data-full="/blog/tweets/thread/202312092042-mamba-vs-attention/39qOqqRySc.jpg"></picture></figure><p>Mamba beats Llama, RetNet and RWKV flops for flop but there are still few unknowns. Paper has experiments only upto 3B scale. I didn’t like the comparisons in paper with rather weak baselines like OPT and Pythia. We don’t know if the selection mechanism  performs well everywhere.… <a href="https://x.com/sytelus/status/1733467258469724467" class="ext" rel="noopener">continue reading</a></p>
-]]></content:encoded>
+      <pubDate>Sat, 09 Dec 2023 20:42:55 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202312092042-mamba-vs-attention/</guid>
+      <description></description>
     </item>
     <item>
       <title>Thermodynamics of Prediction</title>
       <link>https://shital.com/blog/tweets/thread/202312062303-whats-the-universe-computing/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202312062303-whats-the-universe-computing/</guid>
-      <pubDate>Wed, 06 Dec 2023 23:03:46 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>“Thermodynamics of prediction” is extremely thought provoking beautiful paper: https://arxiv.org/abs/1203.3271
-We have become accustomed to universe, including life, fundamentally as computing machine. But what is that universe and biological molecules even computing?
-There is an obvious intuition that the computation is about predictions. This paper shows a fundamental equivalence between predictive power and energy efficiency. Any system dealing with stochastic externalities must maintain memory that allows predictive power. However, such… continue reading
-</description>
-      <content:encoded><![CDATA[<p>“Thermodynamics of prediction” is extremely thought provoking beautiful paper: <a href="https://arxiv.org/abs/1203.3271" class="ext" rel="noopener">https://arxiv.org/abs/1203.3271</a></p>
-<p>We have become accustomed to universe, including life, fundamentally as computing machine. But what is that universe and biological molecules even computing?</p>
-<p>There is an obvious intuition that the computation is about predictions. This paper shows a fundamental equivalence between predictive power and energy efficiency. Any system dealing with stochastic externalities must maintain memory that allows predictive power. However, such… <a href="https://x.com/sytelus/status/1732415539899957556" class="ext" rel="noopener">continue reading</a></p>
-]]></content:encoded>
+      <pubDate>Wed, 06 Dec 2023 23:03:46 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202312062303-whats-the-universe-computing/</guid>
+      <description></description>
     </item>
     <item>
       <title>Loss Scaling in FP16 Training</title>
       <link>https://shital.com/blog/tweets/thread/202310151451-gradients-gone-wild/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202310151451-gradients-gone-wild/</guid>
-      <pubDate>Sun, 15 Oct 2023 14:51:51 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>One interesting thing about why we need loss scaling for FP16 training is rather empirical observation on nature of the gradients! If you look at training of lots of different NNs, you might find gradient distribution that looks something like this: (mini🧵)
-</description>
-      <content:encoded><![CDATA[<p>One interesting thing about why we need loss scaling for FP16 training is rather empirical observation on nature of the gradients! If you look at training of lots of different NNs, you might find gradient distribution that looks something like this:  (mini🧵)</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202310151451-gradients-gone-wild/pcXrSqQjPQ_hu_8901b30f5aa24a7f.webp 480w, /blog/tweets/thread/202310151451-gradients-gone-wild/pcXrSqQjPQ_hu_39a3a98a654a2e31.webp 608w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202310151451-gradients-gone-wild/pcXrSqQjPQ.png" srcset="/blog/tweets/thread/202310151451-gradients-gone-wild/pcXrSqQjPQ_hu_e93cb29f352121ae.png 480w, /blog/tweets/thread/202310151451-gradients-gone-wild/pcXrSqQjPQ.png 608w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="608" height="469" alt="https://pbs.twimg.com/media/F8dpr32bQAAMf9d.png" loading="eager" decoding="async" data-full="/blog/tweets/thread/202310151451-gradients-gone-wild/pcXrSqQjPQ.png"></picture></figure><p>Above distribution shows that gradients are typically rather small, all the way to 2^-40, rarely in +ve exponent. However, smallest subnormal number that FP16 represent is just 2^-24. This means all grades below 2^-24 are completely lost! That&rsquo;s big loss of info compared to FP32.</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202310151451-gradients-gone-wild/GFyWd64Xkn_hu_7ef0b59565058f01.webp 480w, /blog/tweets/thread/202310151451-gradients-gone-wild/GFyWd64Xkn_hu_490aba32c81b160c.webp 800w, /blog/tweets/thread/202310151451-gradients-gone-wild/GFyWd64Xkn_hu_c1c6cb46048734a7.webp 1022w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202310151451-gradients-gone-wild/GFyWd64Xkn.jpg" srcset="/blog/tweets/thread/202310151451-gradients-gone-wild/GFyWd64Xkn_hu_24835c20fdf8819a.jpg 480w, /blog/tweets/thread/202310151451-gradients-gone-wild/GFyWd64Xkn_hu_357175937c042881.jpg 800w, /blog/tweets/thread/202310151451-gradients-gone-wild/GFyWd64Xkn.jpg 1022w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1022" height="646" alt="https://pbs.twimg.com/media/F8duR_GbsAAz1Cl.jpg" loading="lazy" decoding="async" data-full="/blog/tweets/thread/202310151451-gradients-gone-wild/GFyWd64Xkn.jpg"></picture></figure><p>Solution? Let&rsquo;s scale the gradients so above distribution moves toward right. Even easier solution? Just scale the loss! This works because f&rsquo;(c. x) = c. f&rsquo;(x). Empirically, it turns out that ignoring gradients below 2^-27 is fine but gradients between 2^-24 and 2^-27 matters!</p>
-<p>Even better solution is to keep gradient stats and scale loss to max out FP16 range. This is where PyTorch/amp &ldquo;smart&rdquo; GradScaler comes in. Also, this is why unscaling should be done right after .backward() to restore everything. This is also why bf16 don&rsquo;t need grad scaling.</p>
-<p><a href="https://x.com/sytelus/status/1713462676838588565" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Sun, 15 Oct 2023 14:51:51 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202310151451-gradients-gone-wild/</guid>
+      <description></description>
     </item>
     <item>
       <title>Phi-1: The Tiny Model Outsmarting Giants</title>
       <link>https://shital.com/blog/tweets/thread/202309121512-phi-1-tiny-model-outsmarting-giants/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202309121512-phi-1-tiny-model-outsmarting-giants/</guid>
-      <pubDate>Tue, 12 Sep 2023 15:12:58 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>Two huge releases from our group today that hopefully will inspire new work and rethink old :).
-First, the Phi-1 model:
-This 1.3B code model gets 50% on HumanEval. There are tons of 7B to 30B models out there, including recent CodeLlama2. This David beats all Goliaths! 🧵
-</description>
-      <content:encoded><![CDATA[<p>Two huge releases from our group today that hopefully will inspire new work and rethink old :).</p>
-<p>First, the Phi-1 model:</p>
-<p>This 1.3B code model gets 50% on HumanEval. There are tons of 7B to 30B models out there, including recent CodeLlama2. This David beats all Goliaths! 🧵</p>
-<p>Phi-1 proved that quality of data matters more than anything else! It is trained with just 7B tokens 🤯. This is exact opposite approach of just keep throwing in more data!</p>
-<p>Textbooks Are All You Need
-<a href="https://arxiv.org/pdf/2306.11644.pdf" class="ext" rel="noopener">https://arxiv.org/pdf/2306.11644.pdf</a></p>
-<p>You can get this model here:
-<a href="https://huggingface.co/microsoft/phi-1" class="ext" rel="noopener">https://huggingface.co/microsoft/phi-1</a></p>
-<p>Next, Phi-1.5 model:</p>
-<p>This is again just 1.3B model achieving reasoning benchmarks that you often see only at or above 7B models such as recent Llama2! When the world is racing towards adding yet another trillion tokens in the training, Phi-1.5 uses mere 150B tokens!!</p>
-<p>Furthermore, Phi-1.5 is trained from all synthetic tokens (except for code)!</p>
-<p>Download Model: <a href="https://huggingface.co/microsoft/phi-1_5" class="ext" rel="noopener">https://huggingface.co/microsoft/phi-1_5</a>
-Paper: <a href="https://arxiv.org/abs/2309.05463" class="ext" rel="noopener">https://arxiv.org/abs/2309.05463</a></p>
-<p>So, what does all these means?</p>
-<p>The scaling laws papers are the landmark papers guiding the field. We get a line on log-log plot but it turns out that the slop of the line depends on many variables we haven’t fully uncovered yet, perhaps the most important being data quality!</p>
-<p>There are a huge consequences for giving this line even a little tilt. It can translate to massively lower costs. It allows to go further in model capabilities for same scale.</p>
-<p>Phi-1 and 1.5 shows line can be tilted to an order of magnitude and we have only scratched the surface!</p>
-<p><a href="https://x.com/sytelus/status/1701509192279117932" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Tue, 12 Sep 2023 15:12:58 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202309121512-phi-1-tiny-model-outsmarting-giants/</guid>
+      <description></description>
     </item>
     <item>
       <title>Phi-nomenal Code Gen: Phi-1-Base Beats August Models</title>
       <link>https://shital.com/blog/tweets/thread/202309031019-phi-nomenal-code-gen/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202309031019-phi-nomenal-code-gen/</guid>
-      <pubDate>Sun, 03 Sep 2023 10:19:32 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>It is great to see so many new code gen models getting released in August alone but also surprising to see that none seem to come close to phi-1-base that our team at Microsoft Research worked on achieving HumanEval of 29 with 1.3B params and mere 7B tokens! 🧵 https://x.com/osanseviero/status/1697523619725820226
-</description>
-      <content:encoded><![CDATA[<p>It is great to see so many new code gen models getting released in August alone but also surprising to see that none seem to come close to phi-1-base that our team at Microsoft Research worked on achieving HumanEval of 29 with 1.3B params and mere 7B tokens! 🧵 <a href="https://x.com/osanseviero/status/1697523619725820226" class="ext" rel="noopener">https://x.com/osanseviero/status/1697523619725820226</a></p>
-<p>One interesting but bit less visible release is DeciCoder with same 1.3B size but trained on 440B tokens! It was used arch search + GQA + FIM. Still it seems to have topped out at HumanEval 19. Other models also are still quite legging even with an order of magnitude more params!</p>
-<p>All these very strongly seems to point at the fact that data quality matters! A LOT MORE THAN we ever thought it did!! A way way lot more than architecture and all the training tricks combined! And yet, more and more work is still in the later arena and not the former 🤔.</p>
-<p>For more details on phi-1 models, please see our paper:</p>
-<p>Textbooks Are All You Need
-<a href="https://arxiv.org/abs/2306.11644" class="ext" rel="noopener">https://arxiv.org/abs/2306.11644</a></p>
-<p><a href="https://x.com/sytelus/status/1698173854315897141" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Sun, 03 Sep 2023 10:19:32 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202309031019-phi-nomenal-code-gen/</guid>
+      <description></description>
     </item>
     <item>
       <title>Tiny Weights, Mighty Models: The Mystery of Weight Decay</title>
       <link>https://shital.com/blog/tweets/thread/202308291720-tiny-weights-mighty-models/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202308291720-tiny-weights-mighty-models/</guid>
-      <pubDate>Tue, 29 Aug 2023 17:20:55 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>Why does weight decay induces generalization? Yes, weight gets smaller, Occam’s razor kicks in but still… why does smaller weights yields better generalization? 🧵
-One way I think about this is by looking at neural networks as parametrized general program. When you reduce the sizes of parameters, you are reducing the length of the program that reproduces the training data.
-</description>
-      <content:encoded><![CDATA[<p>Why does weight decay induces generalization? Yes, weight gets smaller, Occam&rsquo;s razor kicks in but still&hellip; why does smaller weights yields better generalization? 🧵</p>
-<p>One way I think about this is by looking at neural networks as parametrized general program. When you reduce the sizes of parameters, you are reducing the length of the program that reproduces the training data.</p>
-<p>Thus weight decay drives NNs towards constructing the minimum size program that can re-generate the training data. Program length is also related to  complexity.</p>
-<p>Note that we are not yet thinking about reproducing the val/test set, but only training set at this point.</p>
-<p>You can also reproduce training data by simply &ldquo;memorizing&rdquo; it, for ex, a program that just hard codes each value. This will become a very long program but we can make it smaller by looking at patterns. Imagine replacing hard coded values by for loops and other constructs.</p>
-<p>This in effect <em>compresses</em> the long program to smaller program. Generalization and compression are very intimately related.</p>
-<p>But why smaller program leads to  generalization?</p>
-<p>There is usual explanation of nature being frugal/lazy (Least Action Principle) but slightly different way to think of this is by looking at universe as computer. All program created on this computer are <em>coincidental</em> and therefore small but we look at it post-hoc as optimized.</p>
-<p>So, for each training set, there exists many programs that can reproduce the training set. For each of those programs, there exists a perfect validation set (No Free Lunch Theorem!). It just happens that it&rsquo;s not the same validation set created by program on universe as computer.</p>
-<p>As the program becomes smaller, the validation set for that program might match more and more with the one that was generated by original program running on computer that is our universe.</p>
-<p>When that happens, we call &ldquo;generalization&rdquo; has occurred.</p>
-<p><a href="https://x.com/sytelus/status/1696467961224327404" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Tue, 29 Aug 2023 17:20:55 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202308291720-tiny-weights-mighty-models/</guid>
+      <description></description>
     </item>
     <item>
       <title>Learning Rates Without Fortune Telling</title>
       <link>https://shital.com/blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/</guid>
-      <pubDate>Sun, 06 Aug 2023 16:27:44 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>Just learned something very cool about LR schedules. This one is so huge it surprises me that it’s not in its own paper but rather tucked away.
-Problem: Most training use cosine/linear decays but this requires specifying number of steps in advance. This is quite troublesome. 🧵 https://x.com/sherjilozair/status/1687837844729966592
-</description>
-      <content:encoded><![CDATA[<p>Just learned something very cool about LR schedules. This one is so huge it surprises me that it&rsquo;s not in its own paper but rather tucked away.</p>
-<p>Problem: Most training use cosine/linear decays but this requires specifying number of steps in advance. This is quite troublesome.  🧵 <a href="https://x.com/sherjilozair/status/1687837844729966592" class="ext" rel="noopener">https://x.com/sherjilozair/status/1687837844729966592</a></p>
-<p>For example, LLAMA2 trains for 500k steps but when you look at training curves, it is obvious that you could have kept going except that now you can&rsquo;t because it&rsquo;s too late. Repeating entire run with new larger steps is too expensive.</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/MylMSN0bOh_hu_ad81ddc6f4d6a09.webp 480w, /blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/MylMSN0bOh_hu_5e92c45e5406ebeb.webp 800w, /blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/MylMSN0bOh_hu_8670915421d9d0ea.webp 1166w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/MylMSN0bOh.jpg" srcset="/blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/MylMSN0bOh_hu_1719cfe95470ae0d.jpg 480w, /blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/MylMSN0bOh_hu_e785214b955795fa.jpg 800w, /blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/MylMSN0bOh.jpg 1166w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1166" height="786" alt="https://pbs.twimg.com/media/F21dgD4bsAAb0Y1.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/MylMSN0bOh.jpg"></picture></figure><p>Wouldn&rsquo;t it be nice if you can keep training infinitely? You can take checkpoints when you like and see if that&rsquo;s good time to stop.</p>
-<p>Or may be when you get new data, you just continue training.</p>
-<p>This would be huge. In current era of super expensive runs, it would be huge huge!</p>
-<p>It turns out it is actually possible but not a lot of practitioners know about it.</p>
-<p>Instead of cosine decay, you do this:</p>
-<ol>
-<li>Do usual warmup for steps w.</li>
-<li>Decay LR as max_lr * sqrt(w/step).</li>
-<li>Before taking a checkpoint for eval do cool down procedure as described next.</li>
-</ol>
-<p>So, let&rsquo;s say you want to see results at 200k steps. First, take a checkpoint at 200k. This is where you can restart the training if you like. However, before evaluating the model, do the cool down for c steps where you linearly decay LR to 0 and then get final checkpoint.</p>
-<p>After cool down, the model would have <em>approximately</em> same perf as if you did cosine decay. If you don&rsquo;t do cool down, model will significantly lag behind cosine decay equivalent!</p>
-<p>Now you can also continue training further after 200k steps using checkpoint you had saved.</p>
-<p>So that&rsquo;s rather long winded explanation of Section 3.5 of this paper: <a href="https://arxiv.org/abs/2106.04560" class="ext" rel="noopener">https://arxiv.org/abs/2106.04560</a>. But this is such a big deal, someone had to lay it out.</p>
-<p>Full credit goes to <a href="https://x.com/__kolesnikov__" class="ext" rel="noopener">@<strong>kolesnikov</strong></a> for pointing out this little gem which I strongly feel should be its own paper.</p>
-<p>If you ask how good is this scheme compared to usual LR schedule, here is the plot from the paper. Notice that it each instance rsqrt is very close to linear decay. Even constant gets quite close! But all the magic seems to be in cool down when val score suddenly starts rising:</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/ty2McR06GJ_hu_78e601a9359f7fe5.webp 480w, /blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/ty2McR06GJ_hu_72a82a3515f4e0f.webp 800w, /blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/ty2McR06GJ_hu_4834ed6b72c4eb3d.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/ty2McR06GJ.jpg" srcset="/blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/ty2McR06GJ_hu_1420970ad1afbb21.jpg 480w, /blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/ty2McR06GJ_hu_f998de35caa6234.jpg 800w, /blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/ty2McR06GJ.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="1003" alt="https://pbs.twimg.com/media/F21nRerbUAAbthK.jpg" loading="lazy" decoding="async" data-full="/blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/ty2McR06GJ.jpg"></picture></figure><p>Bonus: While digging into this topic, I came across another LR schedule called NoamLR. I would leave you to find it and appreciate it by yourself :).</p>
-<p><a href="https://x.com/sytelus/status/1688119658266890240" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Sun, 06 Aug 2023 16:27:44 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202308061627-learning-rates-without-fortune-telling/</guid>
+      <description></description>
     </item>
     <item>
       <title>LLAMA&#39;s Math Leap: From 11% to 49% with Scaling</title>
       <link>https://shital.com/blog/tweets/thread/202308060656-llama-math-leap-scaling/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202308060656-llama-math-leap-scaling/</guid>
-      <pubDate>Sun, 06 Aug 2023 06:56:08 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>Tweet review of this interesting paper:
-Scaling Relationship on Learning Mathematical Reasoning with Large Language Models
-https://arxiv.org/abs/2308.01825
-The main achievement here is pushing LLAMA-1’s GSM8K score from 11.0% to 49.3%. 🧵
-So, first let’s get this out of the way: technique is dead simple but some of the observations on the way are much more interesting. If you finetune LLAMA1 on GSM8K’s training data, you already get jump from from 11.0% to 35.9%. No big deal.
-</description>
-      <content:encoded><![CDATA[<p>Tweet review of this interesting paper:</p>
-<p>Scaling Relationship on Learning Mathematical Reasoning with Large Language Models</p>
-<p><a href="https://arxiv.org/abs/2308.01825" class="ext" rel="noopener">https://arxiv.org/abs/2308.01825</a></p>
-<p>The main achievement here is pushing LLAMA-1&rsquo;s GSM8K score from 11.0% to 49.3%. 🧵</p>
-<p>So, first let&rsquo;s get this out of the way: technique is dead simple but some of the observations on the way are much more interesting. If you finetune LLAMA1 on GSM8K&rsquo;s training data, you already get jump from from 11.0% to 35.9%. No big deal.</p>
-<p>To go from 35.9% to 49.3%, authors simply sample k=100 responses from the model, reject any responses that can be verified as wrong (ex, run Python code) and are duplicates. That leaves only handful (may be ~5). You add these in your finetuning dataset, and voila, another jump!</p>
-<p>This is dubbed as &ldquo;RFT&rdquo; but this has been done before and not a lot of surprises here. Authors did missed opportunity for not measuring degradation on other benchmarks for LLAMA1 as this would have been much more interesting. But all that is besides the point.</p>
-<p>What I really liked is this plot in the paper. You can stare it for quite a bit to take it all in!</p>
-<figure class="zoomable"><picture><source type="image/webp" srcset="/blog/tweets/thread/202308060656-llama-math-leap-scaling/Ln3LnTbjjC_hu_e9937d5d5c266a18.webp 480w, /blog/tweets/thread/202308060656-llama-math-leap-scaling/Ln3LnTbjjC_hu_f40707c887733cf0.webp 800w, /blog/tweets/thread/202308060656-llama-math-leap-scaling/Ln3LnTbjjC_hu_bf41875f580e4f26.webp 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)"><img src="https://shital.com/blog/tweets/thread/202308060656-llama-math-leap-scaling/Ln3LnTbjjC.jpg" srcset="/blog/tweets/thread/202308060656-llama-math-leap-scaling/Ln3LnTbjjC_hu_de4dd835befe4ce3.jpg 480w, /blog/tweets/thread/202308060656-llama-math-leap-scaling/Ln3LnTbjjC_hu_f557d011b4c36024.jpg 800w, /blog/tweets/thread/202308060656-llama-math-leap-scaling/Ln3LnTbjjC.jpg 1200w" sizes="(min-width: 64em) 32rem, calc(100vw - 2rem)" width="1200" height="854" alt="https://pbs.twimg.com/media/F2zaifYbUAAh786.jpg" loading="eager" decoding="async" data-full="/blog/tweets/thread/202308060656-llama-math-leap-scaling/Ln3LnTbjjC.jpg"></picture></figure><p>There is so much to say about this but let me lay out the main points that authors observed and some of mine:</p>
-<p>First, the pretraining loss seems to comparable among all these LLMs! These models are trained with  different datasets but still they all fall in line quite nicely.</p>
-<p>This may be because sampling whole internet may be has more or less same distribution. Also, note that the impact of lowering loss is exponential so reducing loss from 1.5 to 1.2 may not seem like a big deal, it is a big deal. This is again not completely new observation.</p>
-<p>Another observation is that larger model benefits less from SFT compared to ICL. This again goes on to indicate that ICL is emergent with only with size. Interestingly, for large enough models, ICL benefits more than finetuning!! And that crossover point is likely closer to 70B.</p>
-<p>So, size is not the everything <em>but</em> as size does go up, emergent abilities rapidly become more powerful. Other knobs we have such as training for longer are log-linear but impact of emergent abilities seems to be exponential!! Remember x-axis above is log scale.</p>
-<p>The most pressing question of our times is therefore:</p>
-<p>Can emergent abilities of large models arise in smaller models?</p>
-<p>It seems that these abilities are far more important and powerful and something that we should obsess much more about.</p>
-<p><a href="https://x.com/sytelus/status/1687975809229918208" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Sun, 06 Aug 2023 06:56:08 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202308060656-llama-math-leap-scaling/</guid>
+      <description></description>
     </item>
     <item>
       <title>When Math Gets Abstract: The 6th Grade Shift</title>
       <link>https://shital.com/blog/tweets/thread/202307191150-math-gets-abstract-6th-grade/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202307191150-math-gets-abstract-6th-grade/</guid>
-      <pubDate>Wed, 19 Jul 2023 11:50:57 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>If you do math homework with kids, you might observation that as math becomes more abstract, more students starts struggling. Until K-5, math textbooks are grounded in applications and everything has strong correspondence in real world. With 6th grade this starts to change. 🧵 https://x.com/TaliaRinger/status/1681410191278080000
-</description>
-      <content:encoded><![CDATA[<p>If you do math homework with kids, you might observation that as math becomes more abstract, more students starts struggling. Until K-5, math textbooks are grounded in applications and everything has strong correspondence in real world. With 6th grade this starts to change. 🧵 <a href="https://x.com/TaliaRinger/status/1681410191278080000" class="ext" rel="noopener">https://x.com/TaliaRinger/status/1681410191278080000</a></p>
-<p>The situation gets much worse in college level math. First year of college is when many former top high school students gets humbled at their first encounter in Linear Algebra, Statistics or Real Analysis. The drop out rate in first year due to math can dwarf other numbers!</p>
-<p>Let&rsquo;s take example: eigen vectors! Take virtually any pure linear algebra textbook and you will see series of propositions/proofs endlessly laid out without much in the way of interpretation, application or any other context. See how many of these you can appreciate or remember.</p>
-<p>Now take a look at Python Notebook explaining PCA/SVD and how this results in beautiful algorithms for filtering, clustering, feature extraction etc. Then go back to same textbook, look at same propositions/proofs and see if you feel differently about them :).</p>
-<p>I think we are on cusp of changing education dramatically. Previously, textbooks were static and knowledge distribution was monopolized by few experts. With LLMs, textbooks are dynamic, conversational and customized for everyone. It is hard to convey how huge of a leap this is.</p>
-<p>We are wired to learn things <em>differently</em> and that&rsquo;s our collective evolutionary advantage. If you make everyone learn something only in one way, you will end up creating class system of smart and stupid. Once that constraint is removed, world would be a very different place.</p>
-<p><a href="https://x.com/sytelus/status/1681527019086176256" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Wed, 19 Jul 2023 11:50:57 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202307191150-math-gets-abstract-6th-grade/</guid>
+      <description></description>
     </item>
     <item>
       <title>Understanding &#34;Understanding&#34;: Quantifying AI Comprehension</title>
       <link>https://shital.com/blog/tweets/thread/202306272017-quantifying_ai_understanding/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202306272017-quantifying_ai_understanding/</guid>
-      <pubDate>Tue, 27 Jun 2023 20:17:35 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>We often use phrases like “model understands X” but what does that even mean? What is to “understand” something? Can we make our understanding of the word “understanding” more concrete? Perhaps even quantitative?
-I think we can. 🧵
-When we use the word “understand” in context of something, that “something” is important! It is an object with an implicit interface that allows us to interact with it. Any interface must have inputs and outputs. 2/
-</description>
-      <content:encoded><![CDATA[<p>We often use phrases like “model understands X” but what does that even mean? What is to “understand” something? Can we make our understanding of the word “understanding” more concrete? Perhaps even quantitative?</p>
-<p>I think we can. 🧵</p>
-<p>When we use the word “understand” in context of something, that “something” is important! It is an object with an implicit interface that allows us to interact with it. Any interface must have inputs and outputs.    2/</p>
-<p>For example, if object is a Python function, it has straight forward inputs and outputs. If object is universe of particles in classical physics then inputs are forces and outputs are 6 numbers (position and momentum vectors).   3/</p>
-<p>We implicitly use the word “understanding” in context of these inputs and outputs.</p>
-<p>The first part of “understanding” is ability to predict output given input.</p>
-<p>However, we often forget about the second part.  4/</p>
-<p>The second part is the ability to predict input given output!</p>
-<p>This is a necessary and important part of what we often call “understanding”.</p>
-<p>To understand something is to create a forward and backward <em>model</em> of that something.  5/</p>
-<p>We often focus on modeling the forward part in classical ML however all the magic is in backward part! When we create a model to classify an image, it’s forward modeling. When we ask model to generate an image given a class, it’s backward part of modeling.  6/</p>
-<p>To “understand” something is to be able to model that “something” both forward and backward. These are the fundamental yin and yang. In ML, the yin is supervised modeling and yang is generative modeling (or vice versa, if you prefer). 7/</p>
-<p>A possible quantification of the term “understanding” therefore could perhaps be defined as the set intersect of some performance metric of these two models. The understanding of “something” is not complete until we have both yin and yang models.   8/</p>
-<p>All of above observations are inspired from a beautiful evaluation metric for code generation called Python Programming Puzzles or P3.</p>
-<p>Let’s make above rather abstract concepts to a more concrete problem:  9/</p>
-<p>Given a Python function, when can we say that our model has developed “understanding” of that function in some well defined sense?</p>
-<p>This would hopefully lead us to designing a good metric for the code generation task.   10/</p>
-<p>Typically, we focus only on forward modeling. That is, can a model predict output of a function for a given input to the function? This is implemented, for example, as set of test cases in metrics like HumanEval and MBPP.</p>
-<p>We have yin but not yang!   11/</p>
-<p>For code generation task, models can cheat away at forward-only metrics like HumanEval and MBPP by generating code through pattern matching aka statistical parroting. We don’t know if model really “understands” the code. /12</p>
-<p>Enter P3. In this code generation task, model is given code for f() and it must generate code for g() such that f(g()) is true.</p>
-<p>For example, try to write g() such that f(g()) must be true for the below given f():</p>
-<p>def f(s):
-return s[::,-1] + ‘World’ == ‘Hello World’</p>
-<p>/13</p>
-<p>This is far more harder to game for the model than forward-only metrics. To generate g(), the model would be forced to learn evaluating f() for a given inputs AND also search for inputs that generates desired output. That’s our yin and yang composed in harmony!  /14</p>
-<p>If model has finite computational resources then the search for inputs for given output must become efficient. This is perhaps where the magic lies. To develop this efficiency, the model must “understand” the function! Better the “understanding”, better is performance.  /16</p>
-<p>It may not be lost on us that “understanding” and “reasoning” are related. To evaluate a program, one must be able to “reason”. Therefore, it’s tempting to recast process of reasoning simply as ability to evaluate. If X=2 and Y=X, can you tell what is Y? Is this reasoning?   /17</p>
-<p>You might be able to now see that recasting the ability to reason as the ability to evaluate has yin but is missing proverbial yang! The CPU can evaluate a program perfectly but it doesn’t make a lot of sense to say that CPU has ability to do perfect “reasoning”. /18</p>
-<p>We posit that the ability to reason is ability to <em>both</em> forward and backward model an event. In order to generate g(), one must be able to “reason” through f(). Notice that f() and g() are often so dissimilar that pattern matching and statistical parroting is ineffective. /19</p>
-<p>One more thing. What is the difference between programming and math? I suspect none. When we write code in Python, we call it programming and when we write code in Lean we call it math. Code generation and proof generation are the same thing, just different languages! /20</p>
-<p>Consequence of above is that if we know how to build solid code generation model, we can use exact same techniques to build solid proof generation model. Longer the correct code that we can generate, longer the correct proof we can generate!  /21</p>
-<p>If you dreamed about building model that one day can generate proof of Riemann hypothesis and do new math, you might start with building the code generation model. It’s the most fundamental ML task of our times.</p>
-<p>Also, I should make t-shirt for</p>
-<p>Math ≡ Code ™</p>
-<p>:).  22/</p>
-<p><a href="https://x.com/sytelus/status/1673681985276088320" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Tue, 27 Jun 2023 20:17:35 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202306272017-quantifying_ai_understanding/</guid>
+      <description></description>
     </item>
     <item>
       <title>Web Giants: Users Do the Heavy Lifting</title>
       <link>https://shital.com/blog/tweets/thread/202306110847-web-giants-users-heavy-lifting/</link>
-      <guid isPermaLink="true">https://shital.com/blog/tweets/thread/202306110847-web-giants-users-heavy-lifting/</guid>
-      <pubDate>Sun, 11 Jun 2023 08:47:23 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Tweets</category>
-      <description>Websites like Reddit, Stackoverflow, Twitter etc gets entirety of their value from millions of users spending billions of hours in creating the content. Relatively the company itself spends a tiny fraction of that time creating those systems. 1/2
-Still, all content is owned by those companies, not the people. Companies block progress by blocking access to content they didn’t even create. It’s like if you created the roads, you own everything that ever gets created using those roads.
-</description>
-      <content:encoded><![CDATA[<p>Websites like Reddit, Stackoverflow, Twitter etc gets entirety of their value from millions of users spending billions of hours in creating the content. Relatively the company itself spends a tiny fraction of that time creating those systems. 1/2</p>
-<p>Still, all content is owned by those companies, not the people. Companies block progress by blocking access to content they didn’t even create. It’s like if you created the roads, you own everything that ever gets created using those roads.</p>
-<p>I call this “information capitalism”.</p>
-<p><a href="https://x.com/sytelus/status/1667710085731323905" class="ext" rel="noopener">Discussion</a></p>
-]]></content:encoded>
+      <pubDate>Sun, 11 Jun 2023 08:47:23 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202306110847-web-giants-users-heavy-lifting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neural Nets Shrink the Planet: Introducing LGSMs</title>
+      <link>https://shital.com/blog/tweets/thread/202306071551-neural-nets-shrink-planet-lgsm/</link>
+      <pubDate>Wed, 07 Jun 2023 15:51:00 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202306071551-neural-nets-shrink-planet-lgsm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The 26 Million Reasons Apple Thinks Vision Pro Will Soar</title>
+      <link>https://shital.com/blog/tweets/thread/202306071309-apple-vision-pro-26-million/</link>
+      <pubDate>Wed, 07 Jun 2023 13:09:24 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202306071309-apple-vision-pro-26-million/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>When Gödel Crashes the AI Alignment Party</title>
+      <link>https://shital.com/blog/tweets/thread/202305140659-godel-crashes-ai-alignment/</link>
+      <pubDate>Sun, 14 May 2023 06:59:36 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202305140659-godel-crashes-ai-alignment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>When Yellow Fades: GPT-4 Passes Hinton&#39;s Paint Test While Bard Falls Short</title>
+      <link>https://shital.com/blog/tweets/thread/202305121202-when-yellow-fades-gpt4-passes-hinton-test/</link>
+      <pubDate>Fri, 12 May 2023 12:02:24 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202305121202-when-yellow-fades-gpt4-passes-hinton-test/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Segment Anything vs. The Torture Test: Zero-Shot Showdown</title>
+      <link>https://shital.com/blog/tweets/thread/202304060250-segment-anything-zero-shot-showdown/</link>
+      <pubDate>Thu, 06 Apr 2023 02:50:52 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202304060250-segment-anything-zero-shot-showdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Say Goodbye to the &#39;L&#39;s in LLMs</title>
+      <link>https://shital.com/blog/tweets/thread/202303191756-say-goodbye-to-ls-in-llms/</link>
+      <pubDate>Sun, 19 Mar 2023 17:56:24 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202303191756-say-goodbye-to-ls-in-llms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chinchilla&#39;s 2% Solution: Compressing Text with Tiny Models</title>
+      <link>https://shital.com/blog/tweets/thread/202303161337-chinchillas-2-percent-solution/</link>
+      <pubDate>Thu, 16 Mar 2023 13:37:43 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202303161337-chinchillas-2-percent-solution/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unveiling GPT-4&#39;s Hidden Gems</title>
+      <link>https://shital.com/blog/tweets/thread/202303151845-unveiling-gpt4-hidden-gems/</link>
+      <pubDate>Wed, 15 Mar 2023 18:45:06 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202303151845-unveiling-gpt4-hidden-gems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GPT-4 Fails Better: A Step Towards Robust Reasoning</title>
+      <link>https://shital.com/blog/tweets/thread/202303150253-gpt4-fails-better/</link>
+      <pubDate>Wed, 15 Mar 2023 02:53:01 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202303150253-gpt4-fails-better/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLaMA Sprints on M1 Pro: 16 Tokens/s via 4-bit C&#43;&#43; Magic</title>
+      <link>https://shital.com/blog/tweets/thread/202303110945-llama-m1-pro-4bit-cpp/</link>
+      <pubDate>Sat, 11 Mar 2023 09:45:56 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202303110945-llama-m1-pro-4bit-cpp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Compressing Life: 18 Years in a 3TB File</title>
+      <link>https://shital.com/blog/tweets/thread/202303061552-compressing-life-18-years-in-3tb/</link>
+      <pubDate>Mon, 06 Mar 2023 15:52:04 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202303061552-compressing-life-18-years-in-3tb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Quarky Secret of Original ChatGPT</title>
+      <link>https://shital.com/blog/tweets/thread/202303051711-quarky-secret-chatgpt/</link>
+      <pubDate>Sun, 05 Mar 2023 17:11:52 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202303051711-quarky-secret-chatgpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Model in a Tweet: 188 Characters to 80% ImageNet</title>
+      <link>https://shital.com/blog/tweets/thread/202303041335-188-char-imagenet-model/</link>
+      <pubDate>Sat, 04 Mar 2023 13:35:22 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202303041335-188-char-imagenet-model/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bewildered by Polls? Blame Evolution!</title>
+      <link>https://shital.com/blog/tweets/thread/202302261703-bewildered-by-polls-blame-evolution/</link>
+      <pubDate>Sun, 26 Feb 2023 17:03:10 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202302261703-bewildered-by-polls-blame-evolution/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>No ProbLLaMA: GPT-3 Rival Runs on Single GPU</title>
+      <link>https://shital.com/blog/tweets/thread/202302250649-no-problama-gpt3-rival-single-gpu/</link>
+      <pubDate>Sat, 25 Feb 2023 06:49:04 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202302250649-no-problama-gpt3-rival-single-gpu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Defeating the Hyperparameter Hydra: A Breakthrough in Deep Learning</title>
+      <link>https://shital.com/blog/tweets/thread/202302151118-defeating-hyperparameter-hydra/</link>
+      <pubDate>Wed, 15 Feb 2023 11:18:45 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202302151118-defeating-hyperparameter-hydra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The $4B Barrier to Beating Google</title>
+      <link>https://shital.com/blog/tweets/thread/202301231233-4b-barrier-beating-google/</link>
+      <pubDate>Mon, 23 Jan 2023 12:33:14 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202301231233-4b-barrier-beating-google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dude, Where&#39;s My BERT LLM? Answering Your LLM FAQs</title>
+      <link>https://shital.com/blog/tweets/thread/202301181732-dude-wheres-my-bert-llm/</link>
+      <pubDate>Wed, 18 Jan 2023 17:32:47 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202301181732-dude-wheres-my-bert-llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Startups Evolve: The New Cambrian Explosion</title>
+      <link>https://shital.com/blog/tweets/thread/202301131702-ai-startups-cambrian-explosion/</link>
+      <pubDate>Fri, 13 Jan 2023 17:02:55 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202301131702-ai-startups-cambrian-explosion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quality Over Speed: My ChatGPT Insight</title>
+      <link>https://shital.com/blog/tweets/thread/202301090837-quality-over-speed-chatgpt/</link>
+      <pubDate>Mon, 09 Jan 2023 08:37:50 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202301090837-quality-over-speed-chatgpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Too Much Science, Not Enough Disruption?</title>
+      <link>https://shital.com/blog/tweets/thread/202301061246-too-much-science-not-enough-disruption/</link>
+      <pubDate>Fri, 06 Jan 2023 12:46:28 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202301061246-too-much-science-not-enough-disruption/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graph-mode Mania: PyTorch 2.0&#39;s Eager Switcheroo</title>
+      <link>https://shital.com/blog/tweets/thread/202212110902-graph-mode-mania-pytorch-2/</link>
+      <pubDate>Sun, 11 Dec 2022 09:02:39 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202212110902-graph-mode-mania-pytorch-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ChatGPT: Fails Hard, Succeeds Harder</title>
+      <link>https://shital.com/blog/tweets/thread/202212070608-chatgpt-fails-hard-succeeds-harder/</link>
+      <pubDate>Wed, 07 Dec 2022 06:08:13 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202212070608-chatgpt-fails-hard-succeeds-harder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>When ChatGPT Went Boom!</title>
+      <link>https://shital.com/blog/tweets/thread/202212021143-when-chatgpt-went-boom/</link>
+      <pubDate>Fri, 02 Dec 2022 11:43:09 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202212021143-when-chatgpt-went-boom/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ChatGPT Eats Search Engines for Breakfast</title>
+      <link>https://shital.com/blog/tweets/thread/202212011159-chatgpt-eats-search-engines/</link>
+      <pubDate>Thu, 01 Dec 2022 11:59:07 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202212011159-chatgpt-eats-search-engines/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wildfire Smoke? My HVAC Filters Say No</title>
+      <link>https://shital.com/blog/tweets/thread/202210200434-wildfire-smoke-hvac-filters/</link>
+      <pubDate>Thu, 20 Oct 2022 04:34:25 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202210200434-wildfire-smoke-hvac-filters/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Semaglutide: The Skinny on Obesity&#39;s New Foe</title>
+      <link>https://shital.com/blog/tweets/thread/202210161508-semaglutide-obesity-foe/</link>
+      <pubDate>Sun, 16 Oct 2022 15:08:46 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202210161508-semaglutide-obesity-foe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neural Network Alchemy: Merging Models for Dual Datasets</title>
+      <link>https://shital.com/blog/tweets/thread/202209150840-neural-network-alchemy-merging-models/</link>
+      <pubDate>Thu, 15 Sep 2022 08:40:19 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202209150840-neural-network-alchemy-merging-models/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Big Brains: When AI Levels Up with Scale</title>
+      <link>https://shital.com/blog/tweets/thread/202209011237-big-brains-ai-level-up-scale/</link>
+      <pubDate>Thu, 01 Sep 2022 12:37:53 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202209011237-big-brains-ai-level-up-scale/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stability AI Appears: 4000 GPUs, One Rich Guy, Open-Source AI</title>
+      <link>https://shital.com/blog/tweets/thread/202208161618-stability-ai-4000-gpus/</link>
+      <pubDate>Tue, 16 Aug 2022 16:18:37 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202208161618-stability-ai-4000-gpus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A Robot Walks into Nature vs. Nurture Debate</title>
+      <link>https://shital.com/blog/tweets/thread/202203260333-robot-nature-vs-nurture/</link>
+      <pubDate>Sat, 26 Mar 2022 03:33:18 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202203260333-robot-nature-vs-nurture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Waymo to Go? Disengagements Every 12K Miles vs. Human Accidents Every 500K</title>
+      <link>https://shital.com/blog/tweets/thread/202203050542-waymo-disengagements-vs-human-accidents/</link>
+      <pubDate>Sat, 05 Mar 2022 05:42:17 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202203050542-waymo-disengagements-vs-human-accidents/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apple Maps Knows Best: I-90 Closure Test</title>
+      <link>https://shital.com/blog/tweets/thread/202201082113-apple-maps-i90-closure/</link>
+      <pubDate>Sat, 08 Jan 2022 21:13:44 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202201082113-apple-maps-i90-closure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Masters of None: Putt&#39;s Law in Tech</title>
+      <link>https://shital.com/blog/tweets/thread/202111301506-masters-of-none-putts-law/</link>
+      <pubDate>Tue, 30 Nov 2021 15:06:59 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202111301506-masters-of-none-putts-law/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rubik&#39;s Cube Regrets: OpenAI&#39;s Robotics Lead Speaks</title>
+      <link>https://shital.com/blog/tweets/thread/202110110659-rubiks-cube-regrets/</link>
+      <pubDate>Mon, 11 Oct 2021 06:59:56 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202110110659-rubiks-cube-regrets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>When &#39;52&#39; Becomes &#39;5 10e1 2&#39;: Teaching Transformers to Count</title>
+      <link>https://shital.com/blog/tweets/thread/202102261934-teaching-transformers-to-count/</link>
+      <pubDate>Fri, 26 Feb 2021 19:34:10 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202102261934-teaching-transformers-to-count/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sunspot Hack: The Hottest Cyberattack</title>
+      <link>https://shital.com/blog/tweets/thread/202102261226-sunspot-hack-hottest-cyberattack/</link>
+      <pubDate>Fri, 26 Feb 2021 12:26:27 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202102261226-sunspot-hack-hottest-cyberattack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microsoft&#39;s Great LATAM Deep Learning Adventure</title>
+      <link>https://shital.com/blog/tweets/thread/202102200927-microsoft-latam-deep-learning/</link>
+      <pubDate>Sat, 20 Feb 2021 09:27:24 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202102200927-microsoft-latam-deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Move Over, Buffett: Microsoft&#39;s 2160X Return in 40 Years</title>
+      <link>https://shital.com/blog/tweets/thread/202101201308-move-over-buffett-microsoft-2160x/</link>
+      <pubDate>Wed, 20 Jan 2021 13:08:40 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202101201308-move-over-buffett-microsoft-2160x/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Democracy: The Mayfly of Governments</title>
+      <link>https://shital.com/blog/tweets/thread/202101072303-democracy-mayfly/</link>
+      <pubDate>Thu, 07 Jan 2021 23:03:08 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202101072303-democracy-mayfly/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entertainment on Pause: The 2021 Drought</title>
+      <link>https://shital.com/blog/tweets/thread/202101011607-entertainment-on-pause-2021-drought/</link>
+      <pubDate>Fri, 01 Jan 2021 16:07:20 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202101011607-entertainment-on-pause-2021-drought/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How the Transformer Sausage Was Made</title>
+      <link>https://shital.com/blog/tweets/thread/202011240920-transformer-sausage/</link>
+      <pubDate>Tue, 24 Nov 2020 09:20:56 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202011240920-transformer-sausage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding Blind: Programming the HP 48SX Without Manuals</title>
+      <link>https://shital.com/blog/tweets/thread/202009190535-coding-blind-hp48sx/</link>
+      <pubDate>Sat, 19 Sep 2020 05:35:36 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202009190535-coding-blind-hp48sx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GPT-3 Learns New Tricks On The Fly</title>
+      <link>https://shital.com/blog/tweets/thread/202008061513-gpt3_learns_on_the_fly/</link>
+      <pubDate>Thu, 06 Aug 2020 15:13:49 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202008061513-gpt3_learns_on_the_fly/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Beauty&#39;s Secret? It&#39;s Complicated</title>
+      <link>https://shital.com/blog/tweets/thread/202005311013-beautys-secret-its-complicated/</link>
+      <pubDate>Sun, 31 May 2020 10:13:25 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202005311013-beautys-secret-its-complicated/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Introducing Tort: The Task Mortality Metric</title>
+      <link>https://shital.com/blog/tweets/thread/202004201259-introducing-tort/</link>
+      <pubDate>Mon, 20 Apr 2020 12:59:39 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202004201259-introducing-tort/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Supersize Me: Bridging the Train-Test Augmentation Gap</title>
+      <link>https://shital.com/blog/tweets/thread/202004162155-supersize-train-test-gap/</link>
+      <pubDate>Thu, 16 Apr 2020 21:55:08 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202004162155-supersize-train-test-gap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>From FOMO to FOSO: Afraid to Spread Out?</title>
+      <link>https://shital.com/blog/tweets/thread/202004151056-from-fomo-to-foso/</link>
+      <pubDate>Wed, 15 Apr 2020 10:56:15 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202004151056-from-fomo-to-foso/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>From 6% to 0.06%: COVID-19 Death Rate Recalculated</title>
+      <link>https://shital.com/blog/tweets/thread/202003251839-covid19-death-rate-006/</link>
+      <pubDate>Wed, 25 Mar 2020 18:39:45 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202003251839-covid19-death-rate-006/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conference Roulette: Random Papers and Attendee Votes</title>
+      <link>https://shital.com/blog/tweets/thread/202003021032-conference-roulette/</link>
+      <pubDate>Mon, 02 Mar 2020 10:32:24 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202003021032-conference-roulette/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Earn While You Learn: The CS Degree That Pays You Back</title>
+      <link>https://shital.com/blog/tweets/thread/202001152004-earn-while-you-learn-cs-degree/</link>
+      <pubDate>Wed, 15 Jan 2020 20:04:00 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/202001152004-earn-while-you-learn-cs-degree/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wanna-be Jobs and the Simplicity Trap</title>
+      <link>https://shital.com/blog/tweets/thread/201911231652-wannabe-jobs-simplicity-trap/</link>
+      <pubDate>Sat, 23 Nov 2019 16:52:52 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201911231652-wannabe-jobs-simplicity-trap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Baseline Fails: The Pathetic State of RL Reproducibility</title>
+      <link>https://shital.com/blog/tweets/thread/201910310652-baseline-fails-rl-reproducibility/</link>
+      <pubDate>Thu, 31 Oct 2019 06:52:35 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201910310652-baseline-fails-rl-reproducibility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Naval&#39;s Niagara: A Flood of Insights on Life, the Universe, and Everything</title>
+      <link>https://shital.com/blog/tweets/thread/201909201919-navals-niagara-of-insights/</link>
+      <pubDate>Fri, 20 Sep 2019 19:19:57 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201909201919-navals-niagara-of-insights/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Intelligence: The Ultimate Goal-getter Everywhere</title>
+      <link>https://shital.com/blog/tweets/thread/201908181703-intelligence-goal-getter-everywhere/</link>
+      <pubDate>Sun, 18 Aug 2019 17:03:52 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201908181703-intelligence-goal-getter-everywhere/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>5-Driver Earbuds for Peanuts? Thank You, China!</title>
+      <link>https://shital.com/blog/tweets/thread/201908091642-5-driver-earbuds-thank-you-china/</link>
+      <pubDate>Fri, 09 Aug 2019 16:42:04 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201908091642-5-driver-earbuds-thank-you-china/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The One-Sentence Scientific Survival Guide</title>
+      <link>https://shital.com/blog/tweets/thread/201907260146-one-sentence-science/</link>
+      <pubDate>Fri, 26 Jul 2019 01:46:35 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201907260146-one-sentence-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Learning Recommenders Fall Flat: Heuristics Have the Last Laugh</title>
+      <link>https://shital.com/blog/tweets/thread/201907230752-deep-learning-recommenders-fall-flat/</link>
+      <pubDate>Tue, 23 Jul 2019 07:52:29 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201907230752-deep-learning-recommenders-fall-flat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MT-DNN Speaks Human – AI&#39;s New Milestone</title>
+      <link>https://shital.com/blog/tweets/thread/201906081904-mt-dnn-speaks-human/</link>
+      <pubDate>Sat, 08 Jun 2019 19:04:11 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201906081904-mt-dnn-speaks-human/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Not a Millimeter Less: The Curious Dimensions of 841x1189 mm Posters</title>
+      <link>https://shital.com/blog/tweets/thread/201906071144-poster-dimensions-841-1189-mm/</link>
+      <pubDate>Fri, 07 Jun 2019 11:44:01 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201906071144-poster-dimensions-841-1189-mm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stump a Toddler, Alien, or Robot—Win a Million</title>
+      <link>https://shital.com/blog/tweets/thread/201906061801-stump-toddler-alien-robot-win-a-million/</link>
+      <pubDate>Thu, 06 Jun 2019 18:01:29 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201906061801-stump-toddler-alien-robot-win-a-million/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maryam Mirzakhani: The Artist of Infinite Math</title>
+      <link>https://shital.com/blog/tweets/thread/201904241234-artist-of-infinite-math/</link>
+      <pubDate>Wed, 24 Apr 2019 12:34:59 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201904241234-artist-of-infinite-math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dancing with Knuth: Linked Lists and the NP-Complete Two-Step</title>
+      <link>https://shital.com/blog/tweets/thread/201904171032-dancing-with-knuth/</link>
+      <pubDate>Wed, 17 Apr 2019 10:32:21 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201904171032-dancing-with-knuth/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ImageNet Models Can&#39;t Even ImageNet</title>
+      <link>https://shital.com/blog/tweets/thread/201904091917-imagenet-models-cant-even/</link>
+      <pubDate>Tue, 09 Apr 2019 19:17:30 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201904091917-imagenet-models-cant-even/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>No Papers, No Problems: Sharing Ideas Without Academic Vanity</title>
+      <link>https://shital.com/blog/tweets/thread/201903221504-no-papers-no-problems/</link>
+      <pubDate>Fri, 22 Mar 2019 15:04:09 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201903221504-no-papers-no-problems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bill Gates Picks Disruptive Tech; Microsoft Not Included</title>
+      <link>https://shital.com/blog/tweets/thread/201903011919-bill_gates_disruptive_tech_no_microsoft/</link>
+      <pubDate>Fri, 01 Mar 2019 19:19:10 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201903011919-bill_gates_disruptive_tech_no_microsoft/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nonexistent 24x7 AI Customer Support</title>
+      <link>https://shital.com/blog/tweets/thread/201901170803-nonexistent-24x7-ai-customer-support/</link>
+      <pubDate>Thu, 17 Jan 2019 08:03:46 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201901170803-nonexistent-24x7-ai-customer-support/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>From Steaks to Staches: Tomorrow&#39;s Moral Outcasts</title>
+      <link>https://shital.com/blog/tweets/thread/201901112057-steaks-to-staches/</link>
+      <pubDate>Fri, 11 Jan 2019 20:57:48 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201901112057-steaks-to-staches/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Burning Watts: The Hidden Cost of Googling</title>
+      <link>https://shital.com/blog/tweets/thread/201811111831-googling-burns-watts/</link>
+      <pubDate>Sun, 11 Nov 2018 18:31:10 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201811111831-googling-burns-watts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Weight Norm&#39;s Revenge: Equivalence with Batch Norm and L2 Reg</title>
+      <link>https://shital.com/blog/tweets/thread/201809051405-weight-norms-revenge/</link>
+      <pubDate>Wed, 05 Sep 2018 14:05:14 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201809051405-weight-norms-revenge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bad Labels vs. Less Data: The ML Training Quiz</title>
+      <link>https://shital.com/blog/tweets/thread/201809021741-bad-labels-vs-less-data/</link>
+      <pubDate>Sun, 02 Sep 2018 17:41:30 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201809021741-bad-labels-vs-less-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>High-Five for OpenAI: AI Defeats Semi-Pro Dota2 Players</title>
+      <link>https://shital.com/blog/tweets/thread/201808061334-high-five-for-openai/</link>
+      <pubDate>Mon, 06 Aug 2018 13:34:21 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201808061334-high-five-for-openai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How Germany&#39;s 1% Does 10% of the World&#39;s Exports</title>
+      <link>https://shital.com/blog/tweets/thread/201805231450-germany-1pc-labor-10pc-exports/</link>
+      <pubDate>Wed, 23 May 2018 14:50:50 +0000</pubDate>
+      <guid>https://shital.com/blog/tweets/thread/201805231450-germany-1pc-labor-10pc-exports/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

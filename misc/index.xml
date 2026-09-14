@@ -1,46 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Miscs · Shital Shah&#39;s Chain of Thought</title>
+    <title>Miscs on Shital Shah&#39;s Chain of Thought</title>
     <link>https://shital.com/misc/</link>
-    <description>Miscs — Shital Shah&#39;s personal website and blog. Research Engineer at Microsoft Research with interests in deep learning and reinforcement learning. Created…</description>
-    <generator>Hugo 0.166.0</generator>
-    <language>en</language><copyright>Shital Shah &#x1F16D; CC BY-NC-SA</copyright><lastBuildDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://shital.com/misc/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Miscs on Shital Shah&#39;s Chain of Thought</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Shital Shah &amp;#x1F16D; CC BY-NC-SA</copyright>
+    <atom:link href="https://shital.com/misc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://shital.com/misc/about/</link>
-      <guid isPermaLink="true">https://shital.com/misc/about/</guid>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator>
-      <description> Shital Shah
-If universe is an optimizer, what is its loss function?
-githubscholarxstack overflowlinkedinwishlistemail Hello there! I’m a Research Engineer at Microsoft Research with interests in deep learning and reinforcement learning.
-Some of my open source works:
-</description>
-      <content:encoded><![CDATA[<div class="profile"><img src="https://shital.com/img/ShitalShah_hu_c647a968f0b02ea7.jpeg" width="180" height="180" alt="Shital Shah">
-  <div>
-    <p class="name">Shital Shah</p><p class="headline">If universe is an optimizer, what is its loss function?</p>
-    <div class="links-row mono"><a href="https://github.com/sytelus" rel="me noopener" class="ext">github</a><a href="https://scholar.google.com/citations?user=1PEHzesAAAAJ" rel="me noopener" class="ext">scholar</a><a href="https://twitter.com/sytelus" rel="me noopener" class="ext">x</a><a href="https://stackoverflow.com/users/207661/shital-shah" rel="me noopener" class="ext">stack overflow</a><a href="https://linkedin.com/in/shitals" rel="me noopener" class="ext">linkedin</a><a href="https://www.amazon.com/hz/wishlist/ls/1IGT5ZO7OR6RY" rel="me noopener" class="ext">wishlist</a><a href="mailto:sytelus@yahoo.com" rel="me">email</a>
-</div>
-  </div>
-</div>
-
-<p>Hello there! I&rsquo;m a Research Engineer at Microsoft Research with interests in deep learning and reinforcement learning.</p>
-<p>Some of my open source works:</p>
-<ul>
-<li>I lead a team for the code infrastructure to train the Phi series of models: <a href="https://huggingface.co/collections/microsoft/phi-1-6626e29134744e94e222d572" class="ext" rel="noopener">Phi-1</a>, <a href="https://huggingface.co/collections/microsoft/phi-2-6626e02ed138af2d2ec801cc" class="ext" rel="noopener">Phi-2</a>, <a href="https://huggingface.co/collections/microsoft/phi-3-6626e15e9585a200d2d761e3" class="ext" rel="noopener">Phi-3</a>, <a href="https://huggingface.co/collections/microsoft/phi-4-677e9380e514feb5577a40e4" class="ext" rel="noopener">Phi-4</a>.</li>
-<li>I co-created <a href="https://github.com/microsoft/archai" class="ext" rel="noopener">Archai</a>, Neural Architecture Search (NAS) framework that we used to create one of the super tiny Transformer models powering the text completition feature in many Microsoft products.</li>
-<li>I conceived and created <a href="https://github.com/microsoft/airsim" class="ext" rel="noopener">AirSim</a>, a physically and visually realistic cross-platform simulator for AI research</li>
-<li>I conceived and created <a href="http://tensorwatch.org" class="ext" rel="noopener">TensorWatch</a>, a new approach for debugging training and visualization of vision models.</li>
-</ul>
-<p>You can find a lot of my hobby projects on <a href="https://github.com/sytelus" class="ext" rel="noopener">GitHub</a>.</p>
-<p>You can find research papers I contributed to at <a href="https://scholar.google.co.uk/citations?user=1PEHzesAAAAJ" class="ext" rel="noopener">Google Scholar</a>.</p>
-<p>You can follow me on <a href="https://twitter.com/sytelus" class="ext" rel="noopener">twitter</a> for posts mainly on deep learning code and research.</p>
-<h5 id="about-site">About Site<a class="anchor" href="#about-site" aria-label="Link to this section">#</a></h5>
-<p>This site is made with <a href="https://gohugo.io/" class="ext" rel="noopener">Hugo</a> static site generator with slighly customized <a href="https://github.com/jpanther/congo" class="ext" rel="noopener">Congo theme</a>. The <a href="https://github.com/sytelus/shitalshah.com-v5" class="ext" rel="noopener">source code</a> for this website is available freely. This website can also be visited at <a href="https://shitalshah.com" class="ext" rel="noopener">https://shitalshah.com</a> and <a href="https://sytelus.github.io/" class="ext" rel="noopener">https://sytelus.github.io/</a>. Pages on this website are not immutable and will be edited as neccesory.</p>
-<p>A lot of content on this website is sourced from <a href="https://x.com/sytelus" class="ext" rel="noopener">my twitter account</a>. One of the goals was to move my content on Twitter/X out of its private data wall so it can be indexed and searched freely on Internet. To achieve this, I <a href="https://x.com/settings/download_your_data" class="ext" rel="noopener">exported</a> my data out of Twitter and wrote <a href="https://github.com/sytelus/Tweeter2Blog" class="ext" rel="noopener">some code</a> to convert it to markdown posts for this website.</p>
-<p>Happy browsing!</p>
-]]></content:encoded>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shital.com/misc/about/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

@@ -1,274 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Developers · Shital Shah&#39;s Chain of Thought</title>
+    <title>Developers on Shital Shah&#39;s Chain of Thought</title>
     <link>https://shital.com/tags/developers/</link>
-    <description>Developers — Shital Shah&#39;s personal website and blog. Research Engineer at Microsoft Research with interests in deep learning and reinforcement learning.…</description>
-    <generator>Hugo 0.166.0</generator>
-    <language>en</language><copyright>Shital Shah &#x1F16D; CC BY-NC-SA</copyright><lastBuildDate>Sun, 26 Feb 2017 09:16:43 &#43;0000</lastBuildDate><atom:link href="https://shital.com/tags/developers/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Developers on Shital Shah&#39;s Chain of Thought</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Shital Shah &amp;#x1F16D; CC BY-NC-SA</copyright>
+    <lastBuildDate>Sun, 26 Feb 2017 09:16:43 +0000</lastBuildDate>
+    <atom:link href="https://shital.com/tags/developers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Workflow: Branch - Rebase - Squash - Merge</title>
       <link>https://shital.com/blog/git-workflow-branch-rebase-squash-merge/</link>
-      <guid isPermaLink="true">https://shital.com/blog/git-workflow-branch-rebase-squash-merge/</guid>
-      <pubDate>Sun, 26 Feb 2017 09:16:43 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Developers</category>
-      <description>So you want to make a change to your git repo while other people may also be simultaneously working on the same repo. As it takes you longer to make your changes, there is a greater chance that your local repo might already be out of date as other people have pushed their changes. In this setting, you don’t want to make your changes directly in master because otherwise you might end up creating large merge commits which makes your repo’s history convoluted and not very nice.
-</description>
-      <content:encoded><![CDATA[<p>So you want to make a change to your git repo while other people may also be simultaneously working on the same repo. As it takes you longer to make your changes, there is a greater chance that your local repo might already be out of date as other people have pushed their changes. In this setting, you don&rsquo;t want to make your changes directly in master because otherwise you might end up creating large merge commits which makes your repo&rsquo;s history convoluted and not very nice.</p>
-<p>Here&rsquo;s the better git workflow you might want to use in any team of size &gt; 1.</p>
-<p>Before you make changes, create a branch.</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout -b MyFeature</span></span></code></pre></div>
-</figure>
-<p>Next make changes, do commits as usual.</p>
-<p>If you don&rsquo;t want to rely on your hard drive, you can also keep pushing the changes in your branch on the server every once in a while,</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push -u origin MyFeature</span></span></code></pre></div>
-</figure>
-<p>Once you are done with all your changes, first you want to rebase your branch to master. If master has no new changes since you had created your branch, this will be essentially be no-op. But otherwise, git will take all your commits and play them back on the top of master. This way your commits will look like as if they happened on latest version of master instead of the version you branched out from. This will make commit history of your repo clean and easy to reason about. If you were the only developer, this might not be very important but if there is more than just you then it makes easy to see for other people changes every one is making.</p>
-<p>To do rebase, first get latest master.</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout master
-</span></span><span class="line"><span class="cl">git pull origin master</span></span></code></pre></div>
-</figure>
-<p>Then go back to your branch and rebase, i.e.,</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout Myfeature
-</span></span><span class="line"><span class="cl">git rebase master</span></span></code></pre></div>
-</figure>
-<p>If you are lucky, you won&rsquo;t see the word &ldquo;conflict&rdquo; in git messages but otherwise there is more work for you! If someone already changed file sections you have also changed then you might see list of conflicts. If you get lost in too many messages, use this command to see pending conflicts:</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git diff --name-only --diff-filter<span class="o">=</span>U</span></span></code></pre></div>
-</figure>
-<p>Now about resolving conflicts&hellip; there are lots of tools out there and most unfortunately have some problem/confusion installing or using. If you absolutely want GUI tool, install <a href="https://sourcegear.com/diffmerge/" class="ext" rel="noopener">DiffMerge</a>, make sure its in your path and invoke it like,</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git mergetool -t diffmerge .</span></span></code></pre></div>
-</figure>
-<p>However my preferred method is to simply open up conflicted file in editor, search for &ldquo;&raquo;&gt;&rdquo; and review sections that looks like:</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">&lt;&lt;&lt;&lt;&lt;&lt;</span>&lt; HEAD
-</span></span><span class="line"><span class="cl">This is change in <span class="nv">master</span>
-</span></span><span class="line"><span class="cl"><span class="o">=======</span>
-</span></span><span class="line"><span class="cl">This is change in your branch
-</span></span><span class="line"><span class="cl">&gt;&gt;&gt;&gt;&gt;&gt;&gt; branch-a</span></span></code></pre></div>
-</figure>
-<p>Now keep the change you want, delete the markers and you are done with that conflict. Another shortcut is to just tell git to take master&rsquo;s version (&ldquo;ours&rdquo;) or your branch&rsquo;s version(&ldquo;theirs&rdquo;). For example, to resolve all conflicts by overriding using your changes:</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout . --theirs</span></span></code></pre></div>
-</figure>
-<p>Another tricky conflict is when file gets deleted by one person and simultaneously changed by you or vice versa. In this case, git will put a deleted file back in your repo and you have to decide either keep that one and/or remove/update your version. You won&rsquo;t have markers this time like above. I tend to use tool like Beyond Compare to compare two files and make edits as needed.</p>
-<p>To tell git that you have resolved all conflict,</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add .</span></span></code></pre></div>
-</figure>
-<p>Now you can continue with your rebase,</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git rebase --continue</span></span></code></pre></div>
-</figure>
-<p>If you don&rsquo;t want to continue because of whatever reason,</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git rebase --abort</span></span></code></pre></div>
-</figure>
-<p>Sometime git might error out while doing continue because there is nothing to commit (may be it detected that the change already exists upstream). In that case you can do,</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git rebase --skip</span></span></code></pre></div>
-</figure>
-<p>At this point, your changes are now on the top of latest master. You can verify this by looking at quick history of latest 10 commits,</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git log --pretty<span class="o">=</span>oneline -n <span class="m">10</span></span></span></code></pre></div>
-</figure>
-<p>Note that everything still reside in your own branch. If you are not yet ready to push to master, keep working in your branch doing more commits as you go. After rebase if you want to save your branch on server, you must do &ndash;force because you are rewriting history.</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push --force origin Myfeature</span></span></code></pre></div>
-</figure>
-<p>This is perfectly fine as long as you are the only one working on the branch.</p>
-<p>Once you are ready to push, first merge your branch with master,</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout master
-</span></span><span class="line"><span class="cl">git merge --squash MyFeature</span></span></code></pre></div>
-</figure>
-<p>This shouldn&rsquo;t give any errors or conflict messages because your branch was already synced up to latest master. The &ndash;squash tells git to combine all your commit in to single commit. This is good idea most of the time if you have done lots of commits like &ldquo;added forgotten file&rdquo;, &ldquo;fixed minor typo&rdquo; and so on. It&rsquo;s too much noise and not nice to other people for having to scroll through tons of minor commits to figure out your higher level goals. However its also ok if you don&rsquo;t want &ndash;squash option.</p>
-<p>Finally do the commit after the merge,</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git commit -m <span class="s2">&#34;MyFeature does X&#34;</span></span></span></code></pre></div>
-</figure>
-<p>If you did &ndash;squash above then you will see only one commit in your history at the top of previous commits with above message.</p>
-<p>At this point, you can decide to push your changes to master OR move your changes to new branch and keep working. To move to new branch and revert master to original state,</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout -b MyFeature2
-</span></span><span class="line"><span class="cl">git checkout master
-</span></span><span class="line"><span class="cl">git reset --hard origin/master</span></span></code></pre></div>
-</figure>
-<p>OR if you are happy, go ahead and</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push</span></span></code></pre></div>
-</figure>
-<p>In either case you can delete the old branch,</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push origin -delete MyFeature
-</span></span><span class="line"><span class="cl">git branch -d MyFeature</span></span></code></pre></div>
-</figure>
-<p>And you are done!</p>
-<p>As usual, there are many ways to do things in git. There is another quicker and simpler way to achieve goal of clean history but its bit limited.</p>
-<p>Make your changes in master, do commits as usual - but don&rsquo;t push. Once in a while you want to sync up with master. To do this use,</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git pull --rebase</span></span></code></pre></div>
-</figure>
-<p>This will get all changes from master and then play back your unpushed commits on the top of them. This may generate conflicts as described above so resolve them in same way. Once you are done with your changes, you can push your commits and they should appear on the top without extra merge commits. An obvious problem here is that you can&rsquo;t push until you are really done with changes so this might be ok for quick short changes. If you want to &ldquo;save&rdquo; your commits on server or work from multiple machines for multiple days without pushing to master then above workflow would work better.</p>
-]]></content:encoded>
+      <pubDate>Sun, 26 Feb 2017 09:16:43 +0000</pubDate>
+      <guid>https://shital.com/blog/git-workflow-branch-rebase-squash-merge/</guid>
+      <description></description>
     </item>
     <item>
       <title>How to Enable and Use GCC Strict Mode Compilation</title>
       <link>https://shital.com/blog/how-to-enable-and-use-gcc-strict-mode-compilation/</link>
-      <guid isPermaLink="true">https://shital.com/blog/how-to-enable-and-use-gcc-strict-mode-compilation/</guid>
-      <pubDate>Tue, 24 May 2016 01:19:51 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Developers</category>
-      <description>One of the great feature that many C++ programmers rarely use is GCC strict mode compilation. Enabling this lets compiler warn you about any potential issues that might often get unnoticed in build noise. Unfortunately there is little documentation, let alone quick tutorial on this subject so I thought to write this up.
-</description>
-      <content:encoded><![CDATA[<p>One of the great feature that many C++ programmers rarely use is GCC strict mode compilation. Enabling this lets compiler warn you about any potential issues that might often get unnoticed in build noise. Unfortunately there is little documentation, let alone quick tutorial on this subject so I thought to write this up.</p>
-<p>First, let&rsquo;s clear this up: There is no official GCC mode called &ldquo;strict&rdquo;. I just made that term up. Fortunately there are enough compiler options that you can rig up to create &ldquo;strict&rdquo; mode that is often available in many other languages.</p>
-<p>To get the &ldquo;strict&rdquo; mode, I use following command line options for gcc/g++. Below are written in format consumable in CMakeList.txt but you can use same options from pretty much anywhere.</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">set<span class="o">(</span>CMAKE_CXX_FLAGS <span class="s2">&#34;-std=c++11 -Wall -Wextra  -Wstrict-aliasing -pedantic -fmax-errors=5 -Werror -Wunreachable-code -Wcast-align -Wcast-qual -Wctor-dtor-privacy -Wdisabled-optimization -Wformat=2 -Winit-self -Wlogical-op -Wmissing-include-dirs -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wredundant-decls -Wshadow -Wsign-promo -Wstrict-null-sentinel -Wstrict-overflow=5 -Wswitch-default -Wundef -Wno-unused -Wno-variadic-macros -Wno-parentheses -fdiagnostics-show-option </span><span class="si">${</span><span class="nv">CMAKE_CXX_FLAGS</span><span class="si">}</span><span class="s2">&#34;</span><span class="o">)</span></span></span></code></pre></div>
-</figure>
-<p>That&rsquo;s a looong list of compiler options so now I hope you can agree that we really mean &ldquo;strict&rdquo; business here :). In essence it enables extra warnings and makes all warnings as errors, points out coding issues that borderlines on pedantic and then on top of that enables some more warnings. Rest assured, above is not an overkill. You are going to thank compiler for taking care of these stuff as your code base becomes larger and more complex.</p>
-<p>Unfortunately, road from here has lots of twist and turns. The first thing that might happen to you is that you will get tons of errors, most likely not from your own code but from the included headers that you don&rsquo;t own! Because of the way C++ works, other people&rsquo;s bad code in their included header becomes your liability. Except for Boost and standard library, I haven&rsquo;t found many packages that can get through strict mode compilation. Even for relatively nicely written packages such as ROS you will get tons of compiler errors and for badly written packages such as DJI SDK, forget about it. Right&hellip; So now what?</p>
-<p>Here&rsquo;s the fix I have used with fair amount of success. First, declare these two macros in some common utility file you have in your project:</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">bash</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#define STRICT_MODE_OFF                                                                 \</span>
-</span></span><span class="line"><span class="cl">    _Pragma<span class="o">(</span><span class="s2">&#34;GCC diagnostic push&#34;</span><span class="o">)</span>                                            <span class="se">\
-</span></span></span><span class="line"><span class="cl">    _Pragma<span class="o">(</span><span class="s2">&#34;GCC diagnostic ignored \&#34;-Wreturn-type\&#34;&#34;</span><span class="o">)</span>             <span class="se">\
-</span></span></span><span class="line"><span class="cl">    _Pragma<span class="o">(</span><span class="s2">&#34;GCC diagnostic ignored \&#34;-Wdelete-non-virtual-dtor\&#34;&#34;</span><span class="o">)</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl">    _Pragma<span class="o">(</span><span class="s2">&#34;GCC diagnostic ignored \&#34;-Wunused-parameter\&#34;&#34;</span><span class="o">)</span>        <span class="se">\
-</span></span></span><span class="line"><span class="cl">    _Pragma<span class="o">(</span><span class="s2">&#34;GCC diagnostic ignored \&#34;-pedantic\&#34;&#34;</span><span class="o">)</span>                 <span class="se">\
-</span></span></span><span class="line"><span class="cl">    _Pragma<span class="o">(</span><span class="s2">&#34;GCC diagnostic ignored \&#34;-Wshadow\&#34;&#34;</span><span class="o">)</span>                  <span class="se">\
-</span></span></span><span class="line"><span class="cl">    _Pragma<span class="o">(</span><span class="s2">&#34;GCC diagnostic ignored \&#34;-Wold-style-cast\&#34;&#34;</span><span class="o">)</span>          <span class="se">\
-</span></span></span><span class="line"><span class="cl">    _Pragma<span class="o">(</span><span class="s2">&#34;GCC diagnostic ignored \&#34;-Wswitch-default\&#34;&#34;</span><span class="o">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">/* Addition options that can be enabled
-</span></span><span class="line"><span class="cl">    _Pragma<span class="o">(</span><span class="s2">&#34;GCC diagnostic ignored \&#34;-Wpedantic\&#34;&#34;</span><span class="o">)</span>                <span class="se">\
-</span></span></span><span class="line"><span class="cl">    _Pragma<span class="o">(</span><span class="s2">&#34;GCC diagnostic ignored \&#34;-Wformat=\&#34;&#34;</span><span class="o">)</span>                 <span class="se">\
-</span></span></span><span class="line"><span class="cl">    _Pragma<span class="o">(</span><span class="s2">&#34;GCC diagnostic ignored \&#34;-Werror\&#34;&#34;</span><span class="o">)</span>                   <span class="se">\
-</span></span></span><span class="line"><span class="cl">    _Pragma<span class="o">(</span><span class="s2">&#34;GCC diagnostic ignored \&#34;-Werror=\&#34;&#34;</span><span class="o">)</span>                  <span class="se">\
-</span></span></span><span class="line"><span class="cl">    _Pragma<span class="o">(</span><span class="s2">&#34;GCC diagnostic ignored \&#34;-Wunused-variable\&#34;&#34;</span><span class="o">)</span>         <span class="se">\
-</span></span></span><span class="line"><span class="cl">*/
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">#define STRICT_MODE_ON                                                                  \</span>
-</span></span><span class="line"><span class="cl">    _Pragma<span class="o">(</span><span class="s2">&#34;GCC diagnostic pop&#34;</span><span class="o">)</span></span></span></code></pre></div>
-</figure>
-<p>Here we have two macros, one tells GCC to turn off selected warnings before some chunk of code and second tells GCC to re-enable it. Why can&rsquo;t we just turn off all strict mode warnings at once? Because GCC currently doesn&rsquo;t have that option. You must list every individual warning :(. Above list is something I just put together while dealing with ROS and DJI SDK and is obviously incomplete. Your project might encounter more stuff in which case you will need to keep adding in to above list. Another issue you might encounter is that GCC currently doesn&rsquo;t support suppressing every possible warnings! Yes, a big oops there. One of them that I <a href="https://github.com/dji-sdk/Onboard-SDK-ROS/issues/27" class="ext" rel="noopener">recently encountered in DJI SDK</a> was this:</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">txt</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">warning: ISO C99 requires rest arguments to be used</span></span></code></pre></div>
-</figure>
-<p>The only way out for me in this case was to modify DJI&rsquo;s source code and submit the issue to them so hopefully they will fix it in next release.</p>
-<p>Once you have above macros, you can place them around problematic headers. For example,</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">cpp</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;string&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;vector&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">STRICT_MODE_OFF</span>
-</span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;ros/ros.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;actionlib/server/simple_action_server.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;dji_sdk/dji_drone.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="n">STRICT_MODE_ON</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&#34;mystuff.hpp&#34;</span></span></span></code></pre></div>
-</figure>
-<p>We are not out of the water yet because above trick will work only for some header files. The reason is that GCC sometime doesn&rsquo;t compile entire file as soon as it encounters #include statement. So it&rsquo;s pointless to put macros around those #include statements. Solving those issues requires some more work, and in some cases a lot more work. The trick I used was to create wrappers around things you use from bad headers such that only those wrappers needs to use <code>#include &lt;BadStuff.h&gt;</code> statements and rest of your code doesn&rsquo;t need those header. Then you can disable strict mode for the wrappers and rest of your code remains clean. To do this, you would need to implement <a href="https://herbsutter.com/gotw/_100/" class="ext" rel="noopener">pimpl pattern</a> in your wrapper classes so that all objects in BadStuff.h are behind opaque member. Notice that <code>#include &lt;BadStuff.h&gt;</code> statements would be in your wrapper.cpp file, not wrapper.hpp file.</p>
-<p>Even though this might require significant work in big project, it&rsquo;s often worth it because you are clearly separating interface and dependency for the external stuff. Your own code then remains free of <code>#include &lt;BadStuff.h&gt;</code>. This will enable you to do even more things like static code analysis just for your code. In either case, consider contributing to those project with bad stuff and make them pass strict compilation!</p>
-<p>So as it happens, working strict mode requires buy off from C++ community. If everyone isn&rsquo;t doing it then it becomes hard for others. So, tell everyone and start using yourself today!</p>
-]]></content:encoded>
+      <pubDate>Tue, 24 May 2016 01:19:51 +0000</pubDate>
+      <guid>https://shital.com/blog/how-to-enable-and-use-gcc-strict-mode-compilation/</guid>
+      <description></description>
     </item>
     <item>
       <title>A Day in SQL Tuning</title>
       <link>https://shital.com/blog/a-day-in-sql-tuning/</link>
-      <guid isPermaLink="true">https://shital.com/blog/a-day-in-sql-tuning/</guid>
-      <pubDate>Wed, 27 Jan 2010 09:11:27 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Developers</category>
-      <description>Today I got in to some heavy weight TSQL tuning. This time the target was a legendary sproc that was taking 3 mins and now I’m about to call it a day when this giant SP is eating only 16 sec. Not excellent but not bad at this point. Here are some notes…
-</description>
-      <content:encoded><![CDATA[<p>Today I got in to some heavy weight TSQL tuning. This time the target was a legendary sproc that was taking 3 mins and now I’m about to call it a day when this giant SP is eating only 16 sec. Not excellent but not bad at this point. Here are some notes…</p>
-<ul>
-<li>Apparently resetting identity using DBCC CHECKIDENT can be expensive operation if you are also deleting all items from the table. One way to reduce time is use TRUNCATE TABLE before DBCC CHECKIDENT.</li>
-<li>I prefer table variables instead of temp tables but one place temp tables are required is if you have lots of data in them and want index!</li>
-<li>Data Tuning Wizard would come out with zero suggestions on many occasions but it does not mean there are no significant optimizations possible. The best way to “guess” possible index is to have index for all columns used in join <em>and</em> use INCLUDE clause that has columns accessed in SELECT. This last thing does attracts even the least interested query plans to use the index :).</li>
-<li>If you have temp tables, it’s usually better to create index after you have inserted data instead of before.</li>
-<li>If you have complex sproc, SQL Server Profiler will spit out thousands of trace lines during the run. A quick way to pin point the SQL statements needing performance tuning is to use File &gt; Save As to put the trace results in to a table. You can use then following query that immediately surfaces culprits. Notice that statements which run in WHILE loop might take less time individually but collectively their duration sum may be higher. Below query would reveal this culprits immediately.</li>
-</ul>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">sql</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">select</span><span class="w"> </span><span class="k">SUBSTRING</span><span class="p">(</span><span class="n">TextData</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">4000</span><span class="p">),</span><span class="w"> </span><span class="k">SUM</span><span class="p">(</span><span class="n">duration</span><span class="p">),</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="k">from</span><span class="w"> </span><span class="p">[</span><span class="n">SavedTrace</span><span class="p">]</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="k">group</span><span class="w"> </span><span class="k">by</span><span class="w"> </span><span class="k">SUBSTRING</span><span class="p">(</span><span class="n">TextData</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">4000</span><span class="p">)</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="k">order</span><span class="w"> </span><span class="k">by</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="k">desc</span></span></span></code></pre></div>
-</figure>
-<p>One of the big performance hits occur when you must process individual rows one at a time instead of in set. For instance, let’s say you have a table with a column that has comma delimited values. Now you want to split these values in each cell and create a new table which would have N rows for each row in original table – one for each spitted value. The Internet is littered with dozen ways to split strings in TSQL, some even uses CTEs (not a good idea because there are lots of gotchas like max recursion limit). So far the best way is to use SQL CLR with code like below. Its as fast as any native TSQL juggling, if not faster. However most important thing here is not SQL CLR but how you use this table valued function and here’s the secret: The best bang for the performance you would get is using CROSS APPLY (or OUTER APPLY) with table valued UDF.</p>
-<figure class="code">
-  <figcaption class="mono"><span><span class="lang">csharp</span></span><button type="button" class="copy" aria-label="Copy code to clipboard">copy</button></figcaption>
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">partial</span> <span class="k">class</span> <span class="nc">UtilityFunctions</span>
-</span></span><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl"><span class="na">    [Microsoft.SqlServer.Server.SqlFunction(FillRowMethodName = &amp;lt;span class=&#34;c10&#34;&gt;&#34;FillRow&#34;, TableDefinition=&amp;lt;span class=&#34;c10&#34;&gt;&#34;StringPart nvarchar(max)&#34;,
-</span></span></span><span class="line"><span class="cl"><span class="na">        IsDeterministic=true, IsPrecise=true, SystemDataAccess=SystemDataAccessKind.None)]</span>
-</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="n">IEnumerable</span> <span class="n">ClrSplitString</span><span class="p">(</span><span class="n">SqlString</span> <span class="n">sqlStringToSplit</span><span class="p">,</span> <span class="n">SqlChars</span> <span class="n">delimiter</span><span class="p">,</span> <span class="n">SqlBoolean</span> <span class="n">removeEmptyEntries</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(!</span><span class="kt">string</span><span class="p">.</span><span class="n">IsNullOrEmpty</span><span class="p">(</span><span class="n">sqlStringToSplit</span><span class="p">.</span><span class="n">Value</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">sqlStringToSplit</span><span class="p">.</span><span class="n">Value</span><span class="p">.</span><span class="n">Split</span><span class="p">(</span><span class="n">delimiter</span><span class="p">.</span><span class="n">Value</span>
-</span></span><span class="line"><span class="cl">                <span class="p">,</span> <span class="p">(</span><span class="n">StringSplitOptions</span><span class="p">)(</span><span class="n">removeEmptyEntries</span> <span class="p">?</span>
-</span></span><span class="line"><span class="cl">                        <span class="n">StringSplitOptions</span><span class="p">.</span><span class="n">RemoveEmptyEntries</span> <span class="p">:</span> <span class="n">StringSplitOptions</span><span class="p">.</span><span class="n">None</span><span class="p">));</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="k">else</span>
-</span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="kc">null</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="k">void</span> <span class="n">FillRow</span><span class="p">(</span><span class="kt">object</span> <span class="n">obj</span><span class="p">,</span> <span class="k">out</span> <span class="n">SqlString</span> <span class="n">splittedString</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">obj</span> <span class="p">!=</span> <span class="kc">null</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">            <span class="n">splittedString</span> <span class="p">=</span> <span class="k">new</span> <span class="n">SqlString</span><span class="p">((</span><span class="kt">string</span><span class="p">)</span><span class="n">obj</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="k">else</span>
-</span></span><span class="line"><span class="cl">            <span class="n">splittedString</span> <span class="p">=</span> <span class="n">SqlString</span><span class="p">.</span><span class="n">Null</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div>
-</figure>
-]]></content:encoded>
+      <pubDate>Wed, 27 Jan 2010 09:11:27 +0000</pubDate>
+      <guid>https://shital.com/blog/a-day-in-sql-tuning/</guid>
+      <description></description>
     </item>
     <item>
       <title>The ACM Turing Programming Contest Problem Set Archive</title>
       <link>https://shital.com/blog/the-acm-turing-programming-contest-problem-set-archive/</link>
-      <guid isPermaLink="true">https://shital.com/blog/the-acm-turing-programming-contest-problem-set-archive/</guid>
-      <pubDate>Thu, 13 Apr 2006 03:32:00 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Developers</category>
-      <description>Here’s the list of problems used in ACM Turing programming contest. Surprisingly, like many other such contests, lots of problems are s simply a variant of shortest-path problem. The ACM ICPC Problem Set Archive
-</description>
-      <content:encoded><![CDATA[<p>Here&rsquo;s the list of problems used in ACM Turing programming contest. Surprisingly, like many other such contests, lots of problems are s simply a variant of shortest-path problem.
-<a href="http://www.acm.inf.ethz.ch/ProblemSetArchive.html#A_FINALS" class="ext" rel="noopener">The ACM ICPC Problem Set Archive</a></p>
-]]></content:encoded>
+      <pubDate>Thu, 13 Apr 2006 03:32:00 +0000</pubDate>
+      <guid>https://shital.com/blog/the-acm-turing-programming-contest-problem-set-archive/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

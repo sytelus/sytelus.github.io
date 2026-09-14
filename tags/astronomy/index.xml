@@ -1,38 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Astronomy · Shital Shah&#39;s Chain of Thought</title>
+    <title>Astronomy on Shital Shah&#39;s Chain of Thought</title>
     <link>https://shital.com/tags/astronomy/</link>
-    <description>Astronomy — Shital Shah&#39;s personal website and blog. Research Engineer at Microsoft Research with interests in deep learning and reinforcement learning. Created…</description>
-    <generator>Hugo 0.166.0</generator>
-    <language>en</language><copyright>Shital Shah &#x1F16D; CC BY-NC-SA</copyright><lastBuildDate>Mon, 04 Jun 2012 23:05:54 &#43;0000</lastBuildDate><atom:link href="https://shital.com/tags/astronomy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Astronomy on Shital Shah&#39;s Chain of Thought</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Shital Shah &amp;#x1F16D; CC BY-NC-SA</copyright>
+    <lastBuildDate>Mon, 04 Jun 2012 23:05:54 +0000</lastBuildDate>
+    <atom:link href="https://shital.com/tags/astronomy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Viewing Venus Transit in Seattle Area</title>
       <link>https://shital.com/blog/viewing-venus-transit-in-seattle-area/</link>
-      <guid isPermaLink="true">https://shital.com/blog/viewing-venus-transit-in-seattle-area/</guid>
-      <pubDate>Mon, 04 Jun 2012 23:05:54 &#43;0000</pubDate>
-      <dc:creator>Shital Shah</dc:creator><category>Astronomy</category>
-      <description>Well, bad news. Weather isn’t looking good for tomorrow’s historic event.
-It’s like 80% chance of showers almost entire Pacific Northwest extending even in to Eastern Washington. Even LIGO Observatory is not going to have sun shine. But if
-you believe that a hole in the sky might appear just to take pick then there are [several events
-</description>
-      <content:encoded><![CDATA[<p>Well, bad news. Weather isn’t looking good for <a href="http://www.space.com/15900-transit-venus-2012-skywatching-guide-gallery.html" class="ext" rel="noopener">tomorrow’s historic event</a>.</p>
-<p>It’s like 80% chance of showers almost entire Pacific Northwest extending even in to Eastern Washington. Even <a href="http://www.ligo-wa.caltech.edu/060512_transit.html" class="ext" rel="noopener">LIGO Observatory</a> is not going to have sun shine. But if</p>
-<p>you believe that a hole in the sky might appear just to take pick then there are [several events</p>
-<p>lined up for public viewing]<a href="http://www.seattlesciencefestival.org/icalrepeat.detail/2012/06/05/932/transit-of-venus-viewing" class="ext" rel="noopener">3</a> with free entry and no registration. Public events are much safer way to view Venus Transit</p>
-<p>because they would have appropriate solar filters and/or projection boards. Some might even have live webcasts. If that much</p>
-<p>anticipated hole in the sky does not appear then here are the options for online viewing:</p>
-<ul>
-<li><a href="http://sunearthday.gsfc.nasa.gov/webcasts/nasaedge/" class="ext" rel="noopener">NASA Live Webscast</a></li>
-<li><a href="http://events.slooh.com/" class="ext" rel="noopener">Slooh Venus Transit Event</a></li>
-<li><a href="http://www.exploratorium.edu/venus/" class="ext" rel="noopener">Live from Mauna Loa, HI</a></li>
-<li><a href="http://www.astronomerswithoutborders.org/projects/transit-of-venus/live-webcast.html" class="ext" rel="noopener">Mount Wilson Observatory webcast</a></li>
-<li><a href="http://sunearthday.nasa.gov/2012/transit/webcast.php" class="ext" rel="noopener">…and other places</a></li>
-</ul>
-<p>It would be also good time to brush up on <a href="http://science.nasa.gov/science-news/science-at-nasa/2012/04jun_arcofvenus/" class="ext" rel="noopener">Venus peculiarities</a> and</p>
-<p>[some historical</p>
-<p>context]<a href="http://science.nasa.gov/science-news/science-at-nasa/2012/02jun_jamescook/" class="ext" rel="noopener">10</a>.</p>
-]]></content:encoded>
+      <pubDate>Mon, 04 Jun 2012 23:05:54 +0000</pubDate>
+      <guid>https://shital.com/blog/viewing-venus-transit-in-seattle-area/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
